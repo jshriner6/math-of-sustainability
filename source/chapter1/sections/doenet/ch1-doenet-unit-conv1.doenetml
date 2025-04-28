@@ -1,3 +1,93 @@
-<p>
-  Can you see me?
-</p>
+<exercise boxed>
+    <p>
+      Now let's practice choosing correct unit conversion factors. Choose new variations of the problem with the <q>New Variation</q> button. Before moving on, get at least 3 correct in a row, and write down an explanation for how to choose a correct unit conversion factor as if you were explaining it to someone new. 
+    </p>
+    <p>
+      Move the pieces to form the correct unit conversion factor that would be used to convert 
+  <me>
+  <sampleRandomNumbers name="x" type="discreteUniform" from="20" to="50" numSamples="1"/> \text{ $den into $num}:
+  </me>
+    </p>
+<sampleRandomNumbers name="unitGrpNum" type="discreteuniform" from="1" to="4" hide/>
+
+<conditionalContent name="unitGrpSelect" assignNames="(num den)" hide>
+    <case condition="$unitGrpNum=1">
+      <text>ft</text>
+      <text>mi</text>
+    </case>
+    <case condition="$unitGrpNum=2">
+      <text>mi</text>
+      <text>ft</text>
+    </case>
+    <case condition="$unitGrpNum=3">
+      <text>km</text>
+      <text>m</text>
+    </case>
+    <case condition="$unitGrpNum=4">
+      <text>m</text>
+      <text>km</text>
+    </case>
+</conditionalContent>
+<setup>
+  <!-- Organize checks based on what the denominator should be -->
+  <booleanList name="feet">
+    <boolean>$den=ft </boolean>
+    <boolean>$ft.anchor.x > 0</boolean>
+    <boolean>$ft.anchor.y < 0 </boolean>
+    <boolean>$mi.anchor.x > 0 </boolean>
+    <boolean>$mi.anchor.y > 0 </boolean>
+  </booleanList>
+  <booleanList name="mile">
+    <boolean>$den=mi </boolean>
+    <boolean>$ft.anchor.x > 0</boolean>
+    <boolean>$ft.anchor.y > 0 </boolean>
+    <boolean>$mi.anchor.x > 0 </boolean>
+    <boolean>$mi.anchor.y < 0 </boolean>
+  </booleanList>
+  <booleanList name="meter">
+    <boolean>$den=m </boolean>
+    <boolean>$m.anchor.x > 0</boolean>
+    <boolean>$m.anchor.y < 0 </boolean>
+    <boolean>$km.anchor.x > 0 </boolean>
+    <boolean>$km.anchor.y > 0 </boolean>
+  </booleanList>
+  <booleanList name="kilometer">
+    <boolean>$den=km </boolean>
+    <boolean>$m.anchor.x > 0</boolean>
+    <boolean>$m.anchor.y > 0 </boolean>
+    <boolean>$km.anchor.x > 0 </boolean>
+    <boolean>$km.anchor.y < 0 </boolean>
+  </booleanList>
+</setup>
+
+<graph displayXAxis="false" displayYAxis="false"  showBorder="false" showNavigation="false" xmin="-1" xmax="1" ymin="-1" ymax="1" size="medium" aspectRatio="2/1">
+  <lineSegment endpoints="(0,0) (.5,0)" draggable="false"/>
+  <m name="ft" anchor="(-0.5,0.25)">5280 \text{ ft} </m>
+  <m name="mi" anchor="(-0.5,0)">1 \text{ mi}</m>
+  <m name="km" anchor="(-0.5,-0.25)">1 \text{ km}</m> 
+  <m name="m" anchor="(-0.5,-0.5)"> 1000 \text{ m}</m>
+  <triggerSet anchor="(.5,-.75)">      
+    <callAction actionName="resample" target="x"/>
+    <callAction actionName="resample" target="unitGrpNum"/>
+    <label>New Variation</label>
+  </triggerSet>
+</graph>
+
+
+<answer>
+  <award>
+    <when>
+      <or>
+        <and>$feet.booleans[1] $feet.booleans[2] $feet.booleans[3] $feet.booleans[4] $feet.booleans[5]
+        </and>
+        <and>$mile.booleans[1] $mile.booleans[2] $mile.booleans[3] $mile.booleans[4] $mile.booleans[5]
+        </and>
+        <and>$meter.booleans[1] $meter.booleans[2] $meter.booleans[3] $meter.booleans[4] $meter.booleans[5]
+        </and>
+        <and>$kilometer.booleans[1] $kilometer.booleans[2] $kilometer.booleans[3] $kilometer.booleans[4] $kilometer.booleans[5]
+        </and>
+      </or>
+    </when>
+  </award>
+</answer>
+</exercise>
