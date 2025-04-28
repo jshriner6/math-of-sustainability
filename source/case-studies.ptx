@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-course-notes" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Case Studies</title>
+
+  <introduction>
+    <p>
+      The following notes are intended to remind you what we covered each week.  They are not a substitute for attending class and not a substitute for reading the textbook.
+    </p>
+  </introduction>
+
+  <!-- Add more xi:include files here to include them in the main course -->
+</chapter>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-1-1">
+    <title>Units</title>
+    <p>
+        We're testing embedding doenet:
+    </p>
+
+    <interactive label="ch1-interactive-unit-conv1" platform="doenetml" width="100%" aspect="1:1">
+        <slate surface="doenetml">
+          <xi:include parse="text" href="doenet/ch1-doenet-unit-conv1.doenetml"/>
+        </slate>
+    </interactive>
+
+</section>

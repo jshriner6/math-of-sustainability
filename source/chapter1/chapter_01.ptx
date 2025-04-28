@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-01" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Measuring</title>
+    <xi:include href="./sections/section_01_01.ptx"/>
+</chapter>

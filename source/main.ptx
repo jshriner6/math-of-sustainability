@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- we first include a file which contains the docinfo element: -->
+  <xi:include href="./docinfo.ptx" />
+
+  <book xml:id="demo-course">
+    <title>Demo Course</title>
+
+    <!-- Include frontmatter -->
+    <xi:include href="./frontmatter.ptx" />
+    <xi:include href="./introduction.ptx" />
+
+    <!-- Include chapters -->
+    <xi:include href="./chapter1/chapter_01.ptx" />
+
+    <!-- Include Case Studies -->
+    <xi:include href="./case-studies.ptx" />
+
+
+    <!-- Include backmatter -->
+    <xi:include href="./backmatter.ptx" />
+
+  </book>
+</pretext>
