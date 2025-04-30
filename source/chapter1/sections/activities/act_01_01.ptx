@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+    <article xml:id="worksheet">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-1-1-1">
+            <title>Unit Conversion Factors Part 1</title>
+            <introduction>
+                <p>
+                    Now let's practice choosing correct unit conversion factors. 
+                    Choose new variations of the problem with the <q>New Variation</q> button. 
+                </p>
+                <p>
+                    Move the pieces to form the correct unit conversion factor that would be used to convert 
+                </p>
+            </introduction>
+
+            <interactive label="ch1-interactive-unit-conv1" platform="doenetml" width="100%" aspect="3:2">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch1-doenet-unit-conv1.doenetml"/>
+                </slate>
+            </interactive>
+
+            <exercise workspace="2in">
+                <statement>
+                    <p>
+                        Before moving on, get at least 3 correct in a row, and write down an explanation for how to choose a correct unit conversion factor as if you were explaining it to someone new. 
+                    </p>
+                </statement>
+            </exercise>
+        </worksheet>
+
+        <worksheet xml:id="ws-1-1-2">
+            <title>Unit Conversion Factors Part 2</title>
+            <introduction>
+                <p>
+                    Now let's practice a full computation. 
+                    Replace <q>number</q> with a correct number and <q>unit</q> with a correct unit abbreviation.
+                    Enter your numbers without using commas. Choose new variations of the problem with the <q>New Variation</q> button.
+                </p>
+                <p>
+                    Convert
+                </p>
+            </introduction>
+
+            <interactive label="ch1-interactive-unit-conv2" platform="doenetml" width="100%" aspect="3:2">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch1-doenet-unit-conv2.doenetml"/>
+                </slate>
+            </interactive>
+
+            <exercise workspace="2in">
+                <statement>
+                    <p>
+                        Before moving on, get at least 3 correct in a row, and write down an explanation for how to perform a unit conversion as if you were explaining it to someone new.
+                    </p>
+                </statement>
+            </exercise>
+        </worksheet>
+
+        <worksheet xml:id="ws-1-1-3">
+            <title>Relatable Measurements</title>
+            <introduction>
+                <p>
+                    While there is never one correct way to make extreme measurements more meaningful,
+                     it is always helpful to frame them in a way that you think will be more relatable to someone's common experience! 
+                     Let's practice that now.  
+                </p>
+            </introduction>
+            <exercise workspace="4in">
+                <statement>
+                    <p>
+                        Individually, convert the following measurements to more meaningful units:
+                        <ul>
+                            <li><m>120</m> billion pounds</li> <!--annual food waste in America-->
+                            <li><m>12</m> trillion <m>\text{ m}^3</m></li> <!--volume of water in Lake Superior-->
+                        </ul>
+                        <ul>
+                            <li>$<m>407</m> billion</li> <!--Elon Musk net worth-->
+                            <li><m>93</m> million miles</li> <!--Distance from Earth to sun-->
+                        </ul>
+                    </p>
+                </statement>
+            </exercise>
+            <exercise workspace="2in">
+                <statement>
+                    <p>
+                        Spend time in your group sharing your work. Discuss your process for performing the unit conversions, and which conversions you think are the most relatable.
+                    </p>
+                </statement>
+            </exercise>
+            
+        </worksheet>
+    </article>
+</pretext>

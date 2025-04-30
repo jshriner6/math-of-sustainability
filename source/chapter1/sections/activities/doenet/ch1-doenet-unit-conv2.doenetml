@@ -1,0 +1,106 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_12V4JZEsLYc9sIjFECH0J/_EVzX3XOuzib6cqG6NF1Eo -->
+<setup>
+<sampleRandomNumbers name="x" type="discreteUniform" from="20" to="50" numSamples="1"/>
+<sampleRandomNumbers name="unitGrpNum" type="discreteuniform" from="1" to="4" hide/>
+
+<conditionalContent name="unitGrpSelect" assignNames="(num den)" hide>
+    <case condition="$unitGrpNum=1">
+      <text>ft</text>
+      <text>mi</text>
+    </case>
+    <case condition="$unitGrpNum=2">
+      <text>mi</text>
+      <text>ft</text>
+    </case>
+    <case condition="$unitGrpNum=3">
+      <text>km</text>
+      <text>m</text>
+    </case>
+    <case condition="$unitGrpNum=4">
+      <text>m</text>
+      <text>km</text>
+    </case>
+</conditionalContent>
+
+  <booleanList name="cfeet">
+    <boolean>$den=ft </boolean>
+    <boolean><math>$numNum</math>=<math>1</math></boolean>
+    <boolean><math>$numDen</math>=<math>5280</math> </boolean>
+    <boolean>$unitNum=mi</boolean>
+    <boolean>$unitDen=ft</boolean>
+    <boolean>$unitFinal=mi</boolean>
+    <boolean> <number>$x/5280 - 0.00001</number> < <number>$numFinal </number> < <number>$x/5280 + 0.00001</number></boolean>
+  </booleanList> 
+  <booleanList name="cmile">
+    <boolean>$den=mi </boolean>
+    <boolean><math>$numNum</math>=<math>5280</math></boolean>
+    <boolean><math>$numDen</math>=<math>1</math> </boolean>
+    <boolean>$unitNum=ft</boolean>
+    <boolean>$unitDen=mi</boolean>
+    <boolean>$unitFinal=ft</boolean>
+    <boolean> <number>$x*5280 - 0.00001</number> < <number>$numFinal </number> < <number>$x*5280 + 0.00001</number></boolean>
+  </booleanList>
+  <booleanList name="cmeter">
+    <boolean>$den=m </boolean>
+    <boolean><math>$numNum</math>=<math>1</math></boolean>
+    <boolean><math>$numDen</math>=<math>1000</math> </boolean>
+    <boolean>$unitNum=km</boolean>
+    <boolean>$unitDen=m</boolean>
+    <boolean>$unitFinal=km</boolean>
+    <boolean> <number>$x/1000 - 0.00001</number> < <number>$numFinal </number> < <number>$x/1000 + 0.00001</number></boolean>
+  </booleanList>
+  <booleanList name="ckilometer">
+    <boolean>$den=km </boolean>
+    <boolean><math>$numNum</math>=<math>1000</math></boolean>
+    <boolean><math>$numDen</math>=<math>1</math> </boolean>
+    <boolean>$unitNum=m</boolean>
+    <boolean>$unitDen=km</boolean>
+    <boolean>$unitFinal=m</boolean>
+    <boolean> <number>$x*1000 - 0.00001</number> < <number>$numFinal </number> < <number>$x*1000 + 0.00001</number></boolean>
+  </booleanList>
+</setup>
+    
+    <me>
+        <!--<sampleRandomNumbers name="y" type="discreteUniform" from="20" to="50" numSamples="1"/>--> $x \text{ $den into $num}:
+    </me>
+
+      <graph displayXAxis="false" displayYAxis="false"  showBorder="false" showNavigation="false" xmin="-1.75" xmax="1.75" ymin="-1" ymax="1" size= "medium" aspectRatio="3/1">
+        <m anchor="(-1.25,0)" draggable="false">$x \text{ $den } \times </m>
+        <m anchor="(0.5,0)" draggable="false"> = </m>
+        <lineSegment endpoints="(-0.75,0) (0.25,0)" draggable="false"/>
+        <textInput name="numNum" anchor="(-0.5,0.25)" draggable="false"  width="50px" prefill="number"/>
+        <textInput name="numDen" anchor="(-0.5,-0.25)" draggable="false" width="50px" prefill="number"/>
+        <textInput name="unitNum" anchor="(0,0.25)" draggable="false" width="30px" prefill="unit"/>
+        <textInput name="unitDen" anchor="(0,-0.25)" draggable="false" width="30px" prefill="unit"/>
+        <textInput name="numFinal" anchor="(1,0)" draggable="false" width="50px"prefill="number"/>
+        <textInput name="unitFinal" anchor="(1.5,0)" draggable="false" width="30px" prefill="unit"/>
+        <triggerSet anchor="(1,-.75)">      
+          <callAction actionName="resample" target="x"/>
+          <callAction actionName="resample" target="unitGrpNum"/>
+          <label>New Variation</label>
+        </triggerSet>
+      </graph>
+    <!-- Can we deal with the case that commas are entered in numbers?:
+<p hide="<number>$numFinal</number> = NaN">Please enter only numbers (no commas).</p>
+    -->
+
+<answer>
+  <award>
+    <when>
+      <or>
+        <and>
+          $cfeet.booleans[1] $cfeet.booleans[2] $cfeet.booleans[3] $cfeet.booleans[4] $cfeet.booleans[5] $cfeet.booleans[6] $cfeet.booleans[7]
+        </and>
+        <and>
+          $cmile.booleans[1] $cmile.booleans[2] $cmile.booleans[3] $cmile.booleans[4] $cmile.booleans[5] $cmile.booleans[6] $cmile.booleans[7]
+        </and>
+        <and>
+          $cmeter.booleans[1] $cmeter.booleans[2] $cmeter.booleans[3] $cmeter.booleans[4] $cmeter.booleans[5] $cmeter.booleans[6] $cmeter.booleans[7]
+        </and>
+        <and>
+          $ckilometer.booleans[1] $ckilometer.booleans[2] $ckilometer.booleans[3] $ckilometer.booleans[4] $ckilometer.booleans[5] $ckilometer.booleans[6] $ckilometer.booleans[7]
+        </and>
+      </or>
+    </when>
+  </award>
+</answer>
