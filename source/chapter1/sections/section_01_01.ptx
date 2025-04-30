@@ -20,36 +20,39 @@
     </objectives>
     
     <paragraphs><title>Let's get to work...</title>
-        <p>Partner up with someone and assign the roles of <q>Partner 1</q> and <q>Partner 2</q>. Have a discussion using the script below, <em>following the rule that the partner answering the question must give a numerical answer without units</em>.
-        </p>
-        <ul>
-          <li>
-            <ol marker="1.">
-              <li>Partner 1: "How far do you live from campus?"</li>
-              <li>Partner 2: (Provide a numerical answer without units)</li>
-            </ol>
-          </li>
-          <li>
-            <ol marker="1.">
-              <li>Partner 2: "What's a normal temperature in your hometown right now?"</li>
-          <li>Partner 1: (Provide a numerical answer without units)</li>
-            </ol>
-          </li>
-          <li>
-            <ol marker="1.">
-              <li>Partner 1: "How much weight would you be comfortable lifting over your head?"</li>
-              <li>Partner 2: (Provide a numerical answer without units)</li>
-            </ol>
-          </li>
-          <li>
-            <ol marker="1.">
-              <li>Partner 2: "What's the longest distance you've ever run?"</li>
-              <li>Partner 1: (Provide a numerical answer without units)</li>
-            </ol>
-          </li>
-        </ul>
         <p>
-          How much have you learned about your partner from their responses to these questions? Now use the script again, but provide units with your numerical answers. 
+          Partner up with someone and assign the roles of <q>Partner 1</q> and <q>Partner 2</q>.
+          Have a discussion using the script below, <em>following the rule that the partner answering the question must give a numerical answer without units</em>.
+          <dl>
+            <li><title>Partner 1:</title>
+              "How far do you live from campus?"
+            </li>
+            <li><title>Partner 2:</title>
+              (Provide a numerical answer without units)
+            </li>
+            <li><title>Partner 2:</title>
+              "What's a normal temperature in your hometown right now?"
+            </li>
+            <li><title>Partner 1:</title>
+              (Provide a numerical answer without units)
+            </li>
+            <li><title>Partner 1:</title>
+              "How much weight would you be comfortable lifting over your head?"
+            </li>
+            <li><title>Partner 2:</title>
+              (Provide a numerical answer without units)
+            </li>
+            <li><title>Partner 2:</title>
+              "What's the longest distance you've ever run?"
+            </li>
+            <li><title>Partner 1:</title>
+              (Provide a numerical answer without units)
+            </li>
+          </dl>
+        </p>
+        <p>
+          How much have you learned about your partner from their responses to these questions?
+          Now use the script again, but provide units with your numerical answers. 
         </p>
         <p>
           Units give measurements meaning, so it is important that we have tools to work with and understand them.
@@ -71,10 +74,27 @@
           </me>
           Let's take a moment to notice a few important things about this calculation:
           <ol>
-            <li>My goal was to convert from inches to feet. Therefore, I needed to use a conversion factor relating these two units: <m>\frac{1 \text{ ft}}{12 \text{ in}}</m></li>
-            <li>When doing a computation with numbers and units, I can treat the number parts and unit parts separately. Gather all the numbers together with multiplication and division, and gather all the units together with multiplcation and division. Units can cancel just like numbers!</li>
-            <li>When converting from inches to feet, I have a choice between using <m>\frac{1 \text{ ft}}{12 \text{ in}}</m> or <m>\frac{12 \text{ in}}{1 \text{ ft}}</m>. Knowing that units can cancel each other out helps me pick the correct form of the converstion factor, <m>\frac{1 \text{ ft}}{12 \text{ in}}</m>. In general, you will always want to set up the conversion factor so that the unit you are converting <em>from</em> is in the <em>denominator</em>, and the unit you are converting <em>to</em> is in the <em>numerator</em>.</li>
-            <li>Why does multiplying <m>75 \text{ in}</m> by <m>\frac{1 \text{ ft}}{12 \text{ in}}</m> not change the value of my original measurement? Remember that <m>1 \text{ ft} = 12 \text{ in}</m>, so multiplying a number by <m>\frac{1 \text{ ft}}{12 \text{ in}}</m> is the same as multiplying by <m>1</m>, which does not change its value.</li>
+            <li>
+              My goal was to convert from inches to feet. Therefore, I needed to use a conversion factor relating these two units: 
+              <m>\frac{1 \text{ ft}}{12 \text{ in}}</m>
+            </li>
+            <li>
+              When doing a computation with numbers and units, I can treat the number parts and unit parts separately. 
+              Gather all the numbers together with multiplication and division, and gather all the units together with multiplcation and division. 
+              Units can cancel just like numbers!
+            </li>
+            <li>
+              When converting from inches to feet, I have a choice between using 
+              <m>\frac{1 \text{ ft}}{12 \text{ in}}</m> or <m>\frac{12 \text{ in}}{1 \text{ ft}}</m>. 
+              Knowing that units can cancel each other out helps me pick the correct form of the converstion factor, 
+              <m>\frac{1 \text{ ft}}{12 \text{ in}}</m>. In general, you will always want to set up the conversion factor 
+              so that the unit you are converting <em>from</em> is in the <em>denominator</em>, and the unit you are converting <em>to</em> is in the <em>numerator</em>.
+            </li>
+            <li>
+              Why does multiplying <m>75 \text{ in}</m> by <m>\frac{1 \text{ ft}}{12 \text{ in}}</m> not change the value of my original measurement? 
+              Remember that <m>1 \text{ ft} = 12 \text{ in}</m>, so multiplying a number by <m>\frac{1 \text{ ft}}{12 \text{ in}}</m> 
+              is the same as multiplying by <m>1</m>, which does not change its value.
+            </li>
           </ol>
         </p>
         </paragraphs>
@@ -84,8 +104,8 @@
     <xi:include href="./activities/act_01_01.ptx" xpointer="worksheet/2"/>
 
     <paragraphs>
-        <title>Back to work...</title>
-    <p>
+      <title>Back to work...</title>
+      <p>
         At times we encounter measurements that are so extreme that it can be difficult to process them in a meaningful way. In these cases, it is useful to be able to frame the measurements in a way that is more relatable to our human experience. In what follows, you will get practice using unit conversions to communicate extreme measurements in a meaningful way.
       </p>
       <p>
@@ -101,29 +121,44 @@
           7.9 \text{ million}\cancel{\text{ tons}} \cdot \frac{2,000 \cancel{\text{ pounds}}}{1 \cancel{\text{ ton}}} \cdot \frac{1 \text{ school bus}}{25,000 \cancel{\text{ pounds}}} = 0.632 \text{ million school buses}
         </me>,
         or equivalently <m>632,000</m> school buses! That's a lot of trash!
-    </p>
+      </p>
     </paragraphs>
 
     <xi:include href="./activities/act_01_01.ptx" xpointer="worksheet/3"/>
     
     <remark><title>Curious about these measurements?</title>
+      <p>
         <ul>
-          <li><m>120</m> billion pounds is the annual food waste in the U.S.</li>
-          <li><m>12</m> trillion <m>\text{ m}^3</m> is the volume of Lake Superior.</li>
-          <li>$<m>407</m> billion is the net worth of one of the world's wealthiest individuals.</li>
-          <li><m>93</m> million miles is the distance from the Earth to the sun.</li>
+          <li>
+            <m>120</m> billion pounds is the annual food waste in the U.S.
+          </li>
+          <li>
+            <m>12</m> trillion <m>\text{ m}^3</m> is the volume of Lake Superior.
+          </li>
+          <li>
+            $<m>407</m> billion is the net worth of one of the world's wealthiest individuals.
+          </li>
+          <li>
+            <m>93</m> million miles is the distance from the Earth to the sun.
+          </li>
         </ul>
+      </p>
     </remark>
     <conclusion><title>Reflection</title>
         <p>
-
-            Let's reflect on what we've learned, and what we still have questions about.
-    
-                <ol>
-                    <li>Why are units in measurements important?</li>
-                    <li>Your friend wants to convert their weight from <q>pounds</q> to a unit called <q>stone</q>. What information would you tell them they need in order to do so? How would you tell them to use that information to accurately convert their weight from pounds to stone?</li>
-                    <li>What are properties of a measurement that make it meaningful to you?</li>
-                </ol>   
+          Let's reflect on what we've learned, and what we still have questions about.
+          <ol>
+            <li>
+              Why are units in measurements important?
+            </li>
+            <li>
+              Your friend wants to convert their weight from <q>pounds</q> to a unit called <q>stone</q>. 
+              What information would you tell them they need in order to do so? How would you tell them to use that information to accurately convert their weight from pounds to stone?
+            </li>
+            <li>
+              What are properties of a measurement that make it meaningful to you?
+            </li>
+          </ol>   
         </p>
     </conclusion>
     <conclusion><title>Section Checkpoint</title>
@@ -131,5 +166,4 @@
             Link here to Doenet course.
         </p>
     </conclusion>
-
 </section>

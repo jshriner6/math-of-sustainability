@@ -9,7 +9,6 @@
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
-    <xi:include href="./introduction.ptx" />
 
     <!-- Include chapters -->
     <xi:include href="./chapter1/chapter_01.ptx" />

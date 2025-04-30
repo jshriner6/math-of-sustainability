@@ -1,1 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<preface xml:id="pref-motivation" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Course Motivation</title>
+    <paragraphs xml:id="p-sustainability">
+        <title>Sustainability</title>
+        <p>What does <q>sustainability</q> mean to you?</p>
+    </paragraphs>  
+</preface>

@@ -23,5 +23,10 @@
   <colophon xml:id="front-colophon">
     <colophon-items/>
   </colophon>
+
+  <xi:include href="./syllabus.ptx" />
+  <xi:include href="./activity-expectations.ptx" />
+  <xi:include href="./course-motivation.ptx" />
+  
 </frontmatter>
 

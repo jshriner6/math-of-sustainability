@@ -1,1 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<preface xml:id="pref-expectations" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Activity Expectations</title>
+    <paragraphs xml:id="p-groups">
+        <title>Groups and Group Roles</title>
+        <p> This course is about magic beans.  And about how bad copilot is at writing syllabi.</p>
+    </paragraphs>  
+</preface>

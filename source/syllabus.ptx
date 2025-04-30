@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
+<preface xml:id="pref-syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Course Syllabus</title>
-    <subsection xml:id="ssec-course-info">
+    <paragraphs xml:id="p-course-info">
         <title>Course Information</title>
         <p> This course is about magic beans.  And about how bad copilot is at writing syllabi.</p>
-    </subsection>
-
-   
-</section>
+    </paragraphs>  
+</preface>
