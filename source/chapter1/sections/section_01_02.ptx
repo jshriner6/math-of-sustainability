@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-1-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Change and Estimation</title>
+    <introduction>
+        <p>
+            Measurements used in discussions of complex questions are often not exact, but estimates of some exact meansurement.
+           The purpose of this activity will be to describe some common ways that measurements can be estimated so that you 
+           understand these estimates when they are presented to you, and can create your own estimates to communicate to others.
+        </p>
+        <p>
+            The objectives of this activity are that you can...
+        </p>
+      </introduction>
+      <objectives>
+          <ol>
+            <li>approximate relative change using pure numbers and percentages.</li>
+            <li>write very large or very small numbers in a user-friendly way.</li>
+            <li>make order-of-magnitude estimates.</li>
+          </ol>
+      </objectives>
+
+      <paragraphs><title>Let's get to work...</title>
+        <p>
+            In questions of sustainability, we are often dealing with measurements that change over time. 
+            Therefore, it is important that we are able to describe this change. There are two main ways we could do this:
+            <ol>
+                <li>
+                    We could describe the <term>absolute change</term>. For example, if a population is currently <m>1,000,000</m>
+                    individuals, and a year later grows to to <m>1,000,100</m> individuals, we could say that the absolute 
+                    change from one year to the next is <m>100</m> individuals.
+                </li>
+                <li>
+                    We could describe the <term>relative change</term>. In the same example, we could say that the population 
+                    grew by <m>0.01 \%</m>, since <m>100</m> is <m>0.01 \%</m> of the initial population of <m>1,000,000</m>.
+                </li>
+            </ol>
+        </p>
+        <p>
+            In this activity, we will focus on describing the relative change of measurements, since this generally is most 
+            informative. Following our example above, if you told someone that the population grew by <m>100</m> individuals, 
+            it is not clear how significant this growth is. Is <m>100</m>  a lot? a little? 
+            That significance is clarified when we describe the relative growth as a percent of the initial population. 
+            The growth of <m>100</m> individuals is very small compared to the initial population of <m>1,000,000</m>.
+        </p>
+        <p>
+            We can describe relative change using <term>percentages</term> or <term>pure number</term> multiples. 
+            The following examples illustrate both of these methods:
+              <ul>
+                <li>
+                    A bank account increased from <m>$ 200</m> to <m>$300</m>. It grew by <m>\frac{$300}{$200} = 1.5</m> times,
+                     or by <m>50\%</m>.
+                </li>
+                <li>
+                    The mass of nitrogen in a soil sample decreased from <m>500</m> g to <m>400</m> g. 
+                    It decreased by <m>\frac{400 \text{ g}}{500 \text{ g}} = 0.8</m> times, or by <m>20 \%</m>.
+                </li>
+              </ul>
+        </p>
+        <p>
+            Let's make two general observations about these examples that we can use moving forward:
+              <ol>
+                <li>
+                    Describing change using pure number multiples requires setting up the ratio 
+                    <m>\frac{\text{new measurement}}{\text{old measurement}}</m>. 
+                    The resulting number is unitless, and gives us the constant multiple of the old measurement that would 
+                    result in the new measurement. A pure number multiple greater than <m>1</m> signifies the measurement 
+                    increased, while a pure number multiple between <m>0</m> and <m>1</m> signifies the measurement decreased.
+                </li>
+                <li>
+                    Describing change using percentages can be obtained from a pure number multiple <m>P</m> as 
+                    <m>(P-1)\cdot 100</m> for increasing measurments, or <m>(1-P)\cdot 100</m> for decreasing measurements. 
+                </li>
+              </ol>
+        </p>
+      </paragraphs>
+
+      <!-- <xi:include href="./activities/act_01_02.ptx" xpointer="worksheet/1"/> -->
+
+      <paragraphs>
+        <title>Back to work...</title>
+        <p>
+            Suppose you were told that the annual <m>\text{CO}_2</m> emmissions from a given country was <m>582,072,950</m> 
+            tons. Would your interpretation of that measurement be significantly different if you instead were told that the 
+            amount was <m>500,000,000</m> tons? These two measurement have the same <term>order-of-magnitude</term>, which can
+            be a useful concept to understand for interpreting and creating estimates of very large or very small measurements.
+            Watch this brief video as a group for an introduction to orders of magnitude.     
+        </p>
+        <video youtube="0YzvupOX8Is"/>
+        <!-- <xi:include href="./activities/act_01_02.ptx" xpointer="worksheet/2"/> -->
+        <p>
+            The power of <m>10</m> used when writing numbers in scientific notation is called the <term>order-of-magnitude</term>
+            of that number. This is often the most usable part of a measurment for practical purposes, 
+            and is also the best starting place for making estimates of measurements that have limited information. 
+            We call an estimate of the form <q><m>1.0 \times 10^n</m></q> an <term>order-of-magnitude estimate</term>.
+        </p>
+        <!-- <xi:include href="./activities/act_01_02.ptx" xpointer="worksheet/3"/> -->
+        <remark><title>Curious about the actual values?</title>
+            <p>
+                <ul>
+                    <li>
+                        For 2024-25, the student count was <m>34,218</m>. The order of magnitude is <m>4</m>.
+                    </li>
+                    <li>
+                        The average mass is roughly <m>62</m> kg. The order of magnitude is <m>1</m>.  
+                    </li>
+                    <li>
+                        The distance is roughly <m>105,000</m> m (<m>65</m> miles). The order of magnitude is <m>5</m>.
+                    </li>
+                    <li>
+                        There's no clear answer for this one. How might you go about using your experience to make the best 
+                        order of magnitude estimate that you can?
+                    </li>
+                </ul>
+            </p>
+        </remark>
+    </paragraphs>
+    <conclusion>
+        <title>Reflection</title>
+        <p>
+            Let's reflect on what we've learned, and what we still have questions about.
+              <ol>
+                <li>
+                    What are the different methods that you can use to describe how a measurement has changed over time? 
+                    How are these methods similar? How are they different?
+                </li>
+                <li>
+                    Why is it useful to use scientific notation to write very large or very small numbers?
+                </li>
+                <li>
+                    What is the order-of-magnitude of a number? Why is it useful to think about the order of magnitude of a 
+                    measurement?
+                </li>
+              </ol>
+        </p>
+    </conclusion>
+    <conclusion>
+        <title>Section Checkpoint</title>
+        <p>
+            Link here to Doenet course.
+        </p>
+    </conclusion>
+</section>

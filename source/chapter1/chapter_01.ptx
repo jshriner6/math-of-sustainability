@@ -3,4 +3,7 @@
 <chapter xml:id="ch-01" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Measuring</title>
     <xi:include href="./sections/section_01_01.ptx"/>
+    <xi:include href="./sections/section_01_02.ptx"/>
+    <xi:include href="./sections/section_01_03.ptx"/>
+
 </chapter>

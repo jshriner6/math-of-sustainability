@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-2-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Net Flow and Equilibrium</title>
+    <introduction>
+        <p>
+            Many natural systems have stocks that don't change, even though these systems are flowing constantly. 
+            The purpose of this activity is to be able to recognize when stocks are in such a state.
+        </p>
+        <p>
+            The objectives of this activity are that you can...
+        </p>
+    </introduction>
+    <objectives>
+          <ol>
+            <li>
+                calculate the net flow of a stock and recognize when a stock is in equilibrium. 
+            </li>
+            <li>
+                calculate the residence time associated with a stock in equilibrium.
+            </li>
+          </ol>
+    </objectives>
+    <paragraphs><title>Let's get to work...</title>
+        <p>Let's return to our <xref ref="fig-sys-diagram" text="custom">system diagram for a bathtub system</xref> from 
+            <xref ref="sec-2-1"/>.
+        </p>
+        <p>
+            Recall that the arrows represent <term>flows</term> of the system, and the triangles represent processes that control the 
+            <term>rate</term> of each flow. The system diagram helps us to understand the important components of a system and 
+            how they are related, but to understand the behavior of the system we must also know the measurements involved: 
+            the numerical values of the stocks and the rates, along with their units. Let's consider three examples.
+
+            <ol>
+                <li>
+                    The water volume is <m>100</m> gallons. The inflow rate from the faucet is 
+                    <m>1 \frac{\text{gallon}}{\text{min}}</m>, and the outflow rate to the drain is 
+                    <m>2 \frac{\text{gallons}}{\text{min}}</m>. In this scenario, the outflow rate is greater than the 
+                    inflow rate, so over time the volume of water will decrease.  
+                </li>
+                <li>
+                    The water volume is <m>100</m> gallons. The inflow rate from the faucet is 
+                    <m>2 \frac{\text{gallon}}{\text{min}}</m>, and the outflow rate to the drain is 
+                    <m>1 \frac{\text{gallons}}{\text{min}}</m>. In this scenario, the inflow rate is greater than the 
+                    outflow rate, so over time the volume of water will increase.
+                </li>
+                <li>
+                    The water volume is <m>100</m> gallons. The inflow rate from the faucet is 
+                    <m>1 \frac{\text{gallon}}{\text{min}}</m>, and the outflow rate to the drain is 
+                    <m>1 \frac{\text{gallons}}{\text{min}}</m>. In this scenario, the inflow rate is equal to the 
+                    inflow rate, so over time the volume of water will remain at <m>100</m> gallons.
+                </li>
+            </ol>
+        </p>
+        <p>
+          Let's make a few important observations about these examples.
+
+            <ul>
+                <li>
+                    In all of the examples we are comparing the inflow rates to the outflow rates to determine the 
+                    qualitative behavior of the volume of water over time. To be more precise, we could calculate the 
+                    <term>net flow rate</term>:
+                    <me>\text{net flow rate}=\text{total inflow rate} - \text{total outflow rate}</me>
+                    If there were multiple flows in the same direction, we would add them to get the total flow in that 
+                    direction. A positive net flow for a stock means that stock is increasing over time, 
+                    while a negative net flow for a stock means that stock is decreasing over time. 
+                    Calculate the net flows for each example above, then check your answers below. Include units in your answer.
+                    <answer><title>Check Answers Here</title>
+                        <ol marker="1">
+                            <li><m>-1 \frac{\text{gallon}}{\text{min}}</m></li>
+                            <li><m>1 \frac{\text{gallon}}{\text{min}}</m></li>
+                            <li><m>0 \frac{\text{gallon}}{\text{min}}</m></li>
+                        </ol>
+                    </answer>
+                </li>
+                <li>
+                    In the last example, the net flow is <m>0 \frac{\text{gallon}}{\text{min}}</m>. If a stock's net flow is 
+                    <m>0</m>, we say that stock is in <term>equilibrium</term>. In this case, the equilibrium value of the 
+                    stock is <m>100</m> gallons.
+                </li>
+                <li>
+                    Our focus in this chapter will be mostly on systems in equilibrium. In general this will be more complex 
+                    than what we've just considered. For example, flow rates may not be constant. We will re-visit systems 
+                    not in equilibrium and how they change over time in chapter 4.
+                </li>
+          </ul>
+        </p>
+    </paragraphs>
+
+    <!-- <xi:include href="./activities/act_02_02.ptx" xpointer="worksheet/1"/> -->
+    
+    <paragraphs>
+        <title>Back to work...</title>
+        <p>
+            A stock in equilibrium is not changing in quantity. But as we've discussed, it is <em>moving</em>. 
+            If the inflows and outflows for a stock are both non-zero, even when a stock may appear to be static, 
+            the constant quantity is never comprised of the same <q>stuff</q>. There is a measure for the average time a 
+            unit of stock will spend between inflow and outflow, which is what we will explore next. 
+        </p>
+        <definition>
+            <p>
+                The <term>residence time</term> associated with a stock in equilibrium is the number 
+                <me>\frac{\text{equilibrium value of stock}}{\text{flow rate to/from stock}}</me>.
+            </p>
+        </definition>
+    </paragraphs>
+
+    <!-- <xi:include href="./activities/act_02_02.ptx" xpointer="worksheet/2"/> -->
+
+    <conclusion><title>Reflection</title>
+        <p>
+            Let's reflect on what we've learned, and what we still have questions about.
+        
+            <ol>
+                <li>
+                    What is the net flow rate of a stock, and why is it important in determining the behavior of a stock 
+                    over time?
+                </li>
+                <li>
+                    What does the residence time of a stock in equilibrium tell us about that stock? Be as specific as you can.
+                </li>
+            </ol>
+        </p>
+      </conclusion>
+      <conclusion><title>Section Checkpoint</title>
+        <p>
+            Link here to Doenet course.
+        </p>
+      </conclusion>
+
+</section>

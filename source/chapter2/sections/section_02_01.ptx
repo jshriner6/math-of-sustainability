@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-2-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Stocks and Flows</title>
+    <introduction>
+        <p>
+           Questions of sustainability arise when we work with systems that are flowing; that is, systems whose measurements 
+           are changing. The purpose of this activity is to introduce stock-flow models and system diagrams for representing 
+           such systems.
+        </p>
+        <p>
+            The objectives of this activity are that you can...
+        </p>
+      </introduction>
+      <objectives><title>Section Objectives</title>
+          <ol>
+            <li>represent a stock-flow model with a system diagram.</li>
+          </ol>
+      </objectives>
+
+      <paragraphs><title>Let's get to work...</title>
+        <p>
+            Imagine a bathtub filled with water. The faucet is running and the drain is open. 
+            You may look at this system and notice that either 
+        
+          <ol>
+            <li>the water level in the tub is staying the same,</li>
+            <li>the water level is increasing, or</li>
+            <li>the water level is decreasing.</li>
+          </ol>
+        </p>
+
+        <p>
+        Regardless of what you observe, this is a system in movement! While this is a simple system, it contains the important 
+        components we often need to consider in sustainability questions:
+        
+          <ol>
+            <li>The amount of water is a quantity of the system that we care to measure.</li>
+            <li>The faucet and the drain are components that contribute to change in the amount of water.</li>
+          </ol>
+        </p>
+        <p>
+          These components are generally referred to as <term>stocks</term> and <term>flows</term>, respectively.
+        </p>
+        <definition>
+            <p>
+                A <term>stock</term> is a quantity in a system that can be added to or taken from over time.
+            </p>
+            <p>
+                A <term>flow</term> is a process in a system that can add to or take away from a stock.
+            </p>
+        </definition>
+        <p>
+          The identification of stocks and flows in a system is called a <term>stock-flow model</term> of that system. 
+        </p>
+      </paragraphs>
+      <!-- <xi:include href="./activities/act_02_01.ptx" xpointer="worksheet/1"/> -->
+
+      <paragraphs>
+        <title>Back to work...</title>
+        <p>
+            Once we have a stock-flow model of a system, it is useful to be able to represent that model with a visual. 
+            The standard representation for these is called a <term>system diagram</term>.
+        </p>
+        <p>
+          Let's consider our bathtub example from the beginning of this section. A basic system diagram for this system 
+          might look as follows:
+        </p>
+        <figure xml:id="fig-sys-diagram">
+            <interactive label="ch2-interactive-sys-diagram" platform="doenetml" width="100%" aspect="3:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch2-doenet-sys-diagram.doenetml"/>
+                </slate>
+            </interactive>
+            <caption>
+                A system diagram for the bathtub example showing stocks as squares, flows as arrows, 
+                and flow rate processes as triangles.
+            </caption>
+        </figure>
+        <p>
+            Let's make some observations about this system diagram:
+        
+            <ol>
+              <li>
+                The <term>stock</term> (volume of water) is represented with a square. While there is only one stock in this 
+                system diagram, it is possible to have multiple stocks in a system diagram. 
+              </li>
+              <li>
+                The <term>flows</term> are represented with arrows, indicating whether they are making the stock increase 
+                (<term>inflow</term>) or decrease (<term>outflow</term>). Each flow arrow into or out of the stock is 
+                associated with a triangle, which represents a mechanism or process which controls the <term>rate</term> 
+                of the corresponding flow. 
+              </li>
+              <li>
+                The circles represent stocks outside of the system we are considering. If these stocks contribute inflows 
+                into our system they are called <term>sources</term>. If these stocks receive outflows from our system, 
+                they are called <term>sinks</term>. 
+              </li>
+              <li>
+                So far our system diagram is a visual organization of the stocks and flows we've identified in our system. 
+                These stocks and flows can also be associated with measurements 
+                (that have <xref ref="sec-1-1" text="custom">units</xref>), 
+                which we'll need in order to make computations and predictions about our system. This will become our focus 
+                in the next sections. 
+              </li>
+            </ol>
+        </p>
+      </paragraphs>
+
+      <!-- <xi:include href="./activities/act_02_01.ptx" xpointer="worksheet/2"/> -->
+
+      <conclusion><title>Reflection</title>
+        <p>
+            Let's reflect on what we've learned, and what we still have questions about.
+        
+            <ol>
+                <li>What are stocks and flows, and how are they related?</li>
+                <li>What things do you consider when creating a stock-flow model for a system?</li> 
+                <li>Is there a single <q>best</q> stock-flow model for a system?</li>
+            </ol>
+        </p>
+      </conclusion>
+      <conclusion><title>Section Checkpoint</title>
+        <p>
+            Link here to Doenet course.
+        </p>
+      </conclusion>
+</section>
