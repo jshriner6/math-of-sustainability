@@ -1,0 +1,21 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_dmbfQslD8ISr69radTKnO/_HkgRq39HWDIMlEURDpnZy -->
+
+<graph size="large" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false" xmax="5" xmin="-5" ymax="5" ymin="-1">
+      <point name="Fox" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(-2,4)" draggable="false"/>
+      <point name="Owl" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(2,4)" draggable="false"/>
+      <point name="Rabbit" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(-4,2)" draggable="false"/>
+      <point name="Mouse" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(-2,2)" draggable="false"/>
+      <point name="Grasshopper" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(2,2)" draggable="false"/>
+      <point name="Bird" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(4,2)" draggable="false"/>
+      <point name="Vegetation" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(0,0)" draggable="false"/>
+      <vector tail="$Fox" head="$Rabbit" draggable="false"/>
+      <vector tail="$Fox" head="$Mouse" draggable="false"/>
+      <vector tail="$Fox" head="$Bird" draggable="false"/>
+      <vector tail="$Owl" head="$Bird" draggable="false"/>
+      <vector tail="$Owl" head="$Grasshopper" draggable="false"/>
+      <vector tail="$Bird" head="$Grasshopper" draggable="false"/>
+      <vector tail="$Rabbit" head="$Vegetation" draggable="false"/>
+      <vector tail="$Mouse" head="$Vegetation" draggable="false"/>
+      <vector tail="$Grasshopper" head="$Vegetation" draggable="false"/>
+      <vector tail="$Bird" head="$Vegetation" draggable="false"/>
+</graph>

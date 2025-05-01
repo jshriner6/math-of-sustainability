@@ -1,0 +1,43 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_4wdskfx2btssc63QtXUce/_PI9gTVxdBxYmHT9MLJVgQ -->
+
+<sideBySide>
+      <graph name="K3" size="small" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false" xmin="-2" xmax="2" ymin="-0.5" ymax="2">
+        <point name="A" styleNumber="5" showCoordsWhenDragging="false" coords="(0,1)"/>
+        <point name="B" styleNumber="5" showCoordsWhenDragging="false" coords="(-1,0)"/>
+        <point name="C" styleNumber="5" showCoordsWhenDragging="false" coords="(1,0)"/>
+        <lineSegment endpoints="$A $B" showCoordsWhenDragging="false"/>
+        <lineSegment endpoints="$A $C" showCoordsWhenDragging="false"/>
+        <lineSegment endpoints="$C $B" showCoordsWhenDragging="false"/>
+      </graph>
+      
+      <graph name="K4" size="small" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false" xmin="-2" xmax="2" ymin="-0.5" ymax="2">
+        <point name="D" styleNumber="5" showCoordsWhenDragging="false" coords="(-1,1)"/>
+        <point name="E" styleNumber="5" showCoordsWhenDragging="false" coords="(-1,0)"/>
+        <point name="F" styleNumber="5" showCoordsWhenDragging="false" coords="(1,0)"/>
+        <point name="G" styleNumber="5" showCoordsWhenDragging="false" coords="(1,1)"/>
+        <lineSegment endpoints="$D $E" showCoordsWhenDragging="false"/>
+        <lineSegment endpoints="$D $F" showCoordsWhenDragging="false"/>
+        <lineSegment endpoints="$E $F" showCoordsWhenDragging="false"/>
+        <lineSegment endpoints="$D $G" showCoordsWhenDragging="false"/>
+        <lineSegment endpoints="$G $F" showCoordsWhenDragging="false"/>
+        <lineSegment endpoints="$E $G" showCoordsWhenDragging="false"/>
+      </graph>
+
+      <graph size="small" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false" xmin="-2" xmax="2" ymin="-0.5" ymax="2">
+        <point name="H" styleNumber="5" showCoordsWhenDragging="false" coords="(-1,1)"/>
+        <point name="I" styleNumber="5" showCoordsWhenDragging="false" coords="(-1,0)"/>
+        <point name="J" styleNumber="5" showCoordsWhenDragging="false" coords="(1,0)"/>
+        <point name="K" styleNumber="5" showCoordsWhenDragging="false" coords="(1,1)"/>
+        <point name="L" styleNumber="5" showCoordsWhenDragging="false" coords="(0,1.5)"/>
+        <lineSegment endpoints="$H $I" showCoordsWhenDragging="false"/>
+        <lineSegment endpoints="$H $J" showCoordsWhenDragging="false"/>
+        <lineSegment endpoints="$H $K" showCoordsWhenDragging="false"/>
+        <lineSegment endpoints="$H $L" showCoordsWhenDragging="false"/>
+        <lineSegment endpoints="$J $I" showCoordsWhenDragging="false"/>
+        <lineSegment endpoints="$J $K" showCoordsWhenDragging="false"/>
+        <lineSegment endpoints="$J $L" showCoordsWhenDragging="false"/>
+        <lineSegment endpoints="$L $K" showCoordsWhenDragging="false"/>
+        <lineSegment endpoints="$I $L" showCoordsWhenDragging="false"/>
+        <lineSegment endpoints="$I $K" showCoordsWhenDragging="false"/>
+      </graph>
+    </sideBySide>

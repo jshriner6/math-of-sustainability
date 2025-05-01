@@ -2,5 +2,124 @@
 
 <section xml:id="sec-2-3" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Equilibrium Values</title>
+    <introduction>
+        <p>
+          In real-world systems there are typically factors that influence the rates of flows within stock-flow models. 
+          The purpose of this activity is to consider a common influence, and its impact on the value of a stock in equilibrium.
+        </p>
+        <p>
+            The objectives of this activity are that you can...
+        </p>
+    </introduction>
+    <objectives>
+        <ol>
+            <li>recognize dependencies between stock values and flow rates, and represent them on a system diagram.</li>
+            <li>compute equilibrium values in stock-flow models with a single stock.</li>
+        </ol>
+    </objectives>
+    <paragraphs><title>Let's get to work...</title>
+        <p>
+            Let's return once again to our <xref ref="fig-sys-diagram" text="custom">system diagram for a bathtub system</xref> from 
+            <xref ref="sec-2-1"/>, with one small addition:
+        </p>
+        <figure xml:id="fig-sys-diagram-dep">
+            <interactive label="ch2-interactive-sys-diagram-dep" platform="doenetml" width="100%" aspect="3:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch2-doenet-sys-diagram-dep.doenetml"/>
+                </slate>
+            </interactive>
+            <caption>
+                A system diagram for the bathtub example showing stocks as squares, flows as arrows, flow rate processes as 
+                triangles, and the dependency between water volume and the drain rate as a red link.
+            </caption>
+        </figure>
+        <p>
+            In this new diagram we've added a red <term>dependency link</term> between the water stock and the outflow 
+            controlled by the drain. We've added this to indicate that the outflow is not, in fact, constant as we've 
+            assumed in previous examples, but it varies depending on the water depth value: a larger water depth value will 
+            result in a larger outflow rate through the drain.
+        </p>
+    </paragraphs>
+
+    <!-- <xi:include href="./activities/act_02_03.ptx" xpointer="worksheet/1"/> -->
+
+    <paragraphs>
+        <title>Back to work...</title>
+        <p>
+            As with our previous system diagrams, so far we've just identified and represented something in the system that 
+            will impact its behavior. To make dependency links useful in computation, we need to to know more specifically 
+            what that dependency is as an equation. 
+        </p>
+        <p>
+             We now ask the same question as in <xref ref="sec-2-2"/>: 
+             is this stock in equilibrium? With flow rates that change, the answer is not as straightforward as when they were constant.
+             We will return to our example of the bathtub system from the beginning of the section.
+        </p>
+        <p>
+            For the sake of our example, let's assume that the inflow rate from the faucet is constant at <m>2.4</m> gallons 
+            per minute, while the outflow rate <m>R</m> (in gallons per minute) is dependent on the water depth <m>d</m> 
+            (in inches) by the equation
+            <me>
+              R = 0.6d
+            </me>.
+        </p>
+        <remark><title>What are the units of the constant <m>0.6</m>?</title>
+              <m>\frac{\text{gallons}}{\text{minute}\times \text{inches}}</m>
+        </remark>
+        <p>
+            We know that the stock will be in equilibrium when its inflow rate and outflow rate are equal. 
+            As an equation, that means that 
+            <me>\underset{\text{inflow}}{2.4} = \underset{\text{outflow}}{R}</me>,
+            or
+            <me>2.4 = 0.6d</me>.
+            We can solve for <m>d</m> by dividing both sides of the equation by <m>0.6</m> to get <m>d=\frac{2.4}{0.6} = 4</m> 
+            inches. This now gives us information to understand how our system will behave.
+        
+            <ul>
+                <li>
+                    If our initial water volume is such that the depth is less than <m>4</m> inches, then initially the 
+                    inflow rate of <m>2.4</m> gallons per minute will be greater than the outflow rate <m>R</m> (why?). 
+                    Therefore the net flow rate will be positive, and the water volume will increase until it reaches a depth 
+                    of <m>4</m> inches, at which point it will be in equilibrium.
+                </li>
+                <li>
+                    If our initial water volume is such that the depth is greater than <m>4</m> inches, then initially the 
+                    inflow rate of <m>2.4</m> gallons per minute will be less than the outflow rate <m>R</m> (why?). 
+                    Therefore the net flow rate will be negative, and the water volume will decrease until it reaches a depth 
+                    of <m>4</m> inches, at which point it will be in equilibrium.
+                </li>
+                <li>
+                    If our initial water volume is such that the depth is equal to <m>4</m> inches, then initially the 
+                    inflow rate of <m>2.4</m> gallons per minute will equal the outflow rate <m>R</m>. Therefore the net 
+                    flow will be zero, and the water volume will remain constant.
+                </li>
+            </ul>
+        </p>
+    </paragraphs>
+
+    <!-- <xi:include href="./activities/act_02_03.ptx" xpointer="worksheet/2"/> -->
+
+    <conclusion><title>Reflection</title>
+        <p>
+            Let's reflect on what we've learned, and what we still have questions about.
+        
+            <ol>
+                <li>
+                    What are dependency links and why are they important in stock-flow models?
+                </li>
+                <li>
+                    Why is it more challenging to compute the equilibrium value of a stock if the flow rates are not constant?
+                </li>
+                <li>
+                    Do you think that stock values will always change towards an equilibrium value?
+                </li>
+            </ol>
+        </p>
+      </conclusion>
+      <conclusion><title>Section Checkpoint</title>
+        <p>
+            Link here to Doenet course.
+        </p>
+      </conclusion>
 
 </section>

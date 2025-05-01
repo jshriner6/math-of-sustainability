@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Networks and Graphs</title>
+    <introduction>
+        <p>
+          We live in a very connected world. From social interactions to predator-prey relationships, connections have a 
+          large impact on how systems behave. The purpose of this activity is to introduce an important mathematical tool 
+          used to model network connections.
+        </p>
+        <p>
+            The objectives of this activity are that you can...
+        </p>
+    </introduction>
+    <objectives>
+        <ol>
+            <li>represent a network using a graph or directed graph.</li>
+            <li>determine basic properties of a graph.</li>
+        </ol>
+    </objectives>
+    <paragraphs><title>Let's get to work...</title>
+        <p>
+            A <term>network</term> is a set of entitities which have a rule that defines when two entities in the set are 
+            related. This is a very broad concept which arises in various contexts. For example, a network may consist of a 
+            set of twenty neighborhoods (call them A through T), with the rule that two neighborhoods are related if there 
+            is a road that connects them. 
+        </p>
+
+        <!-- <xi:include href="./activities/act_03_01.ptx" xpointer="worksheet/1"/> -->
+
+        <p>
+            Mathematically, we can represent networks with <term>graphs</term>. Though you may have heard this term in a 
+            math class previously, it is likely different than what you are picturing. Below is an example of a graph of the 
+            neighborhood network we described above.
+        </p>
+
+        <figure xml:id="fig-network-graph">
+            <interactive label="ch3-interactive-network-graph" platform="doenetml" width="100%" aspect="1:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch3-doenet-network-graph.doenetml"/>
+                </slate>
+            </interactive>
+            <caption>
+                A graph whose vertices, labeled A through T, represent neiborhoods, and whose edges represent roads 
+                connecting neighborhoods.
+            </caption>
+        </figure>
+
+        <p>
+            Let's make some important observations about graphs using this example:
+        
+          <ol>
+            <li>
+                An entity (in this example, a neighborhood) is represented by a point called a <term>vertex</term>. 
+                Two entities are related (in this example, there is a road connecting two neighborhoods) if they are connected 
+                by a line called an <term>edge</term>. If two vertices are connected by an edge, we call them 
+                <term>neighbors</term>. 
+                <remark>
+                    <p>
+                        It is important to note that this graph communicates nothing about the actual physical location of each 
+                        neighborhood. You can move the vertices anywhere you wish (try it!), and it would still be the same graph. 
+                        The graph communicates only which entities are in the network, and how they are related to each other.
+                    </p>
+                </remark>
+            </li>
+            <li>
+                The number of edges coming from one vertex is called the <term>degree</term> of that vertex. For example, 
+                the degree of vertex A is <m>4</m>, and the degree of vertex S is <m>1</m>. 
+            </li>
+            <li>
+                A <term>path</term> between two verices is a sequence of edges that connects one vertex to the other. 
+                A graph is <term>connected</term> if there is a path between any two verices. Otherwise, it is 
+                <term>disconnected</term>. For example, the graph of above is disconnected because there is no path from 
+                vertex M to vertex A. However, the graph obtained by ommitting vertices K through O is connected, as is the 
+                graph consisting of only vertices K through O. 
+            </li>
+            <li>
+                A graph can be useful for making qualitative observations about a network. For example, while there is no 
+                path from vertices K through O to other vertices, they are highly connected to each other. Also, vertices 
+                A, J, and T seem to be structurally important neighborhoods. There are many roads connecting them to other 
+                neighborhoods (they have a high degree), and if we got rid of them, many more neighborhoods would become 
+                disconnected. We'll make these ideas more precise in the next section. 
+            </li>
+          </ol>
+        </p>
+    </paragraphs>
+
+    <!-- <xi:include href="./activities/act_03_01.ptx" xpointer="worksheet/2"/> -->
+
+    <paragraphs><title>Back to work...</title>
+        <p>
+            There are variations of graphs that can be obtained by adding additional structure based on the needs of your model. 
+            We present one such variation here due to its connection with our topic from <xref ref="ch-02"/>.
+        </p>
+        <definition>
+            <p>
+                A <term>directed graph</term> is a graph whose edges have a specified direction. 
+                That is, there are two different edges that could connect vertices A and B: the edge AB (<q>A to B</q>) 
+                and the edge BA (<q>B to A</q>).
+            </p>
+        </definition>
+        <p>
+            The visual difference in directed graphs is that the edges are represented by arrows, which provide the 
+            additional information of direction. For example, directed graphs can be used to represent predator-prey 
+            relationships within an ecosystem. Take a moment to interpret the directed graph below in your group.
+        </p>
+        <figure xml:id="fig-network-directed-graph">
+            <interactive label="ch3-interactive-network-directed-graph" platform="doenetml" width="100%" aspect="1:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch3-doenet-network-directed-graph.doenetml"/>
+                </slate>
+            </interactive>
+            <caption>
+                A directed graph showing the predator-prey relationships within an ecosystem.
+            </caption>
+        </figure>
+        <p>
+            Another example of directed graphs are the system diagrams that we've been using to visualize stock-flow models. 
+            The vertices of such a graph are the stocks, rate-controlling processes, sources/sinks, and parameters in the 
+            model, while the directed edges are the inflow/outflow arrows and the dependency links. 
+            Here is an example from <xref ref="sec-2-4"/>:
+        </p>
+        <figure xml:id="fig-network-directed-sys-diagram">
+            <interactive label="ch3-interactive-network-directed-sys-diagram" platform="doenetml" width="100%" aspect="2:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch3-doenet-network-directed-sys-diagram.doenetml"/>
+                </slate>
+            </interactive>
+            <caption>
+                On the left, the stock-flow model for the energy in solar panels is represented by a system diagram. 
+                On the right, the model is represented as a directed graph.
+            </caption>
+        </figure>
+        <p>
+            Note that the system diagram provides additional context about the model that, in many cases, can be useful. 
+        </p>
+    </paragraphs>
+
+    <!-- <xi:include href="./activities/act_03_01.ptx" xpointer="worksheet/3"/> -->
+
+    <conclusion><title>Reflection</title>
+        <p>
+            Let's reflect on what we've learned, and what we still have questions about.
+        
+            <ol>
+                <li>
+                    Why might a graph be useful when analyzing questions about sustainability?
+                </li>
+                <li>
+                    Which types of networks are best modeled by directed graphs?
+                </li>
+            </ol>
+        </p>
+      </conclusion>
+      <conclusion><title>Section Checkpoint</title>
+        <p>
+            Link here to Doenet course.
+        </p>
+      </conclusion>
+
+</section>

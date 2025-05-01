@@ -1,0 +1,54 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_dmbfQslD8ISr69radTKnO/_HkgRq39HWDIMlEURDpnZy -->
+
+<graph size="large" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false" xmax="20" xmin="-20" ymax="20" ymin="-20">
+          <point name="A" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(-18,18)"/>
+          <point name="B" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(-12,18)"/>
+          <point name="C" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(-18,12)"/>
+          <point name="D" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(-12,12)"/>
+          <point name="E" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(-8,16)"/>
+          <lineSegment endpoints="$A $B" showCoordsWhenDragging="false"/>
+          <lineSegment endpoints="$A $D" showCoordsWhenDragging="false"/>
+          <lineSegment endpoints="$A $E" showCoordsWhenDragging="false"/>
+          <lineSegment endpoints="$C $E" showCoordsWhenDragging="false"/>
+          <lineSegment endpoints="$B $D" showCoordsWhenDragging="false"/>
+ 
+          <point name="F" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(18,18)"/>
+          <point name="G" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(12,18)"/>
+          <point name="H" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(18,12)"/>
+          <point name="I" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(12,12)"/>
+          <point name="J" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(8,16)"/>
+          <lineSegment endpoints="$J $I" showCoordsWhenDragging="false"/>
+          <lineSegment endpoints="$I $H" showCoordsWhenDragging="false"/>
+          <lineSegment endpoints="$H $F" showCoordsWhenDragging="false"/>
+          <lineSegment endpoints="$G $F" showCoordsWhenDragging="false"/>
+          <lineSegment endpoints="$G $J" showCoordsWhenDragging="false"/>
+          <lineSegment endpoints="$C $J" showCoordsWhenDragging="false"/>
+
+          <point name="K" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(-18,-18)"/>
+          <point name="L" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(-12,-18)"/>
+          <point name="M" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(-18,-12)"/>
+          <point name="N" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(-12,-12)"/>
+          <point name="O" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(-8,-16)"/>
+          <lineSegment endpoints="$M $N" showCoordsWhenDragging="false"/>
+          <lineSegment endpoints="$M $L" showCoordsWhenDragging="false"/>
+          <lineSegment endpoints="$M $K" showCoordsWhenDragging="false"/>
+          <lineSegment endpoints="$M $O" showCoordsWhenDragging="false"/>
+          <lineSegment endpoints="$N $K" showCoordsWhenDragging="false"/>
+          <lineSegment endpoints="$N $L" showCoordsWhenDragging="false"/>
+          <lineSegment endpoints="$N $O" showCoordsWhenDragging="false"/>
+          <lineSegment endpoints="$K $O" showCoordsWhenDragging="false"/>
+          <lineSegment endpoints="$L $K" showCoordsWhenDragging="false"/>
+          <lineSegment endpoints="$L $O" showCoordsWhenDragging="false"/>
+
+          <point name="P" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(18,-18)"/>
+          <point name="Q" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(12,-18)"/>
+          <point name="R" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(18,-12)"/>
+          <point name="S" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(12,-12)"/>
+          <point name="T" labelIsName styleNumber="5" showCoordsWhenDragging="false" coords="(8,-16)"/>
+          <lineSegment endpoints="$T $S" showCoordsWhenDragging="false"/>
+          <lineSegment endpoints="$T $Q" showCoordsWhenDragging="false"/>
+          <lineSegment endpoints="$T $R" showCoordsWhenDragging="false"/>
+          <lineSegment endpoints="$T $P" showCoordsWhenDragging="false"/>
+          <lineSegment endpoints="$A $T" showCoordsWhenDragging="false"/>
+          <lineSegment endpoints="$T $J" showCoordsWhenDragging="false"/>
+</graph>

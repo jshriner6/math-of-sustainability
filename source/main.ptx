@@ -13,6 +13,7 @@
     <!-- Include chapters -->
     <xi:include href="./chapter1/chapter_01.ptx" />
     <xi:include href="./chapter2/chapter_02.ptx" />
+    <xi:include href="./chapter3/chapter_03.ptx" />
 
     <!-- Include Case Studies -->
     <xi:include href="./case-studies.ptx" />

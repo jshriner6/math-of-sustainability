@@ -2,5 +2,149 @@
 
 <section xml:id="sec-2-4" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Parameters</title>
+    <introduction>
+        <p>
+           In real-world systems there may be factors which are not stocks within the system, but still influence the rates 
+           of flows within stock-flow models. The purpose of this activity is to consider these factors.
+        </p>
+        <p>
+            The objectives of this activity are that you can...
+        </p>
+      </introduction>
+      <objectives>
+          <ol>
+            <li>recognize parameters in stock-flow models, and represent them on a system diagram.</li>
+            <li>analyze how parameter values affect equilibrium in stock-flow models.</li>
+          </ol>
+      </objectives>
+      <paragraphs><title>Let's get to work...</title>
+        <!-- <xi:include href="./activities/act_02_04.ptx" xpointer="worksheet/1"/> -->
+         
+      </paragraphs>
+
+      <paragraphs>
+        <title>Back to work...</title>
+        <p>
+            One description of the system above could be a cup of coffee sitting on a table. Considered as a stock-flow model, 
+            we could say that the stock is the temperature of the coffee<fn>Technically you might say that our stock measures the 
+            amount of heat energy in the coffee, but since we can relate temperature directly to the heat energy, 
+            it is OK (and maybe more intuitive) to use temperature as a measurement in its place.</fn> (in degrees Celsius), 
+            and the only flow is the outflow of heat (measured in degrees Celsius per minute).
+        </p>  
+        <p>
+            In this example, the outflow rate will be dependent not only on the value of the stock, but also on
+        
+            <ol>
+                <li>
+                    the outside temperature that the cup of coffee is exposed to. It will cool faster if it's sitting outside in 
+                    cold weather than if it's sitting inside on a counter at room temperature.
+                </li>
+                <li>
+                    the insulation properties of the cup holding the coffee. It will stay warmer longer if it's in a glass container 
+                    than it would if it's in a metal container.
+                </li>
+            </ol>
+        </p>
+        <p>
+            From the perspective of the stock-flow model, these two factors do not fit into any component we've discussed so far. 
+            They are not stocks (quantities that are being added to or taken from) and they are not flows. We define these new 
+            components that we may want to account for in stock-flow models now.
+        </p>
+        
+        <definition>
+            <p>
+                A <term>parameter</term> in a stock-flow model is a quantity that affects one or more flow rate in the model, 
+                and is constant for a fixed model.
+            </p>  
+        </definition>
+        
+        <p>
+          In the coffee cup example, the outside temperature and the insulation properties of the cup are both parameters. 
+          These values don't change for a fixed model (if the coffee cup is outside in a ceramic mug, these values are 
+          constants), but their values nevertheless will impact how the temperature behaves. In a system diagram, we will 
+          represent parameters with rectangles, and indicate the flow rate they impact with a dependency link.
+          Here is an example of an updated system diagram for the coffee cup example.
+        </p>
+        <figure xml:id="fig-sys-diagram-param">
+            <interactive label="ch2-interactive-sys-diagram-param" platform="doenetml" width="100%" aspect="2:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch2-doenet-sys-diagram-param.doenetml"/>
+                </slate>
+            </interactive>
+            <caption>
+                A system diagram for the coffee cup example, including the insulation properties of the cup as well as the 
+                outside temperature as parameters which both affect the heat loss rate.
+            </caption>
+        </figure>
+      </paragraphs>
+
+      <!-- <xi:include href="./activities/act_02_04.ptx" xpointer="worksheet/2"/> -->
+       
+      <paragraphs>
+        <title>Back to work...</title>
+        <p>
+            Working with parameters is important because it allows us to analyze multiple different models at once. 
+            For example, suppose we are interested in installing solar panels as an energy source for our home. 
+            We will use the stock-flow model represented by the system diagram below.
+        </p>
+        <figure xml:id="fig-sys-diagram-solar">
+            <interactive label="ch2-interactive-sys-diagram-solar" platform="doenetml" width="100%" aspect="2:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch2-doenet-sys-diagram-solar.doenetml"/>
+                </slate>
+            </interactive>
+            <caption>
+                A system diagram for the amount of energy stored in solar panels, with an inflow from the sun, 
+                outflow from energy use, and a parameter of the panels' area which impacts the inflow rate from the sun.
+            </caption>
+        </figure>
+        <p>
+            The coverage area of the solar panels is a parameter because it is a constant once we install them, 
+            but it impacts the inflow rate of energy that we receive from the sun. We would like to determine the value 
+            of this parameter that results in an equilibrium value of <m>0</m> for our stock.
+        </p>
+        <p>
+            Suppose that the outflow rate of energy from the panels is constant at <m>1,400</m> watts. 
+            The inflow rate (<m>R</m>) from the sun is dependent on both the amount of energy in the panels (<m>E</m>), 
+            measured in watt-hours (Wh), and the area of the panels (<m>A</m>), measured in square meters, according to the 
+            equation 
+            <me>R= \frac{A(1,000 - E)}{2}</me>.
+        </p>
+        <p>
+            We also know that the stock is in equilibrium when the inflow rate is equal to the outflow rate, 
+            or as an equation, when
+        
+            <me>1,400 = \frac{A(1,000 - E)}{2}</me>.
+        </p>
+        <p>
+            Unlike in the last section, our equation has two unknown quantities, <m>A</m> and <m>E</m>. But we also know 
+            that we'd like the equilibrium value to be <m>E=0</m>. Substituting this value into our equation gives 
+            <me>1,400 = \frac{A \cdot 1,000}{2}</me>,
+            which can be solved to find that <m>A=2.8</m> square meters. Using the parameter <m>A</m> in our analysis helps 
+            us make an educated decision about the solar panels in order to achieve a certain behavior from the system.
+        </p>
+      </paragraphs>
+
+      <!-- <xi:include href="./activities/act_02_04.ptx" xpointer="worksheet/3"/> -->
+       
+      <conclusion><title>Reflection</title>
+        <p>
+            Let's reflect on what we've learned, and what we still have questions about.
+        
+            <ol>
+                <li>
+                    How are parameters different from stocks and flows? 
+                </li>
+                <li>
+                    Why might parameters be important to include in a stock-flow model?
+                </li>
+            </ol>
+        </p>
+      </conclusion>
+      <conclusion><title>Section Checkpoint</title>
+        <p>
+            Link here to Doenet course.
+        </p>
+      </conclusion>
 
 </section>

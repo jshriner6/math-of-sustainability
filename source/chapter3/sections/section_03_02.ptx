@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Resilience</title>
+    <introduction>
+        <p>
+            It is important to acknowledge that our systems are susceptible to changes that we may not be able to predict. 
+            Operating systems fail, natural disasters occur, and relationships end. Therefore, an important consideration in 
+            questions of sustainability is that of resilience: to what extent is a system able to continue functioning after 
+            sudden or unexpected damage? The purpose of this activity is to introduce two properties that we can compute to 
+            quantify the resilience of a network modeled as a graph.
+        </p>
+        <p>
+            The objectives of this activity are that you can...
+        </p>
+    </introduction>
+    <objectives>
+        
+          <ol>
+            <li>compute the density of a graph.</li>
+            <li>compute the clustering coefficient of a vertex.</li>
+            <li>compute the vertex and edge connectivity of a graph.</li>
+          </ol>
+    </objectives>
+    <paragraphs><title>Let's get to work...</title>
+        <p>
+            <q>Resilience</q> can reference various things in science and daily life. In this section, we use the term 
+            <q>resilience</q> as a measure of how connected a network is: to what extent can a network continue to function 
+            as intended in the midst of network connection failures? A specific class of graphs, which we define now, 
+            will be important in our discussion.
+        </p>
+        <definition>
+            <p>
+                A <term>complete graph</term> is a graph in which every pair of vertices is connected by an edge.
+            </p>
+        </definition>
+        <p>
+            From the perspective of connectivity, complete graphs are as connected as a graph can be. Below are examples of 
+            complete graphs on <m>3</m>, <m>4</m>, and <m>5</m> vertices, respectively.
+        </p>
+        <figure xml:id="fig-complete-graph">
+            <interactive label="ch3-interactive-complete-graph" platform="doenetml" width="100%" aspect="2:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch3-doenet-complete-graph.doenetml"/>
+                </slate>
+            </interactive>
+            <caption>
+                Complete graphs with <m>3</m>, <m>4</m>, and <m>5</m> vertices.
+            </caption>
+        </figure>
+    </paragraphs>
+
+    <!-- <xi:include href="./activities/act_03_02.ptx" xpointer="worksheet/1"/> -->
+
+    <paragraphs><title>Back to work...</title>
+        <p>
+            An intuitive way to describe how connected a network is would be to measure how closely the graph that 
+            represents it resembles a complete graph. One such measurement is called the <term>density</term> of the graph.
+        </p>
+        <definition>
+            <p>
+                The <term>density</term> of a graph <m>G</m> is the ratio
+                <me>\rho(G) = \frac{\text{number of edges of }G}{\text{number of possible edges}}</me>.
+            </p>
+        </definition>
+        <p>
+            The density of a graph will be a number between <m>0</m> and <m>1</m>, which can be thought of as the percentage 
+            of possible edges that the graph contains. Since we previously found a formula for the number of edges the 
+            complete graph with <m>n</m> vertices contains, the density of a graph <m>G</m> with <m>n</m> vertices can be 
+            re-written as 
+            <me>\rho(G) = \frac{\text{number of edges of }G}{0.5n(n-1)}</me>.
+        </p>
+    </paragraphs>
+
+    <!-- <xi:include href="./activities/act_03_02.ptx" xpointer="worksheet/2"/> -->
+
+    <paragraphs><title>Back to work...</title>
+        <p>
+            While a graph's density does give us some useful measure of how connected a graph is, we must be careful to 
+            understand what this number does (and does not) tell us, and that we can rarely draw conclusions from this number 
+            alone. 
+        </p>
+        <p>
+            For example, suppose graph <m>H</m> from above represents a signal network. The vertices are routers, and there 
+            is an edge between two vertices if those two routers can share a signal. From our density computation of <m>0.7</m>, 
+            it might be tempting to say that this network is <q>very connected</q>. But from the perspective of resilience, 
+            how accurate is this statement? Most routers in the system could go down without impacting the ability of the other 
+            routers to communicate with one another. However, there is one router (can you identify which one?) whose failure 
+            would result in other routers being disconnected from one another. This is not ideal for resilient networks.
+        </p>
+        <p>
+            The important thing to note here is that a graph's density is a <term>global</term> measurement. That is, it is a 
+            number that says something about the graph's edges as a whole, but does not say anything about how they are 
+            distributed throughout the graph (which ultimately will determine the resilience of a network in situations 
+            such as the previous paragraph). In order to describe how edges are distributed throughout a graph, we need a 
+            <term>local</term> measurement. That is, a number that describes a graph's edges near a specific vertex. 
+        </p>
+        <definition>
+            <p>
+                The <term>clustering coefficient</term> of a vertex <m>v</m> is the ratio
+                <me>\kappa(v) = \frac{\text{number of edges between neighbors of }v}{\text{number of possible edges between neighbors of }v}</me>.
+                If the degree of <m>v</m> is one or zero, <m>\kappa(v)</m> is defined to be <m>0</m>.
+            </p>
+        </definition>
+        <p>
+            The clustering coefficient of a vertex <m>v</m> will be a number between <m>0</m> and <m>1</m>, 
+            which can be thought of as the percentage of possible edges that the neighbors of <m>v</m> contains. 
+            Assuming the vertex <m>v</m> has degree <m>d</m>, and using the formula for the number of edges the complete g
+            raph with <m>d</m> vertices contains, the clustering coefficient of <m>v</m> can be re-written as 
+            <me>\kappa(v) = \frac{\text{number of edges of between neighbors of }v}{0.5d(d-1)}</me>.
+        </p>
+    </paragraphs>
+
+    <!-- <xi:include href="./activities/act_03_02.ptx" xpointer="worksheet/3"/> -->
+
+    <paragraphs><title>Back to work...</title>
+        <p>
+            The concept of a router failing and disconnecting other routers in the signal network example has a formal 
+            definition in the context of graphs.
+        </p>
+        <definition>
+            <p>
+                The <term>vertex connectivity</term> of a graph is the minimum number of vertices whose removal 
+                (along with their associated edges) would disconnect the graph.
+            </p>
+        </definition>
+        <p>
+            The vertex connectivity of graph <m>H</m> from our previous examples is <m>1</m>, because there is a single 
+            vertex that can be removed which disconnects the graph. There is also an analagous definition for the removal 
+            of edges.
+        </p>
+        <definition>
+            <p>
+                The <term>edge connectivity</term> of a graph is the minimum number of edges whose removal would 
+                disconnect the graph.
+            </p>
+        </definition>
+    </paragraphs>
+
+    <!-- <xi:include href="./activities/act_03_02.ptx" xpointer="worksheet/4"/> -->
+
+    <conclusion><title>Reflection</title>
+        <p>
+            Let's reflect on what we've learned, and what we still have questions about.
+        
+            <ol>
+                <li>
+                    Describe the different ways that we can measure the extent to which a graph is connected.
+                </li>
+                <li>
+                    In what sense does measuring the connectivity of a graph tell us about the resilience of a network?
+                </li>
+            </ol>
+        </p>
+      </conclusion>
+      <conclusion><title>Section Checkpoint</title>
+        <p>
+            Link here to Doenet course.
+        </p>
+      </conclusion>
+      
+</section>

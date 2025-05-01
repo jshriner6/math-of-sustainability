@@ -1,0 +1,20 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_xgyvNB4c4cYheuGql8DPn/_u63VTxD6wcx67etxYyiRX -->
+
+<graph size="full" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false" xmax="18" xmin="-18" ymax="6" ymin="-6" aspectRatio="3/1">
+      <rectangle width="3" height="3" draggable="false" center="(-3,1.5)"/>
+      <vector tail="(0,1.5)" displacement="(4,0)" draggable="false"/>
+      <vector tail="(7,1.5)" displacement="(4,0)" draggable="false"/>
+      <vector tail="(-10,1.5)" displacement="(5,0)" draggable="false"/>
+      <triangle vertices="(4,0) (5.5,3) (7,0)" draggable="false"/>
+      <triangle vertices="(-10,0) (-11.5,3) (-13,0)" draggable="false"/>
+      <rectangle width="5" height="1" draggable="false" center="(-10,-3)" styleNumber="3"/>
+      <circle radius="2" center="(13,1.5)" draggable="false"/>
+      <text anchor="(-3.0,1.75)" draggable="false">Energy in</text>
+      <text anchor="(-3.0,1.25)" draggable="false">Panels</text>
+      <text anchor="(5.5,1.0)" draggable="false">Energy use</text>
+      <text anchor="(-11.5,1.0)" draggable="false">Sun</text>
+      <text anchor="(13.0,1.5)" draggable="false">Sink</text>
+      <text anchor="(-10,-3)" draggable="false">Area</text>
+      <curve styleNumber="2" through="(-10,-2.5) (-11,-1) (-11.5,0)" draggable="false"/>
+      <curve styleNumber="2" through="(-4,0) (-8,-1) (-11.0,0)" draggable="false"/>
+</graph>
