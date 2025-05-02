@@ -1,0 +1,7 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_MksKzOV9213MrOaXLGuDx/_gZMbm56GvRz5mkQvq4o4V -->
+
+<graph  displayYAxisTickLabels="false" showNavigation="false" size="small" xmin="-2" ymin="-4" ymax="7.5">
+      <xlabel>Stock</xlabel>
+      <ylabel>Net Flow</ylabel>
+      <line draggable="false"> y=x-3</line>
+</graph>

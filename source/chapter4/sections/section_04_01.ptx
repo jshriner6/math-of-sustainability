@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Dynamic Models and Feedback</title>
+    <introduction>
+        <p>
+          Real-world stocks are dynamic. They are constantly moving based on many factors within the system that contains it. 
+          Sometimes that movement is less obvious than others, like when a stock is in equilibrium 
+          (i.e., the stock value is constant). However, important sustainability questions arise when stock values change over time. 
+          The purpose of this activity is to practice analyzing stock-flow models to determine common qualitative 
+          behaviors of stock values that are changing.
+        </p>
+        <p>
+            The objectives of this activity are that you can...
+        </p>
+      </introduction>
+      <objectives>
+        
+          <ol>
+            <li>identify and label feedback loops in system diagrams.</li>
+            <li>describe the general qualitative behavior of systems that can result from feedback loops.</li>
+          </ol>
+      </objectives>
+      <paragraphs><title>Let's get to work...</title>
+        <p>
+            We saw in <xref ref="sec-2-3"/> that flow rates in and out of a stock will often vary depending on the stock's 
+            value. This is a critical factor which causes stock values to change over time, so we give it a special name.
+        </p>
+        <definition>
+            <p>
+                In a stock-flow model, a <term>feedback loop</term> is a process in which a stock's value changes the 
+                behavior of a flow rate into or out of that stock.
+            </p>
+        </definition>
+        <p>
+            Using terminology from <xref ref="ch-02"/>, a feedback loop will exist whenever there is a dependency link 
+            between a stock and flow rate into or out of that stock. In this chapter, we will think more carefully 
+            about what that dependency link is, and how it impacts the behavior of the stock. Let's start with an example.
+        </p>
+        <p>
+            Suppose that our stock is the amount of phosphorus in a lake, and that our model has two flows:
+        
+            <ol>
+              <li>An outflow of of phosphorus as water leaves the lake to a stream. This flow rate is proportional to the amount of phosphorus in the lake water (i.e., the more phosphorus in the water, the larger the outflow rate of phosphorus). </li>
+              <li>An inflow of phosphorus as plants and algae decompose. Since phosphorus is a nutrient for plants and algae, this flow rate also increases as the amount of phosphorus in the lake water increases.
+              </li>
+            </ol>
+        </p>
+        <p>
+            How the amount of phosporus changes is dependent on how flow rates are impacted by the stock's value, 
+            which we described verbally. We can also represent this behavior in a system diagram:
+        </p>
+        <figure xml:id="fig-sys-diagram-feedback">
+            <interactive label="ch4-interactive-sys-diagram-feedback" platform="doenetml" width="100%" aspect="3:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-sys-diagram-feedback.doenetml"/>
+                </slate>
+            </interactive>
+            <caption>
+                A system diagram for the amount of phosphorus in a lake including feedback loops involving the inflow of 
+                phosphorus from plants and algae, and the outflow of phosphorus due to lake drainage.
+            </caption>
+        </figure>
+        <p>
+            Let's make some important observations about this new diagram.
+        
+            <ol>
+              <li>
+                We've added plus signs to the dependency links to indicate that an increase in the amount of 
+                phosphorus would increase both the inflow and outflow rates. In general, if an increase in the 
+                stock causes a flow rate to increase, we add a <q><m>+</m></q> to that dependency link. 
+                If an increase in the stock causes a flow rate to decrease, we add a <q><m>-</m></q> to that dependency link.  
+              </li>
+              <li>
+                <p>
+                These dependency links form two different feedback loops which are different in nature. 
+                </p>
+                <ol>
+                  <li>
+                  The feedback loop between the plants/algae rate and the phosphorus stock is called <term>amplifying</term>, 
+                  because an increase in the phosphorus amount causes the inflow rate to increase, which further increases 
+                  the amount of phosporus. In general, a feedback loop is amplifying if an increase in the stock value 
+                  causes the flow rate to change in a way that further reinforces the increase of the stock's value. 
+                  </li>
+                  <li>
+                  The feedback loop between the lake drain rate and the phosphorus stock is called <term>stabilizing</term>, 
+                  because an increase in the phosphorus amount causes the outflow rate to increase, which decreases the 
+                  amount of phosporus. In general, a feedback loop is stabilizing if an increase in the stock value 
+                  causes the flow rate to change in a way that counteracts the stock's value from further increasing. 
+                  </li>
+                </ol>
+               </li>
+            </ol>
+        </p>
+      </paragraphs>
+
+      <!-- <xi:include href="./activities/act_04_01.ptx" xpointer="worksheet/1"/> -->
+
+      <!-- <xi:include href="./activities/act_04_01.ptx" xpointer="worksheet/2"/> -->
+
+      <paragraphs><title>Back to work...</title>
+        <p>
+            In <xref ref="sec-1-3"/> we saw the usefulness of communicating measurements with visual representations. 
+            When analyzing stock-flow models, it is often helpful to use graphs which display a stock's value over time. 
+            The type of graph that is used will depend on the nature of the dynamic model that we are using. 
+            There are two main types of models.
+        </p>
+        <definition>
+            <p>
+                A <term>continuous dynamical system</term> is a system in which stock measurements are made continuously over a 
+                time interval. A <term>discrete dynamical system</term> is a system in which stock measurements are made at 
+                equally spaced time intervals (eg., a measurement is taken once every year).
+            </p>
+        </definition>
+        <p>
+            The visual representation of a stock value over time in a continuous dynamical system is a line graph, while the 
+            visual representation of a stock value over time in a discrete dynamical system is a scatter plot. 
+            This distinction is illustrated for a system which measures a population over time in 
+            <xref ref="fig-cont-vs-discrete"/>
+        </p>
+        <figure xml:id="fig-cont-vs-discrete">
+            <interactive label="ch4-interactive-cont-vs-discrete" platform="doenetml" width="100%" aspect="2:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-cont-vs-discrete.doenetml"/>
+                </slate>
+            </interactive>
+            <caption>
+                On the left, the line graph of a population modeled as a continuous dynamical system. 
+                On the right, a scatter plot of a population modeled as a discrete dynamical system. 
+            </caption>
+        </figure>
+
+        <p>Unless stated otherwise, we will focus our analyses around continuous dynamical systems when sketching graphs of 
+            stock values over time. In this section, we will begin to develop a strategy for translating system diagrams 
+            for continuous systems to line graphs that describe the qualitative behavior of a stock over time 
+            (like whether the stock is increasing or decreasing). In the next sections, we will develop line graphs in more 
+            detail for some common types of models. 
+        </p>
+        <p>
+          As a first example, let's consider a general system diagram of the following form:
+        </p>
+        <figure xml:id="fig-sys-diagram-amplifying">
+            <interactive label="ch4-interactive-sys-diagram-amplifying" platform="doenetml" width="100%" aspect="3:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-sys-diagram-amplifying.doenetml"/>
+                </slate>
+            </interactive>
+            <caption>
+                A system diagram which contains one inflow and one outflow, both of which are part of amplifying feedback loops.
+            </caption>
+        </figure>
+        <p>
+            The diagram indicates that an increase in stock increases the inflow, and an increase in stock decreases the 
+            outflow. Both of these feedback loops are amplifying. How does a stock in such a system behave over time? 
+            There is not a single answer to this question, but we can begin to answer it by remembering what 
+            ultimately determines whether a stock value increases or decreases: 
+        </p>
+        <me>\text{net flow} = \text{total inflow}- \text{total outflow}</me>
+        <p>
+            The amplifying feedback loops tell us how the flow rates change as the stock value changes. As stock increases, 
+            the inflow rate increases (<m>\nearrow</m>), and the outflow rate decreases (<m>\searrow</m>). so we can combine 
+            this information to determine how the net flow rate changes as the stock value changes:
+        </p>
+        <me>\underset{\nearrow}{\text{total inflow}} - \underset{\searrow}{\text{total outflow}} </me>
+        <p>
+            An increase in the first number in the difference and a decrease in the second number in the difference both 
+            cause the difference to increase. That is, as the stock value increases, the netflow increases. Here is an 
+            example of representing such a relationship with a line graph:
+        </p>
+        <figure xml:id="fig-net-flow-amplifying">
+            <interactive label="ch4-interactive-net-flow-amplifying" platform="doenetml" width="100%" aspect="2:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-net-flow-amplifying.doenetml"/>
+                </slate>
+            </interactive>
+            <caption>
+                A graph with stock on the horizontal axis and net flow on the vertical axis. It shows that as the stock value 
+                increases, so does the net flow rate.
+            </caption>
+        </figure>
+        <p>
+            Take careful note of the axis labels: <q>Stock</q> and <q>Net Flow</q>. This visual shows us that as stock values 
+            increase (as we move to the right on the horizontal axis), net flow values also increase 
+            (we move up on the vertical axis). 
+        </p>
+        <p>
+            This graph will prove to be extremely valuable in determining the behavior of the stock with respect to time, 
+            and shows us that the behavior will be dependent on the stock's initial value. Let's consider a few cases.
+            <ol>
+                <li>
+                  If the stock's initial value is <m>1</m>, then the graph shows us that the net flow will be negative. 
+                  This meanse the stock will decrease. Since the net flow remains negative for stock values to the left of 
+                  <m>1</m>, the stock will continue to decrease as time moves on. 
+                  <figure xml:id="fig-net-flow-amplifying-dec">
+                    <interactive label="ch4-interactive-net-flow-amplifying-dec" platform="doenetml" width="100%" aspect="2:1">
+                        <slate surface="doenetml">
+                            <xi:include parse="text" href="doenet/ch4-doenet-net-flow-amplifying-dec.doenetml"/>
+                        </slate>
+                    </interactive>
+                    <caption>
+                        A graph with stock on the horizontal axis and net flow on the vertical axis. 
+                        It shows that if the stock value is one, the net flow will be negative, which means the stock will 
+                        decrease from this initial stock value.
+                    </caption>
+                  </figure>
+                </li>
+                <li>
+                  If the stock's initial value is <m>5</m>, then the graph shows us that the net flow will be positive. 
+                  This meanse the stock will increase. Since the net flow remains positive for stock values to the r
+                  ight of <m>5</m>, the stock will continue to increase as time moves on. 
+                  <figure xml:id="fig-net-flow-amplifying-inc">
+                    <interactive label="ch4-interactive-net-flow-amplifying-inc" platform="doenetml" width="100%" aspect="2:1">
+                        <slate surface="doenetml">
+                            <xi:include parse="text" href="doenet/ch4-doenet-net-flow-amplifying-inc.doenetml"/>
+                        </slate>
+                    </interactive>
+                    <caption>
+                        A graph with stock on the horizontal axis and net flow on the vertical axis. 
+                        It shows that if the stock value is five, the net flow will be positive, which means the stock 
+                        will increase from this initial stock value.
+                    </caption>
+                  </figure>
+                </li>
+                <li>
+                  If the stock's initial value is <m>3</m>, then the graph shows us that the net flow will be zero. 
+                  This means the stock is in equilibrium, so it's value will not change. The stock will continue to have 
+                  the equilibrium value <m>3</m> as time moves on. 
+                  <figure xml:id="fig-net-flow-amplifying-eq">
+                    <interactive label="ch4-interactive-net-flow-amplifying-eq" platform="doenetml" width="100%" aspect="2:1">
+                        <slate surface="doenetml">
+                            <xi:include parse="text" href="doenet/ch4-doenet-net-flow-amplifying-eq.doenetml"/>
+                        </slate>
+                    </interactive>
+                    <caption>
+                        A graph with stock on the horizontal axis and net flow on the vertical axis. It shows that if the 
+                        stock value is three, the net flow will be zero, which means the stock will be in equilibrium.
+                    </caption>
+                  </figure>
+                </li>
+              </ol>
+        </p>
+        <p>
+            Take a moment to use the interactive below to change the initial stock value on the horizontal axis, 
+            and see the resulting stock-time graph. Be sure to test the values mentioned in the cases above to verify 
+            the descriptions given.
+        </p>
+        <figure xml:id="fig-net-flow-to-stock">
+            <interactive label="ch4-interactive-net-flow-to-stock" platform="doenetml" width="100%" aspect="2:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-net-flow-to-stock.doenetml"/>
+                </slate>
+            </interactive>
+            <caption>
+                On the left, a sample line graph showing the net flow rate increasing as stock value increases, with an 
+                equilibrium stock value of three. On the right, the corresponding line graph of the stock's value over 
+                time using the indicated initial value from the graph on the left.
+            </caption>
+        </figure>
+
+        <!-- <xi:include href="./activities/act_04_01.ptx" xpointer="worksheet/3"/> -->
+
+        <p>
+            While we analyzed just two specific models here, the general strategy developed is a useful one:
+          
+            <ol>
+                <li>
+                    Determine how the net flow rate changes as the stock value changes, and represent this relationship as a 
+                line graph.
+                </li>
+                <li>
+                    Use the line graph to describe how a stock's value will change for various initial values of the stock.
+                </li>
+                <li>
+                    Translate your descriptions to a line graph of the stock over time.
+                </li>
+            </ol>
+        </p>
+      </paragraphs>
+
+      <conclusion><title>Reflection</title>
+        <p>
+            Let's reflect on what we've learned, and what we still have questions about.
+        
+            <ol>
+                <li>
+                    In a stock-flow model, what is a feedback loop, and why is it important in determining a stock's behavior 
+                    over time?
+                </li>
+                <li>
+                    What is the difference between a continuous dynamical system and a discrete dynamical system?
+                </li>
+                <li>
+                    What are the similarities and differences in a stock's behavior over time in models with amplifying 
+                    feedback loops versus stabilizing feedback loops?
+                </li>
+            </ol>
+        </p>
+      </conclusion>
+      <conclusion><title>Section Checkpoint</title>
+        <p>
+            Link here to Doenet course.
+        </p>
+      </conclusion>
+
+</section>

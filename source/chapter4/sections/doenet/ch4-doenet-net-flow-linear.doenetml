@@ -1,0 +1,18 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_cxBBhM7H0sPEBhXusYiY8/_okYpS55OmYju6ArnVsvxO -->
+
+<sideBySide>
+        <graph  displayYAxisTickLabels="false" showNavigation="false" size="small" xmin="-6" ymin="-4" ymax="7.5">
+          <xlabel>Stock</xlabel>
+          <ylabel>Net Flow</ylabel>
+          <line draggable="false"> y=x-3</line>
+          <point draggable="false" styleNumber="2">(3,0)</point>
+         </graph>
+
+        <graph  displayYAxisTickLabels="false" showNavigation="false" size="small" xmin="-6" ymin="-4" ymax="7.5">
+          <xlabel>Stock</xlabel>
+          <ylabel>Net Flow</ylabel>
+          <line draggable="false"> y=-x+4</line>
+          <point draggable="false" styleNumber="2">(4,0)</point>
+         </graph>
+</sideBySide>
+

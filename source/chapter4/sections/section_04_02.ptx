@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>The Exponential Model</title>
+    <introduction>
+        <p>
+            There is a particular dependency link relationship that occurs frequently in real-world systems. The purpose of 
+            this activity is to understand the behavior of stocks whose flow rates have this type of dependency.
+        </p>
+        <p>
+            The objectives of this activity are that you can...
+        </p>
+      </introduction>
+      <objectives>
+        
+          <ol>
+            <li>
+                describe the characteristics of exponential behavior.
+            </li>
+            <li>
+                identify when feedback loops will result in exponential behavior of a stock over time, and sketch the general 
+                shape of that behavior.
+            </li>
+          </ol>
+      </objectives>
+      <paragraphs><title>Let's get to work...</title>
+        <p>
+            A very common behavior exhibited of stocks in many systems (at least for a period of time) is 
+            <em>exponential behavior</em>. To understand this behavior, let's look at some examples of measurements over 
+            time that behave this way, and review calculating <term>absolute change</term> and <term>relative change</term> 
+            from <xref ref="sec-1-2"/>. 
+        </p>
+        <p>
+          Imagine that <xref ref="tab-ch4-exp-growth"/> is a measurement of a population (in millions of individuals) 
+          after <m>t</m> years.
+        </p>
+        <table xml:id="tab-ch4-exp-growth">
+            <tabular>
+                <row header="yes" bottom="major">
+                    <cell><m>t</m></cell>
+                    <cell><m>P(t)</m></cell>
+                </row>
+                <row>
+                    <cell><m>0</m></cell>
+                    <cell><m>2</m></cell>
+                </row>
+                <row>
+                    <cell><m>1</m></cell>
+                    <cell><m>7</m></cell>
+                </row>
+                <row>
+                    <cell><m>2</m></cell>
+                    <cell><m>24.5</m></cell>
+                </row>
+                <row>
+                    <cell><m>3</m></cell>
+                    <cell><m>85.75</m></cell>
+                </row>
+                <row>
+                    <cell><m>4</m></cell>
+                    <cell><m>300.125</m></cell>
+                </row>
+            </tabular>
+        </table>
+
+        <!-- <xi:include href="./activities/act_04_02.ptx" xpointer="worksheet/1"/> -->
+
+        <p>
+            Let's look at one more example. Imagine that <xref ref="tab-ch4-exp-decay"/> is a measurement of the amount 
+            nitrogen (in kilograms) left in a soil sample after <m>t</m> years. 
+        </p>
+
+        <table xml:id="tab-ch4-exp-decay">
+            <tabular>
+                <row header="yes" bottom="major">
+                    <cell><m>t</m></cell>
+                    <cell><m>A(t)</m></cell>
+                </row>
+                <row>
+                    <cell><m>0</m></cell>
+                    <cell><m>3</m></cell>
+                </row>
+                <row>
+                    <cell><m>1</m></cell>
+                    <cell><m>1.5</m></cell>
+                </row>
+                <row>
+                    <cell><m>2</m></cell>
+                    <cell><m>0.75</m></cell>
+                </row>
+                <row>
+                    <cell><m>3</m></cell>
+                    <cell><m>0.375</m></cell>
+                </row>
+                <row>
+                    <cell><m>4</m></cell>
+                    <cell><m>0.1875</m></cell>
+                </row>
+            </tabular>
+        </table>
+
+        <!-- <xi:include href="./activities/act_04_02.ptx" xpointer="worksheet/2"/> -->
+      </paragraphs>
+
+      <paragraphs><title>Back to work...</title>
+        <definition>
+            <p>
+                An <term>exponential relationship</term> is a relationship whose relative change during any single unit 
+                of time is constant. If the constant relative change is greater than one, we call it 
+                <term>exponential growth</term>. If the the relative change is between zero and one, we call it 
+                <term>exponential decay</term>.
+            </p>
+        </definition>
+        <p>
+            As we saw in the table calculuations above, exponential relationships can be good for describing models 
+            that either
+        
+            <ul>
+              <li>Increase or decrease very rapidly, or</li>
+              <li>Increase or decrease very gradually.</li>
+            </ul>
+        </p>
+        <p>
+            A <term>transformation</term> of a line graph is a new line graph obtained from stretching, shifting, or 
+            reflecting the original line graph. Since transformations of exponential relationships still exhibit the 
+            general properties described above, we will also refer to transformations of exponentials relationships as 
+            exhibiting exponential behavior. It will be useful to be able to visualize the line graphs representing this 
+            behavior.
+        </p>
+      </paragraphs>
+
+      <!-- <xi:include href="./activities/act_04_02.ptx" xpointer="worksheet/3"/> -->
+
+      <paragraphs><title>Back to work...</title>
+        <p>
+            Now we will look at how exponential relationships arise in stock-flow models. Suppose we have a stock 
+            <m>S</m> with a single inflow of <m>2S</m> units per second. If we assume an initial stock value of <m>100</m> 
+            units, then after the first second we would have an inflow of <m>2\cdot 100 =200</m> units, meaning our total 
+            stock after the first second would be <m>300</m> units. If we continue to take measurements after each 
+            second<fn>Note that we are treating this as a discrete system, in which measurements are taken at equally 
+            spaced time intervals. This is opposed to a continuous system, in which measurements are taken continuously 
+            over a time interval.</fn>, we would have the measurements recorded in <xref ref="tab-ch4-exp-stock"/> after the 
+            first four seconds.
+          </p>
+          <table xml:id="tab-ch4-exp-stock">
+            <tabular>
+                <row header="yes" bottom="major">
+                    <cell><m>t</m></cell>
+                    <cell><m>S(t)</m></cell>
+                </row>
+                <row>
+                    <cell><m>0</m></cell>
+                    <cell><m>100</m></cell>
+                </row>
+                <row>
+                    <cell><m>1</m></cell>
+                    <cell><m>300</m></cell>
+                </row>
+                <row>
+                    <cell><m>2</m></cell>
+                    <cell><m>900</m></cell>
+                </row>
+                <row>
+                    <cell><m>3</m></cell>
+                    <cell><m>2,700</m></cell>
+                </row>
+                <row>
+                    <cell><m>4</m></cell>
+                    <cell><m>8,100</m></cell>
+                </row>
+            </tabular>
+          </table>
+          <p>
+            This table should remind us of <xref ref="tab-ch4-exp-growth"/> that we analyzed earlier: the stock's value is 
+            increasing rapidly, but if we compute the relative change between each time interval we get the constant <m>3</m>. 
+            The inflow to this stock increases in an exponential way! This behavior is the result of the constant 
+            multiplication of the stock's value <m>S</m> by the factor <m>2</m>. Any flow rate of the form <m>cS</m>, 
+            where <m>c</m> is a non-zero constant, will result in exponential behavior of the stock's value. 
+            If the flow rate has the form <m>cS+b</m>, where <m>b</m> is a non-zero constant, this will result in a 
+            transformation of exponential behavior. Because of this, we give flow rates of this form a special name.
+          </p>
+          <definition>
+            <p>
+                If a stock <m>S</m> has a flow rate of the form <m>cS+b</m>, where <m>c</m> and <m>b</m> are constants, 
+                we say that flow rate is <term>linear</term>.
+            </p>
+          </definition>
+          <p>
+            As we've just seen, linear flow rates in which the constant <m>c</m> is non-zero result in exponential behavior 
+            of a stock's value. We saw in the previous section that it is the net flow rate of a stock that determines a 
+            stock's behavior over time, so the following fact is relevant.
+          </p>
+          <p>
+            <em>If a stock's inflow and outflow rates are linear, then its net flow rate is also linear.</em>
+          </p>
+          <p>
+            Let's return to our example of the stock <m>S</m> with inflow rate <m>2S</m>, and suppose also there is a single 
+            outflow of <m>3S-6</m> units per second. Then the net flow rate for the stock is 
+          </p>
+          <me>2S-(3S-6) = -S+6 \text{ units per second}</me>.
+          <p>
+            It is important to note that the negative sign in front of <m>S</m> does not mean that the net flow is 
+            always negative! It depends on <m>S</m>:
+          
+              <ul>
+                <li>If <m>S=5</m>, the net flow will be positive.</li>
+                <li>If <m>S=7</m>, the net flow will be negative.</li>
+                <li>If <m>S=6</m>, the net flow will be <m>0</m>. That is, the stock is in equilibrium.</li>
+              </ul>
+          </p>
+          <p>
+            This is where it is helpful to have a line graph of the net flow rate with respect to the stock's value. 
+            In our example this would produce a graph that looks familiar from 
+            <xref ref="sec-4-1"/>:
+
+            <figure xml:id="fig-net-flow-dec">
+                <interactive label="ch4-interactive-net-flow-dec" platform="doenetml" width="100%" aspect="2:1">
+                    <slate surface="doenetml">
+                        <xi:include parse="text" href="doenet/ch4-doenet-net-flow-dec.doenetml"/>
+                    </slate>
+                </interactive>
+                <caption>
+                    A line graph showing that the net flow decreases as the stock value increases.
+                </caption>
+            </figure>
+          </p>
+      </paragraphs>
+
+      <!-- <xi:include href="./activities/act_04_02.ptx" xpointer="worksheet/4"/> -->
+
+      <paragraphs><title>Back to work...</title>
+        <p>
+            We have now discussed some general characteristics of feedback loops, and also the specific case of 
+            exponential behavior. 
+
+            <!-- <xi:include href="./activities/act_04_02.ptx" xpointer="worksheet/4"/> -->
+        </p>
+      </paragraphs>
+
+      <conclusion><title>Reflection</title>
+        <p>
+            Let's reflect on what we've learned, and what we still have questions about.
+        
+            <ol>
+                <li>
+                    What are the characteristics of a stock that changes exponentially over time?
+                </li>
+                <li>
+                    How do you know when feedback loops will result in exponential behavior of a stock?
+                </li>
+                <li>
+                    How do you know when exponential behavior will be stabilizing or amplifying? What's the difference 
+                    between these two types of behavior visually on a graph of the stock's value over time?
+                </li>
+              </ol>
+        </p>
+      </conclusion>
+      <conclusion><title>Section Checkpoint</title>
+        <p>
+            Link here to Doenet course.
+        </p>
+      </conclusion>
+
+
+</section>

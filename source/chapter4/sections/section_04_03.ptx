@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>The Logistic Model</title>
+    <introduction>
+        <p>
+          In the last section we discussed linear flow rates, and the specific cases which result in exponential 
+          behavior of a stock over time. It is possible for flow rates to be non-linear, which in general result in more 
+          complicated stock behavior. The purpose of this activity is to introduce a common non-linear flow rate, and tools 
+          for analyzing the behavior of these models.
+        </p>
+        <p>
+            The objectives of this activity are that you can...
+        </p>
+    </introduction>
+      <objectives>
+        
+          <ol>
+            <li>
+                describe the similarities and differences of the exponential and logistic models.
+            </li>
+            <li>
+                analyze the types of feedback present in a logistic model.
+            </li>
+            <li>
+                sketch a graph of a stock's value over time for a stock that follows a logistic model.
+            </li>
+          </ol>
+      </objectives>
+      <paragraphs><title>Let's get to work...</title>
+        <p>
+            In the previous section we introduced exponential models, which arise when the net flow rate for a stock is 
+            linear (and not constant). There is a certain level of simplicity to these models because 
+        
+            <ol>
+                <li>
+                    There is always a single equilibrium value for the stock (when the linear net flow rate is equal to <m>0</m>), 
+                    and
+                </li>
+                <li>
+                    The overall feedback is always either amplifying or stabilizing (depending on whether the linear net flow 
+                    rate increases or decreases as the the stock value increases).
+                </li>
+            </ol>
+        </p>
+        <p>
+            These observations are illustrated in <xref ref="fig-net-flow-linear"/>.
+        </p>
+        <figure xml:id="fig-net-flow-linear">
+            <interactive label="ch4-interactive-net-flow-linear" platform="doenetml" width="100%" aspect="2:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-net-flow-linear.doenetml"/>
+                </slate>
+            </interactive>
+            <caption>
+                The graph on the left is for a stock that has a single equilibrium value of <m>3</m>, and the overall 
+                feedback is always amplifying. The graph on the right is for a stock that has a single equilibrium value of 
+                <m>4</m>, and the overall feedback is always stabilizing.
+            </caption>
+        </figure>
+        <p>
+            If we consider flow rates that are not linear, these observations are no longer true. In general, 
+            there could be multiple equilibrium values of the stock, and the overall feedback affect may depend on the 
+            stock's value. While this makes the model more complicated, these complexities may be desired in order to obtain 
+            a more accurate model.  
+        </p>
+        <p>
+            Let's consider modeling a population that is increasing over time. A good first model would be to use an 
+            amplifying exponential model, such as <m>\text{Net Flow} = 2P</m>. This does a nice job at capturing the 
+            tendency for reproduction (Net Flow) to increase with an increase in Population (P). Depending on the purpose 
+            of your model, however, there may be one large flaw. With a positive initial value, this is an amplifying 
+            exponential model which is increasing, and the line graph for the population over time would look something 
+            like <xref ref="fig-exp-growth"/>.
+        </p>
+        <figure xml:id="fig-exp-growth">
+            <interactive label="ch4-interactive-exp-growth" platform="doenetml" width="100%" aspect="2:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-exp-growth.doenetml"/>
+                </slate>
+            </interactive>
+            <caption>
+                The line graph of a population over time which grows exponentially.
+            </caption>
+        </figure>
+        <p>
+            While the pattern of increase may be accurate at first, this graph shows that the population will continue to 
+            increase more and more rapidly without end. It does not account for factors such as limited resources, 
+            which at some point should start to have a stabilizing affect on the population. The logistic model takes this 
+            into account.
+        </p>
+        <definition>
+            <p>
+                A stock-flow model follows a <term>logistic model</term> if the net flow rate of the stock <m>S</m> has 
+                the form
+                <me>\text{Net Flow } = rS\left(1-\frac{S}{C}\right)</me>.
+                The constant <m>r</m> represents the growth rate of the stock when the stock value is very small. 
+                The constant <m>C</m> represents the carrying capacity (the maximum population that the environment can sustain).
+            </p>
+        </definition>
+        <p>
+            Note that while the logistic model has an amplifying factor (<m>rS</m>), it also has a stabilizing 
+            factor <m>\left(1-\frac{S}{C}\right)</m>. That is, as <m>S</m> increases, <m>rS</m> also increases, 
+            but <m>\left(1-\frac{S}{C}\right)</m> decreases. We'll analyze the overall affect of these competing factors now.
+        </p>
+        <p>
+            Suppose we have a stock-flow model of a population <m>P</m> with a single inflow of 
+            <m>0.5P\left(1-\frac{P}{100}\right)</m>, and no outflow. That is, the population's net flow rate is 
+            <me>\text{Net Flow } =0.5P\left(1-\frac{P}{100}\right)</me>.
+            The growth rate when the population is very small is <m>0.5</m>, and the carrying capacity of this population is
+             <m>100</m> individuals. The net flow rate is non-linear, and the graph of the net flow rate with respect to the 
+             population (stock) value is given in <xref ref="fig-net-flow-logistic"/>.
+        </p>
+        <figure xml:id="fig-net-flow-logistic">
+            <interactive label="ch4-interactive-net-flow-logistic" platform="doenetml" width="100%" aspect="2:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-net-flow-logistic.doenetml"/>
+                </slate>
+            </interactive>
+            <caption>
+                The graph of the net flow rate of a population with respect to the population size. 
+                The net flow rate increases for population values less than fifty, and decreases for population values 
+                greater than fifty.
+            </caption>
+        </figure>
+      </paragraphs>
+
+      <!-- <xi:include href="./activities/act_04_03.ptx" xpointer="worksheet/1"/> -->
+
+      <paragraphs><title>Back to work...</title>
+        <p>
+            Our final goal will be to sketch a qualitatively accurate line graph of a stock's value over time whose behavior 
+            is directed by the logistic model. 
+        </p>
+
+        <!-- <xi:include href="./activities/act_04_03.ptx" xpointer="worksheet/2"/> -->
+
+        <p>
+            We now have all the pieces needed to sketch a graph of a population over time which follows a logistic model. 
+            Let's start with the example from <xref ref="fig-net-flow-logistic"/>, whose net flow was given by 
+            <m>\text{Net Flow }=0.5P\left(1-\frac{P}{100}\right)</m>.
+        </p>
+
+        <!-- <xi:include href="./activities/act_04_03.ptx" xpointer="worksheet/3"/> -->
+
+        <p>
+            Let's continue to practice modeling using the logistic model. 
+        </p>
+
+        <!-- <xi:include href="./activities/act_04_03.ptx" xpointer="worksheet/4"/> -->
+
+        <remark><title>Note on Carrying Capacity</title>
+            <p>
+                Do you wonder where the carrying capacity for a population comes from? It's possible to estimate this capacity 
+                with some initial measurements of a stock's value over time. If this is something you are interested in 
+                determining as part of a case study, please ask!
+            </p>
+        </remark>
+
+      </paragraphs>
+
+      <conclusion><title>Reflection</title>
+        <p>
+            Let's reflect on what we've learned, and what we still have questions about.
+        
+            <ol>
+                <li>
+                    How does the logistic model compare to the exponential model?
+                </li>
+                <li>
+                    What are the equilibrium values in a logistic model?
+                </li>
+                <li>
+                    What is the general behavior of a stock over time that follows the logistic model?
+                </li>
+            </ol>
+        </p>
+      </conclusion>
+      <conclusion><title>Section Checkpoint</title>
+        <p>
+            Link here to Doenet course.
+        </p>
+      </conclusion>
+</section>

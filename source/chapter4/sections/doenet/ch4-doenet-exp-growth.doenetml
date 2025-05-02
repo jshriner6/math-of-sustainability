@@ -1,0 +1,7 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_cxBBhM7H0sPEBhXusYiY8/_okYpS55OmYju6ArnVsvxO -->
+
+<graph displayXAxisTickLabels="false" displayYAxisTickLabels="false" showNavigation="false" size="small" xmin="-2" xmax="3" ymin="-4" ymax="100">
+      <xlabel>Time</xlabel>
+      <ylabel>Population</ylabel>
+      <function>e^(2x)</function>
+</graph>

@@ -1,0 +1,19 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_MksKzOV9213MrOaXLGuDx/_gZMbm56GvRz5mkQvq4o4V -->
+
+<sideBySide>
+        <graph showNavigation="false" size="small" xmin="-1.75" xmax="4.5" ymax="60" ymin="-2">
+          <xlabel>Time</xlabel>
+          <ylabel>Population</ylabel>
+          <function domain="[0,5)">e^x</function>
+         </graph>
+
+        <graph showNavigation="false" size="small" xmin="-1.75" xmax="4.5" ymax="60" ymin="-2">
+          <xlabel>Time</xlabel>
+          <ylabel>Population</ylabel>
+          <point draggable="false">(0,1)</point>
+          <point draggable="false">(1,e)</point>
+          <point draggable="false">(2,e^2)</point>
+          <point draggable="false">(3,e^3)</point>
+          <point draggable="false">(4,e^4)</point>
+         </graph>
+</sideBySide>

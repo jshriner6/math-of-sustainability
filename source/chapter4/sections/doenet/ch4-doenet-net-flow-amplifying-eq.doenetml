@@ -1,0 +1,12 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_MksKzOV9213MrOaXLGuDx/_gZMbm56GvRz5mkQvq4o4V -->
+
+<graph  displayYAxisTickLabels="false" showNavigation="false" size="small" xmin="-6" ymin="-4" ymax="7.5">
+                    <xlabel>Stock</xlabel>
+                    <ylabel>Net Flow</ylabel>
+                    <line draggable="false"> y=x-3</line>
+                    <vector tail="(3,0)" head="(0.25,0)" draggable="false" styleNumber="2"/>
+                    <point draggable="false" styleNumber="2">(3,0)</point>
+                    <m anchor="(4,-1)">\text{stock}=3</m>
+                    <point draggable="false" styleNumber="2">(0,0)</point>
+                    <m anchor="(-3.5,0.5)">\text{net flow} = 0 </m>
+</graph>

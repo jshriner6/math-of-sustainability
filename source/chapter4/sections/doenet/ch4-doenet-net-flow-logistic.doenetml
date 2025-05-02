@@ -1,0 +1,7 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_cxBBhM7H0sPEBhXusYiY8/_okYpS55OmYju6ArnVsvxO -->
+
+<graph showNavigation="false" size="small" xmin="-20" xmax="110" ymin="-2" ymax="15">
+      <xlabel>Population</xlabel>
+      <ylabel>Net Flow</ylabel>
+      <function>0.5x*(1-x/100)</function>
+</graph>
