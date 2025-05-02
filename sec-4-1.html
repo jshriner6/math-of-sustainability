@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Dynamic Models and Feedback</title>
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.googleapis.com">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta xmlns:xlink="http://www.w3.org/1999/xlink" name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="og:type" content="book">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:title" content="Mathematics of Sustainability">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Jeff Shriner">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.6.1';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.c7804631fa963734.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.f7a03b209751032d.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.541c9106f2c605b9.css">
+<script xmlns:xlink="http://www.w3.org/1999/xlink" src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="Math 112" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="math-of-sustainability.html"><span class="title">Mathematics of Sustainability</span></a></h1>
+<p class="byline">Jeff Shriner</p>
+</div></div></header><nav xmlns:xlink="http://www.w3.org/1999/xlink" id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="ch-04.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-04.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-4-2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div xmlns:xlink="http://www.w3.org/1999/xlink" id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div xmlns:xlink="http://www.w3.org/1999/xlink" id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="pref-syllabus.html" class="internal"><span class="title">Course Syllabus</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="pref-expectations.html" class="internal"><span class="title">Activity Expectations</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="pref-motivation.html" class="internal"><span class="title">Course Motivation</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-01.html" class="internal"><span class="codenumber">1</span> <span class="title">Measuring</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-1.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Units</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-1-1.html#ws-1-1-1" class="internal"><span class="codenumber">1.1</span> <span class="title">Unit Conversion Factors Part 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-1-1.html#ws-1-1-2" class="internal"><span class="codenumber">1.1</span> <span class="title">Unit Conversion Factors Part 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-1-1.html#ws-1-1-3" class="internal"><span class="codenumber">1.1</span> <span class="title">Relatable Measurements</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-1-2.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Change and Estimation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-1-3.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Representations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-02.html" class="internal"><span class="codenumber">2</span> <span class="title">Flowing</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-2-1.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Stocks and Flows</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-2-2.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Net Flow and Equilibrium</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-2-3.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Equilibrium Values</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-2-4.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Parameters</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-03.html" class="internal"><span class="codenumber">3</span> <span class="title">Connecting</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-3-1.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Networks and Graphs</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-3-2.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Resilience</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-04.html" class="internal"><span class="codenumber">4</span> <span class="title">Changing</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-4-1.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Dynamic Models and Feedback</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-4-2.html" class="internal"><span class="codenumber">4.2</span> <span class="title">The Exponential Model</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-4-3.html" class="internal"><span class="codenumber">4.3</span> <span class="title">The Logistic Model</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-4-4.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Equilibria and Stabililty</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-4-5.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Tipping Points</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-05.html" class="internal"><span class="codenumber">5</span> <span class="title">Risking</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-5-1.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Describing Data</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-5-2.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Visualizing Data</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-5-3.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Probability Models</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-5-4.html" class="internal"><span class="codenumber">5.4</span> <span class="title">The Law of Large Numbers</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter"><div class="toc-title-box"><a href="ch-course-notes.html" class="internal"><span class="codenumber">6</span> <span class="title">Case Studies</span></a></div></li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section xmlns:xlink="http://www.w3.org/1999/xlink" class="section" id="sec-4-1"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">4.1</span><span class="space"> </span><span class="title">Dynamic Models and Feedback</span>
+</h2>
+<section class="introduction" id="sec-4-1-2"><div class="para" id="sec-4-1-2-1">Real-world stocks are dynamic. They are constantly moving based on many factors within the system that contains it. Sometimes that movement is less obvious than others, like when a stock is in equilibrium (i.e., the stock value is constant). However, important sustainability questions arise when stock values change over time. The purpose of this activity is to practice analyzing stock-flow models to determine common qualitative behaviors of stock values that are changing.</div>
+<div class="para" id="sec-4-1-2-2">The objectives of this activity are that you can...</div></section><article class="objectives goal-like" id="sec-4-1-3"><h3 class="heading"><span class="type">Objectives</span></h3>
+<ol class="decimal" id="sec-4-1-3-1">
+<li id="sec-4-1-3-1-1"><div class="para" id="p-derived-sec-4-1-3-1-1">identify and label feedback loops in system diagrams.</div></li>
+<li id="sec-4-1-3-1-2"><div class="para" id="p-derived-sec-4-1-3-1-2">describe the general qualitative behavior of systems that can result from feedback loops.</div></li>
+</ol></article><section class="paragraphs" id="sec-4-1-4"><h3 class="heading"><span class="title">Let’s get to work....</span></h3>
+<div class="para" id="sec-4-1-4-2">We saw in <a href="sec-2-3.html" class="internal" title="Section 2.3: Equilibrium Values">Section 2.3</a> that flow rates in and out of a stock will often vary depending on the stock’s value. This is a critical factor which causes stock values to change over time, so we give it a special name.</div>
+<article class="definition definition-like" id="sec-4-1-4-3"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.1.1</span><span class="period">.</span>
+</h4>
+<div class="para" id="sec-4-1-4-3-1">In a stock-flow model, a <dfn class="terminology">feedback loop</dfn> is a process in which a stock’s value changes the behavior of a flow rate into or out of that stock.</div></article><div class="para" id="sec-4-1-4-4">Using terminology from <a href="ch-02.html" class="internal" title="Chapter 2: Flowing">Chapter 2</a>, a feedback loop will exist whenever there is a dependency link between a stock and flow rate into or out of that stock. In this chapter, we will think more carefully about what that dependency link is, and how it impacts the behavior of the stock. Let’s start with an example.</div>
+<div class="para logical" id="sec-4-1-4-5">
+<div class="para">Suppose that our stock is the amount of phosphorus in a lake, and that our model has two flows:</div>
+<ol class="decimal" id="sec-4-1-4-5-1">
+<li id="sec-4-1-4-5-1-1"><div class="para" id="p-derived-sec-4-1-4-5-1-1">An outflow of of phosphorus as water leaves the lake to a stream. This flow rate is proportional to the amount of phosphorus in the lake water (i.e., the more phosphorus in the water, the larger the outflow rate of phosphorus).</div></li>
+<li id="sec-4-1-4-5-1-2"><div class="para" id="p-derived-sec-4-1-4-5-1-2">An inflow of phosphorus as plants and algae decompose. Since phosphorus is a nutrient for plants and algae, this flow rate also increases as the amount of phosphorus in the lake water increases.</div></li>
+</ol>
+</div>
+<div class="para" id="sec-4-1-4-6">How the amount of phosporus changes is dependent on how flow rates are impacted by the stock’s value, which we described verbally. We can also represent this behavior in a system diagram:</div>
+<figure class="figure figure-like" id="fig-sys-diagram-feedback"><iframe id="ch4-interactive-sys-diagram-feedback" width="600" height="200" src="ch4-interactive-sys-diagram-feedback-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.2<span class="period">.</span></span><span class="space"> </span>A system diagram for the amount of phosphorus in a lake including feedback loops involving the inflow of phosphorus from plants and algae, and the outflow of phosphorus due to lake drainage.</figcaption></figure><div class="para logical" id="sec-4-1-4-8">
+<div class="para">Let’s make some important observations about this new diagram.</div>
+<ol class="decimal" id="sec-4-1-4-8-1">
+<li id="sec-4-1-4-8-1-1"><div class="para" id="p-derived-sec-4-1-4-8-1-1">We’ve added plus signs to the dependency links to indicate that an increase in the amount of phosphorus would increase both the inflow and outflow rates. In general, if an increase in the stock causes a flow rate to increase, we add a “<span class="process-math">\(+\)</span>” to that dependency link. If an increase in the stock causes a flow rate to decrease, we add a “<span class="process-math">\(-\)</span>” to that dependency link.</div></li>
+<li id="sec-4-1-4-8-1-2">
+<div class="para" id="sec-4-1-4-8-1-2-1">These dependency links form two different feedback loops which are different in nature.</div>
+<ol class="lower-alpha lower-alpha-level-1" id="sec-4-1-4-8-1-2-2">
+<li id="sec-4-1-4-8-1-2-2-1"><div class="para" id="p-derived-sec-4-1-4-8-1-2-2-1">The feedback loop between the plants/algae rate and the phosphorus stock is called <dfn class="terminology">amplifying</dfn>, because an increase in the phosphorus amount causes the inflow rate to increase, which further increases the amount of phosporus. In general, a feedback loop is amplifying if an increase in the stock value causes the flow rate to change in a way that further reinforces the increase of the stock’s value.</div></li>
+<li id="sec-4-1-4-8-1-2-2-2"><div class="para" id="p-derived-sec-4-1-4-8-1-2-2-2">The feedback loop between the lake drain rate and the phosphorus stock is called <dfn class="terminology">stabilizing</dfn>, because an increase in the phosphorus amount causes the outflow rate to increase, which decreases the amount of phosporus. In general, a feedback loop is stabilizing if an increase in the stock value causes the flow rate to change in a way that counteracts the stock’s value from further increasing.</div></li>
+</ol>
+</li>
+</ol>
+</div></section><section class="paragraphs" id="sec-4-1-5"><h3 class="heading"><span class="title">Back to work....</span></h3>
+<div class="para" id="sec-4-1-5-2">In <a href="sec-1-3.html" class="internal" title="Section 1.3: Representations">Section 1.3</a> we saw the usefulness of communicating measurements with visual representations. When analyzing stock-flow models, it is often helpful to use graphs which display a stock’s value over time. The type of graph that is used will depend on the nature of the dynamic model that we are using. There are two main types of models.</div>
+<article class="definition definition-like" id="sec-4-1-5-3"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.1.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="sec-4-1-5-3-1">A <dfn class="terminology">continuous dynamical system</dfn> is a system in which stock measurements are made continuously over a time interval. A <dfn class="terminology">discrete dynamical system</dfn> is a system in which stock measurements are made at equally spaced time intervals (eg., a measurement is taken once every year).</div></article><div class="para" id="sec-4-1-5-4">The visual representation of a stock value over time in a continuous dynamical system is a line graph, while the visual representation of a stock value over time in a discrete dynamical system is a scatter plot. This distinction is illustrated for a system which measures a population over time in <a href="sec-4-1.html#fig-cont-vs-discrete" class="xref" data-knowl="./knowl/xref/fig-cont-vs-discrete.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.1.4">Figure 4.1.4</a>
+</div>
+<figure class="figure figure-like" id="fig-cont-vs-discrete"><iframe id="ch4-interactive-cont-vs-discrete" width="600" height="300" src="ch4-interactive-cont-vs-discrete-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.4<span class="period">.</span></span><span class="space"> </span>On the left, the line graph of a population modeled as a continuous dynamical system. On the right, a scatter plot of a population modeled as a discrete dynamical system.</figcaption></figure><div class="para" id="sec-4-1-5-6">Unless stated otherwise, we will focus our analyses around continuous dynamical systems when sketching graphs of stock values over time. In this section, we will begin to develop a strategy for translating system diagrams for continuous systems to line graphs that describe the qualitative behavior of a stock over time (like whether the stock is increasing or decreasing). In the next sections, we will develop line graphs in more detail for some common types of models.</div>
+<div class="para" id="sec-4-1-5-7">As a first example, let’s consider a general system diagram of the following form:</div>
+<figure class="figure figure-like" id="fig-sys-diagram-amplifying"><iframe id="ch4-interactive-sys-diagram-amplifying" width="600" height="200" src="ch4-interactive-sys-diagram-amplifying-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.5<span class="period">.</span></span><span class="space"> </span>A system diagram which contains one inflow and one outflow, both of which are part of amplifying feedback loops.</figcaption></figure><div class="para" id="sec-4-1-5-9">The diagram indicates that an increase in stock increases the inflow, and an increase in stock decreases the outflow. Both of these feedback loops are amplifying. How does a stock in such a system behave over time? There is not a single answer to this question, but we can begin to answer it by remembering what ultimately determines whether a stock value increases or decreases:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/sec-1-3.html ./knowl/xref/fig-cont-vs-discrete.html">
+\begin{equation*}
+\text{net flow} = \text{total inflow}- \text{total outflow}
+\end{equation*}
+</div>
+<div class="para" id="sec-4-1-5-11">The amplifying feedback loops tell us how the flow rates change as the stock value changes. As stock increases, the inflow rate increases (<span class="process-math">\(\nearrow\)</span>), and the outflow rate decreases (<span class="process-math">\(\searrow\)</span>). so we can combine this information to determine how the net flow rate changes as the stock value changes:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/sec-1-3.html ./knowl/xref/fig-cont-vs-discrete.html">
+\begin{equation*}
+\underset{\nearrow}{\text{total inflow}} - \underset{\searrow}{\text{total outflow}} 
+\end{equation*}
+</div>
+<div class="para" id="sec-4-1-5-13">An increase in the first number in the difference and a decrease in the second number in the difference both cause the difference to increase. That is, as the stock value increases, the netflow increases. Here is an example of representing such a relationship with a line graph:</div>
+<figure class="figure figure-like" id="fig-net-flow-amplifying"><iframe id="ch4-interactive-net-flow-amplifying" width="600" height="300" src="ch4-interactive-net-flow-amplifying-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.6<span class="period">.</span></span><span class="space"> </span>A graph with stock on the horizontal axis and net flow on the vertical axis. It shows that as the stock value increases, so does the net flow rate.</figcaption></figure><div class="para" id="sec-4-1-5-15">Take careful note of the axis labels: “Stock” and “Net Flow”. This visual shows us that as stock values increase (as we move to the right on the horizontal axis), net flow values also increase (we move up on the vertical axis).</div>
+<div class="para logical" id="sec-4-1-5-16">
+<div class="para">This graph will prove to be extremely valuable in determining the behavior of the stock with respect to time, and shows us that the behavior will be dependent on the stock’s initial value. Let’s consider a few cases.</div>
+<ol class="decimal" id="sec-4-1-5-16-1">
+<li id="sec-4-1-5-16-1-1">If the stock’s initial value is <span class="process-math">\(1\text{,}\)</span> then the graph shows us that the net flow will be negative. This meanse the stock will decrease. Since the net flow remains negative for stock values to the left of <span class="process-math">\(1\text{,}\)</span> the stock will continue to decrease as time moves on. <figure class="figure figure-like" id="fig-net-flow-amplifying-dec"><iframe id="ch4-interactive-net-flow-amplifying-dec" width="600" height="300" src="ch4-interactive-net-flow-amplifying-dec-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.7<span class="period">.</span></span><span class="space"> </span>A graph with stock on the horizontal axis and net flow on the vertical axis. It shows that if the stock value is one, the net flow will be negative, which means the stock will decrease from this initial stock value.</figcaption></figure>
+</li>
+<li id="sec-4-1-5-16-1-2">If the stock’s initial value is <span class="process-math">\(5\text{,}\)</span> then the graph shows us that the net flow will be positive. This meanse the stock will increase. Since the net flow remains positive for stock values to the r ight of <span class="process-math">\(5\text{,}\)</span> the stock will continue to increase as time moves on. <figure class="figure figure-like" id="fig-net-flow-amplifying-inc"><iframe id="ch4-interactive-net-flow-amplifying-inc" width="600" height="300" src="ch4-interactive-net-flow-amplifying-inc-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.8<span class="period">.</span></span><span class="space"> </span>A graph with stock on the horizontal axis and net flow on the vertical axis. It shows that if the stock value is five, the net flow will be positive, which means the stock will increase from this initial stock value.</figcaption></figure>
+</li>
+<li id="sec-4-1-5-16-1-3">If the stock’s initial value is <span class="process-math">\(3\text{,}\)</span> then the graph shows us that the net flow will be zero. This means the stock is in equilibrium, so it’s value will not change. The stock will continue to have the equilibrium value <span class="process-math">\(3\)</span> as time moves on. <figure class="figure figure-like" id="fig-net-flow-amplifying-eq"><iframe id="ch4-interactive-net-flow-amplifying-eq" width="600" height="300" src="ch4-interactive-net-flow-amplifying-eq-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.9<span class="period">.</span></span><span class="space"> </span>A graph with stock on the horizontal axis and net flow on the vertical axis. It shows that if the stock value is three, the net flow will be zero, which means the stock will be in equilibrium.</figcaption></figure>
+</li>
+</ol>
+</div>
+<div class="para" id="sec-4-1-5-17">Take a moment to use the interactive below to change the initial stock value on the horizontal axis, and see the resulting stock-time graph. Be sure to test the values mentioned in the cases above to verify the descriptions given.</div>
+<figure class="figure figure-like" id="fig-net-flow-to-stock"><iframe id="ch4-interactive-net-flow-to-stock" width="600" height="300" src="ch4-interactive-net-flow-to-stock-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.10<span class="period">.</span></span><span class="space"> </span>On the left, a sample line graph showing the net flow rate increasing as stock value increases, with an equilibrium stock value of three. On the right, the corresponding line graph of the stock’s value over time using the indicated initial value from the graph on the left.</figcaption></figure><div class="para logical" id="sec-4-1-5-19">
+<div class="para">While we analyzed just two specific models here, the general strategy developed is a useful one:</div>
+<ol class="decimal" id="sec-4-1-5-19-1">
+<li id="sec-4-1-5-19-1-1"><div class="para" id="p-derived-sec-4-1-5-19-1-1">Determine how the net flow rate changes as the stock value changes, and represent this relationship as a line graph.</div></li>
+<li id="sec-4-1-5-19-1-2"><div class="para" id="p-derived-sec-4-1-5-19-1-2">Use the line graph to describe how a stock’s value will change for various initial values of the stock.</div></li>
+<li id="sec-4-1-5-19-1-3"><div class="para" id="p-derived-sec-4-1-5-19-1-3">Translate your descriptions to a line graph of the stock over time.</div></li>
+</ol>
+</div></section><section class="conclusion" id="sec-4-1-6"><h3 class="heading">Reflection.<span></span>
+</h3>
+<div class="para logical" id="sec-4-1-6-2">
+<div class="para">Let’s reflect on what we’ve learned, and what we still have questions about.</div>
+<ol class="decimal" id="sec-4-1-6-2-1">
+<li id="sec-4-1-6-2-1-1"><div class="para" id="p-derived-sec-4-1-6-2-1-1">In a stock-flow model, what is a feedback loop, and why is it important in determining a stock’s behavior over time?</div></li>
+<li id="sec-4-1-6-2-1-2"><div class="para" id="p-derived-sec-4-1-6-2-1-2">What is the difference between a continuous dynamical system and a discrete dynamical system?</div></li>
+<li id="sec-4-1-6-2-1-3"><div class="para" id="p-derived-sec-4-1-6-2-1-3">What are the similarities and differences in a stock’s behavior over time in models with amplifying feedback loops versus stabilizing feedback loops?</div></li>
+</ol>
+</div></section><section class="conclusion" id="sec-4-1-7"><h3 class="heading">Section Checkpoint.<span></span>
+</h3>
+<div class="para" id="sec-4-1-7-2">Link here to Doenet course.</div></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="ch-04.html" title="Previous"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-4-2.html" title="Next"><span class="name">Next</span><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a xmlns:xlink="http://www.w3.org/1999/xlink" class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a xmlns:xlink="http://www.w3.org/1999/xlink" class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a xmlns:xlink="http://www.w3.org/1999/xlink" class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
