@@ -2,5 +2,135 @@
 
 <section xml:id="sec-4-4" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Equilibria and Stabililty</title>
+    <introduction>
+        <p>
+           We have discussed equilibrium values of a stock in various contexts, and have seen that they can be important 
+           values for a system whether or not that system is in equilibrium. The purpose of this activity is to determine 
+           how we can label an equilibrium value in a way that is descriptive of how the stock values behave around it. 
+        </p>
+        <p>
+            The objectives of this activity are that you can...
+        </p>
+      </introduction>
+      <objectives>
+        
+          <ol>
+            <li>
+                describe the stability of equilibrium values in a continuous dynamical system.
+            </li>
+            <li>
+                describe the stability of equilibrium values in a discrete dynamical system.
+            </li>
+          </ol>
+      </objectives>
+      <paragraphs><title>Let's get to work...</title>
+        <p>
+            Imagine a system whose stock is currently in equilibrium. Then imagine some outside force nudging that stock 
+            value out of equilibrium. How will the stock behave now? The answer to this question is what we will generally 
+            refer to as the equilibrium value's <term>stability</term>. To start gaining an intutitve understanding of this 
+            concept, work through the following thought exercise in your group. 
+        </p>
+
+        <!-- <xi:include href="./activities/act_04_04.ptx" xpointer="worksheet/1"/> -->
+
+        <p>
+            Your answers to the above questions are examples of the types of behavior we may see in real-world systems.  
+            While the behavior of real-world systems can be much more complicated than what we've described so far, our 
+            goal for this section will be to describe some common behaviors for the types of systems we've discussed in 
+            previous sections.
+        </p>
+        <p>
+            Recall from <xref ref="sec-4-1"/> the distinction between 
+            <ul>
+                <li>
+                    continuous dynamical systems, whose measurements are taken continuously over time, and are visually 
+                    represented by line graphs, and 
+                </li>
+                <li>
+                    discrete dynamical systems, whose measurements are taken over equally spaced time intervals, and 
+                    are visually represented by scatter plots. 
+                </li>
+            </ul>
+        </p>
+        <p>
+            When analyzing the behavior of systems nudged out of equilibrium, it is important for us to distinguish between 
+            these two types of models, as this can impact the types of behavior we can see.
+        </p>
+      </paragraphs>
+
+      <paragraphs><title>Back to work...</title>
+        <p>
+            First, we will explore stock behavior around equilibrium values in continuous dynamical systems. 
+
+            <!-- <xi:include href="./activities/act_04_04.ptx" xpointer="worksheet/2"/> -->
+
+            <definition>
+                <p>
+                    An equilibrium value that behaves like that of Stock 1 is called a <term>stable</term> equilibrium value. 
+                    An equilibrium value that behaves like that of Stock 2 is called an <term>unstable</term> equilibrium value.
+                </p>
+            </definition>
+            <p>
+                The behavior around stable equilibrium values is reminiscent of the first system in 
+                <xref provisional="act-4-4-1"/>, while the behavior around unstable equilibrium values is reminiscent of 
+                the second system in <xref provisional="act-4-4-1"/>. 
+            </p>
+
+            <!-- <xi:include href="./activities/act_04_04.ptx" xpointer="worksheet/3"/> -->
+
+        </p>
+      </paragraphs>
+
+      <paragraphs><title>Back to work...</title>
+        <p>
+            Now, we will explore stock behavior around equilibrium values in discrete dynamical systems. 
+            Recall that the only difference in this context is that stock measurements are taken at equally spaced 
+            intervals instead of continuously over time. There will be many similarities in the behavior that we saw 
+            in the continous case, but also some differences. Let's work through some examples to explore the discrete 
+            case in more detail. 
+        </p>
+        <p>
+            In the discrete case, because measurements are taken on a set interval, we have to be a bit more specific 
+            than we were in the continuous case. It may not be sufficient to say that the stock is just increasing or 
+            decreasing. We may need to describe in more detail by how much the stock is increasing or decreasing. We can use 
+            the Net Flow rate information to help us do this.
+        </p>
+        <p>
+            For example, suppose the net flow rate for a stock <m>S</m> is given by <m>\text{Net Flow Rate}=2S-6</m> 
+            units per minute, and we are taking stock measurements every minute. If the current stock value is <m>2</m> units, 
+            than <m>2(2)-6 = -2</m> units will be added to <m>0</m> to get the new stock value after one minute. That is, if 
+            the current stock value is <m>2</m> units, we can compute the next stock value after one minute with the 
+            computation
+        </p>
+        <me>\underset{\text{Current Value}}{2 \text{ units}} + \underset{\text{Net Flow After 1 min}}{2(2) -6 \text{ units}} =\underset{\text{Next Value}}{0 \text{ units}} </me>
+
+      </paragraphs>
+
+      <!-- <xi:include href="./activities/act_04_04.ptx" xpointer="worksheet/4"/> -->
+
+      <conclusion><title>Reflection</title>
+        <p>
+            Let's reflect on what we've learned, and what we still have questions about.
+        
+            <ol>
+                <li>
+                    What does the stability of an equilibrium value tell us about the behavior of a stock?
+                </li>
+                <li>
+                    In what ways is the behavior around equilibrium values similar between discrete and continuous dynamical 
+                    systems?
+                </li>
+                <li>
+                    In what ways is the behavior around equilibrium values different between discrete and continuous 
+                    dynamical systems?
+                </li>
+            </ol>
+        </p>
+      </conclusion>
+      <conclusion><title>Section Checkpoint</title>
+        <p>
+            Link here to Doenet course.
+        </p>
+      </conclusion>
 
 </section>

@@ -2,5 +2,143 @@
 
 <section xml:id="sec-4-5" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Tipping Points</title>
+    <introduction>
+        <p>
+            We saw in the previous section that equilibrium values are central to a system's behavior over time. 
+            We also saw in <xref ref="sec-2-4"/> that parameters can change 
+            what those equilibrium values are. The purpose of this activity is to look at the interaction of these concepts, 
+            and illustrate how small changes in a parameter of a system can result in abrupt, significant changes to a stock's 
+            behavior.
+        </p>
+        <p>
+            The objectives of this activity are that you can...
+        </p>
+      </introduction>
+      <objectives><title>Section Objectives</title>
+
+        <ol>
+            <li>
+                approximate the sensitivity of an equilibrium value to a parameter value.
+            </li>
+            <li>
+                graphically recognize tipping points and analyze the behavior of systems around them.
+            </li>
+        </ol>
+      </objectives>
+      <paragraphs><title>Let's get to work...</title>
+        <p>
+            Let's return to the example from <xref ref="fig-sys-diagram-feedback"/>, in which we are measuring the 
+            amount of phosphorus in a lake with an inflow from plant and algae decomposition and an outflow due to lake drain.
+        </p>
+
+        <!-- <xi:include href="./activities/act_04_05.ptx" xpointer="worksheet/1"/> -->
+
+        <p>
+            We will now add pollution from agricultural run-off as a parameter to our model, which impacts the inflow rate 
+            of phosphorus:
+        </p>
+        <figure xml:id="fig-sys-diagram-tipping-pt">
+            <interactive label="ch4-interactive-sys-diagram-tipping-pt" platform="doenetml" width="100%" aspect="3:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-sys-diagram-tipping-pt.doenetml"/>
+                </slate>
+            </interactive>
+            <caption>
+                The system diagram for the amount of phosphorus in a lake with a parameter added for pollution from 
+                agricultural run-off.
+            </caption>
+        </figure>
+        <p>
+            The system diagram indicates that an increase in pollution will increase the inflow rate, and therefore 
+            increase the net flow rate for the stock. This is represented graphically below. Take a moment to play with 
+            the parameter slider and verify that for a fixed level of phosphorus, as pollution increases, the net flow 
+            increases as well.
+        </p>
+        <figure xml:id="fig-net-flow-parameter">
+            <interactive label="ch4-interactive-net-flow-parameter" platform="doenetml" width="100%" aspect="1:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-net-flow-parameter.doenetml"/>
+                </slate>
+            </interactive>
+            <caption>
+                The line graph for the net flow rate of phosphorus, along with a slider to change the parameter 
+                value of pollution. As polution increases, the net flow rate graph is shifted up.
+            </caption>
+        </figure>
+        <p>
+            Notice that as the pollution parameter changes, so do the equilibrium values. Measuring how parameters impact 
+            equilibrium values can be an important measurement for dynamical systems.
+        </p>
+        <definition>
+            <p>
+                Let <m>S_0</m> be an equilibrium value of a stock when a parameter <m>P</m> has value <m>P_0</m>. 
+                Suppose that if the parameter value is changed by a small amount<fn>If you're asking yourself
+                what amount is considered <q>small</q>, that's a great question! This can be made more precise with tools f
+                rom calculus, but for our purposes, we won't be too picky here. In general, the 
+                closer you can make the two parameter values, the more accurate your computation will be.</fn> to <m>P_1</m>, 
+                the equilbrium value of the stock changes to <m>S_1</m>. Then the 
+                <term>sensitivity of <m>S_0</m> to the parameter <m>P</m></term> is the number
+                <me>\frac{S_1-S_0}{P_1-P_0}</me>.
+            </p>
+        </definition>
+        <p>
+            For our next exercise, let's zoom in on on our net flow rate graph from above to focus on the phosphorus equilibrium value of <m>1</m> 
+            when the pollution parameter is <m>0</m>.
+        </p>
+
+        <!-- <xi:include href="./activities/act_04_05.ptx" xpointer="worksheet/2"/> -->
+      </paragraphs>
+
+      <paragraphs><title>Back to work...</title>
+        <p>
+            For the next exercise, use the graph and slider from <xref ref="fig-net-flow-parameter"/>.
+        </p>
+
+        <!-- <xi:include href="./activities/act_04_05.ptx" xpointer="worksheet/3"/> -->
+
+        <p>
+            The previous discussion illustrates that it is possible, in systems with parameters, that there are special 
+            parameter values that, if exceeded even by the smallest amount, can cause significant changes to the system. 
+            We give these parameter values a special name.
+        </p>
+          <definition>
+            <p>
+                A parameter value in which any increase or decrease to the value causes a change in the number of 
+                equilibrium values of the stock is a called a <term>tipping point value</term>.
+            </p>
+          </definition>
+          <p>
+          Our final exercise will help explore system behavior around tipping point values.
+          </p>
+
+          <!-- <xi:include href="./activities/act_04_05.ptx" xpointer="worksheet/4"/> -->
+
+      </paragraphs>
+
+      <conclusion><title>Reflection</title>
+        <p>
+            Let's reflect on what we've learned, and what we still have questions about.
+        
+            <ol>
+                <li>
+                    What does the sensitivity of a stock value to a parameter measure?
+                </li>
+                <li>
+                    How is the sensitivity of a stock value to a parameter related to tipping point values of a parameter?
+                </li>
+                <li>
+                    Why are tipping point values important?
+                </li>
+                <li>
+                    What other systems do you think may contain tipping point values?
+                </li>
+            </ol>
+        </p>
+      </conclusion>
+      <conclusion><title>Section Checkpoint</title>
+        <p>
+            Link here to Doenet course.
+        </p>
+      </conclusion>
 
 </section>

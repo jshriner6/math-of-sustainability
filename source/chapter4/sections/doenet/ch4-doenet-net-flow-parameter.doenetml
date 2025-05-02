@@ -1,0 +1,11 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_82L7Bgv0AZgPPF2iE9lrm/_8J8cypAP1hhhqMe37kWLW -->
+
+<graph displayYAxisTickLabels="false" showNavigation="false" xmin="-2" xmax="8">
+        <xlabel>Phosphorus</xlabel>
+        <ylabel>Net Flow</ylabel>
+        <function name="f">-(x-1)*(x-3)*(x-5)+$P/5</function>
+</graph>
+
+<slider from="0" to="20" name="P" step="0.25" initialValue="0">
+        <label><m>P</m></label>
+</slider>

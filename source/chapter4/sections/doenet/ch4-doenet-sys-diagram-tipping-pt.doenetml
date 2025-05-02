@@ -1,0 +1,26 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_82L7Bgv0AZgPPF2iE9lrm/_8J8cypAP1hhhqMe37kWLW -->
+
+<graph size="large" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false" xmax="18" xmin="-18" ymax="4" ymin="-4" aspectRatio="18/4">
+      <rectangle width="3" height="3" draggable="false" verticesDraggable="false"/>
+      <vector tail="(3,1.5)" displacement="(4,0)" draggable="false"/>
+      <vector tail="(10,1.5)" displacement="(4,0)" draggable="false"/>
+      <vector tail="(-11,1.5)" displacement="(4,0)" draggable="false"/>
+      <vector tail="(-4,1.5)" displacement="(4,0)" draggable="false"/>
+      <triangle vertices="(7,0) (8.5,3) (10,0)" draggable="false"/>
+      <triangle vertices="(-4,0) (-5.5,3) (-7,0)" draggable="false"/>
+      <circle radius="2" center="(-13,1.5)" draggable="false"/>
+      <circle radius="2" center="(16,1.5)" draggable="false"/>
+      <rectangle width="5" height="1" draggable="false" center="(-5.5,-2.5)" styleNumber="3"/>
+      <text anchor="(1.5,1.75)" draggable="false">Phosphorus</text>
+      <text anchor="(8.5,1.0)" draggable="false">Lake Drain</text>
+      <text anchor="(-5.5,1.0)" draggable="false">Plants/Algae</text>
+      <text anchor="(-13.0,1.5)" draggable="false">Source</text>
+      <text anchor="(16.0,1.5)" draggable="false">Sink</text>
+      <text anchor="(-5.5,-2.5)" draggable="false">Pollution, P</text>
+      <curve through="(-5.5,0) (-2,-1) (1.25,0)" styleNumber="2" draggable="false"/>
+      <curve through="(-5.5,-2) (-6,-1) (-5.75,0)" styleNumber="2" draggable="false"/>
+      <m anchor="(-2,-1.5)" styleNumber="2" draggable="false">+</m>
+      <curve through="(8.5,0) (5,-1) (1.75,0)" styleNumber="2" draggable="false"/>
+      <m anchor="(5,-1.5)" styleNumber="2" draggable="false">+</m>
+      <m anchor="(-6.5,-1)" styleNumber="2" draggable="false">+</m>
+</graph>
