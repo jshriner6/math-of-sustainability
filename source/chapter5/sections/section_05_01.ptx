@@ -2,6 +2,164 @@
 
 <section xml:id="sec-5-1" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Describing Data</title>
+    <introduction>
+        <p>
+           Mathematical models will never be good enough to provide absolute certainty about how a real-world system will 
+           behave. Therefore, it is important to think critically about what information they do provide, and how we choose 
+           to use that information. Models typically begin with large amounts of data. The purpose of this activity is to 
+           understand some basic tools that can be used to summarize and understand a data set. 
+        </p>
+        <p>
+            The objectives of this activity are that you can...
+        </p>
+      </introduction>
+      <objectives>
+        
+          <ol>
+            <li>
+                use descriptive statistics like the mean, median, and interquartile range to describe a numerical data set.
+            </li>
+            <li>
+                represent a data set visually with a box plot.
+            </li>
+          </ol>
+      </objectives>
+      <paragraphs><title>Let's get to work...</title>
+        <p>
+            A <term>data set</term> is a collection of objects (like people, countries, etc.) for which one or more 
+            measurements (like the height of a person, a country's GDP, etc.) are taken. Each type of measurement is called 
+            a <term>variable</term> in the data set. If the value of a variable is text from a list (like a person's ethnicity),
+            that variable is called <term>categorical</term>. If the value of a variable is a number (like a person's 
+            height in inches), that variable is called <term>numerical</term>. We will focus on understanding data sets 
+            with numerical variables.
+        </p>
+      
 
+        <!-- <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/1"/> -->
+
+        <!-- <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/2"/> -->
+
+        <p>
+            Each of these questions face a similar challenge: needing to summarize a large group of individual responses 
+            into a single response that is a <q>good</q> representation of them all. While there is no single best approach 
+            to this type of challenge, there are some standard metrics that can be used that can help give us a good 
+            understanding of a numerical data set. One approach is to calculate a single number that describes the 
+            <em>center value</em> of all of the values that a numerical variable takes in the data set.
+        </p>
+
+        <definition>
+            <p>
+              The <term>mean value</term> (or <term>average value</term>) of a numerical variable is the sum of all values 
+              divided by the total number of values, 
+              <me>\frac{x_1 + x_2 + \cdots + x_n}{n}</me>.
+            </p>
+            <p>
+                The <term>median value</term> of a numerical variable is the middle value when all values are arranged in 
+                increasing order. If there is an even number of values (so there are two values <m>x_1</m> and <m>x_2</m> in 
+                the middle), then the median value is the mean of the middle two, 
+                <me>\frac{x_1 +x_2}{2}</me>.
+            </p>
+        </definition>
+
+        <p>
+            When your data set is in a spreadsheet, you can typically use the following commands in a cell to calculate 
+            these values. If the numerical values of your data set are in column A, rows 1 through 10, then
+        
+          <ul>
+            <li>
+                to compute the mean value, enter <c>=average(A1:A10)</c>. 
+            </li>
+            <li>
+                to compute the median value, enter <c>=median(A1:A10)</c>. 
+            </li>
+          </ul>
+        </p>
+    </paragraphs>
+
+    <!-- <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/3"/> -->
+
+    <paragraphs><title>Back to work...</title>
+        <p>
+            All three data sets below have a mean value of <m>5.5</m>.
+        
+          <ol marker="A.">
+              <li><m>1,2,3,4,5,6,7,8,9,10</m></li>
+              <li><m>3,3,5,5,5,6,6,6,8,8</m></li>
+              <li><m>1,1,1,1,1,1,1,1,1,46</m></li>
+          </ol>
+        </p>
+
+        <!-- <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/4"/> -->
+
+        <p>
+            Besides attempting to describe the center value of a numerical data set, it can also be useful to describe how 
+            spread out the values are. As we saw above, data sets can have the same mean, median, or both, and be very 
+            different from one another. One standard way<footnote>There is another descriptive measurement called the 
+            <term>standard deviation</term> which we will not discuss in this section. It measures how spread out values are 
+            from the mean value.</footnote> to describe the spread of a numerical variable is to compute the 
+            <term>interquartile range</term> of that variable.
+        </p>
+        <definition>
+            <p>
+            The <term>lower quartile</term> for a numerical variable is the median of the lower half of the values for 
+            that variable (not including the median itself).
+            </p>
+            <p>
+            The <term>upper quartile</term> for a numerical variable is the median of the upper half of the values for 
+            that variable (not including the median itself).
+            </p>
+            <p>
+            The <term>interquartile range</term> for a numerical variable is the difference between the upper quartile 
+            and the lower quartile for that variable.
+            </p>
+        </definition>
+        <p>
+            It can also be important to recognize values of a variable that are outside of the <q>normal spread</q>. 
+            These values are called <term>outliers</term>.
+        </p>
+        <definition>
+            <p>
+            An <term>outlier</term> is a value of a numerical variable that is either more than <m>1.5</m> 
+            times the interquartile range above the upper quartile, or more than <m>1.5</m> times the interquartile 
+            range below the lower quartile.
+            </p>
+        </definition>
+
+        <!-- <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/5"/> -->
+
+    </paragraphs>
+
+    <paragraphs><title>Back to work...</title>
+        <p>
+            We saw in <xref ref="sec-1-3"/> that visual representations can be very useful for communicating 
+            patterns in measurements. There are also useful visuals for communicating the descriptive statistics of the 
+            values of a numerical variable that we've discussed in this section. One such visual is called a 
+            <term>box plot</term>. 
+        </p>
+
+        <!-- <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/6"/> -->
+    </paragraphs>
+
+    <!-- <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/7"/> -->
+
+    <conclusion><title>Reflection</title>
+        <p>
+            Let's reflect on what we've learned, and what we still have questions about.
+        
+            <ol>
+                <li>
+                    What are some descriptive ways that we can understand a large numerical data set?
+                </li>
+                <li>
+                    After this activity, how would you answer <ref target="questions">the questions about our class data set</ref>?
+                </li>
+              </ol>
+        </p>
+      </conclusion>
+      <conclusion><title>Section Checkpoint</title>
+        <p>
+            There are no checkpoint questions for this section.
+        </p>
+      </conclusion>
     
 </section>

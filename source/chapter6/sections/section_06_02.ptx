@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-6-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>The Commons</title>
+    <introduction>
+        <p>
+           Many resources that are topics of sustainability can be used freely by many individuals. The purpose of this 
+           activity is to understand possible outcomes when multiple individuals freely use a shared resource over time. 
+        </p>
+
+        <p>
+            The objectives of this activity are that you can...
+        </p>
+      </introduction>
+      <objectives><title>Section Objectives</title>
+        
+          <ol>
+            <li>
+                know what is meant by <q>a commons</q> and why it is relevant to questions of sustainability.
+            </li>
+            <li>
+                use game theory to model possible outcomes when individuals make decisions regarding the management of a 
+                commons.
+            </li>
+          </ol>
+      </objectives>
+      <paragraphs><title>Let's get to work...</title>
+        <p>
+            A <term>commons</term> is any resource that is shared by a group and can be used freely by individuals in that 
+            group. Our daily life is filled with examples of uses of commons, and these resources are also often at the 
+            heart of sustainability questions. 
+        </p>
+
+        <!-- <xi:include href="./activities/act_06_02.ptx" xpointer="worksheet/1"/> -->
+
+      </paragraphs>
+
+      <paragraphs><title>Back to work...</title>
+        <p>
+            We can view the management of a commons through the lens of game theory, where <q>players</q> are 
+            individuals of the group using the resource, and the decision each player has is how much of the resource 
+            they will use for themselves. We can do this through repeated games, where the decision to be made in a 
+            single game is <q>should I use this resource again?</q>. The final outcome will be achieved when all players 
+            decide they will stop using the resource. We will now use game theory tools to analyze outcomes when a 
+            commons is managed by individuals making decisions according to the assumptions we outlined in  
+            <xref ref="sec-6-1"/>.
+        </p>
+
+      </paragraphs>
+
+      <!-- <xi:include href="./activities/act_06_02.ptx" xpointer="worksheet/2"/> -->
+
+      <paragraphs><title>Back to work...</title>
+        <p>
+            The <term>tragedy of the commons</term> refers to the phenomenon that occurs when individual rational choices 
+            lead to an overuse of a shared resource that makes everyone worse off. Unfortunately, this is not a phenomenon 
+            that is only observed in models. There are many examples of the tragedy of the commons in daily life, as well 
+            as potential future examples. <fn><url href="https://online.hbs.edu/blog/post/tragedy-of-the-commons-impact-on-sustainability-issues" visual="">Harvard Business</url></fn>
+            <fn> <url href="https://helpfulprofessor.com/tragedy-of-the-commons-examples" visual="">Helpful Professer</url></fn>
+        </p>
+
+      </paragraphs>
+
+      <!-- <xi:include href="./activities/act_06_02.ptx" xpointer="worksheet/3"/> -->
+
+      <conclusion><title>Reflection</title>
+        <p>
+            Let's reflect on what we've learned, and what we still have questions about.
+        
+            <ol>
+                <li>
+                    What is a commons and why is it relevant to questions of sustainability?
+                </li>
+                <li>
+                    What is the tragedy of the commons?
+                </li>
+            </ol>
+        </p>
+      </conclusion>
+      <conclusion><title>Section Checkpoint</title>
+        <p>
+            There are no checkpoint questions for this section.
+        </p>
+      </conclusion>
+
+</section>

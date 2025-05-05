@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-6-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Game Theory</title>
+    <introduction>
+        <p>
+           We've discussed several tools for analyzing data, predicting change, and assessing risk to better understand the 
+           behavior of systems around us. Ultimately, we must use this information to make decisions. The purpose of this 
+           activity is to introduce how mathematics can be used to help understand outcomes in a network of multiple 
+           decision-makers.
+        </p>
+
+        <p>
+            The objectives of this activity are that you can...
+        </p>
+      </introduction>
+      <objectives>
+        
+          <ol>
+            <li>
+                understand how an interaction between two decision-makers can be modeled mathematically with a game.
+            </li>
+            <li>
+                interpret a payoff matrix for a game to predict the outcome.
+            </li>
+          </ol>
+      </objectives>
+      <paragraphs><title>Let's get to work...</title>
+        <p>
+            <q>We must make a decision</q> can be a daunting phrase in many contexts. It is easy to think that the decision 
+            itself is the complex part, requiring analysis of many factors and variables using tools such as we've discussed 
+            up to this point. A goal of our final chapter is to consider the complexity introduced by <q>we</q>. Outcomes in 
+            sustainability contexts are usually the result of decisions made by multiple connected individuals with varying 
+            needs and values, not a decision made by a single individual. The <q>we</q> can range widely in scope, from a 
+            school's decisions about how to re-use and re-cycle materials, to the world's decisions about how to respond to 
+            current levels of greenhouse gas emissions in the atmosphere. Regardless of the scope, outcomes resulting from 
+            decisions made by a <q>we</q> are more complex to predict and understand than outcomes resulting from decisions 
+            made by an individual. 
+        </p>
+        <p>
+            One of the most prevalent approaches that we have seen in modern history was introduced by economist Adam Smith 
+            in 1776, describing an individual merchant:
+        </p>
+        <p>
+            <q><em>...by directing that industry in such a manner as its produce may be of the greatest value, he intends 
+                only his own gain, and he is in this, as in many other cases, led by an invisible hand to promote an end 
+                which was no part of his intention. Nor is it always the worse for society that it was no part of it. 
+                By pursuing his own interest, he frequently promotes that of society more effectually than when he really 
+                intends to promote it.</em></q><fn>An Inquiry into the Nature and Causes of the Wealth of Nations, 
+                    page 199</fn>
+        </p>
+        <p>
+            This statement was made in the context of economics, but the philosophy is easily extended to any context which 
+            involves multiple decision-makers, and provides one strategy and claim for sustainability decisions that involve 
+            multiple individuals: if you, as an individual, regard only your own self-interest and all other individuals do 
+            the same, then typically an unintended biproduct will be that the overall outcome is, in some sense, best for all.
+        </p>
+        <p>
+            <term>Game theory</term> is a field of mathematics that can help us analyze scenarios in which there are 
+            multiple decision-makers whose decisions affect each other. We will introduce the basic concepts here to 
+            analyze in more detail the underlying philosophy in Smith's statement above.
+        </p>
+        <p>
+            Let's begin with an example to introduce the important definitions. In the game <q>rock, paper, scissors</q>, 
+            there are two players that make a choice of which element they'd like to play, and then they display those 
+            elements simultaneously. The outcome of the game is determined by the following hierarchy:
+        
+          <ul>
+            <li>rock beats scissors,</li>
+            <li>scissors beats paper, and</li>
+            <li>paper beats rock.</li>
+          </ul>
+        </p>
+        <p>
+            If the players play the same object, the game would be considered a draw. If we were keep score, we could award a 
+            <q><m>+1</m></q> for a win, a <q><m>-1</m></q> for a loss, and a <q><m>0</m></q> for a draw. We can organize all 
+            possible outcomes for the game in the following table, where the entries are organized as 
+            (Player A's payoff, Player B's payoff).
+        </p>
+        <table xml:id="tab-ch6-payoff">
+          <tabular row-headers="yes">
+            <col right="major"/>
+            <col/>
+            <col/>
+            <col/>
+            <row header="yes" bottom="major">
+              <cell>
+                Rock, Paper, Scissors
+              </cell>
+              <cell>
+                B plays rock
+              </cell>
+              <cell>
+                B plays scissors
+              </cell>
+              <cell>
+                B plays paper
+              </cell>
+            </row>
+            <row>
+              <cell>
+                A plays rock
+              </cell>
+              <cell>
+                <m>(0,0)</m>
+              </cell>
+              <cell>
+                <m> (+1,-1)</m>
+              </cell>
+              <cell>
+                 <m>(-1,+1)</m>
+              </cell>
+            </row>
+            <row>
+              <cell>
+                A plays scissors
+              </cell>
+              <cell>
+                <m>(-1,+1)</m>
+              </cell>
+              <cell>
+                 <m>(0,0)</m>
+              </cell>
+              <cell>
+                 <m>(+1,-1)</m>
+              </cell>
+            </row>
+            <row>
+              <cell>
+                A plays paper
+              </cell>
+              <cell>
+                <m>(+1,-1)</m>
+              </cell>
+              <cell>
+                 <m>(-1,+1)</m>
+              </cell>
+              <cell>
+                 <m>(0,0)</m>
+              </cell>
+            </row>
+          </tabular>
+        </table>
+        <p>
+            Let's make some important observations about this game.
+          
+          <ol>
+            <li>
+                This game contains more than one player, each of which is free to choose between multiple decisions, and each 
+                player's satisfaction with the outcome depends on the decision made by the other player. 
+            </li>
+            <li>
+                Each player has knowledge of every player's satisfaction with every possible outcome. In other words, each 
+                player knows <xref ref="tab-ch6-payoff"/>, which is called the <term>payoff matrix</term> for the game. 
+            </li>
+            <li>
+                Any situation containing the above elements is considered a <term>game</term>. Note that this is more general 
+                than just the contexts that we typically think of as a <q>game</q>, like athletics or board games. For 
+                simplicity, we will focus on two player games, which will simplify our analysis yet still allow us to make 
+                some important observations about the outcomes of games.
+            </li>
+            <li> 
+                If player A makes a choice, then a choice for player B which gives them the highest payoff given player A's 
+                choice is called a <term>best response</term>. For example, if player A chooses <q>rock</q> 
+                (so we are in the top row of the payoff matrix), a best response for player B is to choose <q>paper</q> 
+                (<m>+1</m> is the best payoff in the second coordinate of the entries in row 1). An important part of 
+                predicting the outcome of games will be to consider each player's best responses, and also their knowledge 
+                of the the other player's best responses. We will assume that each player will act according to Smith's quote. 
+                That is, each player will attempt to make a decision that is best for their own self-interst, and they know 
+                the other player will do the same.   
+            </li>
+          </ol>
+        </p>
+        <p>
+            The rock, paper, scissors game also has the property that whatever one player gains, the other loses. 
+            This is called a <term>zero sum</term> game. Let's look at another example of a game which is not a zero sum game.
+        </p>
+
+        <!-- <xi:include href="./activities/act_06_01.ptx" xpointer="worksheet/1"/> -->
+
+        <p>
+            The outcome of the previous game is referred to as the <term>prisoner's dilemma</term>, because it is similar 
+            to the game in which a team of prisoners is separated and they each have a choice of confessing the other's 
+            crimes, or remaining silent. The payoff matrix for this game is as follows, with payoffs listed as years in prison.
+        </p>
+        <table xml:id="tab-ch6-prisoner">
+          <tabular row-headers="yes">
+            <col right="major"/>
+            <col/>
+            <col/>
+            <row header="yes" bottom="major">
+              <cell>
+                Prisoner's Dilemma
+              </cell>
+              <cell>
+                B Confesses
+              </cell>
+              <cell>
+                B Silent
+              </cell>
+            </row>
+            <row>
+              <cell>
+                A Confesses
+              </cell>
+              <cell>
+                <m>(1,1)</m>
+              </cell>
+              <cell>
+                <m> (0,5)</m>
+              </cell>
+            </row>
+            <row>
+              <cell>
+                A Silent
+              </cell>
+              <cell>
+                <m>(5,0)</m>
+              </cell>
+              <cell>
+                 <m>(0.5,0.5)</m>
+              </cell>
+            </row>
+          </tabular>
+        </table>
+
+        <!-- <xi:include href="./activities/act_06_01.ptx" xpointer="worksheet/2"/> -->
+
+        <p>
+            When at least one player has a single dominant choice, we can predict the outcome of the game. This is because 
+            both players have knowledge of the payoff matrix. If player A has a dominant choice, then player B knows what 
+            that is and knows that player A will choose it. Therefore, player B will make whatever choice is a best response 
+            to player A's dominant choice.
+        </p>
+
+        <!-- <xi:include href="./activities/act_06_01.ptx" xpointer="worksheet/3"/> -->
+      </paragraphs>
+
+      <paragraphs><title>Back to work...</title>
+        <p>
+            We will look at one more case when we are able to predict the outcome of a game. To help us do so, let's make an 
+            observation about the cases we've been able to predict so far, when at least one player has a dominant choice. 
+        </p>
+        <p>
+            Let's return to the game in <xref provisional="act-6-1-partner"/>. We could make a table of best responses for 
+            both players: 
+        </p>
+          <tabular>
+            <row header="yes" bottom="major">
+              <cell>
+                If A chooses...
+              </cell>
+              <cell>
+                B's best response is...
+              </cell>
+            </row>
+            <row>
+              <cell>
+                Joint Project
+              </cell>
+              <cell>
+                Individual Project
+              </cell>
+            </row>
+            <row>
+              <cell>
+                Individual Project
+              </cell>
+              <cell>
+                Individual Project
+              </cell>
+            </row>
+          </tabular>
+          <tabular>
+            <row header="yes" bottom="major">
+              <cell>
+                If B chooses...
+              </cell>
+              <cell>
+                A's best response is...
+              </cell>
+            </row>
+            <row>
+              <cell>
+                Joint Project
+              </cell>
+              <cell>
+                Individual Project
+              </cell>
+            </row>
+            <row>
+              <cell>
+                Individual Project
+              </cell>
+              <cell>
+                Individual Project
+              </cell>
+            </row>
+          </tabular>
+          <p>
+            Let's make some important observations about these tables. 
+          
+            <ol>
+                <li>
+                    Organized this way, we can see that player B has a dominant choice of <q>Individual Project</q> because 
+                    that is the only response listed in player B's best response column. The same is true for player A.
+                </li>
+                <li>
+                    We can also see that the of choice <q>Individual Project</q> for each partner is unique in another way: 
+                    it is the only pair of choices which is a best response to the other. That is, if partner A chooses 
+                    <q>Individual Project</q>, partner B's best response is <q>Individual Project</q>, and vice versa. 
+                    A pair of choices with this property (that they are both best responses to the other) is called a 
+                    <term>Nash equilibrium</term>.   
+                </li>
+            </ol>
+          </p>
+          <p>
+            Nash equilibria can occur even when neither player has a dominant choice. They are important to identify because 
+            they are a combination of choices in which no player can benefit from making a different choice, assuming all 
+            other players' choices stay the same. So if a game reaches a Nash equilibrium, no player has an incentive to 
+            make a different choice (this is why we refer to choices that meet this property as an <q>equilibrium</q>). 
+            When there is a single Nash equilibrium in a game, we expect that players making decisions based only on their 
+            own individual gain will make the choice corresponding to that equilibrium. Let's look at a final example.
+          </p>
+      </paragraphs>
+
+      <!-- <xi:include href="./activities/act_06_01.ptx" xpointer="worksheet/4"/> -->
+
+      <remark><title>Multiple Nash Equilibria</title>
+        <p>
+          Outcomes of games with multiple Nash equilibria can depend on other factors relevant to the game. 
+          Consider a game with two countries that share a single reservoir. They can choose to pollute the reservoir for 
+          economic gain, or not. The payoff matrix showing the quality of life for each country is given below. 
+        </p>
+        <table xml:id="tab-ch6-multiple-nash">
+        <tabular row-headers="yes">
+            <col right="major"/>
+            <col/>
+            <col/>
+        <row header="yes" bottom="major">
+          <cell>
+            Shared Pollution 2
+          </cell>
+          <cell>
+            B Doesn't Pollute
+          </cell>
+          <cell>
+            B Pollutes
+          </cell>
+        </row>
+        <row>
+          <cell>
+            A Doesn't Pollute
+          </cell>
+          <cell>
+            <m>(50,50)</m>
+          </cell>
+          <cell>
+            <m> (40,60)</m>
+          </cell>
+        </row>
+        <row>
+          <cell>
+            A Pollutes
+          </cell>
+          <cell>
+            <m>(60,40)</m>
+          </cell>
+          <cell>
+             <m>(0,0)</m>
+          </cell>
+        </row>
+      </tabular>
+      </table>
+      <p>
+        <ol>
+            <li>What are the Nash equilibria of this game?</li>
+            <li>What is required for the outcome to be one of the Nash equilibria?</li>
+            <li>What do you think will happen if the outcome is not a Nash equilibrium?</li>
+        </ol>
+        
+            A game with this structure is referred to as a <term>chicken game</term>.
+        </p>
+    </remark>
+
+    <conclusion><title>Reflection</title>
+        <p>
+            Let's reflect on what we've learned, and what we still have questions about.
+        
+            <ol>
+                <li>
+                    What are the important assumptions in game theory that allow us to predict outcomes in many games?
+                </li>
+                <li>
+                    What can game theory help us understand about outcomes in situations when there are multiple 
+                    decision-makers?
+                </li>
+            </ol>
+        </p>
+      </conclusion>
+      <conclusion><title>Section Checkpoint</title>
+        <p>
+            Link here to Doenet course.
+        </p>
+      </conclusion>
+
+</section>

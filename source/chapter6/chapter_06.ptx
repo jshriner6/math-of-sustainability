@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-06" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Deciding</title>
+    <xi:include href="./sections/section_06_01.ptx"/>
+    <xi:include href="./sections/section_06_02.ptx"/>
+    <xi:include href="./sections/section_06_03.ptx"/>
+    
+</chapter>

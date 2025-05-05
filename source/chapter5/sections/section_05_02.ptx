@@ -2,6 +2,76 @@
 
 <section xml:id="sec-5-2" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Visualizing Data</title>
+    <introduction>
+        <p>
+            When using data to help inform the likelihood of a specific outcome, it is helpful to know the number of 
+            occurrences of that outcome in your data set. This is called the frequency of that outcome, and is a property 
+            that our current summaries and visuals have not highlighted. The purpose of this activity is to learn how to 
+            visually represent a data set to highlight frequencies, and to use that visual to make qualitative interpretations.
+        </p>
 
+        <p>
+            The objectives of this activity are that you can...
+        </p>
+      </introduction>
+      <objectives>
+        
+          <ol>
+            <li>
+                represent the distribution of numerical data with a frequency histogram.
+            </li>
+            <li>
+                recognize when a distribution is skewed and interpret its implications.
+            </li>
+            <li>
+                recognize common distribution shapes.
+            </li>
+          </ol>
+      </objectives>
+    
+    <paragraphs><title>Let's get to work...</title>
+        <p>
+            The <term>distribution</term> of a numerical variable is an organization of that variable's values that 
+            illustrates how often (i.e., the frequency) different types of values occur. A <term>frequency histogram</term> 
+            is one standard visual representation for distributions of a numerical variable, which we will illustrate next. 
+        </p>
+
+        <!-- <xi:include href="./activities/act_05_02.ptx" xpointer="worksheet/1"/> -->
+
+    </paragraphs>
+
+    <!-- <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/2"/> -->
+
+    <paragraphs><title>Back to work...</title>
+
+        <!-- <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/3"/> -->
+
+    </paragraphs>
+
+    <paragraphs><title>Back to work...</title>
+
+        <!-- <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/4"/> -->
+         
+    </paragraphs>
+
+    <conclusion><title>Reflection</title>
+        <p>
+            Let's reflect on what we've learned, and what we still have questions about.
+        
+            <ol>
+                <li>
+                    How does a frequency histogram illustrate data differently from a box plot?
+                </li>
+                <li>
+                    How is the distribution of a numerical variable related to predicting outcomes?
+                </li>
+            </ol>
+        </p>
+      </conclusion>
+      <conclusion><title>Section Checkpoint</title>
+        <p>
+            There are no checkpoint questions for this section.
+        </p>
+      </conclusion>
     
 </section>

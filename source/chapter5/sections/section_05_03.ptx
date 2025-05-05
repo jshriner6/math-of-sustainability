@@ -3,5 +3,144 @@
 <section xml:id="sec-5-3" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Probability Models</title>
 
+    <introduction>
+        <p>
+           In the previous section we saw how visualizing data can help inform our intuition regarding the likelihood of 
+           specific outcomes. The purpose of this activity is to formalize this idea by introducing probability models. 
+        </p>
+
+        <p>
+            The objectives of this activity are that you can...
+        </p>
+    </introduction>
+    <objectives>
+        
+          <ol>
+            <li>
+                identify a probability model for a random experiment.
+            </li>
+            <li>
+                compute basic probabilities for events from a probability model.
+            </li>
+          </ol>
+      </objectives>
+      <paragraphs><title>Let's get to work...</title>
+        <p>
+            Many games that we play are interesting because they contain a level of uncertainty. For example, the outcome 
+            of rolling a dice cannot be known for certain until it happens. This is also the nature of many events in life. 
+            We cannot know with complete certainty today what the weather will be tomorrow, what our crop yield will be in 
+            <m>3</m> months, or what our city's population will grow to next year. This does not, however, mean that we are 
+            unable to say something meaningful in these situations. An event with an uncertain outcome is referred to as a 
+            <term>random experiment</term>, and the language used to make meaningful observations about random experiments 
+            is called <term>probability</term>.
+        </p>
+        <p>
+            As a first example, let's return to the random experiment of rolling a dice and make some important observations.
+        
+            <ul>
+              <li>
+                Assuming we are rolling a single six-sided dice, there are only six possible outcomes: rolling a <m>1</m>, 
+                <m>2</m>, <m>3</m>, <m>4</m>, <m>5</m>, or <m>6</m>. The set of all possible outcomes in a random experiment 
+                is called the <term>sample space</term> of the random experiment. 
+            </li>
+            <li>
+                Any subset of the sample space is an <term>event</term> of the random experiment. For example, rolling an 
+                even number is an event of rolling a dice.
+            </li>
+            <li>
+                We can assign a number to each outcome in the sample space which represents how likely that outcome is to 
+                occur. These numbers are between <m>0</m> and <m>1</m> and can be interpreted as the percentage likelihood of 
+                that outcome, called the <term>probability</term> of that outcome. Probabilities may be determined from 
+                properties that define the random experiment or from a computational model describing the experiment. For 
+                rolling a six-sided dice, we could assign a probablility of <m>\frac{1}{6}</m> (<m>\approx 17 \%</m>) to 
+                each outcome. This reflects the fact that each outcome occurs on exactly one of six sides of the dice, and 
+                that we assume each outcome is equally likely to occur. We would call this dice a <term>fair</term> dice; 
+                a dice in which some outcomes are more likely than others would be called a <term>weighted</term> dice. 
+            </li>
+            <li>The sum of the probabilities of all outcomes in the sample space should always be <m>1</m> (<m>100 \%</m>). 
+                In the example of rolling a dice, there are six outcomes (rolling a <m>1</m>, <m>2</m>, <m>3</m>, <m>4</m>, 
+                <m>5</m>, or <m>6</m>), each with a probability of <m>\frac{1}{6}</m>. So if we add the probabilities of 
+                all outcomes in the sample space we get 
+                <me>\frac{1}{6}+\frac{1}{6}+\frac{1}{6}+\frac{1}{6}+\frac{1}{6}+\frac{1}{6} = 1</me>.
+            </li>
+            <li>
+                A sample space with associated probabilities that sum to <m>1</m> is referred to as a 
+                <term>probability model</term> for a random experiment.
+            </li>
+            </ul>
+        </p>
+      </paragraphs>
+
+      <!-- <xi:include href="./activities/act_05_03.ptx" xpointer="worksheet/1"/> -->
+
+      <paragraphs><title>Back to work...</title>
+        <p>
+            We are generally interested in probabilities of one or more events of a random experiment that are not just 
+            single outcomes of a random experiment (e.g., what is the proability of rolling an even number when rolling a 
+            fair six-sided dice?). We will discover some basic rules we can use to answer these questions using the 
+            probablities of outcomes from a probability model.
+        </p>
+
+        <!-- <xi:include href="./activities/act_05_03.ptx" xpointer="worksheet/2"/> -->
+
+        <p>
+            There is also a general rule for the probability of <q>event A</q> AND <q>event B</q> of a random experiment 
+            happening (called the <term>intersection</term> of two events):
+            <me>P(A \text{ and } B)= P(A) \cdot P(B)</me>
+            This is true as long as the two events are <term>independent</term>. Two events are <term>independent</term> 
+            if knowing whether or not one event happened does not give any new information about how likely the other event 
+            is to happen. Here are a few examples:
+        
+          <ul>
+            <li>
+                The events <q>flipping a heads on the first flip</q> and <q>flipping a heads on the second flip</q> are 
+                independent. Knowing that I flipped a heads on the first flip does not change the probability of flipping a 
+                heads on the second flip. 
+            </li>
+            <li>
+                The events <q>rolling an even number</q> and <q>rolling a number <m>4</m> or less</q> in the same roll are 
+                independent events. The probability of rolling a number <m>4</m> or less is <m>\frac{4}{6}=\frac{2}{3}</m>. 
+                If we now know that the roll was an even number, the set of outcomes changes to <m>2</m>, <m>4</m>, or 
+                <m>6</m>. Two out of three of these outcomes is <m>4</m> or less, so the probability of rolling a number 
+                <m>4</m> or less (even with the knowledge that the roll was even) is still <m>\frac{2}{3}</m>. 
+            </li>
+            <li>
+                The events <q>rolling an even number</q> and <q>rolling a number <m>3</m> or less</q> in the same roll are 
+                <em>not</em> independent events. The probability of rolling a number <m>3</m> or less is 
+                <m>\frac{3}{6}=\frac{1}{2}</m>. If we now know that the roll was an even number, the set of outcomes changes 
+                to <m>2</m>, <m>4</m>, or <m>6</m>. One out of three of these outcomes is <m>3</m> or less, 
+                so the probability of rolling a number <m>3</m> or less (with the knowledge that the roll was even) 
+                has changed to <m>\frac{1}{3}</m>.
+            </li>
+          </ul>
+        </p>
+      </paragraphs>
+
+      <!-- <xi:include href="./activities/act_05_03.ptx" xpointer="worksheet/2"/> -->
+
+      <conclusion><title>Reflection</title>
+        <p>
+            Let's reflect on what we've learned, and what we still have questions about.
+        
+            <ol>
+                <li>
+                    Why are random experiments relevant to questions of sustainability?
+                </li>
+                <li>
+                    How do we use probability models to describe the uncertainty of a random experiment?
+                </li>
+                <li>
+                    How can we use probabilities of outcomes in a sample space to compute probabilities of events and 
+                    combinations of events?
+                </li>
+            </ol>
+        </p>
+      </conclusion>
+      <conclusion><title>Section Checkpoint</title>
+        <p>
+            Link here to Doenet course.
+        </p>
+      </conclusion>
+
     
 </section>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-6-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Values and Ethics</title>
+    <introduction>
+        <p>
+           Our decisions are never purely mathematical. As humans, the decisions we make are complex. The purpose of this 
+           activity is to reflect on what it means for you to make a <q>good</q> decision in complicated circumstances, and 
+           what role mathematics should have in that process.
+        </p>
+        <p>
+            The objectives of this activity are that you can...
+        </p>
+      </introduction>
+      <objectives><title>Section Objectives</title>
+        
+          <ol>
+            <li>
+                verbalize your core values that guide your sustainability decisions.
+            </li>
+            <li>
+                verbalize the role of ethics in making sustainability decisions.
+            </li>
+            <li>
+                verbalize the role of mathematics in making sustainability decisions.
+            </li>
+          </ol>
+      </objectives>
+      <paragraphs><title>Let's get to work...</title>
+        <p>
+            Our choices are multi-faceted. When faced with complicated questions, there are multiple factors that can be 
+            taken into account. Some factors come from the facts involved, which is what we have spent much of our time 
+            learning tools for analyzing so far. We may also consider personal beliefs that are important to us 
+            (which we will refer to as <term>core values</term>), or basic principles that we believe should be a common 
+            guide for our society (which we will refer to as <term>community ethics</term>). 
+        </p>
+      </paragraphs>
+
+      <!-- <xi:include href="./activities/act_06_03.ptx" xpointer="worksheet/1"/> -->
+
+      <paragraphs><title>Back to work...</title>
+
+        <!-- <xi:include href="./activities/act_06_03.ptx" xpointer="worksheet/2"/> -->
+        
+      </paragraphs>
+
+      <conclusion><title>Reflection</title>
+        <p>
+            Let's reflect on what we've learned, and what we still have questions about.
+        
+            <ol>
+                <li>
+                    When thinking about different decisions you could make to a specific question in sustainability, 
+                    how would you measure whether or not a decision is a <q>good</q> decision? Update the draft you've started 
+                    today into a final draft that can help guide your approach to complex questions that you encounter in 
+                    the future.
+                </li>
+            </ol>
+        </p>
+      </conclusion>
+      <conclusion><title>Section Checkpoint</title>
+        <p>
+            There are no checkpoint questions for this section.
+        </p>
+      </conclusion>
+
+</section>
