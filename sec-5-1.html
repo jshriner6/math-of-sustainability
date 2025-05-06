@@ -96,14 +96,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.6.1';
+eBookConfig.runestone_version = '7.6.2';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.c7804631fa963734.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.f7a03b209751032d.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.11f2df1b38a61a3f.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.f7a03b209751032d.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.541c9106f2c605b9.css">
 <script xmlns:xlink="http://www.w3.org/1999/xlink" src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -196,12 +196,92 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-5-4.html" class="internal"><span class="codenumber">5.4</span> <span class="title">The Law of Large Numbers</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-chapter"><div class="toc-title-box"><a href="ch-course-notes.html" class="internal"><span class="codenumber">6</span> <span class="title">Case Studies</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-06.html" class="internal"><span class="codenumber">6</span> <span class="title">Deciding</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-6-1.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Game Theory</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-6-2.html" class="internal"><span class="codenumber">6.2</span> <span class="title">The Commons</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-6-3.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Values and Ethics</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-course-notes.html" class="internal"><span class="codenumber">7</span> <span class="title">Case Studies</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-topic.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Topic Selection</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-outline.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Outline Presentation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-draft.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Draft Presentation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-finalize.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Finalize Presentation</span></a></div></li>
+</ul>
+</li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section xmlns:xlink="http://www.w3.org/1999/xlink" class="section" id="sec-5-1"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">5.1</span><span class="space"> </span><span class="title">Describing Data</span>
-</h2></section></div>
+</h2>
+<section class="introduction" id="sec-5-1-2"><div class="para" id="sec-5-1-2-1">Mathematical models will never be good enough to provide absolute certainty about how a real-world system will behave. Therefore, it is important to think critically about what information they do provide, and how we choose to use that information. Models typically begin with large amounts of data. The purpose of this activity is to understand some basic tools that can be used to summarize and understand a data set.</div>
+<div class="para" id="sec-5-1-2-2">The objectives of this activity are that you can...</div></section><article class="objectives goal-like" id="sec-5-1-3"><h3 class="heading"><span class="type">Objectives</span></h3>
+<ol class="decimal" id="sec-5-1-3-1">
+<li id="sec-5-1-3-1-1"><div class="para" id="p-derived-sec-5-1-3-1-1">use descriptive statistics like the mean, median, and interquartile range to describe a numerical data set.</div></li>
+<li id="sec-5-1-3-1-2"><div class="para" id="p-derived-sec-5-1-3-1-2">represent a data set visually with a box plot.</div></li>
+</ol></article><section class="paragraphs" id="sec-5-1-4"><h3 class="heading"><span class="title">Let’s get to work....</span></h3>
+<div class="para" id="sec-5-1-4-2">A <dfn class="terminology">data set</dfn> is a collection of objects (like people, countries, etc.) for which one or more measurements (like the height of a person, a country’s GDP, etc.) are taken. Each type of measurement is called a <dfn class="terminology">variable</dfn> in the data set. If the value of a variable is text from a list (like a person’s ethnicity), that variable is called <dfn class="terminology">categorical</dfn>. If the value of a variable is a number (like a person’s height in inches), that variable is called <dfn class="terminology">numerical</dfn>. We will focus on understanding data sets with numerical variables.</div>
+<div class="para" id="sec-5-1-4-3">Each of these questions face a similar challenge: needing to summarize a large group of individual responses into a single response that is a “good” representation of them all. While there is no single best approach to this type of challenge, there are some standard metrics that can be used that can help give us a good understanding of a numerical data set. One approach is to calculate a single number that describes the <em class="emphasis">center value</em> of all of the values that a numerical variable takes in the data set.</div>
+<article class="definition definition-like" id="sec-5-1-4-4"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.1.1</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="sec-5-1-4-4-1">
+<div class="para">The <dfn class="terminology">mean value</dfn> (or <dfn class="terminology">average value</dfn>) of a numerical variable is the sum of all values divided by the total number of values,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{x_1 + x_2 + \cdots + x_n}{n}\text{.}
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="sec-5-1-4-4-2">
+<div class="para">The <dfn class="terminology">median value</dfn> of a numerical variable is the middle value when all values are arranged in increasing order. If there is an even number of values (so there are two values <span class="process-math">\(x_1\)</span> and <span class="process-math">\(x_2\)</span> in the middle), then the median value is the mean of the middle two,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{x_1 +x_2}{2}\text{.}
+\end{equation*}
+</div>
+</div></article><div class="para logical" id="sec-5-1-4-5">
+<div class="para">When your data set is in a spreadsheet, you can typically use the following commands in a cell to calculate these values. If the numerical values of your data set are in column A, rows 1 through 10, then</div>
+<ul class="disc" id="sec-5-1-4-5-1">
+<li id="sec-5-1-4-5-1-1"><div class="para" id="p-derived-sec-5-1-4-5-1-1">to compute the mean value, enter <code class="code-inline tex2jax_ignore">=average(A1:A10)</code>.</div></li>
+<li id="sec-5-1-4-5-1-2"><div class="para" id="p-derived-sec-5-1-4-5-1-2">to compute the median value, enter <code class="code-inline tex2jax_ignore">=median(A1:A10)</code>.</div></li>
+</ul>
+</div></section><section class="paragraphs" id="sec-5-1-5"><h3 class="heading"><span class="title">Back to work....</span></h3>
+<div class="para logical" id="sec-5-1-5-2">
+<div class="para">All three data sets below have a mean value of <span class="process-math">\(5.5\text{.}\)</span>
+</div>
+<ol class="upper-alpha ol-marker-2" id="sec-5-1-5-2-2">
+<li id="sec-5-1-5-2-2-1"><div class="para" id="p-derived-sec-5-1-5-2-2-1"><span class="process-math">\(\displaystyle 1,2,3,4,5,6,7,8,9,10\)</span></div></li>
+<li id="sec-5-1-5-2-2-2"><div class="para" id="p-derived-sec-5-1-5-2-2-2"><span class="process-math">\(\displaystyle 3,3,5,5,5,6,6,6,8,8\)</span></div></li>
+<li id="sec-5-1-5-2-2-3"><div class="para" id="p-derived-sec-5-1-5-2-2-3"><span class="process-math">\(\displaystyle 1,1,1,1,1,1,1,1,1,46\)</span></div></li>
+</ol>
+</div>
+<div class="para" id="sec-5-1-5-3">Besides attempting to describe the center value of a numerical data set, it can also be useful to describe how spread out the values are. As we saw above, data sets can have the same mean, median, or both, and be very different from one another. One standard wayThere is another descriptive measurement called the <dfn class="terminology">standard deviation</dfn> which we will not discuss in this section. It measures how spread out values are from the mean value. to describe the spread of a numerical variable is to compute the <dfn class="terminology">interquartile range</dfn> of that variable.</div>
+<article class="definition definition-like" id="sec-5-1-5-4"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.1.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="sec-5-1-5-4-1">The <dfn class="terminology">lower quartile</dfn> for a numerical variable is the median of the lower half of the values for that variable (not including the median itself).</div>
+<div class="para" id="sec-5-1-5-4-2">The <dfn class="terminology">upper quartile</dfn> for a numerical variable is the median of the upper half of the values for that variable (not including the median itself).</div>
+<div class="para" id="sec-5-1-5-4-3">The <dfn class="terminology">interquartile range</dfn> for a numerical variable is the difference between the upper quartile and the lower quartile for that variable.</div></article><div class="para" id="sec-5-1-5-5">It can also be important to recognize values of a variable that are outside of the “normal spread”. These values are called <dfn class="terminology">outliers</dfn>.</div>
+<article class="definition definition-like" id="sec-5-1-5-6"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.1.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="sec-5-1-5-6-1">An <dfn class="terminology">outlier</dfn> is a value of a numerical variable that is either more than <span class="process-math">\(1.5\)</span> times the interquartile range above the upper quartile, or more than <span class="process-math">\(1.5\)</span> times the interquartile range below the lower quartile.</div></article></section><section class="paragraphs" id="sec-5-1-6"><h3 class="heading"><span class="title">Back to work....</span></h3>
+<div class="para" id="sec-5-1-6-2">We saw in <a href="sec-1-3.html" class="internal" title="Section 1.3: Representations">Section 1.3</a> that visual representations can be very useful for communicating patterns in measurements. There are also useful visuals for communicating the descriptive statistics of the values of a numerical variable that we’ve discussed in this section. One such visual is called a <dfn class="terminology">box plot</dfn>.</div></section><section class="conclusion" id="sec-5-1-7"><h3 class="heading">Reflection.<span></span>
+</h3>
+<div class="para logical" id="sec-5-1-7-2">
+<div class="para">Let’s reflect on what we’ve learned, and what we still have questions about.</div>
+<ol class="decimal" id="sec-5-1-7-2-1">
+<li id="sec-5-1-7-2-1-1"><div class="para" id="p-derived-sec-5-1-7-2-1-1">What are some descriptive ways that we can understand a large numerical data set?</div></li>
+<li id="sec-5-1-7-2-1-2"><div class="para" id="p-derived-sec-5-1-7-2-1-2">After this activity, how would you answer the questions about our class data set?</div></li>
+</ol>
+</div></section><section class="conclusion" id="sec-5-1-8"><h3 class="heading">Section Checkpoint.<span></span>
+</h3>
+<div class="para" id="sec-5-1-8-2">There are no checkpoint questions for this section.</div></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="ch-05.html" title="Previous"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-5-2.html" title="Next"><span class="name">Next</span><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

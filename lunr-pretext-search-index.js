@@ -952,7 +952,79 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.1",
   "title": "Describing Data",
-  "body": " Describing Data  "
+  "body": " Describing Data   Mathematical models will never be good enough to provide absolute certainty about how a real-world system will behave. Therefore, it is important to think critically about what information they do provide, and how we choose to use that information. Models typically begin with large amounts of data. The purpose of this activity is to understand some basic tools that can be used to summarize and understand a data set.  The objectives of this activity are that you can...     use descriptive statistics like the mean, median, and interquartile range to describe a numerical data set.  represent a data set visually with a box plot.    Let's get to work...  A data set is a collection of objects (like people, countries, etc.) for which one or more measurements (like the height of a person, a country's GDP, etc.) are taken. Each type of measurement is called a variable in the data set. If the value of a variable is text from a list (like a person's ethnicity), that variable is called categorical . If the value of a variable is a number (like a person's height in inches), that variable is called numerical . We will focus on understanding data sets with numerical variables.    Each of these questions face a similar challenge: needing to summarize a large group of individual responses into a single response that is a good representation of them all. While there is no single best approach to this type of challenge, there are some standard metrics that can be used that can help give us a good understanding of a numerical data set. One approach is to calculate a single number that describes the center value of all of the values that a numerical variable takes in the data set.   The mean value (or average value ) of a numerical variable is the sum of all values divided by the total number of values, .  The median value of a numerical variable is the middle value when all values are arranged in increasing order. If there is an even number of values (so there are two values and in the middle), then the median value is the mean of the middle two, .   When your data set is in a spreadsheet, you can typically use the following commands in a cell to calculate these values. If the numerical values of your data set are in column A, rows 1 through 10, then  to compute the mean value, enter =average(A1:A10) .  to compute the median value, enter =median(A1:A10) .      Back to work...  All three data sets below have a mean value of .        Besides attempting to describe the center value of a numerical data set, it can also be useful to describe how spread out the values are. As we saw above, data sets can have the same mean, median, or both, and be very different from one another. One standard way There is another descriptive measurement called the standard deviation which we will not discuss in this section. It measures how spread out values are from the mean value. to describe the spread of a numerical variable is to compute the interquartile range of that variable.   The lower quartile for a numerical variable is the median of the lower half of the values for that variable (not including the median itself).  The upper quartile for a numerical variable is the median of the upper half of the values for that variable (not including the median itself).  The interquartile range for a numerical variable is the difference between the upper quartile and the lower quartile for that variable.   It can also be important to recognize values of a variable that are outside of the normal spread . These values are called outliers .   An outlier is a value of a numerical variable that is either more than times the interquartile range above the upper quartile, or more than times the interquartile range below the lower quartile.     Back to work...  We saw in that visual representations can be very useful for communicating patterns in measurements. There are also useful visuals for communicating the descriptive statistics of the values of a numerical variable that we've discussed in this section. One such visual is called a box plot .     Reflection  Let's reflect on what we've learned, and what we still have questions about.  What are some descriptive ways that we can understand a large numerical data set?  After this activity, how would you answer the questions about our class data set ?     Section Checkpoint  There are no checkpoint questions for this section.   "
+},
+{
+  "id": "sec-5-1-3",
+  "level": "2",
+  "url": "sec-5-1.html#sec-5-1-3",
+  "type": "Objectives",
+  "number": "5.1",
+  "title": "",
+  "body": "  use descriptive statistics like the mean, median, and interquartile range to describe a numerical data set.  represent a data set visually with a box plot.   "
+},
+{
+  "id": "sec-5-1-4-2",
+  "level": "2",
+  "url": "sec-5-1.html#sec-5-1-4-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "data set variable categorical numerical "
+},
+{
+  "id": "sec-5-1-4-4",
+  "level": "2",
+  "url": "sec-5-1.html#sec-5-1-4-4",
+  "type": "Definition",
+  "number": "5.1.1",
+  "title": "",
+  "body": " The mean value (or average value ) of a numerical variable is the sum of all values divided by the total number of values, .  The median value of a numerical variable is the middle value when all values are arranged in increasing order. If there is an even number of values (so there are two values and in the middle), then the median value is the mean of the middle two, .  "
+},
+{
+  "id": "sec-5-1-5-3",
+  "level": "2",
+  "url": "sec-5-1.html#sec-5-1-5-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "standard deviation interquartile range "
+},
+{
+  "id": "sec-5-1-5-4",
+  "level": "2",
+  "url": "sec-5-1.html#sec-5-1-5-4",
+  "type": "Definition",
+  "number": "5.1.2",
+  "title": "",
+  "body": " The lower quartile for a numerical variable is the median of the lower half of the values for that variable (not including the median itself).  The upper quartile for a numerical variable is the median of the upper half of the values for that variable (not including the median itself).  The interquartile range for a numerical variable is the difference between the upper quartile and the lower quartile for that variable.  "
+},
+{
+  "id": "sec-5-1-5-5",
+  "level": "2",
+  "url": "sec-5-1.html#sec-5-1-5-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "outliers "
+},
+{
+  "id": "sec-5-1-5-6",
+  "level": "2",
+  "url": "sec-5-1.html#sec-5-1-5-6",
+  "type": "Definition",
+  "number": "5.1.3",
+  "title": "",
+  "body": " An outlier is a value of a numerical variable that is either more than times the interquartile range above the upper quartile, or more than times the interquartile range below the lower quartile.  "
+},
+{
+  "id": "sec-5-1-6-2",
+  "level": "2",
+  "url": "sec-5-1.html#sec-5-1-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "box plot "
 },
 {
   "id": "sec-5-2",
@@ -961,7 +1033,25 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.2",
   "title": "Visualizing Data",
-  "body": " Visualizing Data  "
+  "body": " Visualizing Data   When using data to help inform the likelihood of a specific outcome, it is helpful to know the number of occurrences of that outcome in your data set. This is called the frequency of that outcome, and is a property that our current summaries and visuals have not highlighted. The purpose of this activity is to learn how to visually represent a data set to highlight frequencies, and to use that visual to make qualitative interpretations.  The objectives of this activity are that you can...     represent the distribution of numerical data with a frequency histogram.  recognize when a distribution is skewed and interpret its implications.  recognize common distribution shapes.    Let's get to work...  The distribution of a numerical variable is an organization of that variable's values that illustrates how often (i.e., the frequency) different types of values occur. A frequency histogram is one standard visual representation for distributions of a numerical variable, which we will illustrate next.     Back to work...    Back to work...    Reflection  Let's reflect on what we've learned, and what we still have questions about.  How does a frequency histogram illustrate data differently from a box plot?  How is the distribution of a numerical variable related to predicting outcomes?     Section Checkpoint  There are no checkpoint questions for this section.   "
+},
+{
+  "id": "sec-5-2-3",
+  "level": "2",
+  "url": "sec-5-2.html#sec-5-2-3",
+  "type": "Objectives",
+  "number": "5.2",
+  "title": "",
+  "body": "  represent the distribution of numerical data with a frequency histogram.  recognize when a distribution is skewed and interpret its implications.  recognize common distribution shapes.   "
+},
+{
+  "id": "sec-5-2-4-2",
+  "level": "2",
+  "url": "sec-5-2.html#sec-5-2-4-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "distribution frequency histogram "
 },
 {
   "id": "sec-5-3",
@@ -970,7 +1060,43 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.3",
   "title": "Probability Models",
-  "body": " Probability Models  "
+  "body": " Probability Models   In the previous section we saw how visualizing data can help inform our intuition regarding the likelihood of specific outcomes. The purpose of this activity is to formalize this idea by introducing probability models.  The objectives of this activity are that you can...     identify a probability model for a random experiment.  compute basic probabilities for events from a probability model.    Let's get to work...  Many games that we play are interesting because they contain a level of uncertainty. For example, the outcome of rolling a dice cannot be known for certain until it happens. This is also the nature of many events in life. We cannot know with complete certainty today what the weather will be tomorrow, what our crop yield will be in months, or what our city's population will grow to next year. This does not, however, mean that we are unable to say something meaningful in these situations. An event with an uncertain outcome is referred to as a random experiment , and the language used to make meaningful observations about random experiments is called probability .  As a first example, let's return to the random experiment of rolling a dice and make some important observations.  Assuming we are rolling a single six-sided dice, there are only six possible outcomes: rolling a , , , , , or . The set of all possible outcomes in a random experiment is called the sample space of the random experiment.  Any subset of the sample space is an event of the random experiment. For example, rolling an even number is an event of rolling a dice.  We can assign a number to each outcome in the sample space which represents how likely that outcome is to occur. These numbers are between and and can be interpreted as the percentage likelihood of that outcome, called the probability of that outcome. Probabilities may be determined from properties that define the random experiment or from a computational model describing the experiment. For rolling a six-sided dice, we could assign a probablility of ( ) to each outcome. This reflects the fact that each outcome occurs on exactly one of six sides of the dice, and that we assume each outcome is equally likely to occur. We would call this dice a fair dice; a dice in which some outcomes are more likely than others would be called a weighted dice.  The sum of the probabilities of all outcomes in the sample space should always be ( ). In the example of rolling a dice, there are six outcomes (rolling a , , , , , or ), each with a probability of . So if we add the probabilities of all outcomes in the sample space we get .  A sample space with associated probabilities that sum to is referred to as a probability model for a random experiment.      Back to work...  We are generally interested in probabilities of one or more events of a random experiment that are not just single outcomes of a random experiment (e.g., what is the proability of rolling an even number when rolling a fair six-sided dice?). We will discover some basic rules we can use to answer these questions using the probablities of outcomes from a probability model.   There is also a general rule for the probability of event A AND event B of a random experiment happening (called the intersection of two events): This is true as long as the two events are independent . Two events are independent if knowing whether or not one event happened does not give any new information about how likely the other event is to happen. Here are a few examples:  The events flipping a heads on the first flip and flipping a heads on the second flip are independent. Knowing that I flipped a heads on the first flip does not change the probability of flipping a heads on the second flip.  The events rolling an even number and rolling a number or less in the same roll are independent events. The probability of rolling a number or less is . If we now know that the roll was an even number, the set of outcomes changes to , , or . Two out of three of these outcomes is or less, so the probability of rolling a number or less (even with the knowledge that the roll was even) is still .  The events rolling an even number and rolling a number or less in the same roll are not independent events. The probability of rolling a number or less is . If we now know that the roll was an even number, the set of outcomes changes to , , or . One out of three of these outcomes is or less, so the probability of rolling a number or less (with the knowledge that the roll was even) has changed to .      Reflection  Let's reflect on what we've learned, and what we still have questions about.  Why are random experiments relevant to questions of sustainability?  How do we use probability models to describe the uncertainty of a random experiment?  How can we use probabilities of outcomes in a sample space to compute probabilities of events and combinations of events?     Section Checkpoint  Link here to Doenet course.   "
+},
+{
+  "id": "sec-5-3-3",
+  "level": "2",
+  "url": "sec-5-3.html#sec-5-3-3",
+  "type": "Objectives",
+  "number": "5.3",
+  "title": "",
+  "body": "  identify a probability model for a random experiment.  compute basic probabilities for events from a probability model.   "
+},
+{
+  "id": "sec-5-3-4-2",
+  "level": "2",
+  "url": "sec-5-3.html#sec-5-3-4-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "random experiment probability "
+},
+{
+  "id": "sec-5-3-4-3",
+  "level": "2",
+  "url": "sec-5-3.html#sec-5-3-4-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "sample space event probability fair weighted probability model "
+},
+{
+  "id": "sec-5-3-5-3",
+  "level": "2",
+  "url": "sec-5-3.html#sec-5-3-5-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "intersection independent independent "
 },
 {
   "id": "sec-5-4",
@@ -979,16 +1105,259 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.4",
   "title": "The Law of Large Numbers",
-  "body": " The Law of Large Numbers  "
+  "body": " The Law of Large Numbers   When it is possible to repeat a random experiment many times, we can use this sampling data (instead of a model) to approximate probabilities of outcomes in the sample space. The purpose of this activity is to practice using frequency data to estimate probabilities, and to illustrate how increasing the number of samples we use makes our estimates better.  The objectives of this activity are that you can...     create a probability density histogram from frequencies.  explain how the law of large numbers can be used to approximate probabilities.    Let's get to work...  In we used frequency histograms of numerical data to give us a visual of how that data is distributed. In we saw how we could describe data from a random experiment using the language of probability. It is possible to combine these ideas into a probability density histogram (or just density histogram ), which gives a visual of how probabilities are distributed over the sample space of a random experiment. We will describe the process of creating a density histogram with an example.  Suppose you are interested in measuring arsenic levels in a large water reservoir. As a random experiment, this could be framed as drawing a one liter sample and testing the arsenic concentration in parts per billion (ppb) of that sample. The outcomes in the sample space could be ppb, ppb, ppb, and ppb.  In the random experiment of rolling a pair of dice, we used our knowledge of every possible roll to determine the probabilities of outcomes in the sample space. Similarly, in order to know the true probablities of each outcome in the sample space of the lake draws, we would have to have knowledge of every possible one liter sample from the reservoir. Unlike rolling a pair of dice, this is not feasible to do in reality. In these instances it can be useful to approximate the probability of an outcome by computing a relative frequency . While we can't draw every possible one liter sample from the reservoir, we can draw several different samples (i.e., repeat our experiment multiple times).   If we repeat an experiment times, and an outcome has a frequency of , then the relative frequency of that outcome is defined to be .   The relative frequency of an outcome is a number between and , and can be thought of as an approximation of the probability of the outcome.  For example, suppose we draw one liter samples from the reservoir. shows frequencies and relative frequencies for each outcome in our sample space.     Outcome  Frequency  Relative Frequency    ppb      ppb      ppb      ppb       Notice that the sum of the frequencies is the total number of samples, and the sum of the relative frequencies is ( ).   A common misinterpretation of density histograms is to read the height of each rectangle as the relative frequency of that outcome. This is only true if the bin width of each outcome is . In general, the relative frequencies of outcomes are communicated in density histograms through the areas of rectangles.    Back to work...  We've seen that we can approximate probabilities of outcomes by computing relative frequencies. What if we would like to get a better approximation than what we currently have? It seems intuitive that we should increase our sample size (i.e., repeat the experiment more times). After all, the more samples we have, the more information we have about the outcomes in our sample space. This intuition can be confirmed and made more precise with the Law of Large Numbers , which we will illustrate below with several examples.    The shared spreadsheet illustrates another important fact in probability called the Central Limit Theorem. Intuitively, it says that for large sample sizes, the distribution of the averages of those samples is normally distributed with a mean approximately equal to the true mean.    Back to work...  Intuitively, the Law of Large Numbers says that if we repeat a random experiment many times, then the density histogram of relative frequencies will almost certainly approach the density histogram which reflects the true probabilities of the outcomes of the random experiment.  In our example of flipping a coin, we saw this illustrated in that as we increased the number of flips, the density histogram began to consistently reflect the uniform distribution in which each outcome has probability . This can be most powerful, however, for random experiments in which we cannot in practice determine the true probability density histogram, such as our example of collecting water samples from a reservoir.    Reflection  Let's reflect on what we've learned, and what we still have questions about.  How can we estimate probabilities of outcomes in a random experiment?  How does the Law of Large Numbers help us understand uncertainty related to a random experiment?  What would be a good template sentence to use to communicate relative frequencies obtained from a large number of samples?     Section Checkpoint  Link here to Doenet course.   "
 },
 {
-  "id": "ch-course-notes",
+  "id": "sec-5-4-3",
+  "level": "2",
+  "url": "sec-5-4.html#sec-5-4-3",
+  "type": "Objectives",
+  "number": "5.4",
+  "title": "",
+  "body": "  create a probability density histogram from frequencies.  explain how the law of large numbers can be used to approximate probabilities.   "
+},
+{
+  "id": "sec-5-4-4-2",
+  "level": "2",
+  "url": "sec-5-4.html#sec-5-4-4-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "probability density histogram density histogram "
+},
+{
+  "id": "sec-5-4-4-4",
+  "level": "2",
+  "url": "sec-5-4.html#sec-5-4-4-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "relative frequency "
+},
+{
+  "id": "sec-5-4-4-5",
+  "level": "2",
+  "url": "sec-5-4.html#sec-5-4-4-5",
+  "type": "Definition",
+  "number": "5.4.1",
+  "title": "",
+  "body": " If we repeat an experiment times, and an outcome has a frequency of , then the relative frequency of that outcome is defined to be .  "
+},
+{
+  "id": "tab-ch5-rel-freq",
+  "level": "2",
+  "url": "sec-5-4.html#tab-ch5-rel-freq",
+  "type": "Table",
+  "number": "5.4.2",
+  "title": "",
+  "body": "   Outcome  Frequency  Relative Frequency    ppb      ppb      ppb      ppb      "
+},
+{
+  "id": "sec-5-4-5-2",
+  "level": "2",
+  "url": "sec-5-4.html#sec-5-4-5-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Law of Large Numbers "
+},
+{
+  "id": "sec-5-4-5-3",
+  "level": "2",
+  "url": "sec-5-4.html#sec-5-4-5-3",
+  "type": "Remark",
+  "number": "5.4.3",
+  "title": "",
+  "body": " The shared spreadsheet illustrates another important fact in probability called the Central Limit Theorem. Intuitively, it says that for large sample sizes, the distribution of the averages of those samples is normally distributed with a mean approximately equal to the true mean.  "
+},
+{
+  "id": "sec-6-1",
   "level": "1",
-  "url": "ch-course-notes.html",
-  "type": "Chapter",
-  "number": "6",
-  "title": "Case Studies",
-  "body": " Case Studies   The following notes are intended to remind you what we covered each week. They are not a substitute for attending class and not a substitute for reading the textbook.    "
+  "url": "sec-6-1.html",
+  "type": "Section",
+  "number": "6.1",
+  "title": "Game Theory",
+  "body": " Game Theory   We've discussed several tools for analyzing data, predicting change, and assessing risk to better understand the behavior of systems around us. Ultimately, we must use this information to make decisions. The purpose of this activity is to introduce how mathematics can be used to help understand outcomes in a network of multiple decision-makers.  The objectives of this activity are that you can...     understand how an interaction between two decision-makers can be modeled mathematically with a game.  interpret a payoff matrix for a game to predict the outcome.    Let's get to work...   We must make a decision can be a daunting phrase in many contexts. It is easy to think that the decision itself is the complex part, requiring analysis of many factors and variables using tools such as we've discussed up to this point. A goal of our final chapter is to consider the complexity introduced by we . Outcomes in sustainability contexts are usually the result of decisions made by multiple connected individuals with varying needs and values, not a decision made by a single individual. The we can range widely in scope, from a school's decisions about how to re-use and re-cycle materials, to the world's decisions about how to respond to current levels of greenhouse gas emissions in the atmosphere. Regardless of the scope, outcomes resulting from decisions made by a we are more complex to predict and understand than outcomes resulting from decisions made by an individual.  One of the most prevalent approaches that we have seen in modern history was introduced by economist Adam Smith in 1776, describing an individual merchant:   ...by directing that industry in such a manner as its produce may be of the greatest value, he intends only his own gain, and he is in this, as in many other cases, led by an invisible hand to promote an end which was no part of his intention. Nor is it always the worse for society that it was no part of it. By pursuing his own interest, he frequently promotes that of society more effectually than when he really intends to promote it. An Inquiry into the Nature and Causes of the Wealth of Nations, page 199   This statement was made in the context of economics, but the philosophy is easily extended to any context which involves multiple decision-makers, and provides one strategy and claim for sustainability decisions that involve multiple individuals: if you, as an individual, regard only your own self-interest and all other individuals do the same, then typically an unintended biproduct will be that the overall outcome is, in some sense, best for all.   Game theory is a field of mathematics that can help us analyze scenarios in which there are multiple decision-makers whose decisions affect each other. We will introduce the basic concepts here to analyze in more detail the underlying philosophy in Smith's statement above.  Let's begin with an example to introduce the important definitions. In the game rock, paper, scissors , there are two players that make a choice of which element they'd like to play, and then they display those elements simultaneously. The outcome of the game is determined by the following hierarchy:  rock beats scissors,  scissors beats paper, and  paper beats rock.    If the players play the same object, the game would be considered a draw. If we were keep score, we could award a for a win, a for a loss, and a for a draw. We can organize all possible outcomes for the game in the following table, where the entries are organized as (Player A's payoff, Player B's payoff).         Rock, Paper, Scissors  B plays rock  B plays scissors  B plays paper    A plays rock             A plays scissors             A plays paper              Let's make some important observations about this game.  This game contains more than one player, each of which is free to choose between multiple decisions, and each player's satisfaction with the outcome depends on the decision made by the other player.  Each player has knowledge of every player's satisfaction with every possible outcome. In other words, each player knows , which is called the payoff matrix for the game.  Any situation containing the above elements is considered a game . Note that this is more general than just the contexts that we typically think of as a game , like athletics or board games. For simplicity, we will focus on two player games, which will simplify our analysis yet still allow us to make some important observations about the outcomes of games.  If player A makes a choice, then a choice for player B which gives them the highest payoff given player A's choice is called a best response . For example, if player A chooses rock (so we are in the top row of the payoff matrix), a best response for player B is to choose paper ( is the best payoff in the second coordinate of the entries in row 1). An important part of predicting the outcome of games will be to consider each player's best responses, and also their knowledge of the the other player's best responses. We will assume that each player will act according to Smith's quote. That is, each player will attempt to make a decision that is best for their own self-interst, and they know the other player will do the same.    The rock, paper, scissors game also has the property that whatever one player gains, the other loses. This is called a zero sum game. Let's look at another example of a game which is not a zero sum game.   The outcome of the previous game is referred to as the prisoner's dilemma , because it is similar to the game in which a team of prisoners is separated and they each have a choice of confessing the other's crimes, or remaining silent. The payoff matrix for this game is as follows, with payoffs listed as years in prison.        Prisoner's Dilemma  B Confesses  B Silent    A Confesses          A Silent            When at least one player has a single dominant choice, we can predict the outcome of the game. This is because both players have knowledge of the payoff matrix. If player A has a dominant choice, then player B knows what that is and knows that player A will choose it. Therefore, player B will make whatever choice is a best response to player A's dominant choice.    Back to work...  We will look at one more case when we are able to predict the outcome of a game. To help us do so, let's make an observation about the cases we've been able to predict so far, when at least one player has a dominant choice.  Let's return to the game in . We could make a table of best responses for both players:    If A chooses...  B's best response is...    Joint Project  Individual Project    Individual Project  Individual Project      If B chooses...  A's best response is...    Joint Project  Individual Project    Individual Project  Individual Project    Let's make some important observations about these tables.  Organized this way, we can see that player B has a dominant choice of Individual Project because that is the only response listed in player B's best response column. The same is true for player A.  We can also see that the of choice Individual Project for each partner is unique in another way: it is the only pair of choices which is a best response to the other. That is, if partner A chooses Individual Project , partner B's best response is Individual Project , and vice versa. A pair of choices with this property (that they are both best responses to the other) is called a Nash equilibrium .    Nash equilibria can occur even when neither player has a dominant choice. They are important to identify because they are a combination of choices in which no player can benefit from making a different choice, assuming all other players' choices stay the same. So if a game reaches a Nash equilibrium, no player has an incentive to make a different choice (this is why we refer to choices that meet this property as an equilibrium ). When there is a single Nash equilibrium in a game, we expect that players making decisions based only on their own individual gain will make the choice corresponding to that equilibrium. Let's look at a final example.    Multiple Nash Equilibria  Outcomes of games with multiple Nash equilibria can depend on other factors relevant to the game. Consider a game with two countries that share a single reservoir. They can choose to pollute the reservoir for economic gain, or not. The payoff matrix showing the quality of life for each country is given below.        Shared Pollution 2  B Doesn't Pollute  B Pollutes    A Doesn't Pollute          A Pollutes             What are the Nash equilibria of this game?  What is required for the outcome to be one of the Nash equilibria?  What do you think will happen if the outcome is not a Nash equilibrium?  A game with this structure is referred to as a chicken game .   Reflection  Let's reflect on what we've learned, and what we still have questions about.  What are the important assumptions in game theory that allow us to predict outcomes in many games?  What can game theory help us understand about outcomes in situations when there are multiple decision-makers?     Section Checkpoint  Link here to Doenet course.   "
+},
+{
+  "id": "sec-6-1-3",
+  "level": "2",
+  "url": "sec-6-1.html#sec-6-1-3",
+  "type": "Objectives",
+  "number": "6.1",
+  "title": "",
+  "body": "  understand how an interaction between two decision-makers can be modeled mathematically with a game.  interpret a payoff matrix for a game to predict the outcome.   "
+},
+{
+  "id": "sec-6-1-4-6",
+  "level": "2",
+  "url": "sec-6-1.html#sec-6-1-4-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Game theory "
+},
+{
+  "id": "tab-ch6-payoff",
+  "level": "2",
+  "url": "sec-6-1.html#tab-ch6-payoff",
+  "type": "Table",
+  "number": "6.1.1",
+  "title": "",
+  "body": "       Rock, Paper, Scissors  B plays rock  B plays scissors  B plays paper    A plays rock             A plays scissors             A plays paper             "
+},
+{
+  "id": "sec-6-1-4-10",
+  "level": "2",
+  "url": "sec-6-1.html#sec-6-1-4-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "payoff matrix game best response "
+},
+{
+  "id": "sec-6-1-4-11",
+  "level": "2",
+  "url": "sec-6-1.html#sec-6-1-4-11",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "zero sum "
+},
+{
+  "id": "sec-6-1-4-12",
+  "level": "2",
+  "url": "sec-6-1.html#sec-6-1-4-12",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "prisoner's dilemma "
+},
+{
+  "id": "tab-ch6-prisoner",
+  "level": "2",
+  "url": "sec-6-1.html#tab-ch6-prisoner",
+  "type": "Table",
+  "number": "6.1.2",
+  "title": "",
+  "body": "      Prisoner's Dilemma  B Confesses  B Silent    A Confesses          A Silent          "
+},
+{
+  "id": "sec-6-1-5-6",
+  "level": "2",
+  "url": "sec-6-1.html#sec-6-1-5-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Nash equilibrium "
+},
+{
+  "id": "sec-6-1-6",
+  "level": "2",
+  "url": "sec-6-1.html#sec-6-1-6",
+  "type": "Remark",
+  "number": "6.1.3",
+  "title": "Multiple Nash Equilibria.",
+  "body": "Multiple Nash Equilibria  Outcomes of games with multiple Nash equilibria can depend on other factors relevant to the game. Consider a game with two countries that share a single reservoir. They can choose to pollute the reservoir for economic gain, or not. The payoff matrix showing the quality of life for each country is given below.        Shared Pollution 2  B Doesn't Pollute  B Pollutes    A Doesn't Pollute          A Pollutes             What are the Nash equilibria of this game?  What is required for the outcome to be one of the Nash equilibria?  What do you think will happen if the outcome is not a Nash equilibrium?  A game with this structure is referred to as a chicken game .  "
+},
+{
+  "id": "sec-6-2",
+  "level": "1",
+  "url": "sec-6-2.html",
+  "type": "Section",
+  "number": "6.2",
+  "title": "The Commons",
+  "body": " The Commons   Many resources that are topics of sustainability can be used freely by many individuals. The purpose of this activity is to understand possible outcomes when multiple individuals freely use a shared resource over time.  The objectives of this activity are that you can...   Section Objectives   know what is meant by a commons and why it is relevant to questions of sustainability.  use game theory to model possible outcomes when individuals make decisions regarding the management of a commons.    Let's get to work...  A commons is any resource that is shared by a group and can be used freely by individuals in that group. Our daily life is filled with examples of uses of commons, and these resources are also often at the heart of sustainability questions.    Back to work...  We can view the management of a commons through the lens of game theory, where players are individuals of the group using the resource, and the decision each player has is how much of the resource they will use for themselves. We can do this through repeated games, where the decision to be made in a single game is should I use this resource again? . The final outcome will be achieved when all players decide they will stop using the resource. We will now use game theory tools to analyze outcomes when a commons is managed by individuals making decisions according to the assumptions we outlined in .    Back to work...  The tragedy of the commons refers to the phenomenon that occurs when individual rational choices lead to an overuse of a shared resource that makes everyone worse off. Unfortunately, this is not a phenomenon that is only observed in models. There are many examples of the tragedy of the commons in daily life, as well as potential future examples. Harvard Business   Helpful Professer     Reflection  Let's reflect on what we've learned, and what we still have questions about.  What is a commons and why is it relevant to questions of sustainability?  What is the tragedy of the commons?     Section Checkpoint  There are no checkpoint questions for this section.   "
+},
+{
+  "id": "sec-6-2-3",
+  "level": "2",
+  "url": "sec-6-2.html#sec-6-2-3",
+  "type": "Objectives",
+  "number": "6.2",
+  "title": "Section Objectives",
+  "body": "Section Objectives   know what is meant by a commons and why it is relevant to questions of sustainability.  use game theory to model possible outcomes when individuals make decisions regarding the management of a commons.   "
+},
+{
+  "id": "sec-6-2-4-2",
+  "level": "2",
+  "url": "sec-6-2.html#sec-6-2-4-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "commons "
+},
+{
+  "id": "sec-6-2-6-2",
+  "level": "2",
+  "url": "sec-6-2.html#sec-6-2-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "tragedy of the commons "
+},
+{
+  "id": "sec-6-3",
+  "level": "1",
+  "url": "sec-6-3.html",
+  "type": "Section",
+  "number": "6.3",
+  "title": "Values and Ethics",
+  "body": " Values and Ethics   Our decisions are never purely mathematical. As humans, the decisions we make are complex. The purpose of this activity is to reflect on what it means for you to make a good decision in complicated circumstances, and what role mathematics should have in that process.  The objectives of this activity are that you can...   Section Objectives   verbalize your core values that guide your sustainability decisions.  verbalize the role of ethics in making sustainability decisions.  verbalize the role of mathematics in making sustainability decisions.    Let's get to work...  Our choices are multi-faceted. When faced with complicated questions, there are multiple factors that can be taken into account. Some factors come from the facts involved, which is what we have spent much of our time learning tools for analyzing so far. We may also consider personal beliefs that are important to us (which we will refer to as core values ), or basic principles that we believe should be a common guide for our society (which we will refer to as community ethics ).    Back to work...    Reflection  Let's reflect on what we've learned, and what we still have questions about.  When thinking about different decisions you could make to a specific question in sustainability, how would you measure whether or not a decision is a good decision? Update the draft you've started today into a final draft that can help guide your approach to complex questions that you encounter in the future.     Section Checkpoint  There are no checkpoint questions for this section.   "
+},
+{
+  "id": "sec-6-3-3",
+  "level": "2",
+  "url": "sec-6-3.html#sec-6-3-3",
+  "type": "Objectives",
+  "number": "6.3",
+  "title": "Section Objectives",
+  "body": "Section Objectives   verbalize your core values that guide your sustainability decisions.  verbalize the role of ethics in making sustainability decisions.  verbalize the role of mathematics in making sustainability decisions.   "
+},
+{
+  "id": "sec-6-3-4-2",
+  "level": "2",
+  "url": "sec-6-3.html#sec-6-3-4-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "core values community ethics "
+},
+{
+  "id": "sec-topic",
+  "level": "1",
+  "url": "sec-topic.html",
+  "type": "Section",
+  "number": "7.1",
+  "title": "Topic Selection",
+  "body": " Topic Selection  "
+},
+{
+  "id": "sec-outline",
+  "level": "1",
+  "url": "sec-outline.html",
+  "type": "Section",
+  "number": "7.2",
+  "title": "Outline Presentation",
+  "body": " Outline Presentation  "
+},
+{
+  "id": "sec-draft",
+  "level": "1",
+  "url": "sec-draft.html",
+  "type": "Section",
+  "number": "7.3",
+  "title": "Draft Presentation",
+  "body": " Draft Presentation  "
+},
+{
+  "id": "sec-finalize",
+  "level": "1",
+  "url": "sec-finalize.html",
+  "type": "Section",
+  "number": "7.4",
+  "title": "Finalize Presentation",
+  "body": " Finalize Presentation  "
 },
 {
   "id": "backmatter-2",

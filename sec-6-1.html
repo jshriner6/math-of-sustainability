@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Game Theory</title>
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.googleapis.com">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta xmlns:xlink="http://www.w3.org/1999/xlink" name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="og:type" content="book">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:title" content="Mathematics of Sustainability">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Jeff Shriner">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.6.2';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.11f2df1b38a61a3f.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.f7a03b209751032d.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.541c9106f2c605b9.css">
+<script xmlns:xlink="http://www.w3.org/1999/xlink" src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="Math 112" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="math-of-sustainability.html"><span class="title">Mathematics of Sustainability</span></a></h1>
+<p class="byline">Jeff Shriner</p>
+</div></div></header><nav xmlns:xlink="http://www.w3.org/1999/xlink" id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="ch-06.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-06.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-6-2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div xmlns:xlink="http://www.w3.org/1999/xlink" id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div xmlns:xlink="http://www.w3.org/1999/xlink" id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="pref-syllabus.html" class="internal"><span class="title">Course Syllabus</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="pref-expectations.html" class="internal"><span class="title">Activity Expectations</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="pref-motivation.html" class="internal"><span class="title">Course Motivation</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-01.html" class="internal"><span class="codenumber">1</span> <span class="title">Measuring</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-1.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Units</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-1-1.html#ws-1-1-1" class="internal"><span class="codenumber">1.1</span> <span class="title">Unit Conversion Factors Part 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-1-1.html#ws-1-1-2" class="internal"><span class="codenumber">1.1</span> <span class="title">Unit Conversion Factors Part 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-1-1.html#ws-1-1-3" class="internal"><span class="codenumber">1.1</span> <span class="title">Relatable Measurements</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-1-2.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Change and Estimation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-1-3.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Representations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-02.html" class="internal"><span class="codenumber">2</span> <span class="title">Flowing</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-2-1.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Stocks and Flows</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-2-2.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Net Flow and Equilibrium</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-2-3.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Equilibrium Values</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-2-4.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Parameters</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-03.html" class="internal"><span class="codenumber">3</span> <span class="title">Connecting</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-3-1.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Networks and Graphs</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-3-2.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Resilience</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-04.html" class="internal"><span class="codenumber">4</span> <span class="title">Changing</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-4-1.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Dynamic Models and Feedback</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-4-2.html" class="internal"><span class="codenumber">4.2</span> <span class="title">The Exponential Model</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-4-3.html" class="internal"><span class="codenumber">4.3</span> <span class="title">The Logistic Model</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-4-4.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Equilibria and Stabililty</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-4-5.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Tipping Points</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-05.html" class="internal"><span class="codenumber">5</span> <span class="title">Risking</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-5-1.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Describing Data</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-5-2.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Visualizing Data</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-5-3.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Probability Models</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-5-4.html" class="internal"><span class="codenumber">5.4</span> <span class="title">The Law of Large Numbers</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-06.html" class="internal"><span class="codenumber">6</span> <span class="title">Deciding</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-6-1.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Game Theory</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-6-2.html" class="internal"><span class="codenumber">6.2</span> <span class="title">The Commons</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-6-3.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Values and Ethics</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-course-notes.html" class="internal"><span class="codenumber">7</span> <span class="title">Case Studies</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-topic.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Topic Selection</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-outline.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Outline Presentation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-draft.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Draft Presentation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-finalize.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Finalize Presentation</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section xmlns:xlink="http://www.w3.org/1999/xlink" class="section" id="sec-6-1"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">6.1</span><span class="space"> </span><span class="title">Game Theory</span>
+</h2>
+<section class="introduction" id="sec-6-1-2"><div class="para" id="sec-6-1-2-1">We’ve discussed several tools for analyzing data, predicting change, and assessing risk to better understand the behavior of systems around us. Ultimately, we must use this information to make decisions. The purpose of this activity is to introduce how mathematics can be used to help understand outcomes in a network of multiple decision-makers.</div>
+<div class="para" id="sec-6-1-2-2">The objectives of this activity are that you can...</div></section><article class="objectives goal-like" id="sec-6-1-3"><h3 class="heading"><span class="type">Objectives</span></h3>
+<ol class="decimal" id="sec-6-1-3-1">
+<li id="sec-6-1-3-1-1"><div class="para" id="p-derived-sec-6-1-3-1-1">understand how an interaction between two decision-makers can be modeled mathematically with a game.</div></li>
+<li id="sec-6-1-3-1-2"><div class="para" id="p-derived-sec-6-1-3-1-2">interpret a payoff matrix for a game to predict the outcome.</div></li>
+</ol></article><section class="paragraphs" id="sec-6-1-4"><h3 class="heading"><span class="title">Let’s get to work....</span></h3>
+<div class="para" id="sec-6-1-4-2">“We must make a decision” can be a daunting phrase in many contexts. It is easy to think that the decision itself is the complex part, requiring analysis of many factors and variables using tools such as we’ve discussed up to this point. A goal of our final chapter is to consider the complexity introduced by “we”. Outcomes in sustainability contexts are usually the result of decisions made by multiple connected individuals with varying needs and values, not a decision made by a single individual. The “we” can range widely in scope, from a school’s decisions about how to re-use and re-cycle materials, to the world’s decisions about how to respond to current levels of greenhouse gas emissions in the atmosphere. Regardless of the scope, outcomes resulting from decisions made by a “we” are more complex to predict and understand than outcomes resulting from decisions made by an individual.</div>
+<div class="para" id="sec-6-1-4-3">One of the most prevalent approaches that we have seen in modern history was introduced by economist Adam Smith in 1776, describing an individual merchant:</div>
+<div class="para" id="sec-6-1-4-4">“<em class="emphasis">...by directing that industry in such a manner as its produce may be of the greatest value, he intends only his own gain, and he is in this, as in many other cases, led by an invisible hand to promote an end which was no part of his intention. Nor is it always the worse for society that it was no part of it. By pursuing his own interest, he frequently promotes that of society more effectually than when he really intends to promote it.</em>”<details class="ptx-footnote" aria-live="polite" id="sec-6-1-4-4-2"><summary class="ptx-footnote__number" title="Footnote 6.1.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="sec-6-1-4-4-2">An Inquiry into the Nature and Causes of the Wealth of Nations, page 199</div></details>
+</div>
+<div class="para" id="sec-6-1-4-5">This statement was made in the context of economics, but the philosophy is easily extended to any context which involves multiple decision-makers, and provides one strategy and claim for sustainability decisions that involve multiple individuals: if you, as an individual, regard only your own self-interest and all other individuals do the same, then typically an unintended biproduct will be that the overall outcome is, in some sense, best for all.</div>
+<div class="para" id="sec-6-1-4-6">
+<dfn class="terminology">Game theory</dfn> is a field of mathematics that can help us analyze scenarios in which there are multiple decision-makers whose decisions affect each other. We will introduce the basic concepts here to analyze in more detail the underlying philosophy in Smith’s statement above.</div>
+<div class="para logical" id="sec-6-1-4-7">
+<div class="para">Let’s begin with an example to introduce the important definitions. In the game “rock, paper, scissors”, there are two players that make a choice of which element they’d like to play, and then they display those elements simultaneously. The outcome of the game is determined by the following hierarchy:</div>
+<ul class="disc" id="sec-6-1-4-7-2">
+<li id="sec-6-1-4-7-2-1"><div class="para" id="p-derived-sec-6-1-4-7-2-1">rock beats scissors,</div></li>
+<li id="sec-6-1-4-7-2-2"><div class="para" id="p-derived-sec-6-1-4-7-2-2">scissors beats paper, and</div></li>
+<li id="sec-6-1-4-7-2-3"><div class="para" id="p-derived-sec-6-1-4-7-2-3">paper beats rock.</div></li>
+</ul>
+</div>
+<div class="para" id="sec-6-1-4-8">If the players play the same object, the game would be considered a draw. If we were keep score, we could award a “<span class="process-math">\(+1\)</span>” for a win, a “<span class="process-math">\(-1\)</span>” for a loss, and a “<span class="process-math">\(0\)</span>” for a draw. We can organize all possible outcomes for the game in the following table, where the entries are organized as (Player A’s payoff, Player B’s payoff).</div>
+<figure class="table table-like" id="tab-ch6-payoff"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.1<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b3 r3 l0 t0 lines">Rock, Paper, Scissors</th>
+<th scope="col" class="l m b3 r0 l0 t0 lines">B plays rock</th>
+<th scope="col" class="l m b3 r0 l0 t0 lines">B plays scissors</th>
+<th scope="col" class="l m b3 r0 l0 t0 lines">B plays paper</th>
+</tr>
+<tr>
+<th scope="row" class="l m b0 r3 l0 t0 lines">A plays rock</th>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((0,0)\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((+1,-1)\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((-1,+1)\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="l m b0 r3 l0 t0 lines">A plays scissors</th>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((-1,+1)\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((0,0)\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((+1,-1)\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="l m b0 r3 l0 t0 lines">A plays paper</th>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((+1,-1)\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((-1,+1)\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((0,0)\)</span></td>
+</tr>
+</table></div></figure><div class="para logical" id="sec-6-1-4-10">
+<div class="para">Let’s make some important observations about this game.</div>
+<ol class="decimal" id="sec-6-1-4-10-1">
+<li id="sec-6-1-4-10-1-1"><div class="para" id="p-derived-sec-6-1-4-10-1-1">This game contains more than one player, each of which is free to choose between multiple decisions, and each player’s satisfaction with the outcome depends on the decision made by the other player.</div></li>
+<li id="sec-6-1-4-10-1-2"><div class="para" id="p-derived-sec-6-1-4-10-1-2">Each player has knowledge of every player’s satisfaction with every possible outcome. In other words, each player knows <a href="sec-6-1.html#tab-ch6-payoff" class="xref" data-knowl="./knowl/xref/tab-ch6-payoff.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.1">Table 6.1.1</a>, which is called the <dfn class="terminology">payoff matrix</dfn> for the game.</div></li>
+<li id="sec-6-1-4-10-1-3"><div class="para" id="p-derived-sec-6-1-4-10-1-3">Any situation containing the above elements is considered a <dfn class="terminology">game</dfn>. Note that this is more general than just the contexts that we typically think of as a “game”, like athletics or board games. For simplicity, we will focus on two player games, which will simplify our analysis yet still allow us to make some important observations about the outcomes of games.</div></li>
+<li id="sec-6-1-4-10-1-4"><div class="para" id="p-derived-sec-6-1-4-10-1-4">If player A makes a choice, then a choice for player B which gives them the highest payoff given player A’s choice is called a <dfn class="terminology">best response</dfn>. For example, if player A chooses “rock” (so we are in the top row of the payoff matrix), a best response for player B is to choose “paper” (<span class="process-math">\(+1\)</span> is the best payoff in the second coordinate of the entries in row 1). An important part of predicting the outcome of games will be to consider each player’s best responses, and also their knowledge of the the other player’s best responses. We will assume that each player will act according to Smith’s quote. That is, each player will attempt to make a decision that is best for their own self-interst, and they know the other player will do the same.</div></li>
+</ol>
+</div>
+<div class="para" id="sec-6-1-4-11">The rock, paper, scissors game also has the property that whatever one player gains, the other loses. This is called a <dfn class="terminology">zero sum</dfn> game. Let’s look at another example of a game which is not a zero sum game.</div>
+<div class="para" id="sec-6-1-4-12">The outcome of the previous game is referred to as the <dfn class="terminology">prisoner’s dilemma</dfn>, because it is similar to the game in which a team of prisoners is separated and they each have a choice of confessing the other’s crimes, or remaining silent. The payoff matrix for this game is as follows, with payoffs listed as years in prison.</div>
+<figure class="table table-like" id="tab-ch6-prisoner"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.2<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b3 r3 l0 t0 lines">Prisoner’s Dilemma</th>
+<th scope="col" class="l m b3 r0 l0 t0 lines">B Confesses</th>
+<th scope="col" class="l m b3 r0 l0 t0 lines">B Silent</th>
+</tr>
+<tr>
+<th scope="row" class="l m b0 r3 l0 t0 lines">A Confesses</th>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((1,1)\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((0,5)\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="l m b0 r3 l0 t0 lines">A Silent</th>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((5,0)\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((0.5,0.5)\)</span></td>
+</tr>
+</table></div></figure><div class="para" id="sec-6-1-4-14">When at least one player has a single dominant choice, we can predict the outcome of the game. This is because both players have knowledge of the payoff matrix. If player A has a dominant choice, then player B knows what that is and knows that player A will choose it. Therefore, player B will make whatever choice is a best response to player A’s dominant choice.</div></section><section class="paragraphs" id="sec-6-1-5"><h3 class="heading"><span class="title">Back to work....</span></h3>
+<div class="para" id="sec-6-1-5-2">We will look at one more case when we are able to predict the outcome of a game. To help us do so, let’s make an observation about the cases we’ve been able to predict so far, when at least one player has a dominant choice.</div>
+<div class="para" id="sec-6-1-5-3">Let’s return to the game in <code class="code-inline tex2jax_ignore">[provisional cross-reference: act-6-1-partner]</code>. We could make a table of best responses for both players:</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b3 r0 l0 t0 lines">If A chooses...</th>
+<th scope="col" class="l m b3 r0 l0 t0 lines">B’s best response is...</th>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Joint Project</td>
+<td class="l m b0 r0 l0 t0 lines">Individual Project</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Individual Project</td>
+<td class="l m b0 r0 l0 t0 lines">Individual Project</td>
+</tr>
+</table></div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b3 r0 l0 t0 lines">If B chooses...</th>
+<th scope="col" class="l m b3 r0 l0 t0 lines">A’s best response is...</th>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Joint Project</td>
+<td class="l m b0 r0 l0 t0 lines">Individual Project</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Individual Project</td>
+<td class="l m b0 r0 l0 t0 lines">Individual Project</td>
+</tr>
+</table></div>
+<div class="para logical" id="sec-6-1-5-6">
+<div class="para">Let’s make some important observations about these tables.</div>
+<ol class="decimal" id="sec-6-1-5-6-1">
+<li id="sec-6-1-5-6-1-1"><div class="para" id="p-derived-sec-6-1-5-6-1-1">Organized this way, we can see that player B has a dominant choice of “Individual Project” because that is the only response listed in player B’s best response column. The same is true for player A.</div></li>
+<li id="sec-6-1-5-6-1-2"><div class="para" id="p-derived-sec-6-1-5-6-1-2">We can also see that the of choice “Individual Project” for each partner is unique in another way: it is the only pair of choices which is a best response to the other. That is, if partner A chooses “Individual Project”, partner B’s best response is “Individual Project”, and vice versa. A pair of choices with this property (that they are both best responses to the other) is called a <dfn class="terminology">Nash equilibrium</dfn>.</div></li>
+</ol>
+</div>
+<div class="para" id="sec-6-1-5-7">Nash equilibria can occur even when neither player has a dominant choice. They are important to identify because they are a combination of choices in which no player can benefit from making a different choice, assuming all other players’ choices stay the same. So if a game reaches a Nash equilibrium, no player has an incentive to make a different choice (this is why we refer to choices that meet this property as an “equilibrium”). When there is a single Nash equilibrium in a game, we expect that players making decisions based only on their own individual gain will make the choice corresponding to that equilibrium. Let’s look at a final example.</div></section><details id="sec-6-1-6" class="remark remark-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">6.1.3</span><span class="period">.</span><span class="space"> </span><span class="title">Multiple Nash Equilibria.</span>
+</h3></summary><article class="remark remark-like knowl__content"><div class="para" id="sec-6-1-6-2">Outcomes of games with multiple Nash equilibria can depend on other factors relevant to the game. Consider a game with two countries that share a single reservoir. They can choose to pollute the reservoir for economic gain, or not. The payoff matrix showing the quality of life for each country is given below.</div>
+<figure class="table table-like" id="tab-ch6-multiple-nash"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.4<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b3 r3 l0 t0 lines">Shared Pollution 2</th>
+<th scope="col" class="l m b3 r0 l0 t0 lines">B Doesn’t Pollute</th>
+<th scope="col" class="l m b3 r0 l0 t0 lines">B Pollutes</th>
+</tr>
+<tr>
+<th scope="row" class="l m b0 r3 l0 t0 lines">A Doesn’t Pollute</th>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((50,50)\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((40,60)\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="l m b0 r3 l0 t0 lines">A Pollutes</th>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((60,40)\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((0,0)\)</span></td>
+</tr>
+</table></div></figure><div class="para logical" id="sec-6-1-6-4">
+<ol class="decimal" id="sec-6-1-6-4-1">
+<li id="sec-6-1-6-4-1-1"><div class="para" id="p-derived-sec-6-1-6-4-1-1">What are the Nash equilibria of this game?</div></li>
+<li id="sec-6-1-6-4-1-2"><div class="para" id="p-derived-sec-6-1-6-4-1-2">What is required for the outcome to be one of the Nash equilibria?</div></li>
+<li id="sec-6-1-6-4-1-3"><div class="para" id="p-derived-sec-6-1-6-4-1-3">What do you think will happen if the outcome is not a Nash equilibrium?</div></li>
+</ol>
+<div class="para">A game with this structure is referred to as a <dfn class="terminology">chicken game</dfn>.</div>
+</div></article></details><section class="conclusion" id="sec-6-1-7"><h3 class="heading">Reflection.<span></span>
+</h3>
+<div class="para logical" id="sec-6-1-7-2">
+<div class="para">Let’s reflect on what we’ve learned, and what we still have questions about.</div>
+<ol class="decimal" id="sec-6-1-7-2-1">
+<li id="sec-6-1-7-2-1-1"><div class="para" id="p-derived-sec-6-1-7-2-1-1">What are the important assumptions in game theory that allow us to predict outcomes in many games?</div></li>
+<li id="sec-6-1-7-2-1-2"><div class="para" id="p-derived-sec-6-1-7-2-1-2">What can game theory help us understand about outcomes in situations when there are multiple decision-makers?</div></li>
+</ol>
+</div></section><section class="conclusion" id="sec-6-1-8"><h3 class="heading">Section Checkpoint.<span></span>
+</h3>
+<div class="para" id="sec-6-1-8-2">Link here to Doenet course.</div></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="ch-06.html" title="Previous"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-6-2.html" title="Next"><span class="name">Next</span><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a xmlns:xlink="http://www.w3.org/1999/xlink" class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a xmlns:xlink="http://www.w3.org/1999/xlink" class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a xmlns:xlink="http://www.w3.org/1999/xlink" class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

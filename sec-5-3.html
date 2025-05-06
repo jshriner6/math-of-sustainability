@@ -96,14 +96,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.6.1';
+eBookConfig.runestone_version = '7.6.2';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.c7804631fa963734.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.f7a03b209751032d.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.11f2df1b38a61a3f.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.f7a03b209751032d.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.541c9106f2c605b9.css">
 <script xmlns:xlink="http://www.w3.org/1999/xlink" src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -196,12 +196,78 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-5-4.html" class="internal"><span class="codenumber">5.4</span> <span class="title">The Law of Large Numbers</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-chapter"><div class="toc-title-box"><a href="ch-course-notes.html" class="internal"><span class="codenumber">6</span> <span class="title">Case Studies</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-06.html" class="internal"><span class="codenumber">6</span> <span class="title">Deciding</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-6-1.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Game Theory</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-6-2.html" class="internal"><span class="codenumber">6.2</span> <span class="title">The Commons</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-6-3.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Values and Ethics</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-course-notes.html" class="internal"><span class="codenumber">7</span> <span class="title">Case Studies</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-topic.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Topic Selection</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-outline.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Outline Presentation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-draft.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Draft Presentation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-finalize.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Finalize Presentation</span></a></div></li>
+</ul>
+</li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section xmlns:xlink="http://www.w3.org/1999/xlink" class="section" id="sec-5-3"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">5.3</span><span class="space"> </span><span class="title">Probability Models</span>
-</h2></section></div>
+</h2>
+<section class="introduction" id="sec-5-3-2"><div class="para" id="sec-5-3-2-1">In the previous section we saw how visualizing data can help inform our intuition regarding the likelihood of specific outcomes. The purpose of this activity is to formalize this idea by introducing probability models.</div>
+<div class="para" id="sec-5-3-2-2">The objectives of this activity are that you can...</div></section><article class="objectives goal-like" id="sec-5-3-3"><h3 class="heading"><span class="type">Objectives</span></h3>
+<ol class="decimal" id="sec-5-3-3-1">
+<li id="sec-5-3-3-1-1"><div class="para" id="p-derived-sec-5-3-3-1-1">identify a probability model for a random experiment.</div></li>
+<li id="sec-5-3-3-1-2"><div class="para" id="p-derived-sec-5-3-3-1-2">compute basic probabilities for events from a probability model.</div></li>
+</ol></article><section class="paragraphs" id="sec-5-3-4"><h3 class="heading"><span class="title">Let’s get to work....</span></h3>
+<div class="para" id="sec-5-3-4-2">Many games that we play are interesting because they contain a level of uncertainty. For example, the outcome of rolling a dice cannot be known for certain until it happens. This is also the nature of many events in life. We cannot know with complete certainty today what the weather will be tomorrow, what our crop yield will be in <span class="process-math">\(3\)</span> months, or what our city’s population will grow to next year. This does not, however, mean that we are unable to say something meaningful in these situations. An event with an uncertain outcome is referred to as a <dfn class="terminology">random experiment</dfn>, and the language used to make meaningful observations about random experiments is called <dfn class="terminology">probability</dfn>.</div>
+<div class="para logical" id="sec-5-3-4-3">
+<div class="para">As a first example, let’s return to the random experiment of rolling a dice and make some important observations.</div>
+<ul class="disc" id="sec-5-3-4-3-1">
+<li id="sec-5-3-4-3-1-1"><div class="para" id="p-derived-sec-5-3-4-3-1-1">Assuming we are rolling a single six-sided dice, there are only six possible outcomes: rolling a <span class="process-math">\(1\text{,}\)</span> <span class="process-math">\(2\text{,}\)</span> <span class="process-math">\(3\text{,}\)</span> <span class="process-math">\(4\text{,}\)</span> <span class="process-math">\(5\text{,}\)</span> or <span class="process-math">\(6\text{.}\)</span> The set of all possible outcomes in a random experiment is called the <dfn class="terminology">sample space</dfn> of the random experiment.</div></li>
+<li id="sec-5-3-4-3-1-2"><div class="para" id="p-derived-sec-5-3-4-3-1-2">Any subset of the sample space is an <dfn class="terminology">event</dfn> of the random experiment. For example, rolling an even number is an event of rolling a dice.</div></li>
+<li id="sec-5-3-4-3-1-3"><div class="para" id="p-derived-sec-5-3-4-3-1-3">We can assign a number to each outcome in the sample space which represents how likely that outcome is to occur. These numbers are between <span class="process-math">\(0\)</span> and <span class="process-math">\(1\)</span> and can be interpreted as the percentage likelihood of that outcome, called the <dfn class="terminology">probability</dfn> of that outcome. Probabilities may be determined from properties that define the random experiment or from a computational model describing the experiment. For rolling a six-sided dice, we could assign a probablility of <span class="process-math">\(\frac{1}{6}\)</span> (<span class="process-math">\(\approx 17 \%\)</span>) to each outcome. This reflects the fact that each outcome occurs on exactly one of six sides of the dice, and that we assume each outcome is equally likely to occur. We would call this dice a <dfn class="terminology">fair</dfn> dice; a dice in which some outcomes are more likely than others would be called a <dfn class="terminology">weighted</dfn> dice.</div></li>
+<li id="sec-5-3-4-3-1-4"><div class="para" id="p-derived-sec-5-3-4-3-1-4">The sum of the probabilities of all outcomes in the sample space should always be <span class="process-math">\(1\)</span> (<span class="process-math">\(100 \%\)</span>). In the example of rolling a dice, there are six outcomes (rolling a <span class="process-math">\(1\text{,}\)</span> <span class="process-math">\(2\text{,}\)</span> <span class="process-math">\(3\text{,}\)</span> <span class="process-math">\(4\text{,}\)</span> <span class="process-math">\(5\text{,}\)</span> or <span class="process-math">\(6\)</span>), each with a probability of <span class="process-math">\(\frac{1}{6}\text{.}\)</span> So if we add the probabilities of all outcomes in the sample space we get<div class="displaymath process-math">
+\begin{equation*}
+\frac{1}{6}+\frac{1}{6}+\frac{1}{6}+\frac{1}{6}+\frac{1}{6}+\frac{1}{6} = 1\text{.}
+\end{equation*}
+</div>
+</div></li>
+<li id="sec-5-3-4-3-1-5"><div class="para" id="p-derived-sec-5-3-4-3-1-5">A sample space with associated probabilities that sum to <span class="process-math">\(1\)</span> is referred to as a <dfn class="terminology">probability model</dfn> for a random experiment.</div></li>
+</ul>
+</div></section><section class="paragraphs" id="sec-5-3-5"><h3 class="heading"><span class="title">Back to work....</span></h3>
+<div class="para" id="sec-5-3-5-2">We are generally interested in probabilities of one or more events of a random experiment that are not just single outcomes of a random experiment (e.g., what is the proability of rolling an even number when rolling a fair six-sided dice?). We will discover some basic rules we can use to answer these questions using the probablities of outcomes from a probability model.</div>
+<div class="para logical" id="sec-5-3-5-3">
+<div class="para">There is also a general rule for the probability of “event A” AND “event B” of a random experiment happening (called the <dfn class="terminology">intersection</dfn> of two events):</div>
+<div class="displaymath process-math">
+\begin{equation*}
+P(A \text{ and } B)= P(A) \cdot P(B)
+\end{equation*}
+</div>
+<div class="para">This is true as long as the two events are <dfn class="terminology">independent</dfn>. Two events are <dfn class="terminology">independent</dfn> if knowing whether or not one event happened does not give any new information about how likely the other event is to happen. Here are a few examples:</div>
+<ul class="disc" id="sec-5-3-5-3-7">
+<li id="sec-5-3-5-3-7-1"><div class="para" id="p-derived-sec-5-3-5-3-7-1">The events “flipping a heads on the first flip” and “flipping a heads on the second flip” are independent. Knowing that I flipped a heads on the first flip does not change the probability of flipping a heads on the second flip.</div></li>
+<li id="sec-5-3-5-3-7-2"><div class="para" id="p-derived-sec-5-3-5-3-7-2">The events “rolling an even number” and “rolling a number <span class="process-math">\(4\)</span> or less” in the same roll are independent events. The probability of rolling a number <span class="process-math">\(4\)</span> or less is <span class="process-math">\(\frac{4}{6}=\frac{2}{3}\text{.}\)</span> If we now know that the roll was an even number, the set of outcomes changes to <span class="process-math">\(2\text{,}\)</span> <span class="process-math">\(4\text{,}\)</span> or <span class="process-math">\(6\text{.}\)</span> Two out of three of these outcomes is <span class="process-math">\(4\)</span> or less, so the probability of rolling a number <span class="process-math">\(4\)</span> or less (even with the knowledge that the roll was even) is still <span class="process-math">\(\frac{2}{3}\text{.}\)</span>
+</div></li>
+<li id="sec-5-3-5-3-7-3"><div class="para" id="p-derived-sec-5-3-5-3-7-3">The events “rolling an even number” and “rolling a number <span class="process-math">\(3\)</span> or less” in the same roll are <em class="emphasis">not</em> independent events. The probability of rolling a number <span class="process-math">\(3\)</span> or less is <span class="process-math">\(\frac{3}{6}=\frac{1}{2}\text{.}\)</span> If we now know that the roll was an even number, the set of outcomes changes to <span class="process-math">\(2\text{,}\)</span> <span class="process-math">\(4\text{,}\)</span> or <span class="process-math">\(6\text{.}\)</span> One out of three of these outcomes is <span class="process-math">\(3\)</span> or less, so the probability of rolling a number <span class="process-math">\(3\)</span> or less (with the knowledge that the roll was even) has changed to <span class="process-math">\(\frac{1}{3}\text{.}\)</span>
+</div></li>
+</ul>
+</div></section><section class="conclusion" id="sec-5-3-6"><h3 class="heading">Reflection.<span></span>
+</h3>
+<div class="para logical" id="sec-5-3-6-2">
+<div class="para">Let’s reflect on what we’ve learned, and what we still have questions about.</div>
+<ol class="decimal" id="sec-5-3-6-2-1">
+<li id="sec-5-3-6-2-1-1"><div class="para" id="p-derived-sec-5-3-6-2-1-1">Why are random experiments relevant to questions of sustainability?</div></li>
+<li id="sec-5-3-6-2-1-2"><div class="para" id="p-derived-sec-5-3-6-2-1-2">How do we use probability models to describe the uncertainty of a random experiment?</div></li>
+<li id="sec-5-3-6-2-1-3"><div class="para" id="p-derived-sec-5-3-6-2-1-3">How can we use probabilities of outcomes in a sample space to compute probabilities of events and combinations of events?</div></li>
+</ol>
+</div></section><section class="conclusion" id="sec-5-3-7"><h3 class="heading">Section Checkpoint.<span></span>
+</h3>
+<div class="para" id="sec-5-3-7-2">Link here to Doenet course.</div></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-5-2.html" title="Previous"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-5-4.html" title="Next"><span class="name">Next</span><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
