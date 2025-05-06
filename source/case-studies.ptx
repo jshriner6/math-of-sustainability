@@ -5,9 +5,300 @@
 
   <introduction>
     <p>
-      The following notes are intended to remind you what we covered each week.  They are not a substitute for attending class and not a substitute for reading the textbook.
+      The sections in this chapter are a guide for preparing each of your case study presentations.  
+      Your case study presentation will be scored out of <m>30</m> points, assessed according to the following rubric. 
+      Every category will be scored the same for your whole group, with the exception of the Peer Review category.
+      Please use it as a reference while preparing for your presentation.
     </p>
   </introduction>
 
-  <!-- Add more xi:include files here to include them in the main course -->
+  <xi:include href="./topic_selection.ptx"/>
+  <xi:include href="./outline_presentation.ptx"/>
+  <xi:include href="./draft_presentation.ptx"/>
+  <xi:include href="./finalize_presentation.ptx"/>
+
+  <conclusion>
+  <tabular row-headers="yes" bottom="minor" top="minor" left="minor" right="minor">
+    <col right="major" width="20%"/>
+    <col width="20%"/>
+    <col width="20%"/>
+    <col width="20%"/>
+    <col width="20%"/>
+    <row header="yes" bottom="major">
+      <cell>Rubric</cell>
+      <cell><m>3</m></cell>
+      <cell><m>2</m></cell>
+      <cell><m>1</m></cell>
+      <cell><m>0</m></cell>
+    </row>
+    <row>
+      <cell><p>Identification of Sustainability Question or Issue</p></cell>
+      <cell>
+        <p>
+          The sustainability question or issue being addressed in the case study was clearly identified.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          The sustainability question or issue being addressed in the case study was identified, but it was vague or 
+          ambiguous, or unclear why the question or issue is relevant to sustainabilty.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          A question or issue was identified, but it was unclear why the question or issue is relevant to sustainabilty.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          A question or issue was not identified.
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell><p>Identification of Measuring Components</p></cell>
+      <cell>
+        <p>
+          Components of the case study related to <q>Measuring</q> topics were identified, or it was addressed why topics 
+          in this area are not relevant for the case study.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Components of the case study related to <q>Measuring</q> topics were identified, but there were minor inaccuracies 
+          in how they were applied in the case study.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Components of the case study related to <q>Measuring</q> topics were identified, but there were major 
+          inaccuracies in how they were applied in the case study, or there were inaccuracies in addressing why topics 
+          in this area are not relevant for the case study.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Components of the case study related to <q>Measuring</q> topics were not identified, and it was not addressed as 
+          to why topics in this area are not relevant for the case study.
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell><p>Identification of Flowing Components</p></cell>
+      <cell>
+        <p>
+          Components of the case study related to <q>Flowing</q> topics were identified, or it was addressed why topics 
+          in this area are not relevant for the case study.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Components of the case study related to <q>Flowing</q> topics were identified, but there were minor 
+          inaccuracies in how they were applied in the case study.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Components of the case study related to <q>Flowing</q> topics were identified, but there were major 
+          inaccuracies in how they were applied in the case study, or there were inaccuracies in addressing why 
+          topics in this area are not relevant for the case study.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Components of the case study related to <q>Flowing</q> topics were not identified, and it was not addressed as to 
+          why topics in this area are not relevant for the case study.
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell><p>Identification of Connecting Components</p></cell>
+      <cell>
+        <p>
+          Components of the case study related to <q>Connecting</q> topics were identified, or it was addressed why topics in 
+          this area are not relevant for the case study.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Components of the case study related to <q>Connecting</q> topics were identified, but there were minor inaccuracies 
+          in how they were applied in the case study.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Components of the case study related to <q>Connecting</q> topics were identified, but there were major inaccuracies 
+          in how they were applied in the case study, or there were inaccuracies in addressing why topics in this area are 
+          not relevant for the case study.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Components of the case study related to <q>Connecting</q> topics were not identified, and it was not addressed 
+          as to why topics in this area are not relevant for the case study.
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell><p>Identification of Changing Components</p></cell>
+      <cell>
+        <p>
+          Components of the case study related to <q>Changing</q> topics were identified, or it was addressed why topics 
+          in this area are not relevant for the case study.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Components of the case study related to <q>Changing</q> topics were identified, but there were minor inaccuracies 
+          in how they were applied in the case study.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Components of the case study related to <q>Changing</q> topics were identified, but there were major inaccuracies 
+          in how they were applied in the case study, or there were inaccuracies in addressing why topics in this area are 
+          not relevant for the case study.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Components of the case study related to <q>Changing</q> topics were not identified, and it was not addressed as 
+          to why topics in this area are not relevant for the case study.
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell><p>Identification of Risking Components</p></cell>
+      <cell>
+        <p>
+          Components of the case study related to <q>Risking</q> topics were identified, or it was addressed why topics in 
+          this area are not relevant for the case study.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Components of the case study related to <q>Risking</q> topics were identified, but there were minor inaccuracies 
+          in how they were applied in the case study.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Components of the case study related to <q>Risking</q> topics were identified, but there were major inaccuracies 
+          in how they were applied in the case study, or there were inaccuracies in addressing why topics in this area are 
+          not relevant for the case study.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Components of the case study related to <q>Risking</q> topics were not identified, and it was not addressed as to 
+          why topics in this area are not relevant for the case study.
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell><p>Identification of Deciding Components</p></cell>
+      <cell>
+        <p>
+          Components of the case study related to <q>Deciding</q> topics were identified, or it was addressed why topics in 
+          this area are not relevant for the case study.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Components of the case study related to <q>Deciding</q> topics were identified, but there were minor inaccuracies 
+          in how they were applied in the case study.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Components of the case study related to <q>Deciding</q> topics were identified, but there were major inaccuracies 
+          in how they were applied in the case study, or there were inaccuracies in addressing why topics in this area are 
+          not relevant for the case study.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Components of the case study related to <q>Deciding</q> topics were not identified, and it was not addressed as to 
+          why topics in this area are not relevant for the case study.
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell><p>Organization and Time Management</p></cell>
+      <cell>
+        <p>
+          The group's presentation was organized into logical sections. Every group member participated in the presentation, 
+          and the full allotted time was used without being rushed.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          The group's presentation was organized into logical sections. Every group member participated in the presentation. 
+          There was either a significant amount of the allotted time remaining, or the presentation felt very rushed in order 
+          to fit everything in. 
+        </p>
+      </cell>
+      <cell>
+        <p>
+          The group's presentation was not organized into logical sections. Every group member participated in the 
+          presentation.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Every group member did not participate in the presentation.
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell><p>Preparation Documents</p></cell>
+      <cell>
+        <p>
+          The group's preparation documents are complete and thorough.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          The group's preparation documents are complete, but are not thorough. They do not provide sufficient detail to 
+          the preparation questions. 
+        </p>
+      </cell>
+      <cell>
+        <p>
+          One or more of the group's preparation documents are incomplete. All documents were turned in, but there are 
+          questions that were not addressed.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          One or more of the group's preparation documents were not submitted.
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell><p>Peer Review</p></cell><!-- Make this a Canvas Survey -->
+      <cell>
+        <p>
+          The average rating from the peer review rounds to <m>3</m>.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          The average rating from the peer review rounds to <m>2</m>.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          The average rating from the peer review rounds to <m>1</m>.
+        </p>
+      </cell>
+      <cell>
+        <p>
+          The average rating from the peer review rounds to <m>0</m>.
+        </p>
+      </cell>
+    </row>
+  </tabular>
+</conclusion>
+  
 </chapter>
