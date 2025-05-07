@@ -30,11 +30,12 @@
             Below are several representations of measurements: as <term>tables</term>, <term>line graphs</term>, 
             <term>bar charts</term>, <term>scatter plots</term>, and <term>pie charts</term>. 
         </p>
-        <!-- 
-        <xi:include href="./activities/act_01_03.ptx" xpointer="worksheet/1"/>
-        <xi:include href="./activities/act_01_01.ptx" xpointer="worksheet/2"/>
-        -->
+
     </paragraphs>
+
+    <xi:include href="./activities/act_01_03.ptx" xpointer="worksheet/1"/>
+
+    <xi:include href="./activities/act_01_03.ptx" xpointer="worksheet/2"/>
 
     <paragraphs>
         <title>Back to work...</title>
@@ -43,9 +44,9 @@
             representations, but instead we will focus on making an appropriate choice of representation based on the data 
             we are representing, and the pattern(s) we would like to convey.
         </p>
-
-        <!-- <xi:include href="./activities/act_01_01.ptx" xpointer="worksheet/3"/> -->
     </paragraphs>
+
+    <xi:include href="./activities/act_01_03.ptx" xpointer="worksheet/3"/>
 
     <paragraphs>
         <title>Back to work...</title>
@@ -55,36 +56,36 @@
             misleading visuals when creating your own representations, and to view visual representations that are presented 
             to you with a critical eye. 
         </p>
+    </paragraphs>
 
-        <!-- <xi:include href="./activities/act_01_01.ptx" xpointer="worksheet/4"/> -->
+    <xi:include href="./activities/act_01_03.ptx" xpointer="worksheet/4"/>
 
-        <remark><title>A Comparison</title>
-            <p>
-                Below is a comparison of <xref provisional="im-skew"/> with the same section of 
-                <xref provisional="im-skatter"/> on a more standard scale:
-            </p>
-            <sidebyside>
-                <image source="AxisSkew.png">
-                    <description>
-                        <p>
+    <remark><title>A Comparison</title>
+        <p>
+             Below is a comparison of the scatter plot presented in the previous exercise with the same section 
+             on a standard scale:
+        </p>
+        <sidebyside>
+            <image source="AxisSkew.png">
+                <description>
+                     <p>
                             A scatter plot displaying the U.S. natural gas production in millions of cubic feet during each 
                             year from 1986 to 2000. The vertical axis does not start at zero, which makes the upward trend 
                             look drastic.
-                        </p>
-                    </description>
-                </image>
-                <image source="AxisCorrected.png">
-                    <description>
-                        <p>
+                    </p>
+                </description>
+            </image>
+            <image source="AxisCorrected.png">
+                <description>
+                    <p>
                             A scatter plot displaying the U.S. natural gas production in millions of cubic feet during each 
                             year from 1986 to 2000. The vertical axis starts at zero, which gives a more realistic visual 
                             of the upward trend.
-                        </p>
-                    </description>
-                </image>
-            </sidebyside>
-        </remark>
-    </paragraphs>
+                     </p>
+                </description>
+            </image>
+        </sidebyside>
+    </remark>
 
     <conclusion><title>Reflection</title>
         <p>

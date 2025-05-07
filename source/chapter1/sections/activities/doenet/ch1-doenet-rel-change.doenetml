@@ -1,0 +1,52 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_AdLx9Tti27dMx2Gl9AfHG/_Ulkkufkk2X49AG9jT0DIj -->
+
+
+<p>
+      <setup>
+        <sampleRandomNumbers name="unitNum" type="discreteuniform" from="1" to="4"/>
+        <conditionalContent name="unit">
+          <case condition="$unitNum=1">g</case>
+          <case condition="$unitNum=2">m</case>
+          <case condition="$unitNum=3">lb</case>
+          <case condition="$unitNum=4">ft</case>
+        </conditionalContent>
+        <booleanList name="check">
+          <boolean>$new > $old</boolean>
+          <boolean> ($new/$old)-.001< $pure < ($new/$old)+.001</boolean>
+          <boolean>$incdec.selectedIndices=1</boolean>
+          <boolean>$incdec.selectedIndices=2</boolean>
+          <boolean><number>(1-($new/$old))*100 -.001</number> < <number>$percent</number> < <number>(1-($new/$old))*100 +.001</number></boolean>
+          <boolean><number>(($new/$old)-1)*100 -.001</number> < <number>$percent</number> < <number>(($new/$old)-1)*100 +.001</number></boolean>
+        </booleanList>
+      </setup>
+      Our measurment changed from 
+    </p>
+      <me>
+        <sampleRandomNumbers name="old" type="discreteUniform" from="20" to="200" numSamples="1"/> \text{ $unit to } <sampleRandomNumbers name="new" type="discreteUniform" from="20" to="200" numSamples="1"/> \text{ $unit}.
+      </me>
+    <p>
+      The measurement changed by <mathInput name="pure"><number/></mathInput> times.
+    </p>
+    <p>
+      The measurement <choiceInput name="incdec" inline><choice>increased</choice><choice>decreased</choice></choiceInput> by <mathInput name="percent"><number/></mathInput> percent.
+    </p>
+    <answer>
+      <award>
+        <when>
+          <or>
+            <and>
+              $check.booleans[1] $check.booleans[2] $check.booleans[3] $check.booleans[6]          
+            </and>
+            <and>
+              <not>$check.booleans[1]</not> $check.booleans[2] $check.booleans[4] $check.booleans[5]          
+            </and>
+          </or>
+        </when>
+      </award>
+    </answer>
+    <triggerSet>      
+      <callAction actionName="resample" target="old"/>
+      <callAction actionName="resample" target="new"/>
+      <callAction actionName="resample" target="unitNum"/>
+      <label>New Variation</label>
+    </triggerSet>

@@ -75,9 +75,9 @@
         </p>
       </paragraphs>
 
-      <!-- <xi:include href="./activities/act_01_02.ptx" xpointer="worksheet/1"/> -->
+      <xi:include href="./activities/act_01_02.ptx" xpointer="worksheet/1"/>
 
-      <paragraphs>
+    <paragraphs>
         <title>Back to work...</title>
         <p>
             Suppose you were told that the annual <m>\text{CO}_2</m> emmissions from a given country was <m>582,072,950</m> 
@@ -86,16 +86,22 @@
             be a useful concept to understand for interpreting and creating estimates of very large or very small measurements.
             Watch this brief video as a group for an introduction to orders of magnitude.     
         </p>
+
         <video youtube="0YzvupOX8Is"/>
-        <!-- <xi:include href="./activities/act_01_02.ptx" xpointer="worksheet/2"/> -->
-        <p>
+    </paragraphs>
+
+    <xi:include href="./activities/act_01_02.ptx" xpointer="worksheet/2"/>
+
+    <p>
             The power of <m>10</m> used when writing numbers in scientific notation is called the <term>order-of-magnitude</term>
             of that number. This is often the most usable part of a measurment for practical purposes, 
             and is also the best starting place for making estimates of measurements that have limited information. 
             We call an estimate of the form <q><m>1.0 \times 10^n</m></q> an <term>order-of-magnitude estimate</term>.
-        </p>
-        <!-- <xi:include href="./activities/act_01_02.ptx" xpointer="worksheet/3"/> -->
-        <remark><title>Curious about the actual values?</title>
+    </p>
+
+    <xi:include href="./activities/act_01_02.ptx" xpointer="worksheet/3"/>
+
+    <remark><title>Curious about the actual values?</title>
             <p>
                 <ul>
                     <li>
@@ -113,8 +119,7 @@
                     </li>
                 </ul>
             </p>
-        </remark>
-    </paragraphs>
+    </remark>
     <conclusion>
         <title>Reflection</title>
         <p>

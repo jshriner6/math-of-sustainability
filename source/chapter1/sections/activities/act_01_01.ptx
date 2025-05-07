@@ -66,20 +66,33 @@
                      Let's practice that now.  
                 </p>
             </introduction>
+            <page>
             <exercise workspace="4in">
-                <statement>
+                <introduction>
                     <p>
                         Individually, convert the following measurements to more meaningful units:
-                        <ul>
-                            <li><m>120</m> billion pounds</li> <!--annual food waste in America-->
-                            <li><m>12</m> trillion <m>\text{ m}^3</m></li> <!--volume of water in Lake Superior-->
-                        </ul>
-                        <ul>
-                            <li>$<m>407</m> billion</li> <!--Elon Musk net worth-->
-                            <li><m>93</m> million miles</li> <!--Distance from Earth to sun-->
-                        </ul>
                     </p>
-                </statement>
+                </introduction>
+                <task>
+                    <p>
+                    <m>120</m> billion pounds <!--annual food waste in America-->
+                    </p>
+                </task>
+                <task>
+                    <p>
+                    <m>12</m> trillion <m>\text{ m}^3</m> <!--volume of water in Lake Superior-->
+                    </p>
+                </task>
+                <task>
+                    <p>
+                    $<m>407</m> billion <!--Elon Musk net worth-->
+                    </p>
+                </task>
+                <task>
+                    <p>
+                    <m>93</m> million miles <!--Distance from Earth to sun-->
+                    </p>
+                </task>
             </exercise>
             <exercise workspace="2in">
                 <statement>
@@ -88,6 +101,7 @@
                     </p>
                 </statement>
             </exercise>
+          </page>
         </worksheet>
     </article>
 </pretext>

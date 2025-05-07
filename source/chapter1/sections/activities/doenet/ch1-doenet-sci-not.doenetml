@@ -1,0 +1,91 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_AdLx9Tti27dMx2Gl9AfHG/_Ulkkufkk2X49AG9jT0DIj -->
+
+<setup>
+    <sampleRandomNumbers name="largePwr" type="discreteuniform" from="2" to="7"/>
+    <conditionalContent name="large">
+      <case condition="$largePwr=2"><sampleRandomNumbers type="discreteUniform" from="100" to="999" numSamples="1"/></case>
+      <case condition="$largePwr=3"><sampleRandomNumbers type="discreteUniform" from="1000" to="9999" numSamples="1"/></case>
+      <case condition="$largePwr=4"><sampleRandomNumbers type="discreteUniform" from="10000" to="99999" numSamples="1"/></case>
+      <case condition="$largePwr=5"><sampleRandomNumbers type="discreteUniform" from="100000" to="999999" numSamples="1"/></case>
+      <case condition="$largePwr=6"><sampleRandomNumbers type="discreteUniform" from="1000000" to="9999999" numSamples="1"/></case>
+      <case condition="$largePwr=7"><sampleRandomNumbers type="discreteUniform" from="10000000" to="99999999" numSamples="1"/></case>
+    </conditionalContent>
+    <conditionalContent>
+          <case condition="(1<=$large/100 <10)&($large/100=$lnum)&(10^2=$lexp)">
+            <boolean name="two">1</boolean>
+          </case>
+          <case condition="(1<=$large/1000 <10)&($large/1000=$lnum)&(10^3=$lexp)">
+            <boolean name="three">1</boolean>
+          </case>
+          <case condition="(1<=$large/10000 <10)&($large/10000=$lnum)&(10^4=$lexp)">
+            <boolean name="four">1</boolean>
+          </case>
+          <case condition="(1<=$large/100000 <10)&($large/100000=$lnum)&(10^5=$lexp)">
+            <boolean name="five">1</boolean>
+          </case>
+          <case condition="(1<=$large/1000000 <10)&($large/1000000=$lnum)&(10^6=$lexp)">
+            <boolean name="six">1</boolean>
+          </case>
+          <case condition="(1<=$large/10000000 <10)&($large/10000000=$lnum)&(10^7=$lexp)">
+            <boolean name="seven">1</boolean>
+          </case>
+      </conditionalContent>
+  </setup>
+    <p>
+      <intcomma>$large</intcomma> = <mathInput name="lnum"/> <m>\times </m><mathInput name="lexp"/>
+    </p>
+    <answer>
+      <award>
+        <when>
+          <or>$two $three $four $five $six $seven</or>
+        </when>
+      </award>
+    </answer>
+    <callAction actionName="resample" target="largePwr">
+      <label>New Variation</label>
+    </callAction>
+
+  <setup>
+    <sampleRandomNumbers name="smallPwr" type="discreteuniform" from="4" to="8"/>
+    <conditionalContent name="pwr">
+      <case condition="$smallPwr=4"><number>10^(-4)</number></case>
+      <case condition="$smallPwr=5"><number>10^(-5)</number></case>
+      <case condition="$smallPwr=6"><number>10^(-6)</number></case>
+      <case condition="$smallPwr=7"><number>10^(-7)</number></case>
+      <case condition="$smallPwr=8"><number>10^(-8)</number></case>
+    </conditionalContent>
+    <number name="small"><sampleRandomNumbers name="smallSample" type="discreteuniform" from="100" to="999" numSamples="1"/>*$pwr</number>
+    <conditionalContent>
+          <case condition="(1<=$small*100 <10)&($small*100=$snum)&(10^(-2)=$sexp)">
+            <boolean name="ntwo">1</boolean>
+          </case>
+          <case condition="(1<=$small*1000 <10)&($small*1000=$snum)&(10^(-3)=$sexp)">
+            <boolean name="nthree">1</boolean>
+          </case>
+          <case condition="(1<$small*10000 <10)&($small*10000=$snum)&(10^(-4)=$sexp)">
+            <boolean name="nfour">1</boolean>
+          </case>
+          <case condition="(1<$small*100000 <10)&($small*100000=$snum)&(10^(-5)=$sexp)">
+            <boolean name="nfive">1</boolean>
+          </case>
+          <case condition="(1<$small*1000000 <10)&($small*1000000=$snum)&(10^(-6)=$sexp)">
+            <boolean name="nsix">1</boolean>
+          </case>
+      </conditionalContent>
+  </setup>
+    
+    <p>
+      $small = <mathInput name="snum"/> <m>\times </m><mathInput name="sexp"/>
+    </p>
+    <answer>
+      <award>
+        <when>
+          <or>$ntwo $nthree $nfour $nfive $nsix</or>
+        </when>
+      </award>
+    </answer>
+    <triggerSet>      
+      <callAction actionName="resample" target="smallPwr"/>
+      <callAction actionName="resample" target="smallSample"/>
+      <label>New Variation</label>
+    </triggerSet>

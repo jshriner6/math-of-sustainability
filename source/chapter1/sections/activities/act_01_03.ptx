@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+    <article xml:id="worksheet">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-1-3-1">
+            <title>Introduction to Representations</title>
+    
+            <introduction>
+                <p>
+                    Take about <m>10</m> minutes to individually review the representations.
+                    <fn>
+                        Sources for the representations are from the EIA
+                        <url href="https://www.eia.gov/electricity/annual/table.php?t=epa_09_05.html">Power</url> and
+                        <url href="https://www.eia.gov/dnav/ng/hist/n9070us2A.htm">Natural Gas</url> data.
+                    </fn> 
+                </p>
+                <p>
+                    For each representation, answer the following questions.
+                    <ol>
+                        <li>
+                            <p>
+                                What type of representation was used?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                What measurement(s) are involved in the representation?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                What pattern(s) are conveyed by the representation about those measurements?
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </introduction>
+            <page>
+                <exercise workspace="2in">
+                    <image source="ScatterPlot.png">
+                        <description>
+                            <p>
+                            A scatter plot displaying the U.S. natural gas production in millions of cubic feet during each year from 
+                            1930 to 2023. Production trends upward until about 1970, remains somewhat steady until about 2005, 
+                            and then trends upward again.
+                            </p>
+                        </description>
+                    </image>
+                </exercise>
+            </page>
+            <page>
+                <exercise workspace="1in">
+                    <image source="PieChart.png">
+                        <description>
+                            <p>
+                            A pie chart showing the percentage of total carbon dioxide emissions in 2023 from power plants 
+                            categorized by region of the United States.
+                            </p>
+                        </description>
+                    </image>
+                </exercise>
+                <exercise workspace="1in">
+                    <image source="Table.png">
+                        <description>
+                            <p>
+                            A table displaying the U.S. natural gas production in millions of cubic feet during each year from 
+                            1930 to 2023. This is the same data used to produce the scatter plot, just in numerical form.
+                            </p>
+                        </description>
+                    </image>
+                </exercise>
+            </page>
+            <page>
+                <exercise workspace="1in">
+                    <image source="BarChart.png">
+                        <description>
+                        <p>
+                            A bar chart showing the amount of total carbon dioxide emissions in 2023 from power plants 
+                            categorized by region of the United States. This is the same data used to produce the pie chart.
+                        </p>
+                        </description>
+                    </image>
+                </exercise>
+                <exercise workspace="1in">
+                    <image source="LineGraph.png">
+                        <description>
+                            <p>
+                            A line graph displaying the U.S. natural gas production in millions of cubic feet during each year 
+                            from 1930 to 2023. This is the same data used to produce the scatter plot, but graphed as a continuous
+                            line.
+                            </p>
+                        </description>
+                    </image>
+                </exercise>
+            </page>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-1-3-2">
+            <title>Representations Summary</title>
+            
+            <introduction>
+                <p>
+                    As a group, use your individual observations to brainstorm a list of qualities that describe each 
+                    type of representation.
+                </p>
+            </introduction>
+
+            <tabular>
+                <row header="yes" bottom="major">
+                    <cell>Representation</cell>
+                    <cell>Good For...</cell>
+                </row>
+                <row>
+                    <cell>Table</cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Line Graph</cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Bar Chart</cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Scatter Plot</cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Pie Chart</cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+
+            <page>
+                <exercise workspace="2in">
+                    <introduction>
+                    <p>
+                        When creating your own representations, it is not only important to pick a representation that fits 
+                        the type of data that you have, but also think about how you will design that representation. 
+                        Looking at the examples above,
+                    </p>
+                    </introduction>
+
+                    <task>
+                        <statement>
+                            <p>
+                                what was done well to communicate data patterns clearly?
+                            </p>
+                        </statement>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                what could be improved to communicate the data more clearly? 
+                            </p>
+                        </statement>
+                    </task>
+                </exercise>
+            </page>
+            
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-1-3-3">
+            <title>Choosing a Representation</title>
+            
+            <introduction>
+                <p>
+                    For each scenario below, discuss in your group which representation you think would be most appropriate, 
+                    and why. 
+                </p>
+            </introduction>
+            
+            <page>
+            <exercise workspace="1.25in">
+                <statement>
+                    <p>
+                        You have measurements of the amount of energy used per household in your city over a given month. 
+                        You'd like to present the measurements in a way that emphasizes the neighborhoods in your city 
+                        which used the most energy in that month.
+                    </p>
+                </statement>
+            </exercise>
+            <exercise workspace="1.25in">
+                <statement>
+                    <p>
+                        You have measurements of SO2 emissions in your county for the last decade, measured every quarter of 
+                        a year. You'd like to emphasize that the SO2 emissions are consistently greater in one particular 
+                        quarter of the year.
+                    </p>
+                </statement>
+            </exercise>
+            <exercise workspace="1.25in">
+                <statement>
+                    <p>
+                        You have measurements of the mass of an iceberg for the last <m>50</m> years. You'd like to emphasize 
+                        how this mass has changed over that time period, particularly in the last <m>20</m> years.
+                    </p>
+                </statement>
+            </exercise>
+            </page>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-1-3-4">
+            <title>Misleading Representations</title>
+            
+            <introduction>
+                <p>
+                    In your group, discuss the cases provided below.
+                </p>
+            </introduction>
+            
+            <page>
+                <image source="PieChart3D.png">
+                    <description>
+                        <p>
+                            A three-dimensional pie chart showing the percentage of total carbon dioxide emissions in 2023 
+                            from power plants categorized by region of the United States. Sizes of certain pieces of the 
+                            chart are more ambiguous than in the two-dimensional version.
+                        </p>
+                    </description>
+                </image>
+                <exercise workspace="2in">
+                    <statement>
+                        <p>
+                        The pie chart above is the same pie chart presented in <xref ref="ws-1-3-1"/>. 
+                        Compare and contrast the two representations. Can you identify anything that may be misleading?
+                        </p>
+                    </statement>
+            </exercise>
+
+            <sidebyside>
+                <image source="ScatterPlot.png">
+                    <description>
+                        <p>
+                        A scatter plot displaying the U.S. natural gas production in millions of cubic feet during each year from 
+                        1930 to 2023. Production trends upward until about 1970, remains somewhat steady until about 2005, 
+                        and then trends upward again.
+                        </p>
+                    </description>
+                </image>
+
+                <image source="LineGraph.png">
+                    <description>
+                        <p>
+                        A line graph displaying the U.S. natural gas production in millions of cubic feet during each year 
+                        from 1930 to 2023. This is the same data used to produce the scatter plot, but graphed as a continuous
+                        line.
+                        </p>
+                    </description>
+                </image>
+            </sidebyside>
+
+            <exercise workspace="2in">
+                <statement>
+                    <p>
+                        The scatter plot and the line graph from <xref ref="ws-1-3-1"/> represent the same data, and are shown above. 
+                        Compare and contrast the two representations. Can you identify anything that may be misleading?
+                    </p>
+                </statement>
+                
+            </exercise>
+        </page>
+        <page>
+            <image source="AxisSkew.png">
+                <description>
+                    <p>
+                        A scatter plot displaying the U.S. natural gas production in millions of cubic feet during each 
+                        year from 1986 to 2000. The vertical axis does not start at zero, which makes the upward trend 
+                        look drastic.
+                    </p>
+                </description>
+            </image>
+            <exercise workspace="2in">
+                <statement>
+                    <p>
+                        The scatter plot above uses the same data as the scatter plot in <xref ref="ws-1-3-1"/>, 
+                        but just of the years 1986-2000. Compare and contrast the two representations. 
+                        Can you identify anything that may be misleading?
+                    </p>
+                </statement>
+            </exercise>
+            
+        </page>
+        </worksheet>
+    </article>
+</pretext>

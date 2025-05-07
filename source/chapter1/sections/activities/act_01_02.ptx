@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+    <article xml:id="worksheet">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-1-2-1">
+            <title>Relative Change</title>
+    
+            <introduction>
+                <p>
+                    Now let's practice describing the relative change of measurments. Choose new variations of the problem 
+                    with the <q>New Variation</q> button. 
+                </p>
+            </introduction>
+
+            <interactive label="ch1-interactive-rel-change" platform="doenetml" width="100%" aspect="2:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch1-doenet-rel-change.doenetml"/>
+                </slate>
+            </interactive>
+          
+            <exercise workspace="2in">
+                <statement>
+                    <p>
+                    Before moving on, get at least 3 correct in a row, and write down 
+                    an explanation for how to compute the relative change of a measurement as if you were explaining it to 
+                    someone new.   
+                    </p>
+                </statement>
+            </exercise>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-1-2-2">
+            <title>Scientific Notation</title>
+            
+            <introduction>
+                <p>
+                    First, let's practice using <term>scientific notation</term> to express very large or very small numbers 
+                    in a user-friendly way. 
+                </p>
+            </introduction>
+
+            <interactive label="ch1-interactive-sci-not" platform="doenetml" width="100%" aspect="2:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch1-doenet-sci-not.doenetml"/>
+                </slate>
+            </interactive>
+          
+            <exercise workspace="2in">
+                <statement>
+                    <p>
+                    Before moving on, get at least 3 correct in a row, and write down an explanation 
+                    for how to write very large or very small numbers using scientific notation as if you were explaining 
+                    it to someone new. 
+                    </p>
+                </statement>
+            </exercise>
+            
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-1-2-3">
+            <title>Orders of Magnitude</title>
+            
+            <introduction>
+                <p>
+                    As a group, make order of magnitude estimates for the following measurements. Identify the order of 
+                    magnitude for each of your measurements.
+                    <!--Focusing on more of the 'common sense' type measurements than the 'carnival jelly bean' type -->
+                </p>
+            </introduction>
+            
+            <page>
+            <exercise workspace="2in">
+                <statement>
+                    <p>
+                    The number of students enrolled at CSU Fort Collins. 
+                    </p>
+                </statement>
+            </exercise>
+            <exercise workspace="2in">
+                <statement>
+                    <p>
+                    The mass of an average human in kilograms. (Note <m>1\text{ lb}\approx 0.5 \text{ kg}</m>) 
+                    </p>
+                </statement>
+            </exercise>
+            <exercise workspace="2in">
+                <statement>
+                    <p>
+                    The distance from Fort Collins to Denver in meters. (Note <m>1\text{ mile}\approx 1,600 \text{ m}</m>) 
+                    </p>
+                </statement>
+            </exercise>
+            <exercise workspace="2in">
+                <statement>
+                    <p>
+                    The number of people on a commercial flight in the U.S. right now. (Note the U.S. population <m>\approx 3 \times 10^8</m>) 
+                    </p>
+                </statement>
+            </exercise>
+        </page>
+        </worksheet>
+    </article>
+</pretext>
