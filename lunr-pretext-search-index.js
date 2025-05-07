@@ -43,7 +43,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Units",
-  "body": " Units   Units give measurements meaning. If units are ignored or mis-used, this could lead us to make (at best) inaccurate or (at worst) harmful conclusions. The purpose of this activity will be to practice working with and communicating measurements that contain units.  The objectives of this activity are that you can...     convert a measurement from one unit to another.  communicate the meaning of a measurement by relating it to human experience.    Let's get to work...  Partner up with someone and assign the roles of Partner 1 and Partner 2 . Have a discussion using the script below, following the rule that the partner answering the question must give a numerical answer without units .  Partner 1: \"How far do you live from campus?\"  Partner 2: (Provide a numerical answer without units)  Partner 2: \"What's a normal temperature in your hometown right now?\"  Partner 1: (Provide a numerical answer without units)  Partner 1: \"How much weight would you be comfortable lifting over your head?\"  Partner 2: (Provide a numerical answer without units)  Partner 2: \"What's the longest distance you've ever run?\"  Partner 1: (Provide a numerical answer without units)    How much have you learned about your partner from their responses to these questions? Now use the script again, but provide units with your numerical answers.  Units give measurements meaning, so it is important that we have tools to work with and understand them.   A unit conversion factor is a ratio of numbers with units in which the numerator and denominator express the same quantity.   Take a moment to verbalize with your group why each of the following are examples of unit conversion factors, and any other observations or questions you have:   Unit conversion factors are used to convert a measurement in some unit to the same measurement in a different unit. For example, if I measured my height in inches to be inches but I wanted to know my height measured in the units of feet, I could compute Let's take a moment to notice a few important things about this calculation:  My goal was to convert from inches to feet. Therefore, I needed to use a conversion factor relating these two units:   When doing a computation with numbers and units, I can treat the number parts and unit parts separately. Gather all the numbers together with multiplication and division, and gather all the units together with multiplcation and division. Units can cancel just like numbers!  When converting from inches to feet, I have a choice between using or . Knowing that units can cancel each other out helps me pick the correct form of the converstion factor, . In general, you will always want to set up the conversion factor so that the unit you are converting from is in the denominator , and the unit you are converting to is in the numerator .  Why does multiplying by not change the value of my original measurement? Remember that , so multiplying a number by is the same as multiplying by , which does not change its value.      Unit Conversion Factors Part 1   Now let's practice choosing correct unit conversion factors. Choose new variations of the problem with the New Variation button.  Move the pieces to form the correct unit conversion factor that would be used to convert      Before moving on, get at least three correct in a row, and write down an explanation for how to choose a correct unit conversion factor as if you were explaining it to someone new.      Unit Conversion Factors Part 2   Now let's practice a full computation. Replace number with a correct number and unit with a correct unit abbreviation. Enter your numbers without using commas. Choose new variations of the problem with the New Variation button.  Convert      Before moving on, get at least three correct in a row, and write down an explanation for how to perform a unit conversion as if you were explaining it to someone new.      Back to work...  At times we encounter measurements that are so extreme that it can be difficult to process them in a meaningful way. In these cases, it is useful to be able to frame the measurements in a way that is more relatable to our human experience. In what follows, you will get practice using unit conversions to communicate extreme measurements in a meaningful way.  As an example, let's say you're told that that the weight of the garbage deposited in your state's landfills in a calendar year was million tons ( this was true of Colorado in 2016! ). How much trash is this, really? We could pick something for comparison that we believe is common to most people's experience, like a school bus. We can then attempt to convert the measurement of million tons to the more relatable unit of school buses . So we'd like to convert from units of tons to units of school buses .  While weights of school buses vary, taking an approximate weight of an average school bus will be sufficient towards making this weight more meaningful. We will use the average school bus weight as pounds. This gives us a unit conversion factor of . This doesn't give us a single unit conversion factor relating tons and school buses , but we can convert tons to pounds ( ), and then pounds to school buses . As a computation, it looks like this: , or equivalently school buses! That's a lot of trash!    Relatable Measurements   While there is never one correct way to make extreme measurements more meaningful, it is always helpful to frame them in a way that you think will be more relatable to someone's common experience! Let's practice that now.     Individually, convert the following measurements to more meaningful units:  billion pounds   trillion     $ billion   million miles         Spend time in your group sharing your work. Discuss your process for performing the unit conversions, and which conversions you think are the most relatable.     Curious about these measurements?     billion pounds is the annual food waste in the U.S.   trillion is the volume of Lake Superior.  $ billion is the net worth of one of the world's wealthiest individuals.   million miles is the distance from the Earth to the sun.     Reflection  Let's reflect on what we've learned, and what we still have questions about.  Why are units in measurements important?  Your friend wants to convert their weight from pounds to a unit called stone . What information would you tell them they need in order to do so? How would you tell them to use that information to accurately convert their weight from pounds to stone?  What are properties of a measurement that make it meaningful to you?     Section Checkpoint  Link here to Doenet course.   "
+  "body": " Units   Units give measurements meaning. If units are ignored or mis-used, this could lead us to make (at best) inaccurate or (at worst) harmful conclusions. The purpose of this activity will be to practice working with and communicating measurements that contain units.  The objectives of this activity are that you can...     convert a measurement from one unit to another.  communicate the meaning of a measurement by relating it to human experience.    Let's get to work...  Partner up with someone and assign the roles of Partner 1 and Partner 2 . Have a discussion using the script below, following the rule that the partner answering the question must give a numerical answer without units .  Partner 1: \"How far do you live from campus?\"  Partner 2: (Provide a numerical answer without units)  Partner 2: \"What's a normal temperature in your hometown right now?\"  Partner 1: (Provide a numerical answer without units)  Partner 1: \"How much weight would you be comfortable lifting over your head?\"  Partner 2: (Provide a numerical answer without units)  Partner 2: \"What's the longest distance you've ever run?\"  Partner 1: (Provide a numerical answer without units)    How much have you learned about your partner from their responses to these questions? Now use the script again, but provide units with your numerical answers.  Units give measurements meaning, so it is important that we have tools to work with and understand them.   A unit conversion factor is a ratio of numbers with units in which the numerator and denominator express the same quantity.   Take a moment to verbalize with your group why each of the following are examples of unit conversion factors, and any other observations or questions you have:   Unit conversion factors are used to convert a measurement in some unit to the same measurement in a different unit. For example, if I measured my height in inches to be inches but I wanted to know my height measured in the units of feet, I could compute Let's take a moment to notice a few important things about this calculation:  My goal was to convert from inches to feet. Therefore, I needed to use a conversion factor relating these two units:   When doing a computation with numbers and units, I can treat the number parts and unit parts separately. Gather all the numbers together with multiplication and division, and gather all the units together with multiplcation and division. Units can cancel just like numbers!  When converting from inches to feet, I have a choice between using or . Knowing that units can cancel each other out helps me pick the correct form of the converstion factor, . In general, you will always want to set up the conversion factor so that the unit you are converting from is in the denominator , and the unit you are converting to is in the numerator .  Why does multiplying by not change the value of my original measurement? Remember that , so multiplying a number by is the same as multiplying by , which does not change its value.      Unit Conversion Factors Part 1   Now let's practice choosing correct unit conversion factors. Choose new variations of the problem with the New Variation button.  Move the pieces to form the correct unit conversion factor that would be used to convert      Before moving on, get at least three correct in a row, and write down an explanation for how to choose a correct unit conversion factor as if you were explaining it to someone new.      Unit Conversion Factors Part 2   Now let's practice a full computation. Replace number with a correct number and unit with a correct unit abbreviation. Enter your numbers without using commas. Choose new variations of the problem with the New Variation button.  Convert      Before moving on, get at least three correct in a row, and write down an explanation for how to perform a unit conversion as if you were explaining it to someone new.      Back to work...  At times we encounter measurements that are so extreme that it can be difficult to process them in a meaningful way. In these cases, it is useful to be able to frame the measurements in a way that is more relatable to our human experience. In what follows, you will get practice using unit conversions to communicate extreme measurements in a meaningful way.  As an example, let's say you're told that that the weight of the garbage deposited in your state's landfills in a calendar year was million tons ( this was true of Colorado in 2016! ). How much trash is this, really? We could pick something for comparison that we believe is common to most people's experience, like a school bus. We can then attempt to convert the measurement of million tons to the more relatable unit of school buses . So we'd like to convert from units of tons to units of school buses .  While weights of school buses vary, taking an approximate weight of an average school bus will be sufficient towards making this weight more meaningful. We will use the average school bus weight as pounds. This gives us a unit conversion factor of . This doesn't give us a single unit conversion factor relating tons and school buses , but we can convert tons to pounds ( ), and then pounds to school buses . As a computation, it looks like this: , or equivalently school buses! That's a lot of trash!    Relatable Measurements   While there is never one correct way to make extreme measurements more meaningful, it is always helpful to frame them in a way that you think will be more relatable to someone's common experience! Let's practice that now.      Individually, convert the following measurements to more meaningful units:     billion pounds      trillion      $ billion      million miles       Spend time in your group sharing your work. Discuss your process for performing the unit conversions, and which conversions you think are the most relatable.      Curious about these measurements?     billion pounds is the annual food waste in the U.S.   trillion is the volume of Lake Superior.  $ billion is the net worth of one of the world's wealthiest individuals.   million miles is the distance from the Earth to the sun.     Reflection  Let's reflect on what we've learned, and what we still have questions about.  Why are units in measurements important?  Your friend wants to convert their weight from pounds to a unit called stone . What information would you tell them they need in order to do so? How would you tell them to use that information to accurately convert their weight from pounds to stone?  What are properties of a measurement that make it meaningful to you?     Section Checkpoint  Link here to Doenet course.   "
 },
 {
   "id": "sec-1-1-3",
@@ -82,18 +82,18 @@ var ptx_lunr_docs = [
   "body": "  Before moving on, get at least three correct in a row, and write down an explanation for how to perform a unit conversion as if you were explaining it to someone new.   "
 },
 {
-  "id": "ws-1-1-3-3",
+  "id": "ws-1-1-3-3-1",
   "level": "2",
-  "url": "sec-1-1.html#ws-1-1-3-3",
+  "url": "sec-1-1.html#ws-1-1-3-3-1",
   "type": "Worksheet Exercise",
   "number": "1.1.1",
   "title": "",
-  "body": "  Individually, convert the following measurements to more meaningful units:  billion pounds   trillion     $ billion   million miles      "
+  "body": "  Individually, convert the following measurements to more meaningful units:     billion pounds      trillion      $ billion      million miles    "
 },
 {
-  "id": "ws-1-1-3-4",
+  "id": "ws-1-1-3-3-2",
   "level": "2",
-  "url": "sec-1-1.html#ws-1-1-3-4",
+  "url": "sec-1-1.html#ws-1-1-3-3-2",
   "type": "Worksheet Exercise",
   "number": "1.1.2",
   "title": "",
@@ -115,7 +115,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Change and Estimation",
-  "body": " Change and Estimation   Measurements used in discussions of complex questions are often not exact, but estimates of some exact meansurement. The purpose of this activity will be to describe some common ways that measurements can be estimated so that you understand these estimates when they are presented to you, and can create your own estimates to communicate to others.  The objectives of this activity are that you can...     approximate relative change using pure numbers and percentages.  write very large or very small numbers in a user-friendly way.  make order-of-magnitude estimates.    Let's get to work...  In questions of sustainability, we are often dealing with measurements that change over time. Therefore, it is important that we are able to describe this change. There are two main ways we could do this:  We could describe the absolute change . For example, if a population is currently individuals, and a year later grows to to individuals, we could say that the absolute change from one year to the next is individuals.  We could describe the relative change . In the same example, we could say that the population grew by , since is of the initial population of .    In this activity, we will focus on describing the relative change of measurements, since this generally is most informative. Following our example above, if you told someone that the population grew by individuals, it is not clear how significant this growth is. Is a lot? a little? That significance is clarified when we describe the relative growth as a percent of the initial population. The growth of individuals is very small compared to the initial population of .  We can describe relative change using percentages or pure number multiples. The following examples illustrate both of these methods:  A bank account increased from to . It grew by times, or by .  The mass of nitrogen in a soil sample decreased from g to g. It decreased by times, or by .    Let's make two general observations about these examples that we can use moving forward:  Describing change using pure number multiples requires setting up the ratio . The resulting number is unitless, and gives us the constant multiple of the old measurement that would result in the new measurement. A pure number multiple greater than signifies the measurement increased, while a pure number multiple between and signifies the measurement decreased.  Describing change using percentages can be obtained from a pure number multiple as for increasing measurments, or for decreasing measurements.       Back to work...  Suppose you were told that the annual emmissions from a given country was tons. Would your interpretation of that measurement be significantly different if you instead were told that the amount was tons? These two measurement have the same order-of-magnitude , which can be a useful concept to understand for interpreting and creating estimates of very large or very small measurements. Watch this brief video as a group for an introduction to orders of magnitude.    The power of used when writing numbers in scientific notation is called the order-of-magnitude of that number. This is often the most usable part of a measurment for practical purposes, and is also the best starting place for making estimates of measurements that have limited information. We call an estimate of the form an order-of-magnitude estimate .   Curious about the actual values?    For 2024-25, the student count was . The order of magnitude is .  The average mass is roughly kg. The order of magnitude is .  The distance is roughly m ( miles). The order of magnitude is .  There's no clear answer for this one. How might you go about using your experience to make the best order of magnitude estimate that you can?       Reflection  Let's reflect on what we've learned, and what we still have questions about.  What are the different methods that you can use to describe how a measurement has changed over time? How are these methods similar? How are they different?  Why is it useful to use scientific notation to write very large or very small numbers?  What is the order-of-magnitude of a number? Why is it useful to think about the order of magnitude of a measurement?      Section Checkpoint  Link here to Doenet course.   "
+  "body": " Change and Estimation   Measurements used in discussions of complex questions are often not exact, but estimates of some exact meansurement. The purpose of this activity will be to describe some common ways that measurements can be estimated so that you understand these estimates when they are presented to you, and can create your own estimates to communicate to others.  The objectives of this activity are that you can...     approximate relative change using pure numbers and percentages.  write very large or very small numbers in a user-friendly way.  make order-of-magnitude estimates.    Let's get to work...  In questions of sustainability, we are often dealing with measurements that change over time. Therefore, it is important that we are able to describe this change. There are two main ways we could do this:  We could describe the absolute change . For example, if a population is currently individuals, and a year later grows to to individuals, we could say that the absolute change from one year to the next is individuals.  We could describe the relative change . In the same example, we could say that the population grew by , since is of the initial population of .    In this activity, we will focus on describing the relative change of measurements, since this generally is most informative. Following our example above, if you told someone that the population grew by individuals, it is not clear how significant this growth is. Is a lot? a little? That significance is clarified when we describe the relative growth as a percent of the initial population. The growth of individuals is very small compared to the initial population of .  We can describe relative change using percentages or pure number multiples. The following examples illustrate both of these methods:  A bank account increased from to . It grew by times, or by .  The mass of nitrogen in a soil sample decreased from g to g. It decreased by times, or by .    Let's make two general observations about these examples that we can use moving forward:  Describing change using pure number multiples requires setting up the ratio . The resulting number is unitless, and gives us the constant multiple of the old measurement that would result in the new measurement. A pure number multiple greater than signifies the measurement increased, while a pure number multiple between and signifies the measurement decreased.  Describing change using percentages can be obtained from a pure number multiple as for increasing measurments, or for decreasing measurements.      Relative Change   Now let's practice describing the relative change of measurments. Choose new variations of the problem with the New Variation button.      Before moving on, get at least 3 correct in a row, and write down an explanation for how to compute the relative change of a measurement as if you were explaining it to someone new.      Back to work...  Suppose you were told that the annual emmissions from a given country was tons. Would your interpretation of that measurement be significantly different if you instead were told that the amount was tons? These two measurement have the same order-of-magnitude , which can be a useful concept to understand for interpreting and creating estimates of very large or very small measurements. Watch this brief video as a group for an introduction to orders of magnitude.     Scientific Notation   First, let's practice using scientific notation to express very large or very small numbers in a user-friendly way.      Before moving on, get at least 3 correct in a row, and write down an explanation for how to write very large or very small numbers using scientific notation as if you were explaining it to someone new.     The power of used when writing numbers in scientific notation is called the order-of-magnitude of that number. This is often the most usable part of a measurment for practical purposes, and is also the best starting place for making estimates of measurements that have limited information. We call an estimate of the form an order-of-magnitude estimate .   Orders of Magnitude   As a group, make order of magnitude estimates for the following measurements. Identify the order of magnitude for each of your measurements.       The number of students enrolled at CSU Fort Collins.      The mass of an average human in kilograms. (Note )      The distance from Fort Collins to Denver in meters. (Note )      The number of people on a commercial flight in the U.S. right now. (Note the U.S. population )      Curious about the actual values?    For 2024-25, the student count was . The order of magnitude is .  The average mass is roughly kg. The order of magnitude is .  The distance is roughly m ( miles). The order of magnitude is .  There's no clear answer for this one. How might you go about using your experience to make the best order of magnitude estimate that you can?      Reflection  Let's reflect on what we've learned, and what we still have questions about.  What are the different methods that you can use to describe how a measurement has changed over time? How are these methods similar? How are they different?  Why is it useful to use scientific notation to write very large or very small numbers?  What is the order-of-magnitude of a number? Why is it useful to think about the order of magnitude of a measurement?      Section Checkpoint  Link here to Doenet course.   "
 },
 {
   "id": "sec-1-2-3",
@@ -145,27 +145,90 @@ var ptx_lunr_docs = [
   "body": "percentages pure number "
 },
 {
-  "id": "sec-1-2-5-2",
+  "id": "ws-1-2-1-4",
   "level": "2",
-  "url": "sec-1-2.html#sec-1-2-5-2",
+  "url": "sec-1-2.html#ws-1-2-1-4",
+  "type": "Worksheet Exercise",
+  "number": "1.2.1",
+  "title": "",
+  "body": "  Before moving on, get at least 3 correct in a row, and write down an explanation for how to compute the relative change of a measurement as if you were explaining it to someone new.   "
+},
+{
+  "id": "sec-1-2-6-2",
+  "level": "2",
+  "url": "sec-1-2.html#sec-1-2-6-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "order-of-magnitude "
 },
 {
-  "id": "sec-1-2-5-4",
+  "id": "ws-1-2-2-2-1",
   "level": "2",
-  "url": "sec-1-2.html#sec-1-2-5-4",
+  "url": "sec-1-2.html#ws-1-2-2-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "scientific notation "
+},
+{
+  "id": "ws-1-2-2-4",
+  "level": "2",
+  "url": "sec-1-2.html#ws-1-2-2-4",
+  "type": "Worksheet Exercise",
+  "number": "1.2.1",
+  "title": "",
+  "body": "  Before moving on, get at least 3 correct in a row, and write down an explanation for how to write very large or very small numbers using scientific notation as if you were explaining it to someone new.   "
+},
+{
+  "id": "sec-1-2-8",
+  "level": "2",
+  "url": "sec-1-2.html#sec-1-2-8",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "order-of-magnitude order-of-magnitude estimate "
 },
 {
-  "id": "sec-1-2-5-5",
+  "id": "ws-1-2-3-3-1",
   "level": "2",
-  "url": "sec-1-2.html#sec-1-2-5-5",
+  "url": "sec-1-2.html#ws-1-2-3-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1.2.1",
+  "title": "",
+  "body": "  The number of students enrolled at CSU Fort Collins.   "
+},
+{
+  "id": "ws-1-2-3-3-2",
+  "level": "2",
+  "url": "sec-1-2.html#ws-1-2-3-3-2",
+  "type": "Worksheet Exercise",
+  "number": "1.2.2",
+  "title": "",
+  "body": "  The mass of an average human in kilograms. (Note )   "
+},
+{
+  "id": "ws-1-2-3-3-3",
+  "level": "2",
+  "url": "sec-1-2.html#ws-1-2-3-3-3",
+  "type": "Worksheet Exercise",
+  "number": "1.2.3",
+  "title": "",
+  "body": "  The distance from Fort Collins to Denver in meters. (Note )   "
+},
+{
+  "id": "ws-1-2-3-3-4",
+  "level": "2",
+  "url": "sec-1-2.html#ws-1-2-3-3-4",
+  "type": "Worksheet Exercise",
+  "number": "1.2.4",
+  "title": "",
+  "body": "  The number of people on a commercial flight in the U.S. right now. (Note the U.S. population )   "
+},
+{
+  "id": "sec-1-2-10",
+  "level": "2",
+  "url": "sec-1-2.html#sec-1-2-10",
   "type": "Remark",
   "number": "1.2.1",
   "title": "Curious about the actual values?",
@@ -178,7 +241,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Representations",
-  "body": " Representations   Measurments are only useful if they help us to further our understanding, and can be communicated to others in an impactful way. One of the most effective ways to understand and communicate measurements is through visual representation. The purpose of this activity is to practice reading and representating measuremennts in an organized, visual way.  The objectives of this activity are that you can...     use tables to communicate quantitative information.  use graphical representations (line graphs, bar charts, scatter plots, and pie charts) to communicate quantitative information.    Let's get to work...  Below are several representations of measurements: as tables , line graphs , bar charts , scatter plots , and pie charts .     Back to work...  We will not spend time in this activity learning the various technologies that can be used to create visual representations, but instead we will focus on making an appropriate choice of representation based on the data we are representing, and the pattern(s) we would like to convey.     Back to work...  While visual representations can be extremely useful for communicating patterns in large amounts of data, they are also vulnerable to being used in ways that can be misleading. It's important to be careful to avoid misleading visuals when creating your own representations, and to view visual representations that are presented to you with a critical eye.   A Comparison  Below is a comparison of with the same section of on a more standard scale:     A scatter plot displaying the U.S. natural gas production in millions of cubic feet during each year from 1986 to 2000. The vertical axis does not start at zero, which makes the upward trend look drastic.      A scatter plot displaying the U.S. natural gas production in millions of cubic feet during each year from 1986 to 2000. The vertical axis starts at zero, which gives a more realistic visual of the upward trend.       Reflection  Let's reflect on what we've learned, and what we still have questions about.  When choosing a visual representation for your data, what are the main factors that you consider?  In what ways can visual representations be misleading, and how can you analyze them to avoid being misled?     Section Checkpoint  There are no checkpoint questions for this section.   "
+  "body": " Representations   Measurments are only useful if they help us to further our understanding, and can be communicated to others in an impactful way. One of the most effective ways to understand and communicate measurements is through visual representation. The purpose of this activity is to practice reading and representating measuremennts in an organized, visual way.  The objectives of this activity are that you can...     use tables to communicate quantitative information.  use graphical representations (line graphs, bar charts, scatter plots, and pie charts) to communicate quantitative information.    Let's get to work...  Below are several representations of measurements: as tables , line graphs , bar charts , scatter plots , and pie charts .    Introduction to Representations   Take about minutes to individually review the representations. Sources for the representations are from the EIA Power and Natural Gas data.   For each representation, answer the following questions.   What type of representation was used?    What measurement(s) are involved in the representation?    What pattern(s) are conveyed by the representation about those measurements?          A scatter plot displaying the U.S. natural gas production in millions of cubic feet during each year from 1930 to 2023. Production trends upward until about 1970, remains somewhat steady until about 2005, and then trends upward again.          A pie chart showing the percentage of total carbon dioxide emissions in 2023 from power plants categorized by region of the United States.        A table displaying the U.S. natural gas production in millions of cubic feet during each year from 1930 to 2023. This is the same data used to produce the scatter plot, just in numerical form.          A bar chart showing the amount of total carbon dioxide emissions in 2023 from power plants categorized by region of the United States. This is the same data used to produce the pie chart.        A line graph displaying the U.S. natural gas production in millions of cubic feet during each year from 1930 to 2023. This is the same data used to produce the scatter plot, but graphed as a continuous line.        Representations Summary   As a group, use your individual observations to brainstorm a list of qualities that describe each type of representation.     Representation  Good For...    Table     Line Graph     Bar Chart     Scatter Plot     Pie Chart        When creating your own representations, it is not only important to pick a representation that fits the type of data that you have, but also think about how you will design that representation. Looking at the examples above,     what was done well to communicate data patterns clearly?      what could be improved to communicate the data more clearly?        Back to work...  We will not spend time in this activity learning the various technologies that can be used to create visual representations, but instead we will focus on making an appropriate choice of representation based on the data we are representing, and the pattern(s) we would like to convey.    Choosing a Representation   For each scenario below, discuss in your group which representation you think would be most appropriate, and why.      You have measurements of the amount of energy used per household in your city over a given month. You'd like to present the measurements in a way that emphasizes the neighborhoods in your city which used the most energy in that month.      You have measurements of SO2 emissions in your county for the last decade, measured every quarter of a year. You'd like to emphasize that the SO2 emissions are consistently greater in one particular quarter of the year.      You have measurements of the mass of an iceberg for the last years. You'd like to emphasize how this mass has changed over that time period, particularly in the last years.       Back to work...  While visual representations can be extremely useful for communicating patterns in large amounts of data, they are also vulnerable to being used in ways that can be misleading. It's important to be careful to avoid misleading visuals when creating your own representations, and to view visual representations that are presented to you with a critical eye.    Misleading Representations   In your group, discuss the cases provided below.      A three-dimensional pie chart showing the percentage of total carbon dioxide emissions in 2023 from power plants categorized by region of the United States. Sizes of certain pieces of the chart are more ambiguous than in the two-dimensional version.      The pie chart above is the same pie chart presented in . Compare and contrast the two representations. Can you identify anything that may be misleading?       A scatter plot displaying the U.S. natural gas production in millions of cubic feet during each year from 1930 to 2023. Production trends upward until about 1970, remains somewhat steady until about 2005, and then trends upward again.      A line graph displaying the U.S. natural gas production in millions of cubic feet during each year from 1930 to 2023. This is the same data used to produce the scatter plot, but graphed as a continuous line.       The scatter plot and the line graph from represent the same data, and are shown above. Compare and contrast the two representations. Can you identify anything that may be misleading?        A scatter plot displaying the U.S. natural gas production in millions of cubic feet during each year from 1986 to 2000. The vertical axis does not start at zero, which makes the upward trend look drastic.      The scatter plot above uses the same data as the scatter plot in , but just of the years 1986-2000. Compare and contrast the two representations. Can you identify anything that may be misleading?      A Comparison  Below is a comparison of the scatter plot presented in the previous exercise with the same section on a standard scale:     A scatter plot displaying the U.S. natural gas production in millions of cubic feet during each year from 1986 to 2000. The vertical axis does not start at zero, which makes the upward trend look drastic.      A scatter plot displaying the U.S. natural gas production in millions of cubic feet during each year from 1986 to 2000. The vertical axis starts at zero, which gives a more realistic visual of the upward trend.      Reflection  Let's reflect on what we've learned, and what we still have questions about.  When choosing a visual representation for your data, what are the main factors that you consider?  In what ways can visual representations be misleading, and how can you analyze them to avoid being misled?     Section Checkpoint  There are no checkpoint questions for this section.   "
 },
 {
   "id": "sec-1-3-3",
@@ -199,13 +262,121 @@ var ptx_lunr_docs = [
   "body": "tables line graphs bar charts scatter plots pie charts "
 },
 {
-  "id": "sec-1-3-6-3",
+  "id": "ws-1-3-1-3-1",
   "level": "2",
-  "url": "sec-1-3.html#sec-1-3-6-3",
+  "url": "sec-1-3.html#ws-1-3-1-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1.3.1",
+  "title": "",
+  "body": "   A scatter plot displaying the U.S. natural gas production in millions of cubic feet during each year from 1930 to 2023. Production trends upward until about 1970, remains somewhat steady until about 2005, and then trends upward again.    "
+},
+{
+  "id": "ws-1-3-1-4-1",
+  "level": "2",
+  "url": "sec-1-3.html#ws-1-3-1-4-1",
+  "type": "Worksheet Exercise",
+  "number": "1.3.2",
+  "title": "",
+  "body": "   A pie chart showing the percentage of total carbon dioxide emissions in 2023 from power plants categorized by region of the United States.    "
+},
+{
+  "id": "ws-1-3-1-4-2",
+  "level": "2",
+  "url": "sec-1-3.html#ws-1-3-1-4-2",
+  "type": "Worksheet Exercise",
+  "number": "1.3.3",
+  "title": "",
+  "body": "   A table displaying the U.S. natural gas production in millions of cubic feet during each year from 1930 to 2023. This is the same data used to produce the scatter plot, just in numerical form.    "
+},
+{
+  "id": "ws-1-3-1-5-1",
+  "level": "2",
+  "url": "sec-1-3.html#ws-1-3-1-5-1",
+  "type": "Worksheet Exercise",
+  "number": "1.3.4",
+  "title": "",
+  "body": "   A bar chart showing the amount of total carbon dioxide emissions in 2023 from power plants categorized by region of the United States. This is the same data used to produce the pie chart.    "
+},
+{
+  "id": "ws-1-3-1-5-2",
+  "level": "2",
+  "url": "sec-1-3.html#ws-1-3-1-5-2",
+  "type": "Worksheet Exercise",
+  "number": "1.3.5",
+  "title": "",
+  "body": "   A line graph displaying the U.S. natural gas production in millions of cubic feet during each year from 1930 to 2023. This is the same data used to produce the scatter plot, but graphed as a continuous line.    "
+},
+{
+  "id": "ws-1-3-2-4-1",
+  "level": "2",
+  "url": "sec-1-3.html#ws-1-3-2-4-1",
+  "type": "Worksheet Exercise",
+  "number": "1.3.1",
+  "title": "",
+  "body": "  When creating your own representations, it is not only important to pick a representation that fits the type of data that you have, but also think about how you will design that representation. Looking at the examples above,     what was done well to communicate data patterns clearly?      what could be improved to communicate the data more clearly?    "
+},
+{
+  "id": "ws-1-3-3-3-1",
+  "level": "2",
+  "url": "sec-1-3.html#ws-1-3-3-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1.3.1",
+  "title": "",
+  "body": "  You have measurements of the amount of energy used per household in your city over a given month. You'd like to present the measurements in a way that emphasizes the neighborhoods in your city which used the most energy in that month.   "
+},
+{
+  "id": "ws-1-3-3-3-2",
+  "level": "2",
+  "url": "sec-1-3.html#ws-1-3-3-3-2",
+  "type": "Worksheet Exercise",
+  "number": "1.3.2",
+  "title": "",
+  "body": "  You have measurements of SO2 emissions in your county for the last decade, measured every quarter of a year. You'd like to emphasize that the SO2 emissions are consistently greater in one particular quarter of the year.   "
+},
+{
+  "id": "ws-1-3-3-3-3",
+  "level": "2",
+  "url": "sec-1-3.html#ws-1-3-3-3-3",
+  "type": "Worksheet Exercise",
+  "number": "1.3.3",
+  "title": "",
+  "body": "  You have measurements of the mass of an iceberg for the last years. You'd like to emphasize how this mass has changed over that time period, particularly in the last years.   "
+},
+{
+  "id": "ws-1-3-4-3-2",
+  "level": "2",
+  "url": "sec-1-3.html#ws-1-3-4-3-2",
+  "type": "Worksheet Exercise",
+  "number": "1.3.1",
+  "title": "",
+  "body": "  The pie chart above is the same pie chart presented in . Compare and contrast the two representations. Can you identify anything that may be misleading?   "
+},
+{
+  "id": "ws-1-3-4-3-4",
+  "level": "2",
+  "url": "sec-1-3.html#ws-1-3-4-3-4",
+  "type": "Worksheet Exercise",
+  "number": "1.3.2",
+  "title": "",
+  "body": "  The scatter plot and the line graph from represent the same data, and are shown above. Compare and contrast the two representations. Can you identify anything that may be misleading?   "
+},
+{
+  "id": "ws-1-3-4-4-2",
+  "level": "2",
+  "url": "sec-1-3.html#ws-1-3-4-4-2",
+  "type": "Worksheet Exercise",
+  "number": "1.3.3",
+  "title": "",
+  "body": "  The scatter plot above uses the same data as the scatter plot in , but just of the years 1986-2000. Compare and contrast the two representations. Can you identify anything that may be misleading?   "
+},
+{
+  "id": "sec-1-3-11",
+  "level": "2",
+  "url": "sec-1-3.html#sec-1-3-11",
   "type": "Remark",
   "number": "1.3.1",
   "title": "A Comparison.",
-  "body": "A Comparison  Below is a comparison of with the same section of on a more standard scale:     A scatter plot displaying the U.S. natural gas production in millions of cubic feet during each year from 1986 to 2000. The vertical axis does not start at zero, which makes the upward trend look drastic.      A scatter plot displaying the U.S. natural gas production in millions of cubic feet during each year from 1986 to 2000. The vertical axis starts at zero, which gives a more realistic visual of the upward trend.     "
+  "body": "A Comparison  Below is a comparison of the scatter plot presented in the previous exercise with the same section on a standard scale:     A scatter plot displaying the U.S. natural gas production in millions of cubic feet during each year from 1986 to 2000. The vertical axis does not start at zero, which makes the upward trend look drastic.      A scatter plot displaying the U.S. natural gas production in millions of cubic feet during each year from 1986 to 2000. The vertical axis starts at zero, which gives a more realistic visual of the upward trend.     "
 },
 {
   "id": "sec-2-1",
