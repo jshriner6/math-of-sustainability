@@ -385,7 +385,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Stocks and Flows",
-  "body": " Stocks and Flows   Questions of sustainability arise when we work with systems that are flowing; that is, systems whose measurements are changing. The purpose of this activity is to introduce stock-flow models and system diagrams for representing such systems.  The objectives of this activity are that you can...   Section Objectives   represent a stock-flow model with a system diagram.    Let's get to work...  Imagine a bathtub filled with water. The faucet is running and the drain is open. You may look at this system and notice that either  the water level in the tub is staying the same,  the water level is increasing, or  the water level is decreasing.    Regardless of what you observe, this is a system in movement! While this is a simple system, it contains the important components we often need to consider in sustainability questions:  The amount of water is a quantity of the system that we care to measure.  The faucet and the drain are components that contribute to change in the amount of water.    These components are generally referred to as stocks and flows , respectively.   A stock is a quantity in a system that can be added to or taken from over time.  A flow is a process in a system that can add to or take away from a stock.   The identification of stocks and flows in a system is called a stock-flow model of that system.     Back to work...  Once we have a stock-flow model of a system, it is useful to be able to represent that model with a visual. The standard representation for these is called a system diagram .  Let's consider our bathtub example from the beginning of this section. A basic system diagram for this system might look as follows:    A system diagram for the bathtub example showing stocks as squares, flows as arrows, and flow rate processes as triangles.   Let's make some observations about this system diagram:  The stock (volume of water) is represented with a square. While there is only one stock in this system diagram, it is possible to have multiple stocks in a system diagram.  The flows are represented with arrows, indicating whether they are making the stock increase ( inflow ) or decrease ( outflow ). Each flow arrow into or out of the stock is associated with a triangle, which represents a mechanism or process which controls the rate of the corresponding flow.  The circles represent stocks outside of the system we are considering. If these stocks contribute inflows into our system they are called sources . If these stocks receive outflows from our system, they are called sinks .  So far our system diagram is a visual organization of the stocks and flows we've identified in our system. These stocks and flows can also be associated with measurements (that have units ), which we'll need in order to make computations and predictions about our system. This will become our focus in the next sections.      Reflection  Let's reflect on what we've learned, and what we still have questions about.  What are stocks and flows, and how are they related?  What things do you consider when creating a stock-flow model for a system?  Is there a single best stock-flow model for a system?     Section Checkpoint  Link here to Doenet course.   "
+  "body": " Stocks and Flows   Questions of sustainability arise when we work with systems that are flowing; that is, systems whose measurements are changing. The purpose of this activity is to introduce stock-flow models and system diagrams for representing such systems.  The objectives of this activity are that you can...   Section Objectives   represent a stock-flow model with a system diagram.    Let's get to work...  Imagine a bathtub filled with water. The faucet is running and the drain is open. You may look at this system and notice that either  the water level in the tub is staying the same,  the water level is increasing, or  the water level is decreasing.    Regardless of what you observe, this is a system in movement! While this is a simple system, it contains the important components we often need to consider in sustainability questions:  The amount of water is a quantity of the system that we care to measure.  The faucet and the drain are components that contribute to change in the amount of water.    These components are generally referred to as stocks and flows , respectively.   A stock is a quantity in a system that can be added to or taken from over time.  A flow is a process in a system that can add to or take away from a stock.   The identification of stocks and flows in a system is called a stock-flow model of that system.    Stock-Flow Models   In your group, brainstorm two different systems that you are interested in, and create stock-flow models of those systems.     Back to work...  Once we have a stock-flow model of a system, it is useful to be able to represent that model with a visual. The standard representation for these is called a system diagram .  Let's consider our bathtub example from the beginning of this section. A basic system diagram for this system might look as follows:    A system diagram for the bathtub example showing stocks as squares, flows as arrows, and flow rate processes as triangles.   Let's make some observations about this system diagram:  The stock (volume of water) is represented with a square. While there is only one stock in this system diagram, it is possible to have multiple stocks in a system diagram.  The flows are represented with arrows, indicating whether they are making the stock increase ( inflow ) or decrease ( outflow ). Each flow arrow into or out of the stock is associated with a triangle, which represents a mechanism or process which controls the rate of the corresponding flow.  The circles represent stocks outside of the system we are considering. If these stocks contribute inflows into our system they are called sources . If these stocks receive outflows from our system, they are called sinks .  So far our system diagram is a visual organization of the stocks and flows we've identified in our system. These stocks and flows can also be associated with measurements (that have units ), which we'll need in order to make computations and predictions about our system. This will become our focus in the next sections.      System Diagrams   Work in your group to create stock-flow models and system diagrams for each system below.     Reflection  Let's reflect on what we've learned, and what we still have questions about.  What are stocks and flows, and how are they related?  What things do you consider when creating a stock-flow model for a system?  Is there a single best stock-flow model for a system?     Section Checkpoint  Link here to Doenet course.   "
 },
 {
   "id": "sec-2-1-3",
@@ -424,9 +424,9 @@ var ptx_lunr_docs = [
   "body": "stock-flow model "
 },
 {
-  "id": "sec-2-1-5-2",
+  "id": "sec-2-1-6-2",
   "level": "2",
-  "url": "sec-2-1.html#sec-2-1-5-2",
+  "url": "sec-2-1.html#sec-2-1-6-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -442,9 +442,9 @@ var ptx_lunr_docs = [
   "body": "  A system diagram for the bathtub example showing stocks as squares, flows as arrows, and flow rate processes as triangles.  "
 },
 {
-  "id": "sec-2-1-5-5",
+  "id": "sec-2-1-6-5",
   "level": "2",
-  "url": "sec-2-1.html#sec-2-1-5-5",
+  "url": "sec-2-1.html#sec-2-1-6-5",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -457,7 +457,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Net Flow and Equilibrium",
-  "body": " Net Flow and Equilibrium   Many natural systems have stocks that don't change, even though these systems are flowing constantly. The purpose of this activity is to be able to recognize when stocks are in such a state.  The objectives of this activity are that you can...     calculate the net flow of a stock and recognize when a stock is in equilibrium.  calculate the residence time associated with a stock in equilibrium.    Let's get to work...  Let's return to our system diagram for a bathtub system from .  Recall that the arrows represent flows of the system, and the triangles represent processes that control the rate of each flow. The system diagram helps us to understand the important components of a system and how they are related, but to understand the behavior of the system we must also know the measurements involved: the numerical values of the stocks and the rates, along with their units. Let's consider three examples.  The water volume is gallons. The inflow rate from the faucet is , and the outflow rate to the drain is . In this scenario, the outflow rate is greater than the inflow rate, so over time the volume of water will decrease.  The water volume is gallons. The inflow rate from the faucet is , and the outflow rate to the drain is . In this scenario, the inflow rate is greater than the outflow rate, so over time the volume of water will increase.  The water volume is gallons. The inflow rate from the faucet is , and the outflow rate to the drain is . In this scenario, the inflow rate is equal to the inflow rate, so over time the volume of water will remain at gallons.    Let's make a few important observations about these examples.  In all of the examples we are comparing the inflow rates to the outflow rates to determine the qualitative behavior of the volume of water over time. To be more precise, we could calculate the net flow rate : If there were multiple flows in the same direction, we would add them to get the total flow in that direction. A positive net flow for a stock means that stock is increasing over time, while a negative net flow for a stock means that stock is decreasing over time. Calculate the net flows for each example above, then check your answers below. Include units in your answer. Check Answers Here         In the last example, the net flow is . If a stock's net flow is , we say that stock is in equilibrium . In this case, the equilibrium value of the stock is gallons.  Our focus in this chapter will be mostly on systems in equilibrium. In general this will be more complex than what we've just considered. For example, flow rates may not be constant. We will re-visit systems not in equilibrium and how they change over time in chapter 4.       Back to work...  A stock in equilibrium is not changing in quantity. But as we've discussed, it is moving . If the inflows and outflows for a stock are both non-zero, even when a stock may appear to be static, the constant quantity is never comprised of the same stuff . There is a measure for the average time a unit of stock will spend between inflow and outflow, which is what we will explore next.   The residence time associated with a stock in equilibrium is the number .     Reflection  Let's reflect on what we've learned, and what we still have questions about.  What is the net flow rate of a stock, and why is it important in determining the behavior of a stock over time?  What does the residence time of a stock in equilibrium tell us about that stock? Be as specific as you can.     Section Checkpoint  Link here to Doenet course.   "
+  "body": " Net Flow and Equilibrium   Many natural systems have stocks that don't change, even though these systems are flowing constantly. The purpose of this activity is to be able to recognize when stocks are in such a state.  The objectives of this activity are that you can...     calculate the net flow of a stock and recognize when a stock is in equilibrium.  calculate the residence time associated with a stock in equilibrium.    Let's get to work...  Let's return to our system diagram for a bathtub system from .  Recall that the arrows represent flows of the system, and the triangles represent processes that control the rate of each flow. The system diagram helps us to understand the important components of a system and how they are related, but to understand the behavior of the system we must also know the measurements involved: the numerical values of the stocks and the rates, along with their units. Let's consider three examples.  The water volume is gallons. The inflow rate from the faucet is , and the outflow rate to the drain is . In this scenario, the outflow rate is greater than the inflow rate, so over time the volume of water will decrease.  The water volume is gallons. The inflow rate from the faucet is , and the outflow rate to the drain is . In this scenario, the inflow rate is greater than the outflow rate, so over time the volume of water will increase.  The water volume is gallons. The inflow rate from the faucet is , and the outflow rate to the drain is . In this scenario, the inflow rate is equal to the inflow rate, so over time the volume of water will remain at gallons.    Let's make a few important observations about these examples.  In all of the examples we are comparing the inflow rates to the outflow rates to determine the qualitative behavior of the volume of water over time. To be more precise, we could calculate the net flow rate : If there were multiple flows in the same direction, we would add them to get the total flow in that direction. A positive net flow for a stock means that stock is increasing over time, while a negative net flow for a stock means that stock is decreasing over time. Calculate the net flows for each example above, then check your answers below. Include units in your answer. Check Answers Here         In the last example, the net flow is . If a stock's net flow is , we say that stock is in equilibrium . In this case, the equilibrium value of the stock is gallons.  Our focus in this chapter will be mostly on systems in equilibrium. In general this will be more complex than what we've just considered. For example, flow rates may not be constant. We will re-visit systems not in equilibrium and how they change over time in chapter 4.      Net Flow   Let's practice computing the net flow of a stock.     The following system diagram is for the stock of atmospheric carbon, measured in gigatons (GT). The flows are measured in GT per year. We are accounting for inflows from plants (plant respiration), sea (air\/sea gas exchange), soil (microbial respiration and decomposition), and humans (human emissions), and for outflows to plants (photosynthesis) and sea (air\/sea gas exchange).  Choose new variations of the model by selecting the New Variation button. Before moving on, get at least 3 correct in a row, and write down an explanation for how to compute net flow and what that means for the behavior of a stock as if you were explaining it to someone new.       Back to work...  A stock in equilibrium is not changing in quantity. But as we've discussed, it is moving . If the inflows and outflows for a stock are both non-zero, even when a stock may appear to be static, the constant quantity is never comprised of the same stuff . There is a measure for the average time a unit of stock will spend between inflow and outflow, which is what we will explore next.   The residence time associated with a stock in equilibrium is the number .     Residence Time   In your group, answer the following questions to better understand residence time.      Does this calculation make sense for stocks not in equilibrium? Why or why not?      What type of units do you think this number will have? Why? Give at least one example.      Consider a stock-flow model whose stock is number of undergraduate students at a University, with a single inflow of admitted students and a single outflow of graduating students. Assuming this stock is in equilibrium, calculate the residence time of the stock for each scenario below. Discuss its meaning in the context of the model.     Equilibrium value: students, Flow Rate: students per year      Equilibrium value: students, Flow Rate: students per year      Equilibrium value: students, Flow Rate: students per year      Equilibrium value: students, Flow Rate: students per year      Equilibrium value: students, Flow Rate: students per year       Reflection  Let's reflect on what we've learned, and what we still have questions about.  What is the net flow rate of a stock, and why is it important in determining the behavior of a stock over time?  What does the residence time of a stock in equilibrium tell us about that stock? Be as specific as you can.     Section Checkpoint  Link here to Doenet course.   "
 },
 {
   "id": "sec-2-2-3",
@@ -487,13 +487,49 @@ var ptx_lunr_docs = [
   "body": "net flow rate equilibrium "
 },
 {
-  "id": "sec-2-2-5-3",
+  "id": "ws-2-2-1-3",
   "level": "2",
-  "url": "sec-2-2.html#sec-2-2-5-3",
+  "url": "sec-2-2.html#ws-2-2-1-3",
+  "type": "Worksheet Exercise",
+  "number": "2.2.1",
+  "title": "",
+  "body": "  The following system diagram is for the stock of atmospheric carbon, measured in gigatons (GT). The flows are measured in GT per year. We are accounting for inflows from plants (plant respiration), sea (air\/sea gas exchange), soil (microbial respiration and decomposition), and humans (human emissions), and for outflows to plants (photosynthesis) and sea (air\/sea gas exchange).  Choose new variations of the model by selecting the New Variation button. Before moving on, get at least 3 correct in a row, and write down an explanation for how to compute net flow and what that means for the behavior of a stock as if you were explaining it to someone new.   "
+},
+{
+  "id": "sec-2-2-6-3",
+  "level": "2",
+  "url": "sec-2-2.html#sec-2-2-6-3",
   "type": "Definition",
   "number": "2.2.1",
   "title": "",
   "body": " The residence time associated with a stock in equilibrium is the number .  "
+},
+{
+  "id": "ws-2-2-2-3-1",
+  "level": "2",
+  "url": "sec-2-2.html#ws-2-2-2-3-1",
+  "type": "Worksheet Exercise",
+  "number": "2.2.1",
+  "title": "",
+  "body": "  Does this calculation make sense for stocks not in equilibrium? Why or why not?   "
+},
+{
+  "id": "ws-2-2-2-3-2",
+  "level": "2",
+  "url": "sec-2-2.html#ws-2-2-2-3-2",
+  "type": "Worksheet Exercise",
+  "number": "2.2.2",
+  "title": "",
+  "body": "  What type of units do you think this number will have? Why? Give at least one example.   "
+},
+{
+  "id": "ws-2-2-2-3-3",
+  "level": "2",
+  "url": "sec-2-2.html#ws-2-2-2-3-3",
+  "type": "Worksheet Exercise",
+  "number": "2.2.3",
+  "title": "",
+  "body": "  Consider a stock-flow model whose stock is number of undergraduate students at a University, with a single inflow of admitted students and a single outflow of graduating students. Assuming this stock is in equilibrium, calculate the residence time of the stock for each scenario below. Discuss its meaning in the context of the model.     Equilibrium value: students, Flow Rate: students per year      Equilibrium value: students, Flow Rate: students per year      Equilibrium value: students, Flow Rate: students per year      Equilibrium value: students, Flow Rate: students per year      Equilibrium value: students, Flow Rate: students per year    "
 },
 {
   "id": "sec-2-3",
@@ -502,7 +538,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.3",
   "title": "Equilibrium Values",
-  "body": " Equilibrium Values   In real-world systems there are typically factors that influence the rates of flows within stock-flow models. The purpose of this activity is to consider a common influence, and its impact on the value of a stock in equilibrium.  The objectives of this activity are that you can...     recognize dependencies between stock values and flow rates, and represent them on a system diagram.  compute equilibrium values in stock-flow models with a single stock.    Let's get to work...  Let's return once again to our system diagram for a bathtub system from , with one small addition:    A system diagram for the bathtub example showing stocks as squares, flows as arrows, flow rate processes as triangles, and the dependency between water volume and the drain rate as a red link.   In this new diagram we've added a red dependency link between the water stock and the outflow controlled by the drain. We've added this to indicate that the outflow is not, in fact, constant as we've assumed in previous examples, but it varies depending on the water depth value: a larger water depth value will result in a larger outflow rate through the drain.     Back to work...  As with our previous system diagrams, so far we've just identified and represented something in the system that will impact its behavior. To make dependency links useful in computation, we need to to know more specifically what that dependency is as an equation.  We now ask the same question as in : is this stock in equilibrium? With flow rates that change, the answer is not as straightforward as when they were constant. We will return to our example of the bathtub system from the beginning of the section.  For the sake of our example, let's assume that the inflow rate from the faucet is constant at gallons per minute, while the outflow rate (in gallons per minute) is dependent on the water depth (in inches) by the equation .  What are the units of the constant ?    We know that the stock will be in equilibrium when its inflow rate and outflow rate are equal. As an equation, that means that , or . We can solve for by dividing both sides of the equation by to get inches. This now gives us information to understand how our system will behave.  If our initial water volume is such that the depth is less than inches, then initially the inflow rate of gallons per minute will be greater than the outflow rate (why?). Therefore the net flow rate will be positive, and the water volume will increase until it reaches a depth of inches, at which point it will be in equilibrium.  If our initial water volume is such that the depth is greater than inches, then initially the inflow rate of gallons per minute will be less than the outflow rate (why?). Therefore the net flow rate will be negative, and the water volume will decrease until it reaches a depth of inches, at which point it will be in equilibrium.  If our initial water volume is such that the depth is equal to inches, then initially the inflow rate of gallons per minute will equal the outflow rate . Therefore the net flow will be zero, and the water volume will remain constant.      Reflection  Let's reflect on what we've learned, and what we still have questions about.  What are dependency links and why are they important in stock-flow models?  Why is it more challenging to compute the equilibrium value of a stock if the flow rates are not constant?  Do you think that stock values will always change towards an equilibrium value?     Section Checkpoint  Link here to Doenet course.   "
+  "body": " Equilibrium Values   In real-world systems there are typically factors that influence the rates of flows within stock-flow models. The purpose of this activity is to consider a common influence, and its impact on the value of a stock in equilibrium.  The objectives of this activity are that you can...     recognize dependencies between stock values and flow rates, and represent them on a system diagram.  compute equilibrium values in stock-flow models with a single stock.    Let's get to work...  Let's return once again to our system diagram for a bathtub system from , with one small addition:    A system diagram for the bathtub example showing stocks as squares, flows as arrows, flow rate processes as triangles, and the dependency between water volume and the drain rate as a red link.   In this new diagram we've added a red dependency link between the water stock and the outflow controlled by the drain. We've added this to indicate that the outflow is not, in fact, constant as we've assumed in previous examples, but it varies depending on the water depth value: a larger water depth value will result in a larger outflow rate through the drain.    Dependency Links   Let's practice identifying and representing dependencies between flow rates and stocks. For each stock-flow model below, create a system diagram with dependency links. Write a short description of what you think the dependency is and how it will affect the flow rate.      Back to work...  As with our previous system diagrams, so far we've just identified and represented something in the system that will impact its behavior. To make dependency links useful in computation, we need to to know more specifically what that dependency is as an equation.  We now ask the same question as in : is this stock in equilibrium? With flow rates that change, the answer is not as straightforward as when they were constant. We will return to our example of the bathtub system from the beginning of the section.  For the sake of our example, let's assume that the inflow rate from the faucet is constant at gallons per minute, while the outflow rate (in gallons per minute) is dependent on the water depth (in inches) by the equation .  What are the units of the constant ?    We know that the stock will be in equilibrium when its inflow rate and outflow rate are equal. As an equation, that means that , or . We can solve for by dividing both sides of the equation by to get inches. This now gives us information to understand how our system will behave.  If our initial water volume is such that the depth is less than inches, then initially the inflow rate of gallons per minute will be greater than the outflow rate (why?). Therefore the net flow rate will be positive, and the water volume will increase until it reaches a depth of inches, at which point it will be in equilibrium.  If our initial water volume is such that the depth is greater than inches, then initially the inflow rate of gallons per minute will be less than the outflow rate (why?). Therefore the net flow rate will be negative, and the water volume will decrease until it reaches a depth of inches, at which point it will be in equilibrium.  If our initial water volume is such that the depth is equal to inches, then initially the inflow rate of gallons per minute will equal the outflow rate . Therefore the net flow will be zero, and the water volume will remain constant.      Equilibrium Values   Let's continue to practice finding equilibrium values for stocks that have dependent links to flow rates. For each stock-flow model below,  Sketch a system diagram on paper with the indicated dependency links.  Compute the equilibrium value of the stock.  Use the computed equilibrium value to describe the behavior of the system.        Stock: Number of undergraduate students at a University  Flows: Admitted students, graduating students  Rates:   Graduation rate is constant at students per year  Admission rate ( ) depends on the number of undergrads ( ):          Stock: Population of a community  Flows: Births, deaths  Rates:   Death rate is constant at individuals per year  Birth rate ( ) depends on the population ( ):        Stock: Population of a community  Flows: Births, deaths  Rates:   Death rate ( ) depends on the population ( ):  Birth rate ( ) depends on the population ( ):        Reflection  Let's reflect on what we've learned, and what we still have questions about.  What are dependency links and why are they important in stock-flow models?  Why is it more challenging to compute the equilibrium value of a stock if the flow rates are not constant?  Do you think that stock values will always change towards an equilibrium value?     Section Checkpoint  Link here to Doenet course.   "
 },
 {
   "id": "sec-2-3-3",
@@ -532,13 +568,40 @@ var ptx_lunr_docs = [
   "body": "dependency link "
 },
 {
-  "id": "sec-2-3-5-5",
+  "id": "sec-2-3-6-5",
   "level": "2",
-  "url": "sec-2-3.html#sec-2-3-5-5",
+  "url": "sec-2-3.html#sec-2-3-6-5",
   "type": "Remark",
   "number": "2.3.2",
   "title": "What are the units of the constant <span class=\"process-math\">\\(0.6\\text{?}\\)<\/span>",
   "body": "What are the units of the constant ?   "
+},
+{
+  "id": "ws-2-3-2-3-1",
+  "level": "2",
+  "url": "sec-2-3.html#ws-2-3-2-3-1",
+  "type": "Worksheet Exercise",
+  "number": "2.3.1",
+  "title": "",
+  "body": "  Stock: Number of undergraduate students at a University  Flows: Admitted students, graduating students  Rates:   Graduation rate is constant at students per year  Admission rate ( ) depends on the number of undergrads ( ):     "
+},
+{
+  "id": "ws-2-3-2-4-1",
+  "level": "2",
+  "url": "sec-2-3.html#ws-2-3-2-4-1",
+  "type": "Worksheet Exercise",
+  "number": "2.3.2",
+  "title": "",
+  "body": "  Stock: Population of a community  Flows: Births, deaths  Rates:   Death rate is constant at individuals per year  Birth rate ( ) depends on the population ( ):     "
+},
+{
+  "id": "ws-2-3-2-4-2",
+  "level": "2",
+  "url": "sec-2-3.html#ws-2-3-2-4-2",
+  "type": "Worksheet Exercise",
+  "number": "2.3.3",
+  "title": "",
+  "body": "  Stock: Population of a community  Flows: Births, deaths  Rates:   Death rate ( ) depends on the population ( ):  Birth rate ( ) depends on the population ( ):     "
 },
 {
   "id": "sec-2-4",
@@ -547,7 +610,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.4",
   "title": "Parameters",
-  "body": " Parameters   In real-world systems there may be factors which are not stocks within the system, but still influence the rates of flows within stock-flow models. The purpose of this activity is to consider these factors.  The objectives of this activity are that you can...     recognize parameters in stock-flow models, and represent them on a system diagram.  analyze how parameter values affect equilibrium in stock-flow models.    Let's get to work...     Back to work...  One description of the system above could be a cup of coffee sitting on a table. Considered as a stock-flow model, we could say that the stock is the temperature of the coffee Technically you might say that our stock measures the amount of heat energy in the coffee, but since we can relate temperature directly to the heat energy, it is OK (and maybe more intuitive) to use temperature as a measurement in its place. (in degrees Celsius), and the only flow is the outflow of heat (measured in degrees Celsius per minute).  In this example, the outflow rate will be dependent not only on the value of the stock, but also on  the outside temperature that the cup of coffee is exposed to. It will cool faster if it's sitting outside in cold weather than if it's sitting inside on a counter at room temperature.  the insulation properties of the cup holding the coffee. It will stay warmer longer if it's in a glass container than it would if it's in a metal container.    From the perspective of the stock-flow model, these two factors do not fit into any component we've discussed so far. They are not stocks (quantities that are being added to or taken from) and they are not flows. We define these new components that we may want to account for in stock-flow models now.   A parameter in a stock-flow model is a quantity that affects one or more flow rate in the model, and is constant for a fixed model.   In the coffee cup example, the outside temperature and the insulation properties of the cup are both parameters. These values don't change for a fixed model (if the coffee cup is outside in a ceramic mug, these values are constants), but their values nevertheless will impact how the temperature behaves. In a system diagram, we will represent parameters with rectangles, and indicate the flow rate they impact with a dependency link. Here is an example of an updated system diagram for the coffee cup example.    A system diagram for the coffee cup example, including the insulation properties of the cup as well as the outside temperature as parameters which both affect the heat loss rate.      Back to work...  Working with parameters is important because it allows us to analyze multiple different models at once. For example, suppose we are interested in installing solar panels as an energy source for our home. We will use the stock-flow model represented by the system diagram below.    A system diagram for the amount of energy stored in solar panels, with an inflow from the sun, outflow from energy use, and a parameter of the panels' area which impacts the inflow rate from the sun.   The coverage area of the solar panels is a parameter because it is a constant once we install them, but it impacts the inflow rate of energy that we receive from the sun. We would like to determine the value of this parameter that results in an equilibrium value of for our stock.  Suppose that the outflow rate of energy from the panels is constant at watts. The inflow rate ( ) from the sun is dependent on both the amount of energy in the panels ( ), measured in watt-hours (Wh), and the area of the panels ( ), measured in square meters, according to the equation .  We also know that the stock is in equilibrium when the inflow rate is equal to the outflow rate, or as an equation, when .  Unlike in the last section, our equation has two unknown quantities, and . But we also know that we'd like the equilibrium value to be . Substituting this value into our equation gives , which can be solved to find that square meters. Using the parameter in our analysis helps us make an educated decision about the solar panels in order to achieve a certain behavior from the system.    Reflection  Let's reflect on what we've learned, and what we still have questions about.  How are parameters different from stocks and flows?  Why might parameters be important to include in a stock-flow model?     Section Checkpoint  Link here to Doenet course.   "
+  "body": " Parameters   In real-world systems there may be factors which are not stocks within the system, but still influence the rates of flows within stock-flow models. The purpose of this activity is to consider these factors.  The objectives of this activity are that you can...     recognize parameters in stock-flow models, and represent them on a system diagram.  analyze how parameter values affect equilibrium in stock-flow models.    Let's get to work...    Dependency Links: Re-visited   As a group, review the system diagram below. Describe a stock-flow model you think this could represent.  What is the stock? Include reasonable units.  What are the flows? Include reasonable units.  Are there factors not currently represented in this diagram that you think would have a significant impact on the value of the stock?       A system diagram with a single stock, single outflow, and single dependency link.     Back to work...  One description of the system above could be a cup of coffee sitting on a table. Considered as a stock-flow model, we could say that the stock is the temperature of the coffee Technically you might say that our stock measures the amount of heat energy in the coffee, but since we can relate temperature directly to the heat energy, it is OK (and maybe more intuitive) to use temperature as a measurement in its place. (in degrees Celsius), and the only flow is the outflow of heat (measured in degrees Celsius per minute).  In this example, the outflow rate will be dependent not only on the value of the stock, but also on  the outside temperature that the cup of coffee is exposed to. It will cool faster if it's sitting outside in cold weather than if it's sitting inside on a counter at room temperature.  the insulation properties of the cup holding the coffee. It will stay warmer longer if it's in a glass container than it would if it's in a metal container.    From the perspective of the stock-flow model, these two factors do not fit into any component we've discussed so far. They are not stocks (quantities that are being added to or taken from) and they are not flows. We define these new components that we may want to account for in stock-flow models now.   A parameter in a stock-flow model is a quantity that affects one or more flow rate in the model, and is constant for a fixed model.   In the coffee cup example, the outside temperature and the insulation properties of the cup are both parameters. These values don't change for a fixed model (if the coffee cup is outside in a ceramic mug, these values are constants), but their values nevertheless will impact how the temperature behaves. In a system diagram, we will represent parameters with rectangles, and indicate the flow rate they impact with a dependency link. Here is an example of an updated system diagram for the coffee cup example.    A system diagram for the coffee cup example, including the insulation properties of the cup as well as the outside temperature as parameters which both affect the heat loss rate.     Parameters in System Diagrams   Let's practice recognizing potential parameters in stock-flow models and representing them in a system diagram. For each stock-flow model below, identify any parameters you think might be present. Then create a system diagram including those parameters.      Back to work...  Working with parameters is important because it allows us to analyze multiple different models at once. For example, suppose we are interested in installing solar panels as an energy source for our home. We will use the stock-flow model represented by the system diagram below.    A system diagram for the amount of energy stored in solar panels, with an inflow from the sun, outflow from energy use, and a parameter of the panels' area which impacts the inflow rate from the sun.   The coverage area of the solar panels is a parameter because it is a constant once we install them, but it impacts the inflow rate of energy that we receive from the sun. We would like to determine the value of this parameter that results in an equilibrium value of for our stock.  Suppose that the outflow rate of energy from the panels is constant at watts. The inflow rate ( ) from the sun is dependent on both the amount of energy in the panels ( ), measured in watt-hours (Wh), and the area of the panels ( ), measured in square meters, according to the equation .  We also know that the stock is in equilibrium when the inflow rate is equal to the outflow rate, or as an equation, when .  Unlike in the last section, our equation has two unknown quantities, and . But we also know that we'd like the equilibrium value to be . Substituting this value into our equation gives , which can be solved to find that square meters. Using the parameter in our analysis helps us make an educated decision about the solar panels in order to achieve a certain behavior from the system.    Parameters and Equilibrium Values   Let's practice using parameters in equilibrium calculations. For each stock-flow model below,  Sketch a system diagram on paper with the indicated parameters and dependency links.  Determine the parameter value that will result in the desired equilibrium value.        Stock: Population of a community  Flows: Births, deaths  Parameters: Carrying capacity  Rates:   Death rate is constant at individuals per year  Birth rate ( ) depends on the population ( ) and the carrying capacity ( ):    Desired Equilibrium:         Stock: Temperature in a greenhouse  Flows: Sun, heat loss  Parameters: Outside temperature, thickness of greenhouse material  Rates:   Temperature rate is constant from the sun at fahrenheit per day  Heat loss ( ) depends on the inside temperature ( ), the outside temperature ( ), and the thickness in milimeters of the greenhouse material ( ):    Desired Equilibrium:  fahrenheit, given that the outside temperature is fahrenheit      Reflection  Let's reflect on what we've learned, and what we still have questions about.  How are parameters different from stocks and flows?  Why might parameters be important to include in a stock-flow model?     Section Checkpoint  Link here to Doenet course.   "
 },
 {
   "id": "sec-2-4-3",
@@ -559,11 +622,20 @@ var ptx_lunr_docs = [
   "body": "  recognize parameters in stock-flow models, and represent them on a system diagram.  analyze how parameter values affect equilibrium in stock-flow models.   "
 },
 {
-  "id": "sec-2-4-5-5",
+  "id": "fig-sys-diagram-temp",
   "level": "2",
-  "url": "sec-2-4.html#sec-2-4-5-5",
-  "type": "Definition",
+  "url": "sec-2-4.html#fig-sys-diagram-temp",
+  "type": "Figure",
   "number": "2.4.1",
+  "title": "",
+  "body": "  A system diagram with a single stock, single outflow, and single dependency link.  "
+},
+{
+  "id": "sec-2-4-6-5",
+  "level": "2",
+  "url": "sec-2-4.html#sec-2-4-6-5",
+  "type": "Definition",
+  "number": "2.4.2",
   "title": "",
   "body": " A parameter in a stock-flow model is a quantity that affects one or more flow rate in the model, and is constant for a fixed model.  "
 },
@@ -572,7 +644,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-2-4.html#fig-sys-diagram-param",
   "type": "Figure",
-  "number": "2.4.2",
+  "number": "2.4.3",
   "title": "",
   "body": "  A system diagram for the coffee cup example, including the insulation properties of the cup as well as the outside temperature as parameters which both affect the heat loss rate.  "
 },
@@ -581,9 +653,27 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-2-4.html#fig-sys-diagram-solar",
   "type": "Figure",
-  "number": "2.4.3",
+  "number": "2.4.4",
   "title": "",
   "body": "  A system diagram for the amount of energy stored in solar panels, with an inflow from the sun, outflow from energy use, and a parameter of the panels' area which impacts the inflow rate from the sun.  "
+},
+{
+  "id": "ws-2-4-3-3-1",
+  "level": "2",
+  "url": "sec-2-4.html#ws-2-4-3-3-1",
+  "type": "Worksheet Exercise",
+  "number": "2.4.1",
+  "title": "",
+  "body": "  Stock: Population of a community  Flows: Births, deaths  Parameters: Carrying capacity  Rates:   Death rate is constant at individuals per year  Birth rate ( ) depends on the population ( ) and the carrying capacity ( ):    Desired Equilibrium:    "
+},
+{
+  "id": "ws-2-4-3-4-1",
+  "level": "2",
+  "url": "sec-2-4.html#ws-2-4-3-4-1",
+  "type": "Worksheet Exercise",
+  "number": "2.4.2",
+  "title": "",
+  "body": "  Stock: Temperature in a greenhouse  Flows: Sun, heat loss  Parameters: Outside temperature, thickness of greenhouse material  Rates:   Temperature rate is constant from the sun at fahrenheit per day  Heat loss ( ) depends on the inside temperature ( ), the outside temperature ( ), and the thickness in milimeters of the greenhouse material ( ):    Desired Equilibrium:  fahrenheit, given that the outside temperature is fahrenheit   "
 },
 {
   "id": "sec-3-1",
@@ -592,7 +682,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "Networks and Graphs",
-  "body": " Networks and Graphs   We live in a very connected world. From social interactions to predator-prey relationships, connections have a large impact on how systems behave. The purpose of this activity is to introduce an important mathematical tool used to model network connections.  The objectives of this activity are that you can...     represent a network using a graph or directed graph.  determine basic properties of a graph.    Let's get to work...  A network is a set of entitities which have a rule that defines when two entities in the set are related. This is a very broad concept which arises in various contexts. For example, a network may consist of a set of twenty neighborhoods (call them A through T), with the rule that two neighborhoods are related if there is a road that connects them.   Mathematically, we can represent networks with graphs . Though you may have heard this term in a math class previously, it is likely different than what you are picturing. Below is an example of a graph of the neighborhood network we described above.    A graph whose vertices, labeled A through T, represent neiborhoods, and whose edges represent roads connecting neighborhoods.   Let's make some important observations about graphs using this example:  An entity (in this example, a neighborhood) is represented by a point called a vertex . Two entities are related (in this example, there is a road connecting two neighborhoods) if they are connected by a line called an edge . If two vertices are connected by an edge, we call them neighbors .  It is important to note that this graph communicates nothing about the actual physical location of each neighborhood. You can move the vertices anywhere you wish (try it!), and it would still be the same graph. The graph communicates only which entities are in the network, and how they are related to each other.    The number of edges coming from one vertex is called the degree of that vertex. For example, the degree of vertex A is , and the degree of vertex S is .  A path between two verices is a sequence of edges that connects one vertex to the other. A graph is connected if there is a path between any two verices. Otherwise, it is disconnected . For example, the graph of above is disconnected because there is no path from vertex M to vertex A. However, the graph obtained by ommitting vertices K through O is connected, as is the graph consisting of only vertices K through O.  A graph can be useful for making qualitative observations about a network. For example, while there is no path from vertices K through O to other vertices, they are highly connected to each other. Also, vertices A, J, and T seem to be structurally important neighborhoods. There are many roads connecting them to other neighborhoods (they have a high degree), and if we got rid of them, many more neighborhoods would become disconnected. We'll make these ideas more precise in the next section.      Back to work...  There are variations of graphs that can be obtained by adding additional structure based on the needs of your model. We present one such variation here due to its connection with our topic from .   A directed graph is a graph whose edges have a specified direction. That is, there are two different edges that could connect vertices A and B: the edge AB ( A to B ) and the edge BA ( B to A ).   The visual difference in directed graphs is that the edges are represented by arrows, which provide the additional information of direction. For example, directed graphs can be used to represent predator-prey relationships within an ecosystem. Take a moment to interpret the directed graph below in your group.    A directed graph showing the predator-prey relationships within an ecosystem.   Another example of directed graphs are the system diagrams that we've been using to visualize stock-flow models. The vertices of such a graph are the stocks, rate-controlling processes, sources\/sinks, and parameters in the model, while the directed edges are the inflow\/outflow arrows and the dependency links. Here is an example from :    On the left, the stock-flow model for the energy in solar panels is represented by a system diagram. On the right, the model is represented as a directed graph.   Note that the system diagram provides additional context about the model that, in many cases, can be useful.    Reflection  Let's reflect on what we've learned, and what we still have questions about.  Why might a graph be useful when analyzing questions about sustainability?  Which types of networks are best modeled by directed graphs?     Section Checkpoint  Link here to Doenet course.   "
+  "body": " Networks and Graphs   We live in a very connected world. From social interactions to predator-prey relationships, connections have a large impact on how systems behave. The purpose of this activity is to introduce an important mathematical tool used to model network connections.  The objectives of this activity are that you can...     represent a network using a graph or directed graph.  determine basic properties of a graph.    Let's get to work...  A network is a set of entitities which have a rule that defines when two entities in the set are related. This is a very broad concept which arises in various contexts. For example, a network may consist of a set of twenty neighborhoods (call them A through T), with the rule that two neighborhoods are related if there is a road that connects them.    Networks   In your group, brainstorm examples of three different networks that you are familiar with.     Mathematically, we can represent networks with graphs . Though you may have heard this term in a math class previously, it is likely different than what you are picturing. Below is an example of a graph of the neighborhood network we described above.    A graph whose vertices, labeled A through T, represent neiborhoods, and whose edges represent roads connecting neighborhoods.   Let's make some important observations about graphs using this example:  An entity (in this example, a neighborhood) is represented by a point called a vertex . Two entities are related (in this example, there is a road connecting two neighborhoods) if they are connected by a line called an edge . If two vertices are connected by an edge, we call them neighbors .  It is important to note that this graph communicates nothing about the actual physical location of each neighborhood. You can move the vertices anywhere you wish (try it!), and it would still be the same graph. The graph communicates only which entities are in the network, and how they are related to each other.    The number of edges coming from one vertex is called the degree of that vertex. For example, the degree of vertex A is , and the degree of vertex S is .  A path between two verices is a sequence of edges that connects one vertex to the other. A graph is connected if there is a path between any two verices. Otherwise, it is disconnected . For example, the graph of above is disconnected because there is no path from vertex M to vertex A. However, the graph obtained by ommitting vertices K through O is connected, as is the graph consisting of only vertices K through O.  A graph can be useful for making qualitative observations about a network. For example, while there is no path from vertices K through O to other vertices, they are highly connected to each other. Also, vertices A, J, and T seem to be structurally important neighborhoods. There are many roads connecting them to other neighborhoods (they have a high degree), and if we got rid of them, many more neighborhoods would become disconnected. We'll make these ideas more precise in the next section.      Graphs   Let's practice creating graphs to represent networks. After you have created a graph, answer the following questions.  Which vertex in your graph has the highest degree?  Is your graph connected?  What do your previous answers mean in the context of your network?     A map of Central America and the Carribean    A geographical map of countries in Central America and the Carribean.       Back to work...  There are variations of graphs that can be obtained by adding additional structure based on the needs of your model. We present one such variation here due to its connection with our topic from .   A directed graph is a graph whose edges have a specified direction. That is, there are two different edges that could connect vertices A and B: the edge AB ( A to B ) and the edge BA ( B to A ).   The visual difference in directed graphs is that the edges are represented by arrows, which provide the additional information of direction. For example, directed graphs can be used to represent predator-prey relationships within an ecosystem. Take a moment to interpret the directed graph below in your group.    A directed graph showing the predator-prey relationships within an ecosystem.   Another example of directed graphs are the system diagrams that we've been using to visualize stock-flow models. The vertices of such a graph are the stocks, rate-controlling processes, sources\/sinks, and parameters in the model, while the directed edges are the inflow\/outflow arrows and the dependency links. Here is an example from :    On the left, the stock-flow model for the energy in solar panels is represented by a system diagram. On the right, the model is represented as a directed graph.   Note that the system diagram provides additional context about the model that, in many cases, can be useful.    Directed Graphs   In your group, brainstorm three networks that you think would be best represented as a directed graph. Then pick one of these networks to create a directed graph for below. You may simplify the network or represent just part of the network to make this achievable in the timeframe available.     Reflection  Let's reflect on what we've learned, and what we still have questions about.  Why might a graph be useful when analyzing questions about sustainability?  Which types of networks are best modeled by directed graphs?     Section Checkpoint  Link here to Doenet course.   "
 },
 {
   "id": "sec-3-1-3",
@@ -613,9 +703,9 @@ var ptx_lunr_docs = [
   "body": "network "
 },
 {
-  "id": "sec-3-1-4-3",
+  "id": "sec-3-1-6-1",
   "level": "2",
-  "url": "sec-3-1.html#sec-3-1-4-3",
+  "url": "sec-3-1.html#sec-3-1-6-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -631,20 +721,29 @@ var ptx_lunr_docs = [
   "body": "  A graph whose vertices, labeled A through T, represent neiborhoods, and whose edges represent roads connecting neighborhoods.  "
 },
 {
-  "id": "sec-3-1-4-5",
+  "id": "sec-3-1-6-3",
   "level": "2",
-  "url": "sec-3-1.html#sec-3-1-4-5",
+  "url": "sec-3-1.html#sec-3-1-6-3",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "vertex edge neighbors degree path connected disconnected "
 },
 {
-  "id": "sec-3-1-5-3",
+  "id": "ws-3-1-2-3",
   "level": "2",
-  "url": "sec-3-1.html#sec-3-1-5-3",
-  "type": "Definition",
+  "url": "sec-3-1.html#ws-3-1-2-3",
+  "type": "Remark",
   "number": "3.1.3",
+  "title": "A map of Central America and the Carribean.",
+  "body": "A map of Central America and the Carribean    A geographical map of countries in Central America and the Carribean.    "
+},
+{
+  "id": "sec-3-1-8-3",
+  "level": "2",
+  "url": "sec-3-1.html#sec-3-1-8-3",
+  "type": "Definition",
+  "number": "3.1.4",
   "title": "",
   "body": " A directed graph is a graph whose edges have a specified direction. That is, there are two different edges that could connect vertices A and B: the edge AB ( A to B ) and the edge BA ( B to A ).  "
 },
@@ -653,7 +752,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-3-1.html#fig-network-directed-graph",
   "type": "Figure",
-  "number": "3.1.4",
+  "number": "3.1.5",
   "title": "",
   "body": "  A directed graph showing the predator-prey relationships within an ecosystem.  "
 },
@@ -662,7 +761,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-3-1.html#fig-network-directed-sys-diagram",
   "type": "Figure",
-  "number": "3.1.5",
+  "number": "3.1.6",
   "title": "",
   "body": "  On the left, the stock-flow model for the energy in solar panels is represented by a system diagram. On the right, the model is represented as a directed graph.  "
 },
@@ -673,7 +772,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.2",
   "title": "Resilience",
-  "body": " Resilience   It is important to acknowledge that our systems are susceptible to changes that we may not be able to predict. Operating systems fail, natural disasters occur, and relationships end. Therefore, an important consideration in questions of sustainability is that of resilience: to what extent is a system able to continue functioning after sudden or unexpected damage? The purpose of this activity is to introduce two properties that we can compute to quantify the resilience of a network modeled as a graph.  The objectives of this activity are that you can...     compute the density of a graph.  compute the clustering coefficient of a vertex.  compute the vertex and edge connectivity of a graph.    Let's get to work...   Resilience can reference various things in science and daily life. In this section, we use the term resilience as a measure of how connected a network is: to what extent can a network continue to function as intended in the midst of network connection failures? A specific class of graphs, which we define now, will be important in our discussion.   A complete graph is a graph in which every pair of vertices is connected by an edge.   From the perspective of connectivity, complete graphs are as connected as a graph can be. Below are examples of complete graphs on , , and vertices, respectively.    Complete graphs with , , and vertices.     Back to work...  An intuitive way to describe how connected a network is would be to measure how closely the graph that represents it resembles a complete graph. One such measurement is called the density of the graph.   The density of a graph is the ratio .   The density of a graph will be a number between and , which can be thought of as the percentage of possible edges that the graph contains. Since we previously found a formula for the number of edges the complete graph with vertices contains, the density of a graph with vertices can be re-written as .    Back to work...  While a graph's density does give us some useful measure of how connected a graph is, we must be careful to understand what this number does (and does not) tell us, and that we can rarely draw conclusions from this number alone.  For example, suppose graph from above represents a signal network. The vertices are routers, and there is an edge between two vertices if those two routers can share a signal. From our density computation of , it might be tempting to say that this network is very connected . But from the perspective of resilience, how accurate is this statement? Most routers in the system could go down without impacting the ability of the other routers to communicate with one another. However, there is one router (can you identify which one?) whose failure would result in other routers being disconnected from one another. This is not ideal for resilient networks.  The important thing to note here is that a graph's density is a global measurement. That is, it is a number that says something about the graph's edges as a whole, but does not say anything about how they are distributed throughout the graph (which ultimately will determine the resilience of a network in situations such as the previous paragraph). In order to describe how edges are distributed throughout a graph, we need a local measurement. That is, a number that describes a graph's edges near a specific vertex.   The clustering coefficient of a vertex is the ratio . If the degree of is one or zero, is defined to be .   The clustering coefficient of a vertex will be a number between and , which can be thought of as the percentage of possible edges that the neighbors of contains. Assuming the vertex has degree , and using the formula for the number of edges the complete g raph with vertices contains, the clustering coefficient of can be re-written as .    Back to work...  The concept of a router failing and disconnecting other routers in the signal network example has a formal definition in the context of graphs.   The vertex connectivity of a graph is the minimum number of vertices whose removal (along with their associated edges) would disconnect the graph.   The vertex connectivity of graph from our previous examples is , because there is a single vertex that can be removed which disconnects the graph. There is also an analagous definition for the removal of edges.   The edge connectivity of a graph is the minimum number of edges whose removal would disconnect the graph.     Reflection  Let's reflect on what we've learned, and what we still have questions about.  Describe the different ways that we can measure the extent to which a graph is connected.  In what sense does measuring the connectivity of a graph tell us about the resilience of a network?     Section Checkpoint  Link here to Doenet course.   "
+  "body": " Resilience   It is important to acknowledge that our systems are susceptible to changes that we may not be able to predict. Operating systems fail, natural disasters occur, and relationships end. Therefore, an important consideration in questions of sustainability is that of resilience: to what extent is a system able to continue functioning after sudden or unexpected damage? The purpose of this activity is to introduce two properties that we can compute to quantify the resilience of a network modeled as a graph.  The objectives of this activity are that you can...     compute the density of a graph.  compute the clustering coefficient of a vertex.  compute the vertex and edge connectivity of a graph.    Let's get to work...   Resilience can reference various things in science and daily life. In this section, we use the term resilience as a measure of how connected a network is: to what extent can a network continue to function as intended in the midst of network connection failures? A specific class of graphs, which we define now, will be important in our discussion.   A complete graph is a graph in which every pair of vertices is connected by an edge.   From the perspective of connectivity, complete graphs are as connected as a graph can be. Below are examples of complete graphs on , , and vertices, respectively.    Complete graphs with , , and vertices.     Complete Graphs   As a group, answer the following questions:     Back to work...  An intuitive way to describe how connected a network is would be to measure how closely the graph that represents it resembles a complete graph. One such measurement is called the density of the graph.   The density of a graph is the ratio .   The density of a graph will be a number between and , which can be thought of as the percentage of possible edges that the graph contains. Since we previously found a formula for the number of edges the complete graph with vertices contains, the density of a graph with vertices can be re-written as .    Graph Densities   As a group, answer the following questions about graph densities:     Back to work...  While a graph's density does give us some useful measure of how connected a graph is, we must be careful to understand what this number does (and does not) tell us, and that we can rarely draw conclusions from this number alone.  For example, suppose graph from above represents a signal network. The vertices are routers, and there is an edge between two vertices if those two routers can share a signal. From our density computation of , it might be tempting to say that this network is very connected . But from the perspective of resilience, how accurate is this statement? Most routers in the system could go down without impacting the ability of the other routers to communicate with one another. However, there is one router (can you identify which one?) whose failure would result in other routers being disconnected from one another. This is not ideal for resilient networks.  The important thing to note here is that a graph's density is a global measurement. That is, it is a number that says something about the graph's edges as a whole, but does not say anything about how they are distributed throughout the graph (which ultimately will determine the resilience of a network in situations such as the previous paragraph). In order to describe how edges are distributed throughout a graph, we need a local measurement. That is, a number that describes a graph's edges near a specific vertex.   The clustering coefficient of a vertex is the ratio . If the degree of is one or zero, is defined to be .   The clustering coefficient of a vertex will be a number between and , which can be thought of as the percentage of possible edges that the neighbors of contains. Assuming the vertex has degree , and using the formula for the number of edges the complete g raph with vertices contains, the clustering coefficient of can be re-written as .    Clustering Coefficients   As a group, answer the following questions about clustering coefficients:     Back to work...  The concept of a router failing and disconnecting other routers in the signal network example has a formal definition in the context of graphs.   The vertex connectivity of a graph is the minimum number of vertices whose removal (along with their associated edges) would disconnect the graph.   The vertex connectivity of graph from our previous examples is , because there is a single vertex that can be removed which disconnects the graph. There is also an analagous definition for the removal of edges.   The edge connectivity of a graph is the minimum number of edges whose removal would disconnect the graph.     Connectivity   As a group, answer the following questions regarding connectivity.     Reflection  Let's reflect on what we've learned, and what we still have questions about.  Describe the different ways that we can measure the extent to which a graph is connected.  In what sense does measuring the connectivity of a graph tell us about the resilience of a network?     Section Checkpoint  Link here to Doenet course.   "
 },
 {
   "id": "sec-3-2-3",
@@ -703,54 +802,54 @@ var ptx_lunr_docs = [
   "body": "  Complete graphs with , , and vertices.  "
 },
 {
-  "id": "sec-3-2-5-2",
+  "id": "sec-3-2-6-2",
   "level": "2",
-  "url": "sec-3-2.html#sec-3-2-5-2",
+  "url": "sec-3-2.html#sec-3-2-6-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "density "
 },
 {
-  "id": "sec-3-2-5-3",
+  "id": "sec-3-2-6-3",
   "level": "2",
-  "url": "sec-3-2.html#sec-3-2-5-3",
+  "url": "sec-3-2.html#sec-3-2-6-3",
   "type": "Definition",
   "number": "3.2.3",
   "title": "",
   "body": " The density of a graph is the ratio .  "
 },
 {
-  "id": "sec-3-2-6-4",
+  "id": "sec-3-2-8-4",
   "level": "2",
-  "url": "sec-3-2.html#sec-3-2-6-4",
+  "url": "sec-3-2.html#sec-3-2-8-4",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "global local "
 },
 {
-  "id": "sec-3-2-6-5",
+  "id": "sec-3-2-8-5",
   "level": "2",
-  "url": "sec-3-2.html#sec-3-2-6-5",
+  "url": "sec-3-2.html#sec-3-2-8-5",
   "type": "Definition",
   "number": "3.2.4",
   "title": "",
   "body": " The clustering coefficient of a vertex is the ratio . If the degree of is one or zero, is defined to be .  "
 },
 {
-  "id": "sec-3-2-7-3",
+  "id": "sec-3-2-10-3",
   "level": "2",
-  "url": "sec-3-2.html#sec-3-2-7-3",
+  "url": "sec-3-2.html#sec-3-2-10-3",
   "type": "Definition",
   "number": "3.2.5",
   "title": "",
   "body": " The vertex connectivity of a graph is the minimum number of vertices whose removal (along with their associated edges) would disconnect the graph.  "
 },
 {
-  "id": "sec-3-2-7-5",
+  "id": "sec-3-2-10-5",
   "level": "2",
-  "url": "sec-3-2.html#sec-3-2-7-5",
+  "url": "sec-3-2.html#sec-3-2-10-5",
   "type": "Definition",
   "number": "3.2.6",
   "title": "",
