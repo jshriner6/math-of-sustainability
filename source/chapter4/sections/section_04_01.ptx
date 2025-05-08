@@ -94,9 +94,9 @@
         </p>
       </paragraphs>
 
-      <!-- <xi:include href="./activities/act_04_01.ptx" xpointer="worksheet/1"/> -->
+      <xi:include href="./activities/act_04_01.ptx" xpointer="worksheet/1"/>
 
-      <!-- <xi:include href="./activities/act_04_01.ptx" xpointer="worksheet/2"/> -->
+      <xi:include href="./activities/act_04_01.ptx" xpointer="worksheet/2"/>
 
       <paragraphs><title>Back to work...</title>
         <p>
@@ -256,8 +256,11 @@
                 time using the indicated initial value from the graph on the left.
             </caption>
         </figure>
+    </paragraphs>
 
-        <!-- <xi:include href="./activities/act_04_01.ptx" xpointer="worksheet/3"/> -->
+    <xi:include href="./activities/act_04_01.ptx" xpointer="worksheet/3"/>
+    
+    <paragraphs>
 
         <p>
             While we analyzed just two specific models here, the general strategy developed is a useful one:

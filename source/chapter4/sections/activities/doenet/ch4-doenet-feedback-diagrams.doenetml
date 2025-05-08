@@ -1,0 +1,92 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_MksKzOV9213MrOaXLGuDx/_gZMbm56GvRz5mkQvq4o4V -->
+
+<ul>
+      <li>
+        <p>
+          This model's stock measures the temperature inside a house. The flows are the inflow of heat from the furnace controlled by the thermostat, and the outflow of heat through the windows and walls.
+        </p>
+        <p>
+          <callAction actionName="addChildren" target="g">
+            <m anchor="(1.5,-2)" styleNumber="2">+</m>
+            <label>Add <q><m>+</m></q></label>
+          </callAction>
+          <callAction actionName="addChildren" target="g">
+            <m anchor="(1.5,-2)" styleNumber="2">-</m>
+            <label>Add <q><m>-</m></q></label>
+          </callAction>
+          <callAction actionName="addChildren" target="g">
+            <text anchor="(1.5,-2)" styleNumber="2">Amplifying</text>
+            <label>Add <q>Amplifying</q></label>
+          </callAction>
+          <callAction actionName="addChildren" target="g">
+            <text anchor="(1.5,-2)" styleNumber="2">Stabilizing</text>
+            <label>Add <q>Stabilizing</q></label>
+          </callAction>
+        </p>
+        <callAction actionName="deleteChildren" target="g" number="1">
+        <label>Delete Last Component</label>
+        </callAction>
+        <graph name="g" size="large" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false" xmax="18" xmin="-18" ymax="4" ymin="-4" aspectRatio="18/4">
+        <rectangle width="3" height="3" draggable="false" verticesDraggable="false"/>
+        <vector tail="(3,1.5)" displacement="(4,0)" draggable="false"/>
+        <vector tail="(10,1.5)" displacement="(4,0)" draggable="false"/>
+        <vector tail="(-11,1.5)" displacement="(4,0)" draggable="false"/>
+        <vector tail="(-4,1.5)" displacement="(4,0)" draggable="false"/>
+        <triangle vertices="(7,0) (8.5,3) (10,0)" draggable="false"/>
+        <triangle vertices="(-4,0) (-5.5,3) (-7,0)" draggable="false"/>
+        <circle radius="2" center="(-13,1.5)" draggable="false"/>
+        <circle radius="2" center="(16,1.5)" draggable="false"/>
+        <text anchor="(1.5,1.75)" draggable="false">Indoor Temp</text>
+        <text anchor="(8.5,1.0)" draggable="false">Heat Loss</text>
+        <text anchor="(-5.5,1.0)" draggable="false">Thermostat</text>
+        <text anchor="(-13.0,1.5)" draggable="false">Source</text>
+        <text anchor="(16.0,1.5)" draggable="false">Sink</text>
+        <curve through="(-5.5,0) (-2,-1) (1.25,0)" styleNumber="2" draggable="false"/>
+        <curve through="(8.5,0) (5,-1) (1.75,0)" styleNumber="2" draggable="false"/>
+      </graph>
+      </li>
+      <li>
+        <p>
+          This model's stock measures the population of a community. The flows are the inflow individuals through births, and the outflow of individuals through deaths.
+        </p>
+        <p>
+          <callAction actionName="addChildren" target="h">
+            <m anchor="(1.5,-2)" styleNumber="2">+</m>
+            <label>Add <q><m>+</m></q></label>
+          </callAction>
+          <callAction actionName="addChildren" target="h">
+            <m anchor="(1.5,-2)" styleNumber="2">-</m>
+            <label>Add <q><m>-</m></q></label>
+          </callAction>
+          <callAction actionName="addChildren" target="h">
+            <text anchor="(1.5,-2)" styleNumber="2">Amplifying</text>
+            <label>Add <q>Amplifying</q></label>
+          </callAction>
+          <callAction actionName="addChildren" target="h">
+            <text anchor="(1.5,-2)" styleNumber="2">Stabilizing</text>
+            <label>Add <q>Stabilizing</q></label>
+          </callAction>
+        </p>
+        <callAction actionName="deleteChildren" target="h" number="1">
+        <label>Delete Last Component</label>
+        </callAction>
+        <graph name="h" size="large" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false" xmax="18" xmin="-18" ymax="4" ymin="-4" aspectRatio="18/4">
+        <rectangle width="3" height="3" draggable="false" verticesDraggable="false"/>
+        <vector tail="(3,1.5)" displacement="(4,0)" draggable="false"/>
+        <vector tail="(10,1.5)" displacement="(4,0)" draggable="false"/>
+        <vector tail="(-11,1.5)" displacement="(4,0)" draggable="false"/>
+        <vector tail="(-4,1.5)" displacement="(4,0)" draggable="false"/>
+        <triangle vertices="(7,0) (8.5,3) (10,0)" draggable="false"/>
+        <triangle vertices="(-4,0) (-5.5,3) (-7,0)" draggable="false"/>
+        <circle radius="2" center="(-13,1.5)" draggable="false"/>
+        <circle radius="2" center="(16,1.5)" draggable="false"/>
+        <text anchor="(1.5,1.75)" draggable="false">Population</text>
+        <text anchor="(8.5,1.0)" draggable="false">Deaths</text>
+        <text anchor="(-5.5,1.0)" draggable="false">Births</text>
+        <text anchor="(-13.0,1.5)" draggable="false">Source</text>
+        <text anchor="(16.0,1.5)" draggable="false">Sink</text>
+        <curve through="(-5.5,0) (-2,-1) (1.25,0)" styleNumber="2" draggable="false"/>
+        <curve through="(8.5,0) (5,-1) (1.75,0)" styleNumber="2" draggable="false"/>
+      </graph>
+      </li>
+    </ul>
