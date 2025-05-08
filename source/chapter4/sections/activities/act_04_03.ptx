@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+    <article xml:id="worksheet">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-4-3-1">
+            <title>Logistic Behavior</title>
+    
+            <introduction>
+                <p>
+                   In your groups, use the graph to answer the following questions. 
+                </p>
+            </introduction>
+
+            <interactive label="ch4-interactive-logistic-behavior" platform="doenetml" width="100%" aspect="1:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-logistic-behavior.doenetml"/>
+                </slate>
+            </interactive>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-4-3-2">
+            <title>Step 1: Stabilizing/Amplifying, Increasing/Decreasing</title>
+            
+            <introduction>
+                <p>
+                    Work in your group to match each population over time graph below to the correct description. 
+                    
+                </p>
+                <p>
+                        Write a short summary explaining your choices.
+                    </p>
+            </introduction>
+            
+
+            <interactive label="ch4-interactive-stab-amp-inc-dec" platform="doenetml" width="100%" aspect="1:1.75">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-stab-amp-inc-dec.doenetml"/>
+                </slate>
+            </interactive>
+
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-4-3-3">
+            <title>Logistic Line Graphs</title>
+            
+            <introduction>
+                <p>
+                   Work in your group to sketch a line graph of the population over time for each of the initial 
+                   population values <m>P_0=20</m>, <m>P_0=50</m>, and <m>P_0=105</m>. When you have graphs your group 
+                   agrees upon, use the interactive provided to check your work.   
+                </p>
+            </introduction>
+
+            <interactive label="ch4-interactive-log-line-graph" platform="doenetml" width="100%" aspect="1:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-log-line-graph.doenetml"/>
+                </slate>
+            </interactive>
+
+            <exercise>
+                <statement>
+                    <p>
+                    In what ways is the line graph for the logistic model similar to that of the exponential model? 
+                    In what ways is it different?
+                    </p>
+                </statement>
+            </exercise>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-4-3-4">
+            <title>Logistic Equations and Graphs</title>
+            
+            <introduction>
+                <p>
+                     Below you will be given a growth rate and carrying capacity for a population. From that you will be 
+                     asked to write the equation of the net flow rate using the logistic model. When this is correct, 
+                     you will be asked to sketch the behavior of the population over time for different initial population 
+                     values. 
+                </p>
+            </introduction>
+
+            <interactive label="ch4-interactive-log-eqn-graph" platform="doenetml" width="100%" aspect="1:2">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-log-eqn-graph.doenetml"/>
+                </slate>
+            </interactive>
+
+            <exercise>
+                <statement>
+                    <p>
+                        Choose new variations of the problem with the <q>New Variation</q> button. Before moving on, 
+                        get at least 3 correct in a row, and write down an explanation for how to translate the net flow 
+                        rate in a logistic model to population behavior over time as if you were explaining it to someone new.
+                    </p>
+                </statement>
+            </exercise>
+
+        </worksheet>
+
+    </article>
+</pretext>

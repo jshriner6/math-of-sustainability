@@ -1,0 +1,39 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_AwgZx6Tfklc5F2WWysBlT/_a0kZgTbtKwhSyEigKkXnV -->
+
+<setup>
+      <sampleRandomNumbers name="ac" assignNames="a c" type="discreteuniform" from="-3" to="3" exclude="0" step="0.25" numSamples="2"/>
+      <sampleRandomNumbers name="b" type="discreteuniform" from="0" to="2" exclude="0 1" step="0.2"/>
+      <function name="g">$a*$b^x+$c</function>
+    </setup>
+
+  <slider from="-3" to="3" name="A" step="0.25" initialValue="1">
+    <label><m>a</m></label>
+  </slider>
+
+  <slider from="0" to="2" name="B" step="0.2" initialValue="1.2">
+    <label><m>b</m></label>
+  </slider>
+  <slider from="-3" to="3" name="C" step="0.25" initialValue="0" >
+    <label><m>c</m></label>
+  </slider>
+
+  <figure>
+  <graph xmin="-10" xmax="10" size="medium" showNavigation="true">
+    <function>$A*$B^x+$C</function>
+    <m anchor="(-5,5)">f(x)=$A\cdot $B^x + $C</m>
+    <point draggable="false" styleNumber="2">(0,$$g(0))</point>
+    <point draggable="false" styleNumber="2">(2,$$g(2))</point>
+    <point draggable="false" styleNumber="2">(-2,$$g(-2))</point>
+    <triggerSet anchor="(6,-7)">      
+    <callAction actionName="resample" target="ac"/>
+    <callAction actionName="resample" target="b"/>
+    <label>New Variation</label>
+  </triggerSet>
+  </graph>
+    <description>
+      The line graph of the exponential behavior described using the sliders provided. The parameter a stretches and reflects the graph vertically, the parameter b determines whether the graph is exponential growth or decay, and the parameter c shifts the graph up or down.
+    </description>
+  </figure>
+    <solution>
+      The three points lie on the graph of <m>f(x)=$a\cdot $b^x+$c</m>.
+    </solution>

@@ -1,0 +1,29 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_AwgZx6Tfklc5F2WWysBlT/_a0kZgTbtKwhSyEigKkXnV -->
+
+<tabular left="minor" right="minor" top="minor" bottom="minor">
+    <row>
+      <cell></cell>
+      <cell>Absolute Change</cell>
+      <cell>Relative Change Multiple</cell>
+    </row>
+    <row>
+      <cell><m>t=0</m> to <m>t=1</m></cell>
+      <cell><mathInput name="ab1" minWidth="100"><number/></mathInput><booleanInput bindValueTo="$ab1=-1.5"/><feedback condition="!($ab1.text=NaN) and !($ab1=-1.5)">Try again!</feedback></cell>
+      <cell><mathInput name="r1" minWidth="100"><number/></mathInput><booleanInput bindValueTo="$r1=0.5"/><feedback condition="!($r1.text=NaN) and !($r1=0.5)">Try again!</feedback></cell>
+    </row>
+    <row>
+      <cell><m>t=1</m> to <m>t=2</m></cell>
+      <cell><mathInput name="ab2" minWidth="100"><number/></mathInput><booleanInput bindValueTo="$ab2=-0.75"/><feedback condition="!($ab2.text=NaN) and !($ab2=-0.75)">Try again!</feedback></cell>
+      <cell><mathInput name="r2" minWidth="100"><number/></mathInput><booleanInput bindValueTo="$r2=0.5"/><feedback condition="!($r2.text=NaN) and !($r2=0.5)">Try again!</feedback></cell>
+    </row>
+    <row>
+      <cell><m>t=2</m> to <m>t=3</m></cell>
+      <cell><mathInput name="ab3" minWidth="100"><number/></mathInput><booleanInput bindValueTo="$ab3=-0.375"/><feedback condition="!($ab3.text=NaN) and !($ab3=-0.375)">Try again!</feedback></cell>
+      <cell><mathInput name="r3" minWidth="100"><number/></mathInput><booleanInput bindValueTo="$r3=0.5"/><feedback condition="!($r3.text=NaN) and !($r3=0.5)">Try again!</feedback></cell>
+    </row>
+    <row>
+      <cell><m>t=3</m> to <m>t=4</m></cell>
+      <cell><mathInput name="ab4" minWidth="100"><number/></mathInput><booleanInput bindValueTo="$ab4=-0.1875"/><feedback condition="!($ab4.text=NaN) and !($ab4=-0.1875)">Try again!</feedback></cell>
+      <cell><mathInput name="r4" minWidth="100"><number/></mathInput><booleanInput bindValueTo="$r4=0.5"/><feedback condition="!($r4.text=NaN) and !($r4=0.5)">Try again!</feedback></cell>
+    </row>
+  </tabular>

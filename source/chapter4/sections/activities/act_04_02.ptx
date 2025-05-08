@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+    <article xml:id="worksheet">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-4-2-1">
+            <title>Absolute and Relative Change Part 1</title>
+    
+            <introduction>
+                <p>
+                    Let's practice calculating both the absolute change: 
+                        <me>\text{New Meaurement}-\text{Old Measurement}</me> 
+                    and the relative change: 
+                        <me>\frac{\text{New Meaurement}}{\text{Old Measurement}}</me> 
+                    of this population on each time interval given below.
+                </p>
+            </introduction>
+
+            <interactive label="ch4-interactive-exp-growth-num" platform="doenetml" width="100%" aspect="2:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-exp-growth-num.doenetml"/>
+                </slate>
+            </interactive>
+
+            <exercise>
+                <statement>
+                    <p>
+                        As a group, make some observation about this table:
+                        <ul>
+                            <li>How does the absolute change of these measurements behave from one time interval to the next?</li>
+                            <li>How does the relative change of these measurements behave from one time interval to the next?</li>
+                        </ul>
+                    </p>
+                </statement>
+            </exercise>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-4-2-2">
+            <title>Absolute and Relative Change Part 2</title>
+            
+            <introduction>
+                <p>
+                    Use the table below to calculate both the absolute change and the relative change of this amount 
+                    on each time interval given.
+                </p>
+            </introduction>
+            
+
+            <interactive label="ch4-interactive-exp-decay" platform="doenetml" width="100%" aspect="2:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-exp-decay.doenetml"/>
+                </slate>
+            </interactive>
+
+            <exercise>
+                <statement>
+                    <p>
+                        As a group, make some observation about this table:
+                        <ul>
+                            <li>How does the absolute change of these measurements behave from one time interval to the next?</li>
+                            <li>How does the relative change of these measurements behave from one time interval to the next?</li>
+                            <li>How are these behaviors different from and similar to the behaviors you observed for <xref ref="ws-4-2-1"/>?</li>
+                        </ul>
+                    </p>
+                </statement>
+            </exercise>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-4-2-3">
+            <title>Exponential Graphs</title>
+            
+            <introduction>
+                <p>
+                     Below we'll practice graphing the family of exponential relationships <m>f(x) = a\cdot b^x + c</m>. 
+                     Use the sliders for each parameter to change the graph to a new exponential relationship that goes 
+                     through all three points given. 
+                </p>
+            </introduction>
+
+            <interactive label="ch4-interactive-exp-graph" platform="doenetml" width="100%" aspect="1:1.5">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-exp-graph.doenetml"/>
+                </slate>
+            </interactive>
+
+            <exercise>
+                <statement>
+                    <p>
+                    Choose new variations of the problem with the <q>New Variation</q> 
+                     button. Before moving on, attempt at least <m>3</m> different versions, and write down observations 
+                     for how graphs of exponential relationships can behave as if you were explaining it to someone new.
+                    </p>
+                </statement>
+            </exercise>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-4-2-4">
+            <title>Stock Behavior Over Time</title>
+            
+            <introduction>
+                <p>
+                    On a separate sheet of paper, sketch what you think the line graph would look like for the stock over 
+                    time for each of the initial stock values of <m>S=5</m>, <m>S=6</m>, and <m>S=7</m>. 
+                    After your group has discussed your responses, you can use the interactive below to check your answers. 
+                </p>
+            </introduction>
+
+            <interactive label="ch4-interactive-stock-time" platform="doenetml" width="100%" aspect="1.5:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-stock-time.doenetml"/>
+                </slate>
+            </interactive>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-4-2-5">
+            <title>Stabilizing and Amplifying Exponential Behavior</title>
+            
+            <introduction>
+                <p>
+                     Work in your group to put these ideas together by grouping together all graphs and equations that are 
+                     stabilizing and amplifying. Separate your answers with a comma.
+                </p>
+            </introduction>
+
+            <interactive label="ch4-interactive-stab-amp-exp" platform="doenetml" width="100%" aspect="1:2.5">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-stab-amp-exp.doenetml"/>
+                </slate>
+            </interactive>
+
+        </worksheet>
+        
+    </article>
+</pretext>

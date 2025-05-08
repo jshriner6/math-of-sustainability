@@ -1,0 +1,26 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_AwgZx6Tfklc5F2WWysBlT/_a0kZgTbtKwhSyEigKkXnV -->
+
+<solution>
+          <sideBySide>
+        <graph  displayYAxisTickLabels="false" showNavigation="false" size="small" xmin="-6" ymin="-4" ymax="7.5">
+          <setup>
+            <lineSegment name="line2" endpoints="(-4,0) (8,0)"/>
+          </setup>
+          <xlabel>Stock</xlabel>
+          <ylabel>Net Flow</ylabel>
+          <line draggable="false"> y=-x+6</line>
+          
+          <point name="init2" styleNumber="2">(6,0)
+            <constraints>
+              <constrainTo>$line2</constrainTo>
+            </constraints>
+          </point>
+         </graph>
+
+        <graph showNavigation="false" size="small" xmin="-3" xmax="6" ymax="20" ymin="-20">
+          <xlabel>Time</xlabel>
+          <ylabel>Stock</ylabel>
+          <function>6-(6-$init2.x)*e^(-x)</function>
+         </graph>
+    </sideBySide>
+        </solution>

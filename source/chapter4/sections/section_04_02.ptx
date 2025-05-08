@@ -62,8 +62,12 @@
                 </row>
             </tabular>
         </table>
+    </paragraphs>
+    
 
-        <!-- <xi:include href="./activities/act_04_02.ptx" xpointer="worksheet/1"/> -->
+    <xi:include href="./activities/act_04_02.ptx" xpointer="worksheet/1"/>
+
+    <paragraphs>
 
         <p>
             Let's look at one more example. Imagine that <xref ref="tab-ch4-exp-decay"/> is a measurement of the amount 
@@ -99,8 +103,9 @@
             </tabular>
         </table>
 
-        <!-- <xi:include href="./activities/act_04_02.ptx" xpointer="worksheet/2"/> -->
       </paragraphs>
+
+      <xi:include href="./activities/act_04_02.ptx" xpointer="worksheet/2"/>
 
       <paragraphs><title>Back to work...</title>
         <definition>
@@ -129,7 +134,7 @@
         </p>
       </paragraphs>
 
-      <!-- <xi:include href="./activities/act_04_02.ptx" xpointer="worksheet/3"/> -->
+      <xi:include href="./activities/act_04_02.ptx" xpointer="worksheet/3"/>
 
       <paragraphs><title>Back to work...</title>
         <p>
@@ -226,16 +231,16 @@
           </p>
       </paragraphs>
 
-      <!-- <xi:include href="./activities/act_04_02.ptx" xpointer="worksheet/4"/> -->
+    <xi:include href="./activities/act_04_02.ptx" xpointer="worksheet/4"/>
 
-      <paragraphs><title>Back to work...</title>
+        <paragraphs><title>Back to work...</title>
         <p>
             We have now discussed some general characteristics of feedback loops, and also the specific case of 
             exponential behavior. 
-
-            <!-- <xi:include href="./activities/act_04_02.ptx" xpointer="worksheet/4"/> -->
         </p>
       </paragraphs>
+
+      <xi:include href="./activities/act_04_02.ptx" xpointer="worksheet/5"/>
 
       <conclusion><title>Reflection</title>
         <p>

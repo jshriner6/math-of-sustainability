@@ -1,0 +1,58 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_cxBBhM7H0sPEBhXusYiY8/_okYpS55OmYju6ArnVsvxO -->
+
+<sideBySide>
+      <figure><title><m>\text{A.}</m></title>
+      <graph displayXAxisTickLabels="false" displayYAxisTickLabels="false" showNavigation="false" size="small" xmin="-3" xmax="3" >
+          <xlabel>Time</xlabel>
+          <ylabel>Population</ylabel>
+          <function>2*e^(2x)+3</function>
+      </graph>
+        <description>
+          A line graph showing a population increasing at an increasing rate over time.
+        </description>
+      </figure>
+      <figure><title><m>\text{B.}</m></title>
+        <graph displayXAxisTickLabels="false" displayYAxisTickLabels="false" showNavigation="false" size="small" xmin="-3" xmax="3" >
+          <xlabel>Time</xlabel>
+          <ylabel>Population</ylabel>
+          <function>-2*e^(-2x)+3</function>
+         </graph>
+        <description>
+          A line graph showing a population increasing at a decreasing rate over time.
+        </description>
+      </figure>
+    </sideBySide>
+    <sideBySide>
+      <figure><title><m>\text{C.}</m></title>
+        <graph displayXAxisTickLabels="false" displayYAxisTickLabels="false" showNavigation="false" size="small" xmin="-3" xmax="3" >
+          <xlabel>Time</xlabel>
+          <ylabel>Population</ylabel>
+          <function>-2*e^(2x)+3</function>
+         </graph>
+        <description>
+          A line graph showing a population decreasing at a decreasing rate over time.
+        </description>
+      </figure>
+      <figure><title><m>\text{D.}</m></title>
+        <graph displayXAxisTickLabels="false" displayYAxisTickLabels="false" showNavigation="false" size="small" xmin="-3" xmax="3" >
+          <xlabel>Time</xlabel>
+          <ylabel>Population</ylabel>
+          <function>2*e^(-2x)+3</function>
+         </graph>
+        <description>
+          A line graph showing a population decreasing at an increasing rate over time.
+        </description>
+      </figure>
+    </sideBySide>
+    <p>
+      <alert>Amplifying</alert> and <alert>Increasing</alert>: <answer><text>A</text></answer>
+    </p>
+    <p>
+      <alert>Amplifying</alert> and <alert>Decreasing</alert>: <answer><text>C</text></answer>
+    </p>
+    <p>
+      <alert>Stabilizing</alert> and <alert>Increasing</alert>: <answer><text>B</text></answer>
+    </p>
+    <p>
+      <alert>Stabilizing</alert> and <alert>Decreasing</alert>: <answer><text>D</text></answer>
+    </p>

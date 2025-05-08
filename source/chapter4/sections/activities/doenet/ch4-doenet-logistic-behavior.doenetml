@@ -1,0 +1,34 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_cxBBhM7H0sPEBhXusYiY8/_okYpS55OmYju6ArnVsvxO -->
+
+<ol>
+      <li>
+        What are the equilibrium value(s) of this population? How do you know?
+          <solution>
+            The net flow is zero when the population value is <m>0</m> and <m>100</m>.
+          </solution>
+      </li>
+      <li>
+        If the population's value is <m>20</m> individuals, is the overall feedback amplifying or stabilizing? How do you know?
+        <solution>
+          The overall feedback is amplifying.
+        </solution>
+      </li>
+      <li>
+        If the population's value is <m>80</m> individuals, is the overall feedback amplifying or stabilizing? How do you know?
+        <solution>
+          The overall feedback is stabilizing.
+        </solution>
+      </li>
+      <li>
+        For which population values is the overall feedback amplifying? stabilizing?
+        <solution>
+          The overall feedback is amplifying when the population value is between <m>0</m> and <m>50</m>. The overall feedback is stabilizing when the population value is between <m>50</m> and <m>100</m>.
+        </solution>
+      </li>
+      <li>
+        For initial population values between <m>0</m> and <m>100</m>, does the population ever decrease with time? How do you know? 
+        <solution>
+          When population values are between <m>0</m> and <m>100</m>, the population will always increase with time.
+        </solution>
+      </li>
+    </ol>

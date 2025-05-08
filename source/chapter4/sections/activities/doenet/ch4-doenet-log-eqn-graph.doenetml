@@ -1,0 +1,54 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_cxBBhM7H0sPEBhXusYiY8/_okYpS55OmYju6ArnVsvxO -->
+
+<setup>
+      <sampleRandomNumbers name="r1" type="discreteUniform" from="10" to="300"/>
+      <number name="r">$r1/100</number>
+      <sampleRandomNumbers name="C" type="discreteUniform" from="100" to="200"/>
+    </setup>
+    <p>
+    The growth rate when a population <m>P</m> is small is <m>$r</m> and the carrying capacity is <m>$C</m>.
+    </p>
+    <p>
+      Enter the net flow rate in terms of <q><m>P</m></q> using the logistic model: <answer name="log" disabled="$log=$r*P(1-P/$C)"><math>$r*P(1-P/$C)</math></answer>
+    </p>
+    <figure hide="!($log.disabled)">
+    <graph showNavigation="false" xmin="-30" xmax="$C+20" ymin="-8" ymax="$r*$C/4 + 20">
+      <xlabel>Population</xlabel>
+      <ylabel>Net Flow</ylabel>
+      <function>$r*x(1-x/$C)</function>
+    </graph>
+      <description>
+        The graph of the net flow rate for the logistic model identified in the previous question. This should be used to sketch a line graph of population over time for different initial population values.
+      </description>
+    </figure>
+    <p hide="!($log.disabled)">
+      Now sketch the line graph of the stock's behavior over time for each of the initial values <m>P_0=<round>$C/8</round></m> and <m>P_0=<number><round>$C/2</round>+1</number></m>. You can check your graphs below once you're finished.
+    </p>
+    <solution hide="!($log.disabled)">
+      <figure>
+      <sideBySide>
+        <graph showNavigation="false" size="small" xmin="-5/$r" xmax="10/$r" ymin="-$C/10" ymax="$C+10">
+          <xlabel>Time</xlabel>
+          <ylabel>Population</ylabel>
+          <function>(<round>$C/8</round>*$C*e^($r*x))/(($C-<round>$C/8</round>)+<round>$C/8</round>*e^($r*x))</function>
+          <m anchor="(-2/$r,$C/8)">P_0=<round>$C/8</round></m>
+         </graph>
+        
+        <graph showNavigation="false" size="small" xmin="-5/$r" xmax="10/$r" ymin="-$C/10" ymax="$C+10">
+          <xlabel>Time</xlabel>
+          <ylabel>Population</ylabel>
+          <function>(<number><round>$C/2</round>+1</number>*$C*e^($r*x))/(($C-<number><round>$C/2</round>+1</number>)+<number><round>$C/2</round>+1</number>*e^($r*x))</function>
+          <m anchor="(-2/$r,$C/2)">P_0=<number><round>$C/2</round>+1</number></m>
+         </graph>
+      </sideBySide>
+        <description>
+          On the left, a graph of population over time for the first initial value given. On the right, a graph of population over time for the second initial value given.
+        </description>
+      </figure>
+    </solution>
+    <triggerSet hide="!($log.disabled)">      
+      <callAction actionName="resample" target="r1"/>
+      <callAction actionName="resample" target="C"/>
+      <callAction actionName="submitAnswer" target="log"/>
+      <label>New Variation</label>
+    </triggerSet>

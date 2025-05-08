@@ -124,39 +124,48 @@
         </figure>
       </paragraphs>
 
-      <!-- <xi:include href="./activities/act_04_03.ptx" xpointer="worksheet/1"/> -->
+    <xi:include href="./activities/act_04_03.ptx" xpointer="worksheet/1"/>
 
-      <paragraphs><title>Back to work...</title>
+    <paragraphs><title>Back to work...</title>
         <p>
             Our final goal will be to sketch a qualitatively accurate line graph of a stock's value over time whose behavior 
             is directed by the logistic model. 
         </p>
+    </paragraphs>
 
-        <!-- <xi:include href="./activities/act_04_03.ptx" xpointer="worksheet/2"/> -->
+    <xi:include href="./activities/act_04_03.ptx" xpointer="worksheet/2"/>
+
+    <paragraphs>
 
         <p>
             We now have all the pieces needed to sketch a graph of a population over time which follows a logistic model. 
             Let's start with the example from <xref ref="fig-net-flow-logistic"/>, whose net flow was given by 
-            <m>\text{Net Flow }=0.5P\left(1-\frac{P}{100}\right)</m>.
+            <m>\text{Net Flow }=0.5P\left(1-\frac{P}{100}\right)</m>. You'll want to reference the graph in the figure for the
+            next activity.
         </p>
+    </paragraphs>
 
-        <!-- <xi:include href="./activities/act_04_03.ptx" xpointer="worksheet/3"/> -->
+    <xi:include href="./activities/act_04_03.ptx" xpointer="worksheet/3"/>
 
+    <paragraphs>
         <p>
             Let's continue to practice modeling using the logistic model. 
         </p>
+        
+    </paragraphs>
 
-        <!-- <xi:include href="./activities/act_04_03.ptx" xpointer="worksheet/4"/> -->
+        
 
-        <remark><title>Note on Carrying Capacity</title>
-            <p>
-                Do you wonder where the carrying capacity for a population comes from? It's possible to estimate this capacity 
-                with some initial measurements of a stock's value over time. If this is something you are interested in 
-                determining as part of a case study, please ask!
-            </p>
-        </remark>
+    <xi:include href="./activities/act_04_03.ptx" xpointer="worksheet/4"/>
 
-      </paragraphs>
+    <remark><title>Note on Carrying Capacity</title>
+        <p>
+            Do you wonder where the carrying capacity for a population comes from? It's possible to estimate this capacity 
+            with some initial measurements of a stock's value over time. If this is something you are interested in 
+            determining as part of a case study, please ask!
+        </p>
+    </remark>
+
 
       <conclusion><title>Reflection</title>
         <p>

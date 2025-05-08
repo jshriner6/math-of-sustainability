@@ -1,0 +1,37 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_AwgZx6Tfklc5F2WWysBlT/_a0kZgTbtKwhSyEigKkXnV -->
+
+<boolean hide name="a1">$abs1=5</boolean>
+<boolean hide name="a2">$abs2=17.5</boolean>
+<boolean hide name="a3">$abs3=61.25</boolean>
+<boolean hide name="a4">$abs4=214.375</boolean>
+
+
+  <tabular left="minor" right="minor" top="minor" bottom="minor">
+    <row>
+      <cell></cell>
+      <cell>Absolute Change</cell>
+      <cell>Relative Change Multiple</cell>
+    </row>
+    <row>
+      <cell><m>t=0</m> to <m>t=1</m></cell>
+      <cell><mathInput name="abs1" minWidth="100"><number/></mathInput><booleanInput bindValueTo="$a1"/>
+        <feedback condition="!($abs1.text=NaN) and !($a1)">Try again!</feedback></cell>
+      <cell><mathInput name="rel1" minWidth="100"><number/></mathInput><booleanInput bindValueTo="$rel1=3.5"/><feedback condition="!($rel1.text=NaN) and !($rel1=3.5)">Try again!</feedback></cell>
+    </row>
+    <row>
+      <cell><m>t=1</m> to <m>t=2</m></cell>
+      <cell><mathInput name="abs2" minWidth="100"><number/></mathInput><booleanInput bindValueTo="$a2"/><feedback condition="!($abs2.text=NaN) and !($a2)">Try again!</feedback></cell>
+      <cell><mathInput name="rel2" minWidth="100"><number/></mathInput><booleanInput bindValueTo="$rel2=3.5"/><feedback condition="!($rel2.text=NaN) and !($rel2=3.5)">Try again!</feedback></cell>
+    </row>
+    <row>
+      <cell><m>t=2</m> to <m>t=3</m></cell>
+      <cell><mathInput name="abs3" minWidth="100"><number/></mathInput><booleanInput bindValueTo="$a3"/><feedback condition="!($abs3.text=NaN) and !($a3)">Try again!</feedback></cell>
+      <cell><mathInput name="rel3" minWidth="100"><number/></mathInput><booleanInput bindValueTo="$rel3=3.5"/><feedback condition="!($rel3.text=NaN) and !($rel3=3.5)">Try again!</feedback></cell>
+    </row>
+    <row>
+      <cell><m>t=3</m> to <m>t=4</m></cell>
+      <cell><mathInput name="abs4" minWidth="100"><number/></mathInput><booleanInput bindValueTo="$a4"/><feedback condition="!($abs4.text=NaN) and !($a4)">Try again!</feedback></cell>
+      <cell><mathInput name="rel4" minWidth="100"><number/></mathInput><booleanInput bindValueTo="$rel4=3.5"/><feedback condition="!($rel4.text=NaN) and !($rel4=3.5)">Try again!</feedback></cell>
+    </row>
+  </tabular>
+
