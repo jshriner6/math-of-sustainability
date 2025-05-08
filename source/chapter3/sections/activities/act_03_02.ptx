@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+    <article xml:id="worksheet">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-3-2-1">
+            <title>Complete Graphs</title>
+    
+            <introduction>
+                <p>
+                    As a group, answer the following questions:
+                </p>
+            </introduction>
+
+            <interactive label="ch3-interactive-complete-graphs" platform="doenetml" width="100%" aspect="1.25:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch3-doenet-complete-graphs.doenetml"/>
+                </slate>
+            </interactive>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-3-2-2">
+            <title>Graph Densities</title>
+            
+            <introduction>
+                <p>
+                    As a group, answer the following questions about graph densities:
+                </p>
+            </introduction>
+            
+
+            <interactive label="ch3-interactive-graph-densities" platform="doenetml" width="100%" aspect="1:1.25">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch3-doenet-graph-densities.doenetml"/>
+                </slate>
+            </interactive>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-3-2-3">
+            <title>Clustering Coefficients</title>
+            
+            <introduction>
+                <p>
+                    As a group, answer the following questions about clustering coefficients: 
+                </p>
+            </introduction>
+
+            <interactive label="ch3-interactive-clustering-coeff" platform="doenetml" width="100%" aspect="1:1.75">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch3-doenet-clustering-coeff.doenetml"/>
+                </slate>
+            </interactive>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-3-2-4">
+            <title>Connectivity</title>
+            
+            <introduction>
+                <p>
+                    As a group, answer the following questions regarding connectivity. 
+                </p>
+            </introduction>
+
+            <interactive label="ch3-interactive-connectivity" platform="doenetml" width="100%" aspect="2:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch3-doenet-connectivity.doenetml"/>
+                </slate>
+            </interactive>
+
+        </worksheet>
+        
+    </article>
+</pretext>

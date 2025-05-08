@@ -18,9 +18,10 @@
           </ol>
       </objectives>
       <paragraphs><title>Let's get to work...</title>
-        <!-- <xi:include href="./activities/act_02_04.ptx" xpointer="worksheet/1"/> -->
          
       </paragraphs>
+
+      <xi:include href="./activities/act_02_04.ptx" xpointer="worksheet/1"/>
 
       <paragraphs>
         <title>Back to work...</title>
@@ -78,7 +79,7 @@
         </figure>
       </paragraphs>
 
-      <!-- <xi:include href="./activities/act_02_04.ptx" xpointer="worksheet/2"/> -->
+      <xi:include href="./activities/act_02_04.ptx" xpointer="worksheet/2"/>
        
       <paragraphs>
         <title>Back to work...</title>
@@ -125,7 +126,7 @@
         </p>
       </paragraphs>
 
-      <!-- <xi:include href="./activities/act_02_04.ptx" xpointer="worksheet/3"/> -->
+      <xi:include href="./activities/act_02_04.ptx" xpointer="worksheet/3"/>
        
       <conclusion><title>Reflection</title>
         <p>

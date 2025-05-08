@@ -1,0 +1,69 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_dmbfQslD8ISr69radTKnO/_HkgRq39HWDIMlEURDpnZy -->
+
+<ul>
+      <li>Create a graph whose vertices represent Mexico, Cuba, Jamaica, Haiti, Dominican Republic, Puerto Rico, and the countries of Central America. Two countries are related if they share a physical border. 
+        
+        <p>
+          <callAction actionName="addChildren" target="h">
+            <point styleNumber="5" showCoordsWhenDragging="false"/>
+            <label>Add Vertex</label>
+          </callAction>
+          <callAction actionName="addChildren" target="h">
+            <lineSegment endpoints="(0,0) (3,0)" showCoordsWhenDragging="false"/>
+            <label>Add Edge</label>
+          </callAction>
+          <callAction actionName="addChildren" target="h">
+            <textInput width="50px"/>
+          <label>Add Label</label>
+          </callAction>
+        </p>
+        <callAction actionName="deleteChildren" target="h" number="1">
+          <label>Delete Last Component</label>
+        </callAction>
+    
+        <graph size="full" name="h" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false"/>
+      </li>
+      <li>
+        Create a graph whose vertices represent you and a group of your friends. Two people are related if they know each other and are friends.
+        <p>
+          <callAction actionName="addChildren" target="g">
+            <point styleNumber="5" showCoordsWhenDragging="false"/>
+            <label>Add Vertex</label>
+          </callAction>
+          <callAction actionName="addChildren" target="g">
+            <lineSegment endpoints="(0,0) (3,0)" showCoordsWhenDragging="false"/>
+            <label>Add Edge</label>
+          </callAction>
+          <callAction actionName="addChildren" target="g">
+            <textInput width="50px"/>
+          <label>Add Label</label>
+          </callAction>
+        </p>
+        <callAction actionName="deleteChildren" target="g" number="1">
+          <label>Delete Last Component</label>
+        </callAction>
+    
+        <graph size="full" name="g" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false"/>
+      </li>
+      <li>Create a graph which represents a network that your group identified earlier. You may simplify the network or represent just part of the network to make this achievable in the timeframe available.
+        <p>
+          <callAction actionName="addChildren" target="k">
+            <point styleNumber="5" showCoordsWhenDragging="false"/>
+            <label>Add Vertex</label>
+          </callAction>
+          <callAction actionName="addChildren" target="k">
+            <lineSegment endpoints="(0,0) (3,0)" showCoordsWhenDragging="false"/>
+            <label>Add Edge</label>
+          </callAction>
+          <callAction actionName="addChildren" target="k">
+            <textInput width="50px"/>
+          <label>Add Label</label>
+          </callAction>
+        </p>
+        <callAction actionName="deleteChildren" target="k" number="1">
+          <label>Delete Last Component</label>
+        </callAction>
+    
+        <graph size="full" name="k" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false"/>
+      </li>
+    </ul>

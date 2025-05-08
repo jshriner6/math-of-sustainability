@@ -1,0 +1,118 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_xgyvNB4c4cYheuGql8DPn/_u63VTxD6wcx67etxYyiRX -->
+
+<ul>
+      <li> <p><alert>Stock:</alert> Population of a community</p>
+        <p><alert>Flows:</alert> Births, deaths</p>
+        <p>
+    <callAction actionName="addChildren" target="g">
+      <rectangle width="3" height="3" verticesDraggable="false"/>
+      <label>Add Stock</label>
+    </callAction>
+    <callAction actionName="addChildren" target="g">
+      <vector tail="(0,0)" displacement="(4,0)"/>
+      <label>Add Flow</label>
+    </callAction>
+    <callAction actionName="addChildren" target="g">
+      <triangle vertices="(0,3) (1.5,0) (-1.5,0)" verticesDraggable="false"/>
+      <label>Add Rate</label>
+    </callAction>
+    <callAction actionName="addChildren" target="g">
+      <rectangle width="5" height="1" styleNumber="3" verticesDraggable="false"/>
+      <label>Add Parameter</label>
+    </callAction>
+    <callAction actionName="addChildren" target="g">
+      <curve styleNumber="2" through="(-1,1) (0,0) (1,1)" showCoordsWhenDragging="false"/>
+      <label>Add Dependency Link</label>
+    </callAction>
+    <callAction actionName="addChildren" target="g">
+      <circle radius="2"/>
+      <label>Add Source/Sink</label>
+    </callAction>
+    <callAction actionName="addChildren" target="g">
+      <textInput width="50px"/>
+      <label>Add Label</label>
+    </callAction>
+    </p>
+    <callAction actionName="deleteChildren" target="g" number="1">
+      <label>Delete Last Component</label>
+    </callAction>
+    
+    <graph name="g" size="full" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false"/>
+      </li>
+      <li> <p><alert>Stock:</alert> Indoor temperature</p>
+        <p><alert>Flows:</alert> Furnace, heat loss</p>
+        <p>
+    <callAction actionName="addChildren" target="h">
+      <rectangle width="3" height="3" verticesDraggable="false"/>
+      <label>Add Stock</label>
+    </callAction>
+    <callAction actionName="addChildren" target="h">
+      <vector tail="(0,0)" displacement="(4,0)"/>
+      <label>Add Flow</label>
+    </callAction>
+    <callAction actionName="addChildren" target="h">
+      <triangle vertices="(0,3) (1.5,0) (-1.5,0)" verticesDraggable="false"/>
+      <label>Add Rate</label>
+    </callAction>
+    <callAction actionName="addChildren" target="h">
+      <rectangle width="5" height="1" styleNumber="3" verticesDraggable="false"/>
+      <label>Add Parameter</label>
+    </callAction>
+    <callAction actionName="addChildren" target="h">
+      <curve styleNumber="2" through="(-1,1) (0,0) (1,1)" showCoordsWhenDragging="false"/>
+      <label>Add Dependency Link</label>
+    </callAction>
+    <callAction actionName="addChildren" target="h">
+      <circle radius="2"/>
+      <label>Add Source/Sink</label>
+    </callAction>
+    <callAction actionName="addChildren" target="h">
+      <textInput width="50px"/>
+      <label>Add Label</label>
+    </callAction>
+    </p>
+    <callAction actionName="deleteChildren" target="h" number="1">
+      <label>Delete Last Component</label>
+    </callAction>
+    <graph name="h" size="full" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false"/>
+      </li>
+      
+      <li> <p><alert>Stock:</alert> Energy in solar panels</p>
+        <p><alert>Flows:</alert> Sun, energy use</p>
+        <p>
+    <callAction actionName="addChildren" target="k">
+      <rectangle width="3" height="3" verticesDraggable="false"/>
+      <label>Add Stock</label>
+    </callAction>
+    <callAction actionName="addChildren" target="k">
+      <vector tail="(0,0)" displacement="(4,0)"/>
+      <label>Add Flow</label>
+    </callAction>
+    <callAction actionName="addChildren" target="k">
+      <triangle vertices="(0,3) (1.5,0) (-1.5,0)" verticesDraggable="false"/>
+      <label>Add Rate</label>
+    </callAction>
+    <callAction actionName="addChildren" target="k">
+      <rectangle width="5" height="1" styleNumber="3" verticesDraggable="false"/>
+      <label>Add Parameter</label>
+    </callAction>
+    <callAction actionName="addChildren" target="k">
+      <curve styleNumber="2" through="(-1,1) (0,0) (1,1)" showCoordsWhenDragging="false"/>
+      <label>Add Dependency Link</label>
+    </callAction>
+    <callAction actionName="addChildren" target="k">
+      <circle radius="2"/>
+      <label>Add Source/Sink</label>
+    </callAction>
+    <callAction actionName="addChildren" target="k">
+      <textInput width="50px"/>
+      <label>Add Label</label>
+    </callAction>
+    </p>
+    <callAction actionName="deleteChildren" target="k" number="1">
+      <label>Delete Last Component</label>
+    </callAction>
+    
+    <graph name="k" size="full" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false"/>
+      </li>
+	</ul>

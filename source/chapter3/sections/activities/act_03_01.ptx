@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+    <article xml:id="worksheet">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-3-1-1">
+            <title>Networks</title>
+    
+            <introduction>
+                <p>
+                    In your group, brainstorm examples of three different networks that you are familiar with.
+                </p>
+            </introduction>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-3-1-2">
+            <title>Graphs</title>
+            
+            <introduction>
+                <p>
+                    Let's practice creating graphs to represent networks. After you have created a graph, answer the 
+                    following questions.
+                    <ol>
+                        <li>Which vertex in your graph has the highest degree?</li>
+                        <li>Is your graph connected?</li>
+                        <li>What do your previous answers mean in the context of your network?</li>
+                    </ol>
+                </p>
+            </introduction>
+            <remark><title>A map of Central America and the Carribean</title>
+
+                <image source="map.jpg">
+                    <description>
+                        <p>
+                            A geographical map of countries in Central America and the Carribean.
+                        </p>
+                    </description>
+                </image>
+            </remark>
+
+            <interactive label="ch3-interactive-graphs" platform="doenetml" width="100%" aspect="1:3.5">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch3-doenet-graphs.doenetml"/>
+                </slate>
+            </interactive>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-3-1-3">
+            <title>Directed Graphs</title>
+            
+            <introduction>
+                <p>
+                    In your group, brainstorm three networks that you think would be best represented as a <em>directed</em> 
+                    graph. Then pick one of these networks to create a directed graph for below. You may simplify the 
+                    network or represent just part of the network to make this achievable in the timeframe available.
+                </p>
+            </introduction>
+
+            <interactive label="ch3-interactive-directed-graphs" platform="doenetml" width="100%" aspect="1:1.25">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch3-doenet-directed-graphs.doenetml"/>
+                </slate>
+            </interactive>
+
+        </worksheet>
+        
+    </article>
+</pretext>

@@ -1,0 +1,15 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_4wdskfx2btssc63QtXUce/_PI9gTVxdBxYmHT9MLJVgQ -->
+
+<ol>
+      <li>What is the edge connectivity of graphs <m>H</m> and <m>K</m> from the previous examples?
+        <solution>
+          Both graphs have edge connectivity of <m>1</m>.
+        </solution>
+      </li>
+      <li>
+        In the signal network example, how is the interpretation of edge connectivity different from vertex connectivity?
+      </li>
+      <li>
+        Do you think it is possible for the vertex connectivity to be different from the edge connectivity for a graph? If not, explain why. If so, sketch an example of a graph where this is true.
+      </li>
+    </ol>

@@ -87,7 +87,7 @@
         </p>
     </paragraphs>
 
-    <!-- <xi:include href="./activities/act_02_02.ptx" xpointer="worksheet/1"/> -->
+    <xi:include href="./activities/act_02_02.ptx" xpointer="worksheet/1"/>
     
     <paragraphs>
         <title>Back to work...</title>
@@ -105,7 +105,7 @@
         </definition>
     </paragraphs>
 
-    <!-- <xi:include href="./activities/act_02_02.ptx" xpointer="worksheet/2"/> -->
+    <xi:include href="./activities/act_02_02.ptx" xpointer="worksheet/2"/>
 
     <conclusion><title>Reflection</title>
         <p>

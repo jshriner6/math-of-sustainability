@@ -1,0 +1,87 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_4wdskfx2btssc63QtXUce/_PI9gTVxdBxYmHT9MLJVgQ -->
+<setup>
+<graph name="K3" size="small" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false" xmin="-2" xmax="2" ymin="-0.5" ymax="2">
+        <point name="A" styleNumber="5" showCoordsWhenDragging="false" coords="(0,1)"/>
+        <point name="B" styleNumber="5" showCoordsWhenDragging="false" coords="(-1,0)"/>
+        <point name="C" styleNumber="5" showCoordsWhenDragging="false" coords="(1,0)"/>
+        <lineSegment endpoints="$A $B" showCoordsWhenDragging="false"/>
+        <lineSegment endpoints="$A $C" showCoordsWhenDragging="false"/>
+        <lineSegment endpoints="$C $B" showCoordsWhenDragging="false"/>
+      </graph>
+      
+<graph name="K4" size="small" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false" xmin="-2" xmax="2" ymin="-0.5" ymax="2">
+        <point name="D" styleNumber="5" showCoordsWhenDragging="false" coords="(-1,1)"/>
+        <point name="E" styleNumber="5" showCoordsWhenDragging="false" coords="(-1,0)"/>
+        <point name="F" styleNumber="5" showCoordsWhenDragging="false" coords="(1,0)"/>
+        <point name="G" styleNumber="5" showCoordsWhenDragging="false" coords="(1,1)"/>
+        <lineSegment endpoints="$D $E" showCoordsWhenDragging="false"/>
+        <lineSegment endpoints="$D $F" showCoordsWhenDragging="false"/>
+        <lineSegment endpoints="$E $F" showCoordsWhenDragging="false"/>
+        <lineSegment endpoints="$D $G" showCoordsWhenDragging="false"/>
+        <lineSegment endpoints="$G $F" showCoordsWhenDragging="false"/>
+        <lineSegment endpoints="$E $G" showCoordsWhenDragging="false"/>
+      </graph>
+  
+<figure name="f1">
+          <sideBySide>
+            <graph name="gH" copySource="K4">
+              <point name="M" styleNumber="5" showCoordsWhenDragging="false" coords="(0,1.5)"/>
+              <lineSegment endpoints="$G $M" showCoordsWhenDragging="false"/>
+              <m anchor="(0,-0.25)">H</m>
+            </graph>
+
+            <graph name="gK" copySource="K3" xmax="5">
+              <point name="N" styleNumber="5" showCoordsWhenDragging="false" coords="(2,0)"/>
+              <point name="O" styleNumber="5" showCoordsWhenDragging="false" coords="(3,1)"/>
+              <point name="P" styleNumber="5" showCoordsWhenDragging="false" coords="(4,0)"/>
+              <lineSegment endpoints="$C $N" showCoordsWhenDragging="false"/>
+              <lineSegment endpoints="$O $N" showCoordsWhenDragging="false"/>
+              <lineSegment endpoints="$O $P" showCoordsWhenDragging="false"/>
+              <lineSegment endpoints="$N $P" showCoordsWhenDragging="false"/>
+              <m anchor="(1.5,-0.25)">K</m>
+            </graph>
+          </sideBySide>
+            <description>
+              Two graphs, H and K, both with 7 edges. Graph H has five vertices while graph K has 6 vertices. 
+            </description>
+    </figure>
+</setup>
+
+<ol>
+        <li>
+          What is the clustering coefficient of a vertex in a complete graph?
+          <solution>
+            <m>1</m>
+          </solution>
+        </li>
+        <li>
+          What are the clustering coefficients of each vertex in graphs <m>H</m> and <m>K</m> below?
+          <figure copySource="f1"/>
+          <solution>
+            <sideBySide>
+            <graph copySource="gH">
+              <m anchor="(-1,-0.25)">1</m>
+              <m anchor="(-1.25,1)">1</m>
+              <m anchor="(1,-0.25)">1</m>
+              <m anchor="(1.25,1.0)">0.5</m>
+              <m anchor="(0,1.7)">0</m>
+            </graph>
+
+            <graph copySource="gK">
+              <m anchor="(-1,-0.25)">1</m>
+              <m anchor="(-0.75,1)">1</m>
+              <m anchor="(1,-0.25)">\frac{1}{3}</m>
+              <m anchor="(2,-0.25)">\frac{1}{3}</m>
+              <m anchor="(3.5,1.0)">1</m>
+              <m anchor="(4,-0.25)">1</m>
+            </graph>
+          </sideBySide>
+          </solution>
+        </li>
+        <li>
+          For graph <m>H</m>, how do the clustering coefficients help explain the potential for issues in resilience described in the signal network example?
+        </li>
+        <li>
+          Imagine now that the signal network is represented by graph <m>K</m>. Is this network more or less resilient than the network represented by graph <m>H</M>? Why?
+        </li>
+      </ol>

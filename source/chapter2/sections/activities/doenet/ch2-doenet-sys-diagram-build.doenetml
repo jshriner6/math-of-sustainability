@@ -1,0 +1,94 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_VJ4zn26Ofg8HyN4CrWojP/_UQ6Tflem4fxkhndQegpR9 -->
+
+<ul>
+      <li>
+      The progression of undergraduate students through University.
+        <p>
+<callAction actionName="addChildren" target="g">
+  <rectangle width="3" height="3" verticesDraggable="false"/>
+  <label>Add Stock</label>
+</callAction>
+<callAction actionName="addChildren" target="g">
+  <vector tail="(0,0)" displacement="(4,0)"/>
+  <label>Add Flow</label>
+</callAction>
+<callAction actionName="addChildren" target="g">
+  <triangle vertices="(0,3) (1.5,0) (-1.5,0)" verticesDraggable="false"/>
+  <label>Add Rate</label>
+</callAction>
+<callAction actionName="addChildren" target="g">
+  <circle radius="2"/>
+  <label>Add Source/Sink</label>
+</callAction>
+<callAction actionName="addChildren" target="g">
+  <textInput width="50px"/>
+  <label>Add Label</label>
+</callAction>
+</p>
+<callAction actionName="deleteChildren" target="g" number="1">
+  <label>Delete Last Component</label>
+</callAction>
+    
+<graph name="g" size="full" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false"/>
+      </li>
+      <li>
+        The mining of coal.
+        <p>
+<callAction actionName="addChildren" target="k">
+  <rectangle width="3" height="3" verticesDraggable="false"/>
+  <label>Add Stock</label>
+</callAction>
+<callAction actionName="addChildren" target="k">
+  <vector tail="(0,0)" displacement="(4,0)"/>
+  <label>Add Flow</label>
+</callAction>
+<callAction actionName="addChildren" target="k">
+  <triangle vertices="(0,3) (1.5,0) (-1.5,0)" verticesDraggable="false"/>
+  <label>Add Rate</label>
+</callAction>
+<callAction actionName="addChildren" target="k">
+  <circle radius="2"/>
+  <label>Add Source/Sink</label>
+</callAction>
+<callAction actionName="addChildren" target="k">
+  <textInput width="50px"/>
+  <label>Add Label</label>
+</callAction>
+</p>
+<callAction actionName="deleteChildren" target="k" number="1">
+  <label>Delete Last Component</label>
+</callAction>
+    
+<graph size="full" name="k" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false"/>
+      </li>
+      <li>
+        At least one of the systems your group identified a stock-flow model for previously. Include a sketch of this diagram on a separate piece of paper in your portfolio.
+        <p>
+<callAction actionName="addChildren" target="h">
+  <rectangle width="3" height="3" verticesDraggable="false"/>
+  <label>Add Stock</label>
+</callAction>
+<callAction actionName="addChildren" target="h">
+  <vector tail="(0,0)" displacement="(4,0)"/>
+  <label>Add Flow</label>
+</callAction>
+<callAction actionName="addChildren" target="h">
+  <triangle vertices="(0,3) (1.5,0) (-1.5,0)" verticesDraggable="false"/>
+  <label>Add Rate</label>
+</callAction>
+<callAction actionName="addChildren" target="h">
+  <circle radius="2"/>
+  <label>Add Source/Sink</label>
+</callAction>
+<callAction actionName="addChildren" target="h">
+  <textInput width="50px"/>
+  <label>Add Label</label>
+</callAction>
+</p>
+<callAction actionName="deleteChildren" target="h" number="1">
+  <label>Delete Last Component</label>
+</callAction>
+    
+<graph size="full" name="h" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false"/>
+      </li>
+    </ul>

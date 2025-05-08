@@ -54,7 +54,7 @@
           The identification of stocks and flows in a system is called a <term>stock-flow model</term> of that system. 
         </p>
       </paragraphs>
-      <!-- <xi:include href="./activities/act_02_01.ptx" xpointer="worksheet/1"/> -->
+      <xi:include href="./activities/act_02_01.ptx" xpointer="worksheet/1"/>
 
       <paragraphs>
         <title>Back to work...</title>
@@ -107,7 +107,7 @@
         </p>
       </paragraphs>
 
-      <!-- <xi:include href="./activities/act_02_01.ptx" xpointer="worksheet/2"/> -->
+      <xi:include href="./activities/act_02_01.ptx" xpointer="worksheet/2"/>
 
       <conclusion><title>Reflection</title>
         <p>

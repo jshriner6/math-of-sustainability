@@ -1,0 +1,20 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_dmbfQslD8ISr69radTKnO/_HkgRq39HWDIMlEURDpnZy -->
+<p>
+    <callAction actionName="addChildren" target="j">
+            <point styleNumber="5" showCoordsWhenDragging="false"/>
+            <label>Add Vertex</label>
+          </callAction>
+          <callAction actionName="addChildren" target="j">
+            <vector tail="(0,0)" head="(3,0)" showCoordsWhenDragging="false"/>
+            <label>Add Edge</label>
+          </callAction>
+          <callAction actionName="addChildren" target="j">
+            <textInput width="50px"/>
+          <label>Add Label</label>
+          </callAction>
+    </p>
+        <callAction actionName="deleteChildren" target="j" number="1">
+          <label>Delete Last Component</label>
+    </callAction>
+    
+<graph size="full" name="j" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false"/>

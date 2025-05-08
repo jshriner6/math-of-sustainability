@@ -1,0 +1,8 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_4wdskfx2btssc63QtXUce/_PI9gTVxdBxYmHT9MLJVgQ -->
+
+<ul>
+          <li>How many edges does the complete graph with <m>3</m> vertices have? <solution><m>3</m></solution></li>
+          <li>How many edges does the complete graph with <m>4</m> vertices have?<solution><m>6</m></solution></li>
+          <li>How many edges does the complete graph with <m>5</m> vertices have?<solution><m>10</m></solution></li>
+          <li>How many edges does the complete graph with <m>n</m> vertices have? If you get stuck, check the answer and try to explain it.<solution><m>\frac{1}{2}\cdot n(n-1)</m></solution></li>
+</ul>
