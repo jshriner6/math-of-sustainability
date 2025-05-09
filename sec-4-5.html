@@ -262,8 +262,24 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-4-3.html#ws-4-3-4" class="internal"><span class="codenumber">4.3</span> <span class="title">Logistic Equations and Graphs</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-4-4.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Equilibria and Stabililty</span></a></div></li>
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-4-5.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Tipping Points</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-4.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Equilibria and Stabililty</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-4-4.html#ws-4-4-1" class="internal"><span class="codenumber">4.4</span> <span class="title">Stability Introduction</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-4-4.html#ws-4-4-2" class="internal"><span class="codenumber">4.4</span> <span class="title">Stability In Continuous Dynamical Systems</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-4-4.html#ws-4-4-3" class="internal"><span class="codenumber">4.4</span> <span class="title">Half-Stable Equilibria</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-4-4.html#ws-4-4-4" class="internal"><span class="codenumber">4.4</span> <span class="title">Stability in Discrete Dynamical Systems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-4-5.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Tipping Points</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-4-5.html#ws-4-5-1" class="internal"><span class="codenumber">4.5</span> <span class="title">Stability Re-visited</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-4-5.html#ws-4-5-2" class="internal"><span class="codenumber">4.5</span> <span class="title">Sensitivity</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-4-5.html#ws-4-5-3" class="internal"><span class="codenumber">4.5</span> <span class="title">Tipping Points</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-4-5.html#ws-4-5-4" class="internal"><span class="codenumber">4.5</span> <span class="title">Tipping Point Behaviors</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -305,40 +321,84 @@ eBookConfig.enable_chatcodes =  false;
 <li id="sec-4-5-3-2-1"><div class="para" id="p-derived-sec-4-5-3-2-1">approximate the sensitivity of an equilibrium value to a parameter value.</div></li>
 <li id="sec-4-5-3-2-2"><div class="para" id="p-derived-sec-4-5-3-2-2">graphically recognize tipping points and analyze the behavior of systems around them.</div></li>
 </ol></article><section class="paragraphs" id="sec-4-5-4"><h3 class="heading"><span class="title">Let’s get to work....</span></h3>
-<div class="para" id="sec-4-5-4-2">Let’s return to the example from <a href="sec-4-1.html#fig-sys-diagram-feedback" class="xref" data-knowl="./knowl/xref/fig-sys-diagram-feedback.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.1.2">Figure 4.1.2</a>, in which we are measuring the amount of phosphorus in a lake with an inflow from plant and algae decomposition and an outflow due to lake drain.</div>
-<div class="para" id="sec-4-5-4-3">We will now add pollution from agricultural run-off as a parameter to our model, which impacts the inflow rate of phosphorus:</div>
-<figure class="figure figure-like" id="fig-sys-diagram-tipping-pt"><iframe id="ch4-interactive-sys-diagram-tipping-pt" width="600" height="200" src="ch4-interactive-sys-diagram-tipping-pt-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.5.1<span class="period">.</span></span><span class="space"> </span>The system diagram for the amount of phosphorus in a lake with a parameter added for pollution from agricultural run-off.</figcaption></figure><div class="para" id="sec-4-5-4-5">The system diagram indicates that an increase in pollution will increase the inflow rate, and therefore increase the net flow rate for the stock. This is represented graphically below. Take a moment to play with the parameter slider and verify that for a fixed level of phosphorus, as pollution increases, the net flow increases as well.</div>
-<figure class="figure figure-like" id="fig-net-flow-parameter"><iframe id="ch4-interactive-net-flow-parameter" width="600" height="600" src="ch4-interactive-net-flow-parameter-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.5.2<span class="period">.</span></span><span class="space"> </span>The line graph for the net flow rate of phosphorus, along with a slider to change the parameter value of pollution. As polution increases, the net flow rate graph is shifted up.</figcaption></figure><div class="para" id="sec-4-5-4-7">Notice that as the pollution parameter changes, so do the equilibrium values. Measuring how parameters impact equilibrium values can be an important measurement for dynamical systems.</div>
-<article class="definition definition-like" id="sec-4-5-4-8"><h4 class="heading">
+<div class="para" id="sec-4-5-4-2">Let’s return to the example from <a href="sec-4-1.html#fig-sys-diagram-feedback" class="xref" data-knowl="./knowl/xref/fig-sys-diagram-feedback.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.1.2">Figure 4.1.2</a>, in which we are measuring the amount of phosphorus in a lake with an inflow from plant and algae decomposition and an outflow due to lake drain.</div></section><section class="worksheet" id="ws-4-5-1"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Stability Re-visited</span><div class="print-links">
+<a href="ws-4-5-1-a4.html" class="a4">A4</a><a href="ws-4-5-1-letter.html" class="us">US</a>
+</div>
+</h3>
+<section class="introduction" id="ws-4-5-1-2"><div class="para" id="ws-4-5-1-2-1">In your group, use the line graph of the net flow rate for this stock to answer the following questions.</div></section><iframe id="ch4-interactive-stability-revisit" width="600" height="900" src="ch4-interactive-stability-revisit-if.html"></iframe></section><section class="paragraphs" id="sec-4-5-6"><div class="para" id="sec-4-5-6-1">We will now add pollution from agricultural run-off as a parameter to our model, which impacts the inflow rate of phosphorus:</div>
+<figure class="figure figure-like" id="fig-sys-diagram-tipping-pt"><iframe id="ch4-interactive-sys-diagram-tipping-pt" width="600" height="200" src="ch4-interactive-sys-diagram-tipping-pt-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.5.1<span class="period">.</span></span><span class="space"> </span>The system diagram for the amount of phosphorus in a lake with a parameter added for pollution from agricultural run-off.</figcaption></figure><div class="para" id="sec-4-5-6-3">The system diagram indicates that an increase in pollution will increase the inflow rate, and therefore increase the net flow rate for the stock. This is represented graphically below. Take a moment to play with the parameter slider and verify that for a fixed level of phosphorus, as pollution increases, the net flow increases as well.</div>
+<figure class="figure figure-like" id="fig-net-flow-parameter"><iframe id="ch4-interactive-net-flow-parameter" width="600" height="600" src="ch4-interactive-net-flow-parameter-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.5.2<span class="period">.</span></span><span class="space"> </span>The line graph for the net flow rate of phosphorus, along with a slider to change the parameter value of pollution. As polution increases, the net flow rate graph is shifted up.</figcaption></figure><div class="para" id="sec-4-5-6-5">Notice that as the pollution parameter changes, so do the equilibrium values. Measuring how parameters impact equilibrium values can be an important measurement for dynamical systems.</div>
+<article class="definition definition-like" id="sec-4-5-6-6"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.5.3</span><span class="period">.</span>
-</h4>
-<div class="para logical" id="sec-4-5-4-8-1">
-<div class="para">Let <span class="process-math">\(S_0\)</span> be an equilibrium value of a stock when a parameter <span class="process-math">\(P\)</span> has value <span class="process-math">\(P_0\text{.}\)</span> Suppose that if the parameter value is changed by a small amount<details class="ptx-footnote" aria-live="polite" id="sec-4-5-4-8-1-4"><summary class="ptx-footnote__number" title="Footnote 4.5.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="sec-4-5-4-8-1-4">If you’re asking yourself what amount is considered “small”, that’s a great question! This can be made more precise with tools f rom calculus, but for our purposes, we won’t be too picky here. In general, the closer you can make the two parameter values, the more accurate your computation will be.</div></details> to <span class="process-math">\(P_1\text{,}\)</span> the equilbrium value of the stock changes to <span class="process-math">\(S_1\text{.}\)</span> Then the <dfn class="terminology">sensitivity of <span class="process-math">\(S_0\)</span> to the parameter <span class="process-math">\(P\)</span></dfn> is the number</div>
+</h3>
+<div class="para logical" id="sec-4-5-6-6-1">
+<div class="para">Let <span class="process-math">\(S_0\)</span> be an equilibrium value of a stock when a parameter <span class="process-math">\(P\)</span> has value <span class="process-math">\(P_0\text{.}\)</span> Suppose that if the parameter value is changed by a small amount<details class="ptx-footnote" aria-live="polite" id="sec-4-5-6-6-1-4"><summary class="ptx-footnote__number" title="Footnote 4.5.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="sec-4-5-6-6-1-4">If you’re asking yourself what amount is considered “small”, that’s a great question! This can be made more precise with tools f rom calculus, but for our purposes, we won’t be too picky here. In general, the closer you can make the two parameter values, the more accurate your computation will be.</div></details> to <span class="process-math">\(P_1\text{,}\)</span> the equilbrium value of the stock changes to <span class="process-math">\(S_1\text{.}\)</span> Then the <dfn class="terminology">sensitivity of <span class="process-math">\(S_0\)</span> to the parameter <span class="process-math">\(P\)</span></dfn> is the number</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \frac{S_1-S_0}{P_1-P_0}\text{.}
 \end{equation*}
 </div>
-</div></article><div class="para" id="sec-4-5-4-9">For our next exercise, let’s zoom in on on our net flow rate graph from above to focus on the phosphorus equilibrium value of <span class="process-math">\(1\)</span> when the pollution parameter is <span class="process-math">\(0\text{.}\)</span>
-</div></section><section class="paragraphs" id="sec-4-5-5"><h3 class="heading"><span class="title">Back to work....</span></h3>
-<div class="para" id="sec-4-5-5-2">For the next exercise, use the graph and slider from <a href="sec-4-5.html#fig-net-flow-parameter" class="xref" data-knowl="./knowl/xref/fig-net-flow-parameter.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.5.2">Figure 4.5.2</a>.</div>
-<div class="para" id="sec-4-5-5-3">The previous discussion illustrates that it is possible, in systems with parameters, that there are special parameter values that, if exceeded even by the smallest amount, can cause significant changes to the system. We give these parameter values a special name.</div>
-<article class="definition definition-like" id="sec-4-5-5-4"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.5.4</span><span class="period">.</span>
-</h4>
-<div class="para" id="sec-4-5-5-4-1">A parameter value in which any increase or decrease to the value causes a change in the number of equilibrium values of the stock is a called a <dfn class="terminology">tipping point value</dfn>.</div></article><div class="para" id="sec-4-5-5-5">Our final exercise will help explore system behavior around tipping point values.</div></section><section class="conclusion" id="sec-4-5-6"><h3 class="heading">Reflection.<span></span>
+</div></article><div class="para" id="sec-4-5-6-7">For our next exercise, let’s zoom in on on our net flow rate graph from above to focus on the phosphorus equilibrium value of <span class="process-math">\(1\)</span> when the pollution parameter is <span class="process-math">\(0\text{.}\)</span>
+</div></section><section class="worksheet" id="ws-4-5-2"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Sensitivity</span><div class="print-links">
+<a href="ws-4-5-2-a4.html" class="a4">A4</a><a href="ws-4-5-2-letter.html" class="us">US</a>
+</div>
 </h3>
-<div class="para logical" id="sec-4-5-6-2">
-<div class="para">Let’s reflect on what we’ve learned, and what we still have questions about.</div>
-<ol class="decimal" id="sec-4-5-6-2-1">
-<li id="sec-4-5-6-2-1-1"><div class="para" id="p-derived-sec-4-5-6-2-1-1">What does the sensitivity of a stock value to a parameter measure?</div></li>
-<li id="sec-4-5-6-2-1-2"><div class="para" id="p-derived-sec-4-5-6-2-1-2">How is the sensitivity of a stock value to a parameter related to tipping point values of a parameter?</div></li>
-<li id="sec-4-5-6-2-1-3"><div class="para" id="p-derived-sec-4-5-6-2-1-3">Why are tipping point values important?</div></li>
-<li id="sec-4-5-6-2-1-4"><div class="para" id="p-derived-sec-4-5-6-2-1-4">What other systems do you think may contain tipping point values?</div></li>
+<section class="introduction" id="ws-4-5-2-2"><div class="para" id="ws-4-5-2-2-1">Work in your group to fill out the following table to compute the sensitivities to pollution at various equilibrium values.</div>
+<div class="para" id="ws-4-5-2-2-2">Use the first graph to set your initial pollution value, and find the associated initial phosphorus equilibrium value by moving the point on the horizontal axis to where the net flow rate is <span class="process-math">\(0\text{.}\)</span>
+</div>
+<div class="para" id="ws-4-5-2-2-3">Use the second graph to set your next pollution value, and find the associated next phosphorus e quilibrium value by moving the point on the horizontal axis to where the net flow rate is <span class="process-math">\(0\text{.}\)</span> The first row is completed for you to use as a guide.</div></section><iframe id="ch4-interactive-sensitivity-graphs" width="600" height="1350" src="ch4-interactive-sensitivity-graphs-if.html"></iframe><iframe id="ch4-interactive-sensitivity-table" width="600" height="343" src="ch4-interactive-sensitivity-table-if.html"></iframe><article class="exercise exercise-like" id="ws-4-5-2-5"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="para logical" id="ws-4-5-2-5-1-1">
+<div class="para">Once your table is completed correctly, discuss the following questions in your group.</div>
+<ol class="lower-alpha lower-alpha-level-1" id="ws-4-5-2-5-1-1-1">
+<li id="ws-4-5-2-5-1-1-1-1"><div class="para" id="p-derived-ws-4-5-2-5-1-1-1-1">How do the sensitivities change as pollution values change?</div></li>
+<li id="ws-4-5-2-5-1-1-1-2"><div class="para" id="p-derived-ws-4-5-2-5-1-1-1-2">Are there pollution values that can change the <em class="emphasis">number</em> of equilibrium values in the system? How does this seem to be connected to sensitivities?</div></li>
 </ol>
-</div></section><section class="conclusion" id="sec-4-5-7"><h3 class="heading">Section Checkpoint.<span></span>
+</div></article></section><section class="paragraphs" id="sec-4-5-8"><h3 class="heading"><span class="title">Back to work....</span></h3>
+<div class="para" id="sec-4-5-8-2">For the next exercise, use the graph and slider from <a href="sec-4-5.html#fig-net-flow-parameter" class="xref" data-knowl="./knowl/xref/fig-net-flow-parameter.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.5.2">Figure 4.5.2</a>.</div></section><section class="worksheet" id="ws-4-5-3"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Tipping Points</span><div class="print-links">
+<a href="ws-4-5-3-a4.html" class="a4">A4</a><a href="ws-4-5-3-letter.html" class="us">US</a>
+</div>
 </h3>
-<div class="para" id="sec-4-5-7-2">Link here to Doenet course.</div></section></section></div>
+<section class="introduction" id="ws-4-5-3-2"><div class="para" id="ws-4-5-3-2-1">Place the pollution parameter slider to <span class="process-math">\(15.25\text{,}\)</span> and answer the following questions in your group.</div></section><iframe id="ch4-interactive-tipping-pts" width="600" height="900" src="ch4-interactive-tipping-pts-if.html"></iframe></section><section class="paragraphs" id="sec-4-5-10"><div class="para" id="sec-4-5-10-1">The previous discussion illustrates that it is possible, in systems with parameters, that there are special parameter values that, if exceeded even by the smallest amount, can cause significant changes to the system. We give these parameter values a special name.</div>
+<article class="definition definition-like" id="sec-4-5-10-2"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.5.4</span><span class="period">.</span>
+</h3>
+<div class="para" id="sec-4-5-10-2-1">A parameter value in which any increase or decrease to the value causes a change in the number of equilibrium values of the stock is a called a <dfn class="terminology">tipping point value</dfn>.</div></article><div class="para" id="sec-4-5-10-3">Our final exercise will help explore system behavior around tipping point values.</div></section><section class="worksheet" id="ws-4-5-4"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Tipping Point Behaviors</span><div class="print-links">
+<a href="ws-4-5-4-a4.html" class="a4">A4</a><a href="ws-4-5-4-letter.html" class="us">US</a>
+</div>
+</h3>
+<section class="onepage" id="ws-4-5-4-2"><iframe id="ch4-interactive-tipping-pt-behaviors1" width="600" height="600" src="ch4-interactive-tipping-pt-behaviors1-if.html"></iframe><article class="exercise exercise-like" id="ws-4-5-4-2-2"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="para" id="ws-4-5-4-2-2-1-1">What are the tipping point values for the parameter <span class="process-math">\(P\text{?}\)</span>
+</div>
+<div class="workspace" data-space="1in"></div></article><article class="exercise exercise-like" id="ws-4-5-4-2-3"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="para" id="ws-4-5-4-2-3-1-1">Imagine the phosphrus stock is in equilibrium when <span class="process-math">\(P=0\)</span> at a phosphorus value of <span class="process-math">\(1\text{.}\)</span> If the parameter value exceeds the tipping point value closest to <span class="process-math">\(P=0\text{,}\)</span> how will the phosphorus value change?</div>
+<div class="workspace" data-space="1in"></div></article><article class="exercise exercise-like" id="ws-4-5-4-2-4"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="para" id="ws-4-5-4-2-4-1-1">If the parameter value exceeds the tipping point value closest to <span class="process-math">\(P=0\text{,}\)</span> is it possible for the phosphorus value to return to an equilibrium value of <span class="process-math">\(1\text{?}\)</span>
+</div>
+<div class="workspace" data-space="1in"></div></article></section><section class="onepage" id="ws-4-5-4-3"><iframe id="ch4-interactive-tipping-pt-behaviors2" width="600" height="600" src="ch4-interactive-tipping-pt-behaviors2-if.html"></iframe><article class="exercise exercise-like" id="ws-4-5-4-3-2"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="para" id="ws-4-5-4-3-2-1-1">What are the tipping point values for the parameter <span class="process-math">\(P\text{?}\)</span>
+</div>
+<div class="workspace" data-space="1in"></div></article><article class="exercise exercise-like" id="ws-4-5-4-3-3"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="para" id="ws-4-5-4-3-3-1-1">Imagine the phosphrus stock is in equilibrium when <span class="process-math">\(P=20\)</span> at a phosphorus value of <span class="process-math">\(0.8\text{.}\)</span> If the parameter value exceeds the tipping point value which is larger than <span class="process-math">\(P=20\text{,}\)</span> how will the phosphorus value change?</div>
+<div class="workspace" data-space="1in"></div></article><article class="exercise exercise-like" id="ws-4-5-4-3-4"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="para" id="ws-4-5-4-3-4-1-1">If the parameter value exceeds the tipping point value which is larger than <span class="process-math">\(P=20\text{,}\)</span> is it possible for the phosporus value to return to an equilibrium value of less than <span class="process-math">\(1\text{?}\)</span>
+</div>
+<div class="workspace" data-space="1in"></div></article></section></section><section class="conclusion" id="sec-4-5-12"><h3 class="heading">Reflection.<span></span>
+</h3>
+<div class="para logical" id="sec-4-5-12-2">
+<div class="para">Let’s reflect on what we’ve learned, and what we still have questions about.</div>
+<ol class="decimal" id="sec-4-5-12-2-1">
+<li id="sec-4-5-12-2-1-1"><div class="para" id="p-derived-sec-4-5-12-2-1-1">What does the sensitivity of a stock value to a parameter measure?</div></li>
+<li id="sec-4-5-12-2-1-2"><div class="para" id="p-derived-sec-4-5-12-2-1-2">How is the sensitivity of a stock value to a parameter related to tipping point values of a parameter?</div></li>
+<li id="sec-4-5-12-2-1-3"><div class="para" id="p-derived-sec-4-5-12-2-1-3">Why are tipping point values important?</div></li>
+<li id="sec-4-5-12-2-1-4"><div class="para" id="p-derived-sec-4-5-12-2-1-4">What other systems do you think may contain tipping point values?</div></li>
+</ol>
+</div></section><section class="conclusion" id="sec-4-5-13"><h3 class="heading">Section Checkpoint.<span></span>
+</h3>
+<div class="para" id="sec-4-5-13-2">Link here to Doenet course.</div></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-4-4.html" title="Previous"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-05.html" title="Next"><span class="name">Next</span><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

@@ -1177,7 +1177,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.4",
   "title": "Equilibria and Stabililty",
-  "body": " Equilibria and Stabililty   We have discussed equilibrium values of a stock in various contexts, and have seen that they can be important values for a system whether or not that system is in equilibrium. The purpose of this activity is to determine how we can label an equilibrium value in a way that is descriptive of how the stock values behave around it.  The objectives of this activity are that you can...     describe the stability of equilibrium values in a continuous dynamical system.  describe the stability of equilibrium values in a discrete dynamical system.    Let's get to work...  Imagine a system whose stock is currently in equilibrium. Then imagine some outside force nudging that stock value out of equilibrium. How will the stock behave now? The answer to this question is what we will generally refer to as the equilibrium value's stability . To start gaining an intutitve understanding of this concept, work through the following thought exercise in your group.   Your answers to the above questions are examples of the types of behavior we may see in real-world systems. While the behavior of real-world systems can be much more complicated than what we've described so far, our goal for this section will be to describe some common behaviors for the types of systems we've discussed in previous sections.  Recall from the distinction between  continuous dynamical systems, whose measurements are taken continuously over time, and are visually represented by line graphs, and  discrete dynamical systems, whose measurements are taken over equally spaced time intervals, and are visually represented by scatter plots.    When analyzing the behavior of systems nudged out of equilibrium, it is important for us to distinguish between these two types of models, as this can impact the types of behavior we can see.   Back to work...  First, we will explore stock behavior around equilibrium values in continuous dynamical systems.   An equilibrium value that behaves like that of Stock 1 is called a stable equilibrium value. An equilibrium value that behaves like that of Stock 2 is called an unstable equilibrium value.   The behavior around stable equilibrium values is reminiscent of the first system in , while the behavior around unstable equilibrium values is reminiscent of the second system in .     Back to work...  Now, we will explore stock behavior around equilibrium values in discrete dynamical systems. Recall that the only difference in this context is that stock measurements are taken at equally spaced intervals instead of continuously over time. There will be many similarities in the behavior that we saw in the continous case, but also some differences. Let's work through some examples to explore the discrete case in more detail.  In the discrete case, because measurements are taken on a set interval, we have to be a bit more specific than we were in the continuous case. It may not be sufficient to say that the stock is just increasing or decreasing. We may need to describe in more detail by how much the stock is increasing or decreasing. We can use the Net Flow rate information to help us do this.  For example, suppose the net flow rate for a stock is given by units per minute, and we are taking stock measurements every minute. If the current stock value is units, than units will be added to to get the new stock value after one minute. That is, if the current stock value is units, we can compute the next stock value after one minute with the computation     Reflection  Let's reflect on what we've learned, and what we still have questions about.  What does the stability of an equilibrium value tell us about the behavior of a stock?  In what ways is the behavior around equilibrium values similar between discrete and continuous dynamical systems?  In what ways is the behavior around equilibrium values different between discrete and continuous dynamical systems?     Section Checkpoint  Link here to Doenet course.   "
+  "body": " Equilibria and Stabililty   We have discussed equilibrium values of a stock in various contexts, and have seen that they can be important values for a system whether or not that system is in equilibrium. The purpose of this activity is to determine how we can label an equilibrium value in a way that is descriptive of how the stock values behave around it.  The objectives of this activity are that you can...     describe the stability of equilibrium values in a continuous dynamical system.  describe the stability of equilibrium values in a discrete dynamical system.    Let's get to work...  Imagine a system whose stock is currently in equilibrium. Then imagine some outside force nudging that stock value out of equilibrium. How will the stock behave now? The answer to this question is what we will generally refer to as the equilibrium value's stability . To start gaining an intutitve understanding of this concept, work through the following thought exercise in your group.    Stability Introduction   The images below represent three different systems in equilibrium. The stock value being measured is the red ball's position in space, and since all three balls are balanced and not moving on their respective surfaces, each ball is in equilibrium. Now imagine that a gust of wind blows over each system.  If the wind blows so that each ball moves just slightly to the right, describe how you think the ball will behave afterwards.  If the wind blows so that each ball moves just slightly to the left, describe how you think the ball will behave afterwards.        Your answers to the above questions are examples of the types of behavior we may see in real-world systems. While the behavior of real-world systems can be much more complicated than what we've described so far, our goal for this section will be to describe some common behaviors for the types of systems we've discussed in previous sections.  Recall from the distinction between  continuous dynamical systems, whose measurements are taken continuously over time, and are visually represented by line graphs, and  discrete dynamical systems, whose measurements are taken over equally spaced time intervals, and are visually represented by scatter plots.    When analyzing the behavior of systems nudged out of equilibrium, it is important for us to distinguish between these two types of models, as this can impact the types of behavior we can see.   Back to work...  First, we will explore stock behavior around equilibrium values in continuous dynamical systems.    Stability In Continuous Dynamical Systems   In your group, use the graphs below to answer the following questions.       An equilibrium value that behaves like that of Stock 1 is called a stable equilibrium value. An equilibrium value that behaves like that of Stock 2 is called an unstable equilibrium value.   The behavior around stable equilibrium values is reminiscent of the first system in , while the behavior around unstable equilibrium values is reminiscent of the second system in .    Half-Stable Equilibria   In your group, do the following:      Construct a line graph for the Net Flow with respect to Stock value that you think would result in behavior around the equilibrium value that is reminiscent of the third system in . We will call equilibrium values with this behavior half-stable .       Make a conjecture (this means an educated prediction) about how you could tell whether an equilibrium value was stable or unstable in a continuous dynamical system based off of its net flow rate line graph.      Back to work...  Now, we will explore stock behavior around equilibrium values in discrete dynamical systems. Recall that the only difference in this context is that stock measurements are taken at equally spaced intervals instead of continuously over time. There will be many similarities in the behavior that we saw in the continous case, but also some differences. Let's work through some examples to explore the discrete case in more detail.  In the discrete case, because measurements are taken on a set interval, we have to be a bit more specific than we were in the continuous case. It may not be sufficient to say that the stock is just increasing or decreasing. We may need to describe in more detail by how much the stock is increasing or decreasing. We can use the Net Flow rate information to help us do this.  For example, suppose the net flow rate for a stock is given by units per minute, and we are taking stock measurements every minute. If the current stock value is units, than units will be added to to get the new stock value after one minute. That is, if the current stock value is units, we can compute the next stock value after one minute with the computation     Stability in Discrete Dynamical Systems   In the following examples, work in your group to make similar computations. You will keep track of your results in a table, and also see the visual representation as a scatter plot to help with your analysis.      In your group, write down a conjecture (this means an educated prediction) about how you could tell what the behavior of an equilibrium value will be in a discrete dynamical system based off of its net flow rate line graph.     Reflection  Let's reflect on what we've learned, and what we still have questions about.  What does the stability of an equilibrium value tell us about the behavior of a stock?  In what ways is the behavior around equilibrium values similar between discrete and continuous dynamical systems?  In what ways is the behavior around equilibrium values different between discrete and continuous dynamical systems?     Section Checkpoint  Link here to Doenet course.   "
 },
 {
   "id": "sec-4-4-3",
@@ -1198,13 +1198,40 @@ var ptx_lunr_docs = [
   "body": "stability "
 },
 {
-  "id": "sec-4-4-5-2",
+  "id": "sec-4-4-9-1",
   "level": "2",
-  "url": "sec-4-4.html#sec-4-4-5-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "url": "sec-4-4.html#sec-4-4-9-1",
+  "type": "Definition",
+  "number": "4.4.1",
   "title": "",
-  "body": "stable unstable "
+  "body": " An equilibrium value that behaves like that of Stock 1 is called a stable equilibrium value. An equilibrium value that behaves like that of Stock 2 is called an unstable equilibrium value.  "
+},
+{
+  "id": "ws-4-4-3-3-1",
+  "level": "2",
+  "url": "sec-4-4.html#ws-4-4-3-3-1",
+  "type": "Worksheet Exercise",
+  "number": "4.4.1",
+  "title": "",
+  "body": "  Construct a line graph for the Net Flow with respect to Stock value that you think would result in behavior around the equilibrium value that is reminiscent of the third system in . We will call equilibrium values with this behavior half-stable .    "
+},
+{
+  "id": "ws-4-4-3-3-2",
+  "level": "2",
+  "url": "sec-4-4.html#ws-4-4-3-3-2",
+  "type": "Worksheet Exercise",
+  "number": "4.4.2",
+  "title": "",
+  "body": "  Make a conjecture (this means an educated prediction) about how you could tell whether an equilibrium value was stable or unstable in a continuous dynamical system based off of its net flow rate line graph.   "
+},
+{
+  "id": "ws-4-4-4-4",
+  "level": "2",
+  "url": "sec-4-4.html#ws-4-4-4-4",
+  "type": "Worksheet Exercise",
+  "number": "4.4.1",
+  "title": "",
+  "body": "  In your group, write down a conjecture (this means an educated prediction) about how you could tell what the behavior of an equilibrium value will be in a discrete dynamical system based off of its net flow rate line graph.   "
 },
 {
   "id": "sec-4-5",
@@ -1213,7 +1240,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.5",
   "title": "Tipping Points",
-  "body": " Tipping Points   We saw in the previous section that equilibrium values are central to a system's behavior over time. We also saw in that parameters can change what those equilibrium values are. The purpose of this activity is to look at the interaction of these concepts, and illustrate how small changes in a parameter of a system can result in abrupt, significant changes to a stock's behavior.  The objectives of this activity are that you can...   Section Objectives   approximate the sensitivity of an equilibrium value to a parameter value.  graphically recognize tipping points and analyze the behavior of systems around them.    Let's get to work...  Let's return to the example from , in which we are measuring the amount of phosphorus in a lake with an inflow from plant and algae decomposition and an outflow due to lake drain.   We will now add pollution from agricultural run-off as a parameter to our model, which impacts the inflow rate of phosphorus:    The system diagram for the amount of phosphorus in a lake with a parameter added for pollution from agricultural run-off.   The system diagram indicates that an increase in pollution will increase the inflow rate, and therefore increase the net flow rate for the stock. This is represented graphically below. Take a moment to play with the parameter slider and verify that for a fixed level of phosphorus, as pollution increases, the net flow increases as well.    The line graph for the net flow rate of phosphorus, along with a slider to change the parameter value of pollution. As polution increases, the net flow rate graph is shifted up.   Notice that as the pollution parameter changes, so do the equilibrium values. Measuring how parameters impact equilibrium values can be an important measurement for dynamical systems.   Let be an equilibrium value of a stock when a parameter has value . Suppose that if the parameter value is changed by a small amount If you're asking yourself what amount is considered small , that's a great question! This can be made more precise with tools f rom calculus, but for our purposes, we won't be too picky here. In general, the closer you can make the two parameter values, the more accurate your computation will be. to , the equilbrium value of the stock changes to . Then the sensitivity of to the parameter is the number .   For our next exercise, let's zoom in on on our net flow rate graph from above to focus on the phosphorus equilibrium value of when the pollution parameter is .    Back to work...  For the next exercise, use the graph and slider from .   The previous discussion illustrates that it is possible, in systems with parameters, that there are special parameter values that, if exceeded even by the smallest amount, can cause significant changes to the system. We give these parameter values a special name.   A parameter value in which any increase or decrease to the value causes a change in the number of equilibrium values of the stock is a called a tipping point value .   Our final exercise will help explore system behavior around tipping point values.    Reflection  Let's reflect on what we've learned, and what we still have questions about.  What does the sensitivity of a stock value to a parameter measure?  How is the sensitivity of a stock value to a parameter related to tipping point values of a parameter?  Why are tipping point values important?  What other systems do you think may contain tipping point values?     Section Checkpoint  Link here to Doenet course.   "
+  "body": " Tipping Points   We saw in the previous section that equilibrium values are central to a system's behavior over time. We also saw in that parameters can change what those equilibrium values are. The purpose of this activity is to look at the interaction of these concepts, and illustrate how small changes in a parameter of a system can result in abrupt, significant changes to a stock's behavior.  The objectives of this activity are that you can...   Section Objectives   approximate the sensitivity of an equilibrium value to a parameter value.  graphically recognize tipping points and analyze the behavior of systems around them.    Let's get to work...  Let's return to the example from , in which we are measuring the amount of phosphorus in a lake with an inflow from plant and algae decomposition and an outflow due to lake drain.    Stability Re-visited   In your group, use the line graph of the net flow rate for this stock to answer the following questions.      We will now add pollution from agricultural run-off as a parameter to our model, which impacts the inflow rate of phosphorus:    The system diagram for the amount of phosphorus in a lake with a parameter added for pollution from agricultural run-off.   The system diagram indicates that an increase in pollution will increase the inflow rate, and therefore increase the net flow rate for the stock. This is represented graphically below. Take a moment to play with the parameter slider and verify that for a fixed level of phosphorus, as pollution increases, the net flow increases as well.    The line graph for the net flow rate of phosphorus, along with a slider to change the parameter value of pollution. As polution increases, the net flow rate graph is shifted up.   Notice that as the pollution parameter changes, so do the equilibrium values. Measuring how parameters impact equilibrium values can be an important measurement for dynamical systems.   Let be an equilibrium value of a stock when a parameter has value . Suppose that if the parameter value is changed by a small amount If you're asking yourself what amount is considered small , that's a great question! This can be made more precise with tools f rom calculus, but for our purposes, we won't be too picky here. In general, the closer you can make the two parameter values, the more accurate your computation will be. to , the equilbrium value of the stock changes to . Then the sensitivity of to the parameter is the number .   For our next exercise, let's zoom in on on our net flow rate graph from above to focus on the phosphorus equilibrium value of when the pollution parameter is .    Sensitivity   Work in your group to fill out the following table to compute the sensitivities to pollution at various equilibrium values.  Use the first graph to set your initial pollution value, and find the associated initial phosphorus equilibrium value by moving the point on the horizontal axis to where the net flow rate is .  Use the second graph to set your next pollution value, and find the associated next phosphorus e quilibrium value by moving the point on the horizontal axis to where the net flow rate is . The first row is completed for you to use as a guide.       Once your table is completed correctly, discuss the following questions in your group.  How do the sensitivities change as pollution values change?  Are there pollution values that can change the number of equilibrium values in the system? How does this seem to be connected to sensitivities?       Back to work...  For the next exercise, use the graph and slider from .    Tipping Points   Place the pollution parameter slider to , and answer the following questions in your group.      The previous discussion illustrates that it is possible, in systems with parameters, that there are special parameter values that, if exceeded even by the smallest amount, can cause significant changes to the system. We give these parameter values a special name.   A parameter value in which any increase or decrease to the value causes a change in the number of equilibrium values of the stock is a called a tipping point value .   Our final exercise will help explore system behavior around tipping point values.    Tipping Point Behaviors      What are the tipping point values for the parameter ?      Imagine the phosphrus stock is in equilibrium when at a phosphorus value of . If the parameter value exceeds the tipping point value closest to , how will the phosphorus value change?      If the parameter value exceeds the tipping point value closest to , is it possible for the phosphorus value to return to an equilibrium value of ?         What are the tipping point values for the parameter ?      Imagine the phosphrus stock is in equilibrium when at a phosphorus value of . If the parameter value exceeds the tipping point value which is larger than , how will the phosphorus value change?      If the parameter value exceeds the tipping point value which is larger than , is it possible for the phosporus value to return to an equilibrium value of less than ?      Reflection  Let's reflect on what we've learned, and what we still have questions about.  What does the sensitivity of a stock value to a parameter measure?  How is the sensitivity of a stock value to a parameter related to tipping point values of a parameter?  Why are tipping point values important?  What other systems do you think may contain tipping point values?     Section Checkpoint  Link here to Doenet course.   "
 },
 {
   "id": "sec-4-5-3",
@@ -1243,22 +1270,85 @@ var ptx_lunr_docs = [
   "body": "  The line graph for the net flow rate of phosphorus, along with a slider to change the parameter value of pollution. As polution increases, the net flow rate graph is shifted up.  "
 },
 {
-  "id": "sec-4-5-4-8",
+  "id": "sec-4-5-6-6",
   "level": "2",
-  "url": "sec-4-5.html#sec-4-5-4-8",
+  "url": "sec-4-5.html#sec-4-5-6-6",
   "type": "Definition",
   "number": "4.5.3",
   "title": "",
   "body": " Let be an equilibrium value of a stock when a parameter has value . Suppose that if the parameter value is changed by a small amount If you're asking yourself what amount is considered small , that's a great question! This can be made more precise with tools f rom calculus, but for our purposes, we won't be too picky here. In general, the closer you can make the two parameter values, the more accurate your computation will be. to , the equilbrium value of the stock changes to . Then the sensitivity of to the parameter is the number .  "
 },
 {
-  "id": "sec-4-5-5-4",
+  "id": "ws-4-5-2-5",
   "level": "2",
-  "url": "sec-4-5.html#sec-4-5-5-4",
+  "url": "sec-4-5.html#ws-4-5-2-5",
+  "type": "Worksheet Exercise",
+  "number": "4.5.1",
+  "title": "",
+  "body": "  Once your table is completed correctly, discuss the following questions in your group.  How do the sensitivities change as pollution values change?  Are there pollution values that can change the number of equilibrium values in the system? How does this seem to be connected to sensitivities?     "
+},
+{
+  "id": "sec-4-5-10-2",
+  "level": "2",
+  "url": "sec-4-5.html#sec-4-5-10-2",
   "type": "Definition",
   "number": "4.5.4",
   "title": "",
   "body": " A parameter value in which any increase or decrease to the value causes a change in the number of equilibrium values of the stock is a called a tipping point value .  "
+},
+{
+  "id": "ws-4-5-4-2-2",
+  "level": "2",
+  "url": "sec-4-5.html#ws-4-5-4-2-2",
+  "type": "Worksheet Exercise",
+  "number": "4.5.1",
+  "title": "",
+  "body": "  What are the tipping point values for the parameter ?   "
+},
+{
+  "id": "ws-4-5-4-2-3",
+  "level": "2",
+  "url": "sec-4-5.html#ws-4-5-4-2-3",
+  "type": "Worksheet Exercise",
+  "number": "4.5.2",
+  "title": "",
+  "body": "  Imagine the phosphrus stock is in equilibrium when at a phosphorus value of . If the parameter value exceeds the tipping point value closest to , how will the phosphorus value change?   "
+},
+{
+  "id": "ws-4-5-4-2-4",
+  "level": "2",
+  "url": "sec-4-5.html#ws-4-5-4-2-4",
+  "type": "Worksheet Exercise",
+  "number": "4.5.3",
+  "title": "",
+  "body": "  If the parameter value exceeds the tipping point value closest to , is it possible for the phosphorus value to return to an equilibrium value of ?   "
+},
+{
+  "id": "ws-4-5-4-3-2",
+  "level": "2",
+  "url": "sec-4-5.html#ws-4-5-4-3-2",
+  "type": "Worksheet Exercise",
+  "number": "4.5.4",
+  "title": "",
+  "body": "  What are the tipping point values for the parameter ?   "
+},
+{
+  "id": "ws-4-5-4-3-3",
+  "level": "2",
+  "url": "sec-4-5.html#ws-4-5-4-3-3",
+  "type": "Worksheet Exercise",
+  "number": "4.5.5",
+  "title": "",
+  "body": "  Imagine the phosphrus stock is in equilibrium when at a phosphorus value of . If the parameter value exceeds the tipping point value which is larger than , how will the phosphorus value change?   "
+},
+{
+  "id": "ws-4-5-4-3-4",
+  "level": "2",
+  "url": "sec-4-5.html#ws-4-5-4-3-4",
+  "type": "Worksheet Exercise",
+  "number": "4.5.6",
+  "title": "",
+  "body": "  If the parameter value exceeds the tipping point value which is larger than , is it possible for the phosporus value to return to an equilibrium value of less than ?   "
 },
 {
   "id": "sec-5-1",

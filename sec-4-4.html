@@ -262,8 +262,24 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-4-3.html#ws-4-3-4" class="internal"><span class="codenumber">4.3</span> <span class="title">Logistic Equations and Graphs</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-4-4.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Equilibria and Stabililty</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-4-5.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Tipping Points</span></a></div></li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-4-4.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Equilibria and Stabililty</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-4-4.html#ws-4-4-1" class="internal"><span class="codenumber">4.4</span> <span class="title">Stability Introduction</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-4-4.html#ws-4-4-2" class="internal"><span class="codenumber">4.4</span> <span class="title">Stability In Continuous Dynamical Systems</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-4-4.html#ws-4-4-3" class="internal"><span class="codenumber">4.4</span> <span class="title">Half-Stable Equilibria</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-4-4.html#ws-4-4-4" class="internal"><span class="codenumber">4.4</span> <span class="title">Stability in Discrete Dynamical Systems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-5.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Tipping Points</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-4-5.html#ws-4-5-1" class="internal"><span class="codenumber">4.5</span> <span class="title">Stability Re-visited</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-4-5.html#ws-4-5-2" class="internal"><span class="codenumber">4.5</span> <span class="title">Sensitivity</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-4-5.html#ws-4-5-3" class="internal"><span class="codenumber">4.5</span> <span class="title">Tipping Points</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-4-5.html#ws-4-5-4" class="internal"><span class="codenumber">4.5</span> <span class="title">Tipping Point Behaviors</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -303,39 +319,70 @@ eBookConfig.enable_chatcodes =  false;
 <li id="sec-4-4-3-1-1"><div class="para" id="p-derived-sec-4-4-3-1-1">describe the stability of equilibrium values in a continuous dynamical system.</div></li>
 <li id="sec-4-4-3-1-2"><div class="para" id="p-derived-sec-4-4-3-1-2">describe the stability of equilibrium values in a discrete dynamical system.</div></li>
 </ol></article><section class="paragraphs" id="sec-4-4-4"><h3 class="heading"><span class="title">Let’s get to work....</span></h3>
-<div class="para" id="sec-4-4-4-2">Imagine a system whose stock is currently in equilibrium. Then imagine some outside force nudging that stock value out of equilibrium. How will the stock behave now? The answer to this question is what we will generally refer to as the equilibrium value’s <dfn class="terminology">stability</dfn>. To start gaining an intutitve understanding of this concept, work through the following thought exercise in your group.</div>
-<div class="para" id="sec-4-4-4-3">Your answers to the above questions are examples of the types of behavior we may see in real-world systems. While the behavior of real-world systems can be much more complicated than what we’ve described so far, our goal for this section will be to describe some common behaviors for the types of systems we’ve discussed in previous sections.</div>
-<div class="para logical" id="sec-4-4-4-4">
+<div class="para" id="sec-4-4-4-2">Imagine a system whose stock is currently in equilibrium. Then imagine some outside force nudging that stock value out of equilibrium. How will the stock behave now? The answer to this question is what we will generally refer to as the equilibrium value’s <dfn class="terminology">stability</dfn>. To start gaining an intutitve understanding of this concept, work through the following thought exercise in your group.</div></section><section class="worksheet" id="ws-4-4-1"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Stability Introduction</span><div class="print-links">
+<a href="ws-4-4-1-a4.html" class="a4">A4</a><a href="ws-4-4-1-letter.html" class="us">US</a>
+</div>
+</h3>
+<section class="introduction" id="ws-4-4-1-2"><div class="para logical" id="ws-4-4-1-2-1">
+<div class="para">The images below represent three different systems in equilibrium. The stock value being measured is the red ball’s position in space, and since all three balls are balanced and not moving on their respective surfaces, each ball is in equilibrium. Now imagine that a gust of wind blows over each system.</div>
+<ul class="disc" id="ws-4-4-1-2-1-1">
+<li id="ws-4-4-1-2-1-1-1"><div class="para" id="p-derived-ws-4-4-1-2-1-1-1">If the wind blows so that each ball moves just slightly to the right, describe how you think the ball will behave afterwards.</div></li>
+<li id="ws-4-4-1-2-1-1-2"><div class="para" id="p-derived-ws-4-4-1-2-1-1-2">If the wind blows so that each ball moves just slightly to the left, describe how you think the ball will behave afterwards.</div></li>
+</ul>
+</div></section><iframe id="ch4-interactive-stability-intro" width="600" height="200" src="ch4-interactive-stability-intro-if.html"></iframe></section><section class="paragraphs" id="sec-4-4-6"><div class="para" id="sec-4-4-6-1">Your answers to the above questions are examples of the types of behavior we may see in real-world systems. While the behavior of real-world systems can be much more complicated than what we’ve described so far, our goal for this section will be to describe some common behaviors for the types of systems we’ve discussed in previous sections.</div>
+<div class="para logical" id="sec-4-4-6-2">
 <div class="para">Recall from <a href="sec-4-1.html" class="internal" title="Section 4.1: Dynamic Models and Feedback">Section 4.1</a> the distinction between</div>
-<ul class="disc" id="sec-4-4-4-4-2">
-<li id="sec-4-4-4-4-2-1"><div class="para" id="p-derived-sec-4-4-4-4-2-1">continuous dynamical systems, whose measurements are taken continuously over time, and are visually represented by line graphs, and</div></li>
-<li id="sec-4-4-4-4-2-2"><div class="para" id="p-derived-sec-4-4-4-4-2-2">discrete dynamical systems, whose measurements are taken over equally spaced time intervals, and are visually represented by scatter plots.</div></li>
+<ul class="disc" id="sec-4-4-6-2-2">
+<li id="sec-4-4-6-2-2-1"><div class="para" id="p-derived-sec-4-4-6-2-2-1">continuous dynamical systems, whose measurements are taken continuously over time, and are visually represented by line graphs, and</div></li>
+<li id="sec-4-4-6-2-2-2"><div class="para" id="p-derived-sec-4-4-6-2-2-2">discrete dynamical systems, whose measurements are taken over equally spaced time intervals, and are visually represented by scatter plots.</div></li>
 </ul>
 </div>
-<div class="para" id="sec-4-4-4-5">When analyzing the behavior of systems nudged out of equilibrium, it is important for us to distinguish between these two types of models, as this can impact the types of behavior we can see.</div></section><section class="paragraphs" id="sec-4-4-5"><h3 class="heading"><span class="title">Back to work....</span></h3>
-<div class="para" id="sec-4-4-5-2">First, we will explore stock behavior around equilibrium values in continuous dynamical systems.  <article class="definition definition-like" id="sec-4-4-5-2-1"><h4 class="heading">
+<div class="para" id="sec-4-4-6-3">When analyzing the behavior of systems nudged out of equilibrium, it is important for us to distinguish between these two types of models, as this can impact the types of behavior we can see.</div></section><section class="paragraphs" id="sec-4-4-7"><h3 class="heading"><span class="title">Back to work....</span></h3>
+<div class="para" id="sec-4-4-7-2">First, we will explore stock behavior around equilibrium values in continuous dynamical systems.</div></section><section class="worksheet" id="ws-4-4-2"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Stability In Continuous Dynamical Systems</span><div class="print-links">
+<a href="ws-4-4-2-a4.html" class="a4">A4</a><a href="ws-4-4-2-letter.html" class="us">US</a>
+</div>
+</h3>
+<section class="introduction" id="ws-4-4-2-2"><div class="para" id="ws-4-4-2-2-1">In your group, use the graphs below to answer the following questions.</div></section><iframe id="ch4-interactive-cont-stab" width="600" height="1200" src="ch4-interactive-cont-stab-if.html"></iframe></section><section class="paragraphs" id="sec-4-4-9"><article class="definition definition-like" id="sec-4-4-9-1"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.4.1</span><span class="period">.</span>
-</h4>
-<div class="para" id="sec-4-4-5-2-1-1">An equilibrium value that behaves like that of Stock 1 is called a <dfn class="terminology">stable</dfn> equilibrium value. An equilibrium value that behaves like that of Stock 2 is called an <dfn class="terminology">unstable</dfn> equilibrium value.</div></article> <div class="para" id="sec-4-4-5-2-2">The behavior around stable equilibrium values is reminiscent of the first system in <code class="code-inline tex2jax_ignore">[provisional cross-reference: act-4-4-1]</code>, while the behavior around unstable equilibrium values is reminiscent of the second system in <code class="code-inline tex2jax_ignore">[provisional cross-reference: act-4-4-1]</code>.</div> </div></section><section class="paragraphs" id="sec-4-4-6"><h3 class="heading"><span class="title">Back to work....</span></h3>
-<div class="para" id="sec-4-4-6-2">Now, we will explore stock behavior around equilibrium values in discrete dynamical systems. Recall that the only difference in this context is that stock measurements are taken at equally spaced intervals instead of continuously over time. There will be many similarities in the behavior that we saw in the continous case, but also some differences. Let’s work through some examples to explore the discrete case in more detail.</div>
-<div class="para" id="sec-4-4-6-3">In the discrete case, because measurements are taken on a set interval, we have to be a bit more specific than we were in the continuous case. It may not be sufficient to say that the stock is just increasing or decreasing. We may need to describe in more detail by how much the stock is increasing or decreasing. We can use the Net Flow rate information to help us do this.</div>
-<div class="para" id="sec-4-4-6-4">For example, suppose the net flow rate for a stock <span class="process-math">\(S\)</span> is given by <span class="process-math">\(\text{Net Flow Rate}=2S-6\)</span> units per minute, and we are taking stock measurements every minute. If the current stock value is <span class="process-math">\(2\)</span> units, than <span class="process-math">\(2(2)-6 = -2\)</span> units will be added to <span class="process-math">\(0\)</span> to get the new stock value after one minute. That is, if the current stock value is <span class="process-math">\(2\)</span> units, we can compute the next stock value after one minute with the computation</div>
+</h3>
+<div class="para" id="sec-4-4-9-1-1">An equilibrium value that behaves like that of Stock 1 is called a <dfn class="terminology">stable</dfn> equilibrium value. An equilibrium value that behaves like that of Stock 2 is called an <dfn class="terminology">unstable</dfn> equilibrium value.</div></article><div class="para" id="sec-4-4-9-2">The behavior around stable equilibrium values is reminiscent of the first system in <a href="sec-4-4.html#ws-4-4-1" class="internal" title="Worksheet 4.4: Stability Introduction">Worksheet 4.4</a>, while the behavior around unstable equilibrium values is reminiscent of the second system in <a href="sec-4-4.html#ws-4-4-1" class="internal" title="Worksheet 4.4: Stability Introduction">Worksheet 4.4</a>.</div></section><section class="worksheet" id="ws-4-4-3"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Half-Stable Equilibria</span><div class="print-links">
+<a href="ws-4-4-3-a4.html" class="a4">A4</a><a href="ws-4-4-3-letter.html" class="us">US</a>
+</div>
+</h3>
+<section class="introduction" id="ws-4-4-3-2"><div class="para" id="ws-4-4-3-2-1">In your group, do the following:</div></section><section class="onepage" id="ws-4-4-3-3"><article class="exercise exercise-like" id="ws-4-4-3-3-1"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="para" id="ws-4-4-3-3-1-1-1">Construct a line graph for the Net Flow with respect to Stock value that you think would result in behavior around the equilibrium value that is reminiscent of the third system in <a href="sec-4-4.html#ws-4-4-1" class="internal" title="Worksheet 4.4: Stability Introduction">Worksheet 4.4</a>.<details class="ptx-footnote" aria-live="polite" id="ws-4-4-3-3-1-1-1-2"><summary class="ptx-footnote__number" title="Footnote 4.4.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="ws-4-4-3-3-1-1-1-2">We will call equilibrium values with this behavior <dfn class="terminology">half-stable</dfn>.</div></details>
+</div>
+<div class="workspace" data-space="2in"></div></article><article class="exercise exercise-like" id="ws-4-4-3-3-2"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="para" id="ws-4-4-3-3-2-1-1">Make a conjecture (this means an educated prediction) about how you could tell whether an equilibrium value was stable or unstable in a continuous dynamical system based off of its net flow rate line graph.</div>
+<div class="workspace" data-space="2in"></div></article></section></section><section class="paragraphs" id="sec-4-4-11"><h3 class="heading"><span class="title">Back to work....</span></h3>
+<div class="para" id="sec-4-4-11-2">Now, we will explore stock behavior around equilibrium values in discrete dynamical systems. Recall that the only difference in this context is that stock measurements are taken at equally spaced intervals instead of continuously over time. There will be many similarities in the behavior that we saw in the continous case, but also some differences. Let’s work through some examples to explore the discrete case in more detail.</div>
+<div class="para" id="sec-4-4-11-3">In the discrete case, because measurements are taken on a set interval, we have to be a bit more specific than we were in the continuous case. It may not be sufficient to say that the stock is just increasing or decreasing. We may need to describe in more detail by how much the stock is increasing or decreasing. We can use the Net Flow rate information to help us do this.</div>
+<div class="para" id="sec-4-4-11-4">For example, suppose the net flow rate for a stock <span class="process-math">\(S\)</span> is given by <span class="process-math">\(\text{Net Flow Rate}=2S-6\)</span> units per minute, and we are taking stock measurements every minute. If the current stock value is <span class="process-math">\(2\)</span> units, than <span class="process-math">\(2(2)-6 = -2\)</span> units will be added to <span class="process-math">\(0\)</span> to get the new stock value after one minute. That is, if the current stock value is <span class="process-math">\(2\)</span> units, we can compute the next stock value after one minute with the computation</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \underset{\text{Current Value}}{2 \text{ units}} + \underset{\text{Net Flow After 1 min}}{2(2) -6 \text{ units}} =\underset{\text{Next Value}}{0 \text{ units}} 
 \end{equation*}
-</div></section><section class="conclusion" id="sec-4-4-7"><h3 class="heading">Reflection.<span></span>
+</div></section><section class="worksheet" id="ws-4-4-4"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Stability in Discrete Dynamical Systems</span><div class="print-links">
+<a href="ws-4-4-4-a4.html" class="a4">A4</a><a href="ws-4-4-4-letter.html" class="us">US</a>
+</div>
 </h3>
-<div class="para logical" id="sec-4-4-7-2">
+<section class="introduction" id="ws-4-4-4-2"><div class="para" id="ws-4-4-4-2-1">In the following examples, work in your group to make similar computations. You will keep track of your results in a table, and also see the visual representation as a scatter plot to help with your analysis.</div></section><iframe id="ch4-interactive-stab-discrete" width="600" height="4800" src="ch4-interactive-stab-discrete-if.html"></iframe><article class="exercise exercise-like" id="ws-4-4-4-4"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="para" id="ws-4-4-4-4-1-1">In your group, write down a conjecture (this means an educated prediction) about how you could tell what the behavior of an equilibrium value will be in a discrete dynamical system based off of its net flow rate line graph.</div></article></section><section class="conclusion" id="sec-4-4-13"><h3 class="heading">Reflection.<span></span>
+</h3>
+<div class="para logical" id="sec-4-4-13-2">
 <div class="para">Let’s reflect on what we’ve learned, and what we still have questions about.</div>
-<ol class="decimal" id="sec-4-4-7-2-1">
-<li id="sec-4-4-7-2-1-1"><div class="para" id="p-derived-sec-4-4-7-2-1-1">What does the stability of an equilibrium value tell us about the behavior of a stock?</div></li>
-<li id="sec-4-4-7-2-1-2"><div class="para" id="p-derived-sec-4-4-7-2-1-2">In what ways is the behavior around equilibrium values similar between discrete and continuous dynamical systems?</div></li>
-<li id="sec-4-4-7-2-1-3"><div class="para" id="p-derived-sec-4-4-7-2-1-3">In what ways is the behavior around equilibrium values different between discrete and continuous dynamical systems?</div></li>
+<ol class="decimal" id="sec-4-4-13-2-1">
+<li id="sec-4-4-13-2-1-1"><div class="para" id="p-derived-sec-4-4-13-2-1-1">What does the stability of an equilibrium value tell us about the behavior of a stock?</div></li>
+<li id="sec-4-4-13-2-1-2"><div class="para" id="p-derived-sec-4-4-13-2-1-2">In what ways is the behavior around equilibrium values similar between discrete and continuous dynamical systems?</div></li>
+<li id="sec-4-4-13-2-1-3"><div class="para" id="p-derived-sec-4-4-13-2-1-3">In what ways is the behavior around equilibrium values different between discrete and continuous dynamical systems?</div></li>
 </ol>
-</div></section><section class="conclusion" id="sec-4-4-8"><h3 class="heading">Section Checkpoint.<span></span>
+</div></section><section class="conclusion" id="sec-4-4-14"><h3 class="heading">Section Checkpoint.<span></span>
 </h3>
-<div class="para" id="sec-4-4-8-2">Link here to Doenet course.</div></section></section></div>
+<div class="para" id="sec-4-4-14-2">Link here to Doenet course.</div></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-4-3.html" title="Previous"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-4-5.html" title="Next"><span class="name">Next</span><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
