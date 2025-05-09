@@ -1,0 +1,28 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_82L7Bgv0AZgPPF2iE9lrm/_8J8cypAP1hhhqMe37kWLW -->
+
+<figure suppressFigureNameInCaption>
+    <graph  displayYAxisTickLabels="false" showNavigation="false" xmin="-2" xmax="8" size="medium">
+        <xlabel>Phosphorus</xlabel>
+        <ylabel>Net Flow</ylabel>
+        <function>-(x-1)*(x-3)*(x-5)</function>
+      </graph>
+      <description>
+        The line graph for the net flow rate of phosphorus. There are equilibrium values at phosphorus amounts of 1, 3, and 5. The net flow rate decreases for phosphorus amount less than about 2, increases for phosphorus amounts between about 2 and 4, and decreases for phosphorus amounts greater than about 4. 
+      </description>
+    </figure>
+    <ol>
+      <li>
+        What are the equilibrium value(s) of this system? How do you know?
+        <solution>
+          Equilibrium values occur when the net flow rate is zero. Therefore there are three equilibrium values for this stock, at phosphorus values of <m>1</m>, <m>3</m>, and <m>5</m>.
+        </solution>
+      </li>
+      <li>
+        Classify each equilibrium value as stable or unstable.
+        <solution>
+          <p>The equilibrium value <m>1</m> is stable.</p>
+          <p>The equilibrium value <m>3</m> is unstable.</p>
+          <p>The equilibrium value <m>5</m> is stable.</p>
+        </solution>
+      </li>
+    </ol>

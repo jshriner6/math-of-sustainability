@@ -1,0 +1,16 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_82L7Bgv0AZgPPF2iE9lrm/_8J8cypAP1hhhqMe37kWLW -->
+
+<figure>
+          <graph displayYAxisTickLabels="false" showNavigation="false" xmin="-2" xmax="8">
+          <xlabel>Phosphorus</xlabel>
+          <ylabel>Net Flow</ylabel>
+          <function >-0.5(x-1)*(x-3)(x-5)-5+$R/5</function>
+          </graph>
+          <description>
+            A line graph for the net flow rate of phosphorus, with a slider to change the pollution parameter value. This can be used to approximate tipping point values, and analyze how the system will behave if this value is exceeded.
+          </description>
+        </figure>
+         
+         <slider from="0" to="35" name="R"  step="0.25" initialValue="20">
+            <label><m>P</m></label>
+          </slider>

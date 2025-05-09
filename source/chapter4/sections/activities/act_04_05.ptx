@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+    <article xml:id="worksheet">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-4-5-1">
+            <title>Stability Re-visited</title>
+    
+            <introduction>
+                <p>
+                    In your group, use the line graph of the net flow rate for this stock to answer the following questions.
+                </p>
+            </introduction>
+
+            <interactive label="ch4-interactive-stability-revisit" platform="doenetml" width="100%" aspect="1:1.5">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-stability-revisit.doenetml"/>
+                </slate>
+            </interactive>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-4-5-2">
+            <title>Sensitivity</title>
+            
+            <introduction>
+                <p>
+                   Work in your group to fill out the following table to compute the sensitivities to pollution at various 
+                   equilibrium values. 
+                </p>
+                <p> 
+                    Use the first graph to set your initial pollution value, and find the associated 
+                   initial phosphorus equilibrium value by moving the point on the horizontal axis to where the net flow 
+                   rate is <m>0</m>. 
+                </p>
+                <p>
+                    Use the second graph to set your next pollution value, and find the associated next phosphorus e
+                    quilibrium value by moving the point on the horizontal axis to where the net flow rate is <m>0</m>. 
+                    The first row is completed for you to use as a guide.   
+                </p>
+            </introduction>
+            
+
+            <interactive label="ch4-interactive-sensitivity-graphs" platform="doenetml" width="100%" aspect="1:2.25">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-sensitivity-graphs.doenetml"/>
+                </slate>
+            </interactive>
+
+            <interactive label="ch4-interactive-sensitivity-table" platform="doenetml" width="100%" aspect="1.75:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-sensitivity-table.doenetml"/>
+                </slate>
+            </interactive>
+
+            <exercise>
+                <statement>
+                    <p>
+                        Once your table is completed correctly, discuss the following questions in your group.
+                        <ol>
+                            <li>How do the sensitivities change as pollution values change?</li>
+                            <li>Are there pollution values that can change the <em>number</em> of equilibrium values in the system? How does this seem to be connected to sensitivities?</li>
+                        </ol>
+                    </p>
+                </statement>
+                
+            </exercise>
+
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-4-5-3">
+            <title>Tipping Points</title>
+            
+            <introduction>
+                <p>
+                    Place the pollution parameter slider to <m>15.25</m>, and answer the following questions in your group.
+                </p>
+            </introduction>
+
+            <interactive label="ch4-interactive-tipping-pts" platform="doenetml" width="100%" aspect="1:1.5">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-tipping-pts.doenetml"/>
+                </slate>
+            </interactive>
+
+            
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-4-5-4">
+            <title>Tipping Point Behaviors</title>
+            
+            <page>
+
+            <interactive label="ch4-interactive-tipping-pt-behaviors1" platform="doenetml" width="100%" aspect="1:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-tipping-pt-behaviors1.doenetml"/>
+                </slate>
+            </interactive>
+            <exercise workspace="1in">
+                <statement>
+                    <p>
+                        What are the tipping point values for the parameter <m>P</m>?
+                    </p>
+                </statement>
+                
+            </exercise>
+
+            <exercise workspace="1in">
+                <statement>
+                    <p>
+                        Imagine the phosphrus stock is in equilibrium when <m>P=0</m> at a phosphorus value of <m>1</m>. 
+                        If the parameter value exceeds the tipping point value closest to <m>P=0</m>, how will the 
+                        phosphorus value change?
+                    </p>
+                </statement>
+                
+            </exercise>
+
+            <exercise workspace="1in">
+                <statement>
+                    <p>
+                        If the parameter value exceeds the tipping point value closest to <m>P=0</m>, is it possible for the 
+                        phosphorus value to return to an equilibrium value of <m>1</m>?
+                    </p>
+                </statement>
+                
+            </exercise>
+            
+            </page>
+            
+            <page>
+
+            <interactive label="ch4-interactive-tipping-pt-behaviors2" platform="doenetml" width="100%" aspect="1:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-tipping-pt-behaviors2.doenetml"/>
+                </slate>
+            </interactive>
+
+            <exercise workspace="1in">
+                <statement>
+                    <p>
+                        What are the tipping point values for the parameter <m>P</m>?
+                    </p>
+                </statement>
+                
+            </exercise>
+
+            <exercise workspace="1in">
+                <statement>
+                    <p>
+                       Imagine the phosphrus stock is in equilibrium when <m>P=20</m> at a phosphorus value of <m>0.8</m>. 
+                       If the parameter value exceeds the tipping point value which is larger than <m>P=20</m>, how will the
+                        phosphorus value change?
+                    </p>
+                </statement>
+                
+            </exercise>
+
+            <exercise workspace="1in">
+                <statement>
+                    <p>
+                       If the parameter value exceeds the tipping point value which is larger than <m>P=20</m>, is it 
+                       possible for the phosporus value to return to an equilibrium value of less than <m>1</m>?
+                    </p>
+                </statement>
+                
+            </exercise>
+
+
+            </page>
+
+        </worksheet>
+
+    </article>
+</pretext>

@@ -1,0 +1,145 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_82L7Bgv0AZgPPF2iE9lrm/_8J8cypAP1hhhqMe37kWLW -->
+
+<setup>
+      <number name="rate0"><round numDecimals="2">$$f0($stock0.x)</round></number>
+      <number name="rate1"><round numDecimals="2">$$f1($stock1.x)</round></number>
+    </setup>
+    
+    <tabular top="major" bottom="minor" left="medium" right="medium">
+      <row>
+        <cell>
+          <m>P_0</m>
+        </cell>
+        <cell>
+          <m>S_0</m>
+        </cell>
+        <cell>
+          <m>P_1</m>
+        </cell>
+        <cell>
+          <m>S_1</m>
+        </cell>
+        <cell>
+          Sensitivity
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <m>0</m>
+        </cell>
+        <cell>
+          <m>1</m>
+        </cell>
+        <cell>
+          <m>0.25</m>
+        </cell>
+        <cell>
+          <m>1.006</m>
+        </cell>
+        <cell>
+          <m>\frac{1.006-1}{0.25-0}=0.0238</m>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <m>6</m>
+        </cell>
+        <cell>
+          <setup>
+            <round name="r06" numDecimals="2">$$f0($s06)</round>
+          </setup>
+          <mathInput disabled="$a06.disabled" name="s06"/>
+          <answer name="a06" disableAfterCorrect>
+            <award><when>$r06=0</when></award>
+          </answer>
+        </cell>
+        <cell>
+          <mathInput name="p16"><number/></mathInput> 
+          <feedback condition="(!(5<$p16<7) and !($p16.text=NaN)) or $p16=6">Make this close to (but not equal to) 6!</feedback>
+          <feedback condition="!($p16.text=NaN) and (5<$p16<7) and !($p16=5.25) and !($p16=5.5) and !($p16=5.75) and !($p16=6.25) and !($p16=6.5) and !($p16=6.75) and !($p16=6)">This is not a value you can achieve on the slider.</feedback>
+        </cell>
+        <cell>
+          <setup>
+            <round name="r16" numDecimals="2">$$f1($s16)</round>
+          </setup>
+          <mathInput disabled="$a16.disabled" name="s16"/>
+          <answer name="a16" disableAfterCorrect>
+            <award><when>$r16=0</when></award>
+          </answer>
+        </cell>
+        <cell>
+          <mathInput disabled="$as6.disabled" name="sens6"><number/></mathInput>
+          <answer name="as6" disableAfterCorrect>
+            <award><when>$sens6=($s16-$s06)/($p16-6)</when></award>
+          </answer>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <m>12</m>
+        </cell>
+        <cell>
+          <setup>
+            <round name="r012" numDecimals="2">$$f0($s012)</round>
+          </setup>
+          <mathInput disabled="$a012.disabled" name="s012"/>
+          <answer name="a012" disableAfterCorrect>
+            <award><when>$r012=0</when></award>
+          </answer>
+        </cell>
+        <cell>
+          <mathInput name="p112"><number/></mathInput> 
+          <feedback condition="(!(11<$p112<13) and !($p112.text=NaN)) or $p112=12">Make this close to (but not equal to) 12!</feedback>
+          <feedback condition="!($p112.text=NaN) and (11<$p112<13) and !($p112=11.25) and !($p112=11.5) and !($p112=11.75) and !($p112=12.25) and !($p112=12.5) and !($p112=12.75) and !($p112=12)">This is not a value you can achieve on the slider.</feedback>
+        </cell>
+        <cell>
+          <setup>
+            <round name="r112" numDecimals="2">$$f1($s112)</round>
+          </setup>
+          <mathInput disabled="$a112.disabled" name="s112"/>
+          <answer name="a112" disableAfterCorrect>
+            <award><when>$r112=0</when></award>
+          </answer>
+        </cell>
+        <cell>
+          <mathInput disabled="$as12.disabled" name="sens12"><number/></mathInput>
+          <answer name="as12" disableAfterCorrect>
+            <award><when>$sens12=($s112-$s012)/($p112-12)</when></award>
+          </answer>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <m>15</m>
+        </cell>
+        <cell>
+          <setup>
+            <round name="r015" numDecimals="2">$$f0($s015)</round>
+          </setup>
+          <mathInput disabled="$a015.disabled" name="s015"/>
+          <answer name="a015" disableAfterCorrect>
+            <award><when>$r015=0</when></award>
+          </answer>
+        </cell>
+        <cell>
+          <mathInput name="p115"><number/></mathInput> 
+          <feedback condition="(!(14<$p115<15.5) and !($p115.text=NaN)) or $p115=15">Make this close to (but not equal to) 15!</feedback>
+          <feedback condition="!($p115.text=NaN) and (14<$p115<15.5) and !($p115=14.25) and !($p115=14.5) and !($p115=14.75) and !($p115=15.25) and !($p115=15)">This is not a value you can achieve on the slider.</feedback>
+        </cell>
+        <cell>
+          <setup>
+            <round name="r115" numDecimals="2">$$f1($s115)</round>
+          </setup>
+          <mathInput disabled="$a115.disabled" name="s115"/>
+          <answer name="a115" disableAfterCorrect>
+            <award><when>$r115=0</when></award>
+          </answer>
+        </cell>
+        <cell>
+          <mathInput disabled="$as15.disabled" name="sens15"><number/></mathInput>
+          <answer name="as15" disableAfterCorrect>
+            <award><when>$sens15=($s115-$s015)/($p115-15)</when></award>
+          </answer>
+        </cell>
+      </row>
+    </tabular>

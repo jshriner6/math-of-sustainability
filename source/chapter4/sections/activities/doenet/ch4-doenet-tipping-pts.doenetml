@@ -1,0 +1,21 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_82L7Bgv0AZgPPF2iE9lrm/_8J8cypAP1hhhqMe37kWLW -->
+
+<ol>
+      <li>How many equilibrium values does the stock have? How does this compare to when the pollution parameter value was smaller?
+        <solution>
+          The stock now appears to have <m>2</m> equilibrium values. Previously there were <m>3</m>, but the smaller two converged to a single equilibrium value of approximately <m>1.9</m>.
+        </solution>
+      </li>
+      <li>
+        Imagine that the stock of phosphorus in the lake is in equilibrium at the smallest equilibrium value. What would happen if an outside force nudged the amount of phosphorus slightly below this value? What would happen if an outside force nudged the amount of phosphorus slightly above this value?
+        <solution>
+          If nudged slightly below equilibrium, the net flow rate would be positive, which would bring the phosphorus value back towards equilibrium. If nudged slightly above equilibrium, the net flow rate is again positive, which would push the phosphorus value away from the smaller equilibrium value and towards the large equilibrium value of approximately <m>5.3</m>.
+        </solution>
+      </li>
+      <li>
+        Imagine that the stock of phosphorus in the lake is in equilibrium at the smallest equilibrium value. What do you think would happen if the pollution parameter was increased to <m>15.5</m>?
+        <solution>
+          If the pollution parameter is increased, it appears that there will only be a single equilibrium value at approximately <m>5.3</m>. This equilibrium value is stable, so the phosphorus stock value would now approach this much larer equilibrium value.
+        </solution>
+      </li>
+    </ol>

@@ -1,0 +1,51 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_82L7Bgv0AZgPPF2iE9lrm/_8J8cypAP1hhhqMe37kWLW -->
+
+
+<setup>
+      <number name="rate0"><round numDecimals="2">$$f0($stock0.x)</round></number>
+      <number name="rate1"><round numDecimals="2">$$f1($stock1.x)</round></number>
+    </setup>
+    
+<figure suppressFigureNameInCaption>
+        <graph displayYAxisTickLabels="false" showNavigation="false" xmin="-0.5" xmax="2.25" ymin="-3.5" ymax="3.5">
+        <xlabel>Phosphorus</xlabel>
+        <ylabel>Net Flow</ylabel>
+        <function name="f0">-(x-1)*(x-3)*(x-5)+$P0/5</function>
+        <point name="stock0" styleNumber="1">(1,0)
+        <constraints>
+          <constrainTo><line>y=0</line></constrainTo>
+        </constraints>
+        </point> 
+        </graph>
+        <description>
+          The line graph of the net flow rate for phosphorus, zoomed in to the smallest equilibrium value. This graph should be used to set the initial pollution value in order to determine the associated equilibrium value of phosphorus.
+        </description>
+      </figure>
+      
+        <slider from="0" to="20" name="P0" step="0.25" initialValue="0">
+        <label><m>P_0</m></label>
+        </slider>
+        <p>
+      The initial phosphorus value is currently <round numDecimals="3">$stock0.x</round>. It is <text hide="$rate0=0">NOT</text> an equilibrium value because the net flow rate is $rate0.
+    </p>
+      <figure suppressFigureNameInCaption>
+        <graph displayYAxisTickLabels="false" showNavigation="false" xmin="-0.5" xmax="2.25" ymin="-3.5" ymax="3.5">
+        <xlabel>Phosphorus</xlabel>
+        <ylabel>Net Flow</ylabel>
+        <function name="f1" styleNumber="3">-(x-1)*(x-3)*(x-5)+$P1/5</function> 
+        <point name="stock1" styleNumber="3">(1,0)
+        <constraints>
+          <constrainTo><line>y=0</line></constrainTo>
+        </constraints>
+        </point> 
+        </graph>
+        <description>
+          The line graph of the net flow rate for phosphorus, zoomed in to the smallest equilibrium value. This graph should be used to set the next pollution value, which is very close to the initial pollution value, in order to determine the associated equilibrium value of phosphorus.
+        </description>
+      </figure>
+        <slider from="0" to="20" name="P1" step="0.25" initialValue="0">
+        <label><m>P_1</m></label>
+        </slider>
+        <p>
+      The next phosphorus value is currently <round numDecimals="3">$stock1.x</round>. It is <text hide="$rate1=0">NOT</text> an equilibrium value because the net flow rate is $rate1.
+        </p>

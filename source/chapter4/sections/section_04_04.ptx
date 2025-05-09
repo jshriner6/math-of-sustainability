@@ -11,7 +11,7 @@
         <p>
             The objectives of this activity are that you can...
         </p>
-      </introduction>
+    </introduction>
       <objectives>
         
           <ol>
@@ -30,8 +30,11 @@
             refer to as the equilibrium value's <term>stability</term>. To start gaining an intutitve understanding of this 
             concept, work through the following thought exercise in your group. 
         </p>
+    </paragraphs>
 
-        <!-- <xi:include href="./activities/act_04_04.ptx" xpointer="worksheet/1"/> -->
+    <xi:include href="./activities/act_04_04.ptx" xpointer="worksheet/1"/>
+
+    <paragraphs>
 
         <p>
             Your answers to the above questions are examples of the types of behavior we may see in real-world systems.  
@@ -60,9 +63,13 @@
 
       <paragraphs><title>Back to work...</title>
         <p>
-            First, we will explore stock behavior around equilibrium values in continuous dynamical systems. 
+            First, we will explore stock behavior around equilibrium values in continuous dynamical systems.
+        </p>
+    </paragraphs>
 
-            <!-- <xi:include href="./activities/act_04_04.ptx" xpointer="worksheet/2"/> -->
+    <xi:include href="./activities/act_04_04.ptx" xpointer="worksheet/2"/>
+
+    <paragraphs>
 
             <definition>
                 <p>
@@ -72,14 +79,13 @@
             </definition>
             <p>
                 The behavior around stable equilibrium values is reminiscent of the first system in 
-                <xref provisional="act-4-4-1"/>, while the behavior around unstable equilibrium values is reminiscent of 
-                the second system in <xref provisional="act-4-4-1"/>. 
+                <xref ref="ws-4-4-1"/>, while the behavior around unstable equilibrium values is reminiscent of 
+                the second system in <xref ref="ws-4-4-1"/>. 
             </p>
 
-            <!-- <xi:include href="./activities/act_04_04.ptx" xpointer="worksheet/3"/> -->
-
-        </p>
       </paragraphs>
+
+      <xi:include href="./activities/act_04_04.ptx" xpointer="worksheet/3"/>
 
       <paragraphs><title>Back to work...</title>
         <p>
@@ -106,7 +112,7 @@
 
       </paragraphs>
 
-      <!-- <xi:include href="./activities/act_04_04.ptx" xpointer="worksheet/4"/> -->
+      <xi:include href="./activities/act_04_04.ptx" xpointer="worksheet/4"/>
 
       <conclusion><title>Reflection</title>
         <p>

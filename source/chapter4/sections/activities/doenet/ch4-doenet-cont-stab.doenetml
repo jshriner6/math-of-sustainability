@@ -1,0 +1,40 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_9mblPPAvFVRjYfki22gMr/_JhFNn1ocF3Ge8cF99Rev6 -->
+
+  <figure suppressFigureNameInCaption>
+    <sideBySide>
+        <graph  displayYAxisTickLabels="false" displayXAxisTickLabels="true" showNavigation="false" size="small" xmin="-3" ymin="-4" ymax="10">
+          <xlabel>Stock 1</xlabel>
+          <ylabel>Net Flow</ylabel>
+          <line draggable="false"> y=2x-10</line>
+        </graph>
+
+        <graph  displayYAxisTickLabels="false" displayXAxisTickLabels="true" showNavigation="false" size="small" xmin="-3" ymin="-4" ymax="10">
+          <xlabel>Stock 2</xlabel>
+          <ylabel>Net Flow</ylabel>
+          <line draggable="false"> y=-2x+10</line>
+        </graph>
+    </sideBySide>
+        <description>
+          On the left, a line graph that shows the net flow rate increasing as stock 1 values increase. The net flow rate is zero when the stock 1 value is 5. On the right, a line graph that shows the net flow rate decreasing as stock 2 values increase. The net flow rate is zero when the stock 2 value is 5.
+        </description>
+      </figure>
+    <ol>
+      <li>
+        What are the equilibrium values of Stock 1 and Stock 2? How do you know?
+          <solution>
+            In both cases, the equilibrium value of the stock is <m>5</m>.
+          </solution>
+      </li>
+      <li>
+        Imagine that Stock 1 is in equilibrium. If the stock's value is nudged to a slightly lower value, how will the stock behave? If the stock's value is nudged to a slightly higher value, how will the stock behave? Sketch a line graph of the stock's value over time in each case.
+        <solution>
+            If the stock's value is nudged to something lower than <m>5</m>, the net flow rate associated with that value will be negative. This means the stock's value will continue to decrease further and further away from the equilibrium value. If the stock's value is nudged to something higher than <m>5</m>, the net flow rate associated with that value will be positive. This means the stock's value will continue to increase further and further away from the equilibrium value. 
+          </solution>
+      </li>
+      <li>
+        Imagine that Stock 2 is in equilibrium. If the stock's value is nudged to a slightly lower value, how will the stock behave? If the stock's value is nudged to a slightly higher value, how will the stock behave? Sketch a line graph of the stock's value over time in each case.
+        <solution>
+            If the stock's value is nudged to something lower than <m>5</m>, the net flow rate associated with that value will be positive. This means the stock's value will start to increase back towards the equilibrium value. If the stock's value is nudged to something higher than <m>5</m>, the net flow rate associated with that value will be negative. This means the stock's value will start to decrease back towards the equilibrium value. 
+          </solution>
+      </li>
+    </ol>

@@ -30,8 +30,11 @@
             Let's return to the example from <xref ref="fig-sys-diagram-feedback"/>, in which we are measuring the 
             amount of phosphorus in a lake with an inflow from plant and algae decomposition and an outflow due to lake drain.
         </p>
+    </paragraphs>
 
-        <!-- <xi:include href="./activities/act_04_05.ptx" xpointer="worksheet/1"/> -->
+    <xi:include href="./activities/act_04_05.ptx" xpointer="worksheet/1"/>
+
+    <paragraphs>
 
         <p>
             We will now add pollution from agricultural run-off as a parameter to our model, which impacts the inflow rate 
@@ -86,15 +89,19 @@
             when the pollution parameter is <m>0</m>.
         </p>
 
-        <!-- <xi:include href="./activities/act_04_05.ptx" xpointer="worksheet/2"/> -->
       </paragraphs>
+
+      <xi:include href="./activities/act_04_05.ptx" xpointer="worksheet/2"/>
 
       <paragraphs><title>Back to work...</title>
         <p>
             For the next exercise, use the graph and slider from <xref ref="fig-net-flow-parameter"/>.
         </p>
+    </paragraphs>
 
-        <!-- <xi:include href="./activities/act_04_05.ptx" xpointer="worksheet/3"/> -->
+    <xi:include href="./activities/act_04_05.ptx" xpointer="worksheet/3"/>
+
+    <paragraphs>
 
         <p>
             The previous discussion illustrates that it is possible, in systems with parameters, that there are special 
@@ -111,9 +118,11 @@
           Our final exercise will help explore system behavior around tipping point values.
           </p>
 
-          <!-- <xi:include href="./activities/act_04_05.ptx" xpointer="worksheet/4"/> -->
+          
 
       </paragraphs>
+
+      <xi:include href="./activities/act_04_05.ptx" xpointer="worksheet/4"/>
 
       <conclusion><title>Reflection</title>
         <p>

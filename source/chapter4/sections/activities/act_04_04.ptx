@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+    <article xml:id="worksheet">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-4-4-1">
+            <title>Stability Introduction</title>
+    
+            <introduction>
+                <p>
+                    The images below represent three different systems in equilibrium. 
+                    The stock value being measured is the red ball's position in space, and since all three balls are 
+                    balanced and not moving on their respective surfaces, each ball is in equilibrium. Now imagine that a 
+                    gust of wind blows over each system.
+                    <ul>
+                        <li>If the wind blows so that each ball moves just slightly to the right, describe how you think the ball will behave afterwards. </li>
+                        <li>If the wind blows so that each ball moves just slightly to the left, describe how you think the ball will behave afterwards. </li>
+                    </ul>
+                </p>
+            </introduction>
+
+            <interactive label="ch4-interactive-stability-intro" platform="doenetml" width="100%" aspect="3:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-stability-intro.doenetml"/>
+                </slate>
+            </interactive>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-4-4-2">
+            <title>Stability In Continuous Dynamical Systems</title>
+            
+            <introduction>
+                <p>
+                   In your group, use the graphs below to answer the following questions.
+                </p>
+            </introduction>
+            
+
+            <interactive label="ch4-interactive-cont-stab" platform="doenetml" width="100%" aspect="1:2">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-cont-stab.doenetml"/>
+                </slate>
+            </interactive>
+
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-4-4-3">
+            <title>Half-Stable Equilibria</title>
+            
+            <introduction>
+                <p>
+                    In your group, do the following:
+                </p>
+            </introduction>
+
+            <page>
+                <exercise workspace="2in">
+                    <statement>
+                        <p>
+                        Construct a line graph for the Net Flow with respect to Stock value that you think would result in 
+                        behavior around the equilibrium value that is reminiscent of the third system in 
+                        <xref ref="ws-4-4-1"/>.<fn>We will call equilibrium values with this behavior 
+                        <term>half-stable</term>.</fn>
+                        </p>
+                    </statement>
+                </exercise>
+
+                <exercise workspace="2in">
+                    <statement>
+                        <p>
+                        Make a conjecture (this means an educated prediction) about how you could tell whether an equilibrium 
+                        value was stable or unstable in a continuous dynamical system based off of its net flow rate line graph.
+                        </p>
+                    </statement>
+                </exercise>
+            </page> 
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-4-4-4">
+            <title>Stability in Discrete Dynamical Systems</title>
+            
+            <introduction>
+                <p>
+                     In the following examples, work in your group to make similar computations. You will keep track of your 
+                     results in a table, and also see the visual representation as a scatter plot to help with your analysis.
+                </p>
+            </introduction>
+
+            <interactive label="ch4-interactive-stab-discrete" platform="doenetml" width="100%" aspect="1:8">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch4-doenet-stab-discrete.doenetml"/>
+                </slate>
+            </interactive>
+
+        <exercise>
+            <statement>
+                <p>
+                    In your group, write down a conjecture (this means an educated prediction) about how you could tell 
+                    what the behavior of an equilibrium value will be in a discrete dynamical system based off of its net 
+                    flow rate line graph.
+                </p>
+            </statement>
+        </exercise>
+
+        </worksheet>
+
+    </article>
+</pretext>
