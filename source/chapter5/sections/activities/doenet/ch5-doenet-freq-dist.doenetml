@@ -1,0 +1,75 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_y5rBHkW9dpwsR6lt0HALL/_we9Do9Ism8qDeaq2mNmuC -->
+
+<sideBySide>
+  <figure name="bimodal" suppressFigureNameInCaption>
+<graph displayYAxis="false" displayXAxis="false" showNavigation="false" showBorder="false" xmin="-6" xmax="6" ymin="-1" ymax="5">
+  <lineSegment draggable="false" endpoints="(-5.5,0) (5.5,0)"/>
+  <rectangle draggable="false" height="1" width="2" center="(-4,0.5)"/>
+  <rectangle draggable="false" height="3" width="2" center="(-2,1.5)"/>
+  <rectangle draggable="false" height="1" width="2" center="(0,0.5)"/>
+  <rectangle draggable="false" height="3" width="2" center="(2,1.5)"/>
+  <rectangle draggable="false" height="1" width="2" center="(4,0.5)"/>
+</graph>
+    <description>
+      A histogram in which there are two distinct bins that have similar frequencies to each other, but are much higher than the frequencies of the other bins.
+    </description>
+  </figure>
+  <figure name="uniform" suppressFigureNameInCaption>
+<graph  displayYAxis="false" displayXAxis="false" showNavigation="false" showBorder="false" xmin="-6" xmax="6" ymin="-1" ymax="5">
+  <lineSegment draggable="false" endpoints="(-5.5,0) (5.5,0)"/>
+  <rectangle draggable="false" height="2" width="2" center="(-4,1)"/>
+  <rectangle draggable="false" height="2" width="2" center="(-2,1)"/>
+  <rectangle draggable="false" height="2" width="2" center="(0,1)"/>
+  <rectangle draggable="false" height="2" width="2" center="(2,1)"/>
+  <rectangle draggable="false" height="2" width="2" center="(4,1)"/>
+</graph>
+    <description>
+      A histogram in which all bins have equal frequencies.
+    </description>
+  </figure>
+</sideBySide>
+
+<sideBySide>
+  <figure name="rskew" suppressFigureNameInCaption>
+<graph  displayYAxis="false" displayXAxis="false" showNavigation="false" showBorder="false" xmin="-6" xmax="6"  ymin="-1" ymax="5.5">
+  <lineSegment draggable="false" endpoints="(-5.5,0) (5.5,0)"/>
+  <rectangle draggable="false" height="5" width="2" center="(-4,2.5)"/>
+  <rectangle draggable="false" height="4" width="2" center="(-2,2)"/>
+  <rectangle draggable="false" height="3" width="2" center="(0,1.5)"/>
+  <rectangle draggable="false" height="2" width="2" center="(2,1)"/>
+  <rectangle draggable="false" height="1" width="2" center="(4,0.5)"/>
+</graph>
+    <description>
+      A histogram in which the frequencies of the bins decrease as you move from left to right.
+    </description>
+  </figure>
+  <figure name="lskew" suppressFigureNameInCaption>
+<graph displayYAxis="false" displayXAxis="false" showNavigation="false" showBorder="false" xmin="-6" xmax="6"  ymin="-1" ymax="5.5">
+  <lineSegment draggable="false" endpoints="(-5.5,0) (5.5,0)"/>
+  <rectangle draggable="false" height="1" width="2" center="(-4,0.5)"/>
+  <rectangle draggable="false" height="2" width="2" center="(-2,1)"/>
+  <rectangle draggable="false" height="3" width="2" center="(0,1.5)"/>
+  <rectangle draggable="false" height="4" width="2" center="(2,2)"/>
+  <rectangle draggable="false" height="5" width="2" center="(4,2.5)"/>
+</graph>
+    <description>
+      A histogram in which the frequencies of the bins increase as you move from left to right.
+    </description>
+  </figure>
+</sideBySide>
+
+<figure name="normal" suppressFigureNameInCaption>
+<graph  displayYAxis="false" displayXAxis="false" showNavigation="false" showBorder="false" xmin="-6" xmax="6"  ymin="-1" ymax="5">
+  <lineSegment draggable="false" endpoints="(-5.5,0) (5.5,0)"/>
+  <rectangle draggable="false" height="1" width="2" center="(-4,0.5)"/>
+  <rectangle draggable="false" height="2" width="2" center="(-2,1)"/>
+  <rectangle draggable="false" height="3" width="2" center="(0,1.5)"/>
+  <rectangle draggable="false" height="2" width="2" center="(2,1)"/>
+  <rectangle draggable="false" height="1" width="2" center="(4,0.5)"/>
+</graph>
+  <description>
+      A histogram in which the middle bin has the highest frequency, and the frequencies of bins decrease symmetrically as you move away from the middle bin.
+    </description>
+
+</figure>
+

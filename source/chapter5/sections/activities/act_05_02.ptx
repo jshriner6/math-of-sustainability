@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+    <article xml:id="worksheet">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-5-2-1">
+            <title>Introduction to Frequency Histograms</title>
+    
+            <introduction>
+                <p>
+                    Let's begin by gathering data for a numerical variable. Copy and paste your data for the <q>Height</q> 
+                    variable from our 
+                    <url href="https://colostate-my.sharepoint.com/:x:/g/personal/jshrine_colostate_edu/EZAyJvIdrrVDkWq6b7qyztABC72OXclx7KEF4yUi9A9lnQ?e=tHenoi">shared spreadsheet</url>. 
+                    Copy only numerical values (not the title text).
+                </p>
+            </introduction>
+
+            <interactive label="ch5-interactive-freq-histo-intro" platform="doenetml" width="100%" aspect="1:3">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch5-doenet-freq-histo-intro.doenetml"/>
+                </slate>
+            </interactive>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-5-2-2">
+            <title>Frequency Distributions Part 1</title>
+    
+            <introduction>
+                <p>
+                    In your group, discuss the following questions.
+                    <ul>
+                        <li>How would you describe the shape of the distribution for this variable?</li>
+                        <li>What do you think the shape tells us about student heights in our class?</li>
+                        <li>In what ways might the shape of a distribution be related to predicting the likelihood of a specific outcome? (e.g., If you had to guess the height of a randomly chosen student from our class, what would you guess?)</li>
+                    </ul>
+                </p>
+            </introduction>
+
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-5-2-3">
+            <title>Building Frequency Histograms</title>
+    
+            <introduction>
+                <p>
+                    Use the space below to construct the frequency table and frequency histogram for the remaining two 
+                    variables from our <url href="https://colostate-my.sharepoint.com/:x:/g/personal/jshrine_colostate_edu/EZAyJvIdrrVDkWq6b7qyztABC72OXclx7KEF4yUi9A9lnQ?e=tHenoi">shared spreadsheet</url> 
+                    (<q>Number of Moves</q> and <q>Power Test Score</q>). For each frequency histogram, discuss the 
+                    following questions in your group.
+                    <ul>
+                        <li>How would you describe the shape of the distribution for this variable?</li>
+                        <li>What do you think the shape tells us about this variable's values for students in our class?</li>
+                    </ul>
+                </p>
+            </introduction>
+
+            <interactive label="ch5-interactive-freq-histo-build" platform="doenetml" width="100%" aspect="1:3">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch5-doenet-freq-histo-build.doenetml"/>
+                </slate>
+            </interactive>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-5-2-4">
+            <title>Frequency Distributions Part 2</title>
+    
+            <introduction>
+                <p>
+                    Below are frequency histograms of some common distributions. Use them to discuss the following 
+                    questions in your group.
+                    <ol>
+                        <li>
+                        Identify at least one example of a variable whose distribution would resemble the shape of each distribution below.
+                        </li>
+                        <li>
+                        For each distribution, where do you think the mean and median values for the variable would lie?
+                        </li>
+                    </ol>
+                </p>
+            </introduction>
+
+            <interactive label="ch5-interactive-freq-dist" platform="doenetml" width="100%" aspect="1:2">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch5-doenet-freq-dist.doenetml"/>
+                </slate>
+            </interactive>
+
+
+
+        </worksheet>
+
+        
+
+    </article>
+</pretext>

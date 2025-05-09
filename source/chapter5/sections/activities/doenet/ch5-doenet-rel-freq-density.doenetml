@@ -1,0 +1,51 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_mbpeuRDcV02DssOXvtyy2/_EzPTdMU3uHPh1QWG9U9Qd -->
+
+<callAction actionName="resample" target="y">
+      <label>New Variation</label>
+    </callAction>
+    <setup>
+      <sampleRandomNumbers name="y" assignNames="y1 y2" type="discreteuniform" from="5" to="8" numSamples="2"/>
+      <number name="y3">$y1-4</number>
+      <number name="y4">20-(<sum>$y1 $y2 $y3</sum>)</number>
+    </setup>
+      <tabular top="major" bottom="minor" left="medium" right="medium">
+        <row>
+          <cell>Outcome</cell>
+          <cell>Frequency</cell>
+          <cell>Relative Frequency</cell>
+        </row>
+        <row>
+          <cell><m>0-5</m> ppb</cell>
+          <cell><m>$y1</m></cell>
+          <cell><mathInput name="r1"> <number/></mathInput><answer><award><when>$r1=$y1/20</when></award></answer></cell>
+        </row>
+        <row>
+          <cell><m>5-10</m> ppb</cell>
+          <cell><m>$y3</m></cell>
+          <cell><mathInput name="r2"> <number/></mathInput><answer><award><when>$r2=$y3/20</when></award></answer></cell>
+        </row>
+        <row>
+          <cell><m>10-15</m> ppb</cell>
+          <cell><m>$y2</m></cell>
+          <cell><mathInput name="r3"> <number/></mathInput><answer><award><when>$r3=$y2/20</when></award></answer></cell>
+        </row>
+        <row>
+          <cell><m>15-20</m> ppb</cell>
+          <cell><m>$y4</m></cell>
+          <cell><mathInput name="r4"> <number/></mathInput><answer><award><when>$r4=$y4/20</when></award></answer></cell>
+        </row>
+      </tabular>
+      <hint><title>Density Histogram</title>
+        The density histogram is as follows:
+        <graph  displayYAxis="true" displayXAxis="false" showNavigation="false" showBorder="false" xmin="-1" xmax="10"  ymin="-.01" ymax="0.12">
+          <lineSegment draggable="false" endpoints="(-1,0) (10,0)"/>
+          <rectangle draggable="false" height="$y1/100" width="2" center="(1,$y1/200)"/>
+          <rectangle draggable="false" height="$y3/100" width="2" center="(3,$y3/200)"/>
+          <rectangle draggable="false" height="$y2/100" width="2" center="(5,$y2/200)"/>
+          <rectangle draggable="false" height="$y4/100" width="2" center="(7,$y4/200)"/>
+          <m anchor="(1,-.0075)">0-5</m>
+          <m anchor="(3,-.0075)">5-10</m>
+          <m anchor="(5,-.0075)">10-15</m>
+          <m anchor="(7,-.0075)">15-20</m>
+         </graph>
+      </hint>

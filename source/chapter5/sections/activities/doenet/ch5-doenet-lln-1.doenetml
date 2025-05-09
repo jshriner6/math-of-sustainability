@@ -1,0 +1,75 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_mbpeuRDcV02DssOXvtyy2/_EzPTdMU3uHPh1QWG9U9Qd -->
+
+
+<ol>
+      <li>
+        In the random experiment of flipping a coin, what is the sample space? What is the probability of each outcome in the sample space?
+        <solution>
+          The sample space is the outcomes <q>flipping heads</q> and <q>flipping tails</q>. The probability of each outcome is <m>0.5</m> (<m>50\%</m>).
+        </solution>
+      </li>
+      <li>
+        <p>
+        Let's pretend for a moment that we wanted to verify that the coin was, in fact, a fair coin. One approach would be to approximate the probabilities of each outcome by flipping the coin several times and obtaining a density histogram, as we did above. Instead of having you actually flip the coin multiple times, we can simulate the process using the following interactive. A <q><m>0</m></q> means we flipped a heads, while a <q><m>1</m></q> means we flipped a tails. Use the program to flip your coin twice and verify the density histogram looks as you'd expect.
+        </p>
+        <p>
+        How many times would you like to flip the coin? <m>N=</m> <mathInput name="n0"/>
+<round name="n" hide><clampNumber lowerValue="2" upperValue="1000" >$n0</clampNumber></round>
+        </p>
+<p hide="($n=$n0)or($n.text=NaN)">  
+  <em>*Using the sample value <m><number>$n</number></m> instead of $n0.</em>
+</p>
+<p>
+Results of your flips:
+<asList>
+  <sampleRandomNumbers type="discreteUniform" name="x" from="0" to="1" numSamples="$n"/>
+</asList>
+</p>
+
+<graph name="zero" hide>
+  <map>
+    <template>
+      <conditionalContent>
+        <case condition="$x[$i]=0">
+          <point>($i,0)</point> 
+        </case>
+      </conditionalContent>
+    </template>
+    <sources indexAlias="i"><sequence from="1" to="$n"/></sources>
+  </map>
+</graph>
+
+<number name="freq0" valueOnNaN="0" hide>
+  <count>
+    <collect source="zero" componentTypes="point"/>
+  </count>
+</number>
+
+<number name="freq1" hide>$n-$freq0</number>
+
+<number name="ymax" hide><max>$freq0 $freq1</max>+$n/4</number>
+
+<graph displayYAxis="true" displayXAxis="false" showNavigation="false" showBorder="false" xmin="-1" xmax="10" ymin="-0.075" ymax="$ymax/$n">
+  <lineSegment draggable="false" endpoints="(-1,0) (10,0)"/>
+  <rectangle draggable="false" height="$freq0/$n" width="4" center="(2,$freq0/(2*$n))"/>
+  <rectangle draggable="false" height="$freq1/$n" width="4" center="(6,$freq1/(2*$n))"/>
+  <text draggable="false" anchor="(2, -0.05)">0 -- 1 (Heads)</text>
+  <text draggable="false" anchor="(6, -0.05)">1 -- 2 (Tails)</text>
+  <number draggable="false" anchor="(2, $freq0/(2*$n))">$freq0/$n</number>
+  <number draggable="false" anchor="(6, $freq1/(2*$n))">$freq1/$n</number>
+  <m draggable="false" anchor="(4,$ymax/$n-0.1)">N=$n</m>
+</graph>
+      </li>
+      <li>
+        If you did not get one heads and one tails after flipping twice, do you think this means the coin is not fair? Why or why not?
+      </li>
+      <li>
+        Now flip your coin <m>10</m> times. Discuss how your results compare to the others in your group. 
+      </li>
+      <li>
+        Repeat this process for flipping your coin <m>50</m>, <m>100</m>, <m>500</m>, and <m>1,000</m> times (be patient on this last one -- that's a lot of flips!). Do your observations change for how your results compare to others in your group as you increase the number of flips? Explain.
+      </li>
+      <li>
+        Enter your relative frequency of heads for <m>1,000</m> flips in <ref uri= "https://colostate-my.sharepoint.com/:x:/g/personal/jshrine_colostate_edu/EQJX23mh_ZRJrlm5AH0XrVcBuoK0N7IlcQ-fhzmd8YTRXg?e=ssdZHc">this shared spreadsheet</ref>.
+      </li>
+    </ol>

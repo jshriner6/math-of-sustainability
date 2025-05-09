@@ -1,0 +1,89 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_mbpeuRDcV02DssOXvtyy2/_EzPTdMU3uHPh1QWG9U9Qd -->
+
+<p>
+    How many times would you like to sample one liter of water? <m>N=</m> <mathInput name="m0"/>
+    </p>
+<round name="m" hide><clampNumber lowerValue="2" upperValue="500" >$m0</clampNumber></round>
+<p hide="($m=$m0)or($m.text=NaN)">  
+  <em>*Using the sample value <m><number>$m</number></m> instead of $m0.</em>
+</p>
+<p>
+Concentrations of your samples:
+<asList>
+  <sampleRandomNumbers type="gaussian" name="z" mean="13" from="0" to="20" standardDeviation="3" numSamples="$m"/>
+</asList>
+</p>
+
+<graph name="zero1" hide>
+  <map>
+    <template>
+      <conditionalContent>
+        <case condition="0<= $z[$i] < 5">
+          <point>($i,0)</point> 
+        </case>
+      </conditionalContent>
+    </template>
+    <sources indexAlias="i"><sequence from="1" to="$m"/></sources>
+  </map>
+</graph>
+<graph name="one" hide>
+  <map>
+    <template>
+      <conditionalContent>
+        <case condition="5<= $z[$i] < 10">
+          <point>($i,0)</point> 
+        </case>
+      </conditionalContent>
+    </template>
+    <sources indexAlias="i"><sequence from="1" to="$m"/></sources>
+  </map>
+</graph>
+<graph name="two" hide>
+  <map>
+    <template>
+      <conditionalContent>
+        <case condition="10<= $z[$i] < 15">
+          <point>($i,0)</point> 
+        </case>
+      </conditionalContent>
+    </template>
+    <sources indexAlias="i"><sequence from="1" to="$m"/></sources>
+  </map>
+</graph>
+
+<number name="freq00" valueOnNaN="0" hide>
+  <count>
+    <collect source="zero1" componentTypes="point"/>
+  </count>
+</number>
+<number name="freq11" valueOnNaN="0" hide>
+  <count>
+    <collect source="one" componentTypes="point"/>
+  </count>
+</number>
+<number name="freq2" valueOnNaN="0" hide>
+  <count>
+    <collect source="two" componentTypes="point"/>
+  </count>
+</number>
+
+<number name="freq3" hide>$m-($freq00 + $freq11 + $freq2)</number>
+
+<number name="ymax1" hide><max>$freq00 $freq11 $freq2 $freq3</max>+$m/4</number>
+
+<graph displayYAxis="true" displayXAxis="false" showNavigation="false" showBorder="false" xmin="-1" xmax="10" ymin="-0.01" ymax="$ymax1/(5*$m)">
+  <lineSegment draggable="false" endpoints="(-1,0) (10,0)"/>
+  <rectangle draggable="false" height="$freq00/(5*$m)" width="2" center="(1,$freq00/(10*$m))"/>
+  <rectangle draggable="false" height="$freq11/(5*$m)" width="2" center="(3,$freq11/(10*$m))"/>
+  <rectangle draggable="false" height="$freq2/(5*$m)" width="2" center="(5,$freq2/(10*$m))"/>
+  <rectangle draggable="false" height="$freq3/(5*$m)" width="2" center="(7,$freq3/(10*$m))"/>
+  <text draggable="false" anchor="(1, -0.0075)">0 -- 5</text>
+  <text draggable="false" anchor="(3, -0.0075)">5 -- 10</text>
+  <text draggable="false" anchor="(5, -0.0075)">10 -- 15</text>
+  <text draggable="false" anchor="(7, -0.0075)">15 -- 20</text>
+  <number draggable="false" anchor="(1, $freq00/(10*$m))">$freq00/(5*$m)</number>
+  <number draggable="false" anchor="(3, $freq11/(10*$m))">$freq11/(5*$m)</number>
+  <number draggable="false" anchor="(5, $freq2/(10*$m))">$freq2/(5*$m)</number>
+  <number draggable="false" anchor="(7, $freq3/(10*$m))">$freq3/(5*$m)</number>
+  <m draggable="false" anchor="(4,$ymax1/(5*$m)-0.01)">N=$m</m>
+</graph>

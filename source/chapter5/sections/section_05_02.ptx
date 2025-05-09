@@ -36,23 +36,34 @@
             is one standard visual representation for distributions of a numerical variable, which we will illustrate next. 
         </p>
 
-        <!-- <xi:include href="./activities/act_05_02.ptx" xpointer="worksheet/1"/> -->
+    </paragraphs>
+
+    <xi:include href="./activities/act_05_02.ptx" xpointer="worksheet/1"/>
+
+    <xi:include href="./activities/act_05_02.ptx" xpointer="worksheet/2"/>
+
+    <paragraphs><title>Back to work...</title>
+        <!--  -->
 
     </paragraphs>
 
-    <!-- <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/2"/> -->
+    <xi:include href="./activities/act_05_02.ptx" xpointer="worksheet/3"/>
 
     <paragraphs><title>Back to work...</title>
 
-        <!-- <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/3"/> -->
-
-    </paragraphs>
-
-    <paragraphs><title>Back to work...</title>
-
-        <!-- <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/4"/> -->
+        <!--  -->
          
     </paragraphs>
+
+    <xi:include href="./activities/act_05_02.ptx" xpointer="worksheet/4"/>
+
+    <remark><title>Terminology</title>
+                <p>The top left distribution is called a <term>bimodal distribution</term>.</p>
+                <p>The top right distribution is called a <term>uniform distribution</term>.</p>
+                <p>The middle left distribution is said to have a <term>right skew</term>.</p>
+                <p>The middle right distribution is said to have a <term>left skew</term>.</p>
+                <p>The bottom distribution is called a <term>normal distribution</term>.</p>
+    </remark>
 
     <conclusion><title>Reflection</title>
         <p>

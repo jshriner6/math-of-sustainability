@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+    <article xml:id="worksheet">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-5-4-1">
+            <title>Introduction to Density Histograms</title>
+    
+            <introduction>
+                <p>
+                   A density histogram is a histogram which communicates the relative frequencies (e.g., <m>0.50</m>) 
+                   instead of the actual frequencies (e.g., <m>10</m>). A density histogram for our example of <m>20</m> one 
+                   liter samples is below.  
+                </p>
+            </introduction>
+            
+            <interactive label="ch5-interactive-density-intro" platform="doenetml" width="100%" aspect="1:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch5-doenet-density-intro.doenetml"/>
+                </slate>
+            </interactive>
+
+            <exercise>
+                <statement>
+                    <p>
+                        In your group, answer the following question: how are the relative frequencies of each outcome 
+                        being communicated in the histogram?
+                    </p>
+                </statement>
+                <hint>
+                    <p>
+                    What is the area of each rectangle in the histogram? What is the sum of the areas of all of the 
+                    rectangles in the histogram?
+                    </p>
+                </hint>
+            </exercise>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-5-4-2">
+            <title>Using Relative Frequencies to Create Density Histograms</title>
+    
+            <introduction>
+                <p>
+                   Suppose you and your group collect <m>20</m> new samples, given by the table below. Compute the relative 
+                   frequencies of each outcome. Then create a frequency histogram and a density histogrm for the data.   
+                </p>
+            </introduction>
+
+            <interactive label="ch5-interactive-rel-freq-density" platform="doenetml" width="100%" aspect="1:1.5">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch5-doenet-rel-freq-density.doenetml"/>
+                </slate>
+            </interactive>
+
+            <page>
+                <exercise workspace="2in">
+                    <statement>
+                        <p>
+                            Choose new variations of the problem with the <q>New Variation</q> button. Before moving on, do at least 
+                   2 different variations, and write down an explanation for how to compute the relative frequency of 
+                   an outcome and create a density histogram as if you were explaining it to someone new.
+                        </p>
+                    </statement>
+                    
+                </exercise>
+                <exercise workspace="2in">
+                    <statement>
+                        <p>
+                            Do you think the shapes of the frequency histograms are related to the shapes of density histograms?
+                        </p>
+                    </statement>
+                    
+                </exercise>
+            </page>
+
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-5-4-3">
+            <title>Law of Large Numbers Part 1</title>
+    
+            <introduction>
+                <p>
+                     Let's first explore a random experiment that we are already familiar with: flipping a fair coin. 
+                     Use the interactive provided to answer the questions below and discuss in your group.
+                </p>
+            </introduction>
+
+            <interactive label="ch5-interactive-lln-1" platform="doenetml" width="100%" aspect="1:2.25">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch5-doenet-lln-1.doenetml"/>
+                </slate>
+            </interactive>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-5-4-4">
+            <title>Law of Large Numbers Part 2</title>
+    
+            <introduction>
+                <p>
+                   Below is another interactive which allows you to (virtually) collect water samples from a reservoir, 
+                   and returns the concentration of arsenic (in ppb) of your samples, as well as a density histogram of 
+                   your samples. In your group, use the interactive along with the Law of Large Numbers to write a 
+                   statement regarding your opinion about the arsenic levels in the reservoir. 
+                   According to the Environmental Protection Agency, <url href="https://www.epa.gov/dwreginfo/drinking-water-arsenic-rule-history">arsenic levels in drinking water should be less than <m>10</m> ppb</url>.  
+                </p>
+            </introduction>
+
+            <interactive label="ch5-interactive-lln-2" platform="doenetml" width="100%" aspect="1:1.25">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch5-doenet-lln-2.doenetml"/>
+                </slate>
+            </interactive>
+
+        </worksheet>
+
+
+    </article>
+</pretext>

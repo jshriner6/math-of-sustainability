@@ -1,0 +1,112 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_y5rBHkW9dpwsR6lt0HALL/_we9Do9Ism8qDeaq2mNmuC -->
+
+
+<!--Change minNumRows="20" to minNumRows="N" where N is the maximum number of students you expect in class -->
+    <spreadsheet name="sheet" minNumRows="20" minNumColumns="1"/> 
+<p>
+  Enter the number of entries that are not blank: <textInput name="N"/>
+</p>
+<p>
+  To construct a frequency histogram, we must first start with a <term>frequency table</term>. This is a table which counts the number of times the variable takes a value which is in a specified interval. The intervals are called <term>bins</term>, and have equal length. How many bins to use is generally a choice made by whomever is creating the table, but a general rule of thumb is that the number of bins should equal approximately the square root of the number of entries in your table. We've created the bins for you below, and used 
+</p>
+    <me>\sqrt{$N}=<number>sqrt($N)</number>\approx <round><number>sqrt($N)</number></round> \text{ bins}.</me>
+<p>
+  Fill out the frequency table for your data below. Use the convention that if a value is on the boundary of two different bins, put it in the larger bin (the one with the larger end points). Note that if you've accounted for all of the values, the sum of all frequencies should be the total number of data values.
+</p>
+<setup>
+<map name="map">
+  <template>$sheet.columnA[$i]</template>
+  <sources indexAlias="i">
+    <sequence from="1" to="$N"/>
+  </sources>
+</map>
+
+<round name="ints"><number>sqrt($N)</number></round>
+<number name="len">(<max>$map</max>-<min>$map</min>)/$ints</number>
+
+<map name="bins">
+  <template><number>($j-1)*$len + <min>$map</min></number> -- <number><min>$map</min>+$j*$len</number></template>
+  <sources indexAlias="j">
+    <sequence from="1" to="$ints"/>
+  </sources>
+</map>
+
+  <!--If you have over 100 students, you'll need to add bins -->
+  <numberList name="freq">$b1 $b2 $b3 $b4 $b5 $b6 $b7 $b8 $b9 $b10</numberList>
+
+</setup>
+
+<tabular top="major" bottom="minor" left="medium" right="medium">
+  <row>
+    <cell>Bin</cell>
+    <cell>Frequency</cell>
+  </row>
+  <row>
+    <cell>$bins[1]</cell>
+    <cell><mathInput name="b1"/></cell>
+  </row>
+  <row>
+    <cell>$bins[2]</cell>
+    <cell><mathInput name="b2"/></cell>
+  </row>
+  <row hide="3>$ints">
+    <cell>$bins[3]</cell>
+    <cell><mathInput name="b3"/></cell>
+  </row>
+  <row hide="4>$ints">
+    <cell>$bins[4]</cell>
+    <cell><mathInput name="b4"/></cell>
+  </row>
+  <row hide="5>$ints">
+    <cell>$bins[5]</cell>
+    <cell><mathInput name="b5"/></cell>
+  </row>
+  <row hide="6>$ints">
+    <cell>$bins[6]</cell>
+    <cell><mathInput name="b6"/></cell>
+  </row>
+  <row hide="7>$ints">
+    <cell>$bins[7]</cell>
+    <cell><mathInput name="b7"/></cell>
+  </row>
+  <row hide="8>$ints">
+    <cell>$bins[8]</cell>
+    <cell><mathInput name="b8"/></cell>
+  </row>
+  <row hide="9>$ints">
+    <cell>$bins[9]</cell>
+    <cell><mathInput name="b9"/></cell>
+  </row>
+  <row hide="10>$ints">
+    <cell>$bins[10]</cell>
+    <cell><mathInput name="b10"/></cell>
+  </row> 
+  <!--If you have over 100 students, you'll need to add bins -->
+  <row>
+    <cell>Sum of Frequencies</cell>
+    <!--If you have over 100 students, you'll need to add bins -->
+    <cell><sum><number valueOnNaN="0">$b1</number> <number valueOnNaN="0">$b2</number> <number valueOnNaN="0">$b3</number> <number valueOnNaN="0">$b4</number> <number valueOnNaN="0">$b5</number> <number valueOnNaN="0">$b6</number> <number valueOnNaN="0">$b7</number> <number valueOnNaN="0">$b8</number> <number valueOnNaN="0">$b9</number> <number valueOnNaN="0">$b10</number></sum> (This should equal $N)</cell>
+  </row>
+</tabular>
+
+<p>
+  A frequency histogram has been created below using your frequency table. Note that there is a bar associated to each bin, and the height of each bar corresponds to the frequency of that bin. 
+</p>
+
+    <figure suppressFigureNameInCaption>
+<graph displayYAxis="true" displayXAxis="false" showNavigation="true" showBorder="false" xmin="-$ints-1" xmax="$ints+1" ymin="-2">
+  <line draggable="false">y=0</line>
+  <map>
+    <template>
+      <rectangle draggable="false" height="$freq.numbers[$i]" width="2" center="(-$ints+2*$i-1,$freq.numbers[$i]/2)"/>
+      <text draggable="false" anchor="(-$ints+2*$i-1, -1)">$bins[$i]</text>
+    </template>
+    <sources indexAlias="i">
+      <sequence from="1" to="$ints"/>
+    </sources>
+  </map>
+</graph>
+      <description>
+        A frequency histogram for the data set you entered previously. There is a vertical bar for each bin, and the height of each bar shows the frequency of that bin.
+      </description>
+    </figure>

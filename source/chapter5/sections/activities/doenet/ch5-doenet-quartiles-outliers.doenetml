@@ -1,0 +1,28 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_npKprycpc4Bh4aQyQYxmV/_nxHdJPQLM6INCF5YcdSct -->
+
+<ul>
+      <li>Compute the lower quartile (LQ), upper quartile (UQ), and interquartile range (IQR) of Data Set A.
+        <solution>LQ: <m>3</m>, UQ: <m>8</m>, IQR: <m>5</m></solution>
+      </li>
+      <li>Compute the lower quartile (LQ), upper quartile (UQ), and interquartile range (IQR) of Data Set B.
+        <solution>LQ: <m>5</m>, UQ: <m>6</m>, IQR: <m>1</m></solution>
+      </li>
+      <li>Compute the lower quartile (LQ), upper quartile (UQ), and interquartile range (IQR) of Data Set C.
+        <solution>LQ: <m>1</m>, UQ: <m>1</m>, IQR: <m>0</m></solution>
+      </li>
+      <li>
+        Identify the outliers in each data set.
+        <solution>
+          <p>
+            Data Set A has no outliers.
+          </p>
+          <p>
+            Data Set B has outliers <m>3</m> and <m>8</m>.
+          </p>
+          <p>
+            Data Set C has outlier <m>46</m>.
+          </p>
+        </solution>
+      </li>
+      <li>How could these computations be used to support your previous responses regarding how well each data set is represented by the mean?</li>
+    </ul>

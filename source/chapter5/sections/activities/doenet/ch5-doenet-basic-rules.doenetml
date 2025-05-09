@@ -1,0 +1,26 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_WdVtK7fARwFJwQiYPoRrW/_Jldf2IvegV4nQM9Egep9a -->
+
+<ol>
+      <li>What do you think the probability is of rolling two dice that sum to <m>5</m>? Why?
+        <solution>
+          <m>P(\text{two dice sum to } 5) = \frac{4}{36} = \frac{1}{9}</m>
+        </solution>
+      </li>
+      <li>Make a conjecture for the general rule of the probability of an event of a random experiment happening.
+      </li>
+      <li>What do you think the probability is of rolling two dice that do not sum to <m>5</m>? Why?
+        <solution>
+          <m>P(\text{two dice do not sum to } 5) = 1 - \frac{4}{36} = 1 - \frac{1}{9} = \frac{8}{9}</m>
+        </solution>
+      </li>
+      <li>Make a conjecture for the general rule of the probability of an event of a random experiment not happening. This is called the <term>complement</term> of an event.
+      </li>
+      <li>
+        What do you think the probability is of rolling two dice that sum to <m>5</m> OR multiply to <m>6</m>? Why?
+        <solution>
+          <m>P(\text{two dice sum to } 5 \text{ OR multiply to } 6) = \frac{4}{36} + \frac{4}{36} - \frac{2}{36} = \frac{6}{36} = \frac{1}{6}</m>
+        </solution>
+      </li>
+      <li>Make a conjecture for the general rule of the probability of <q>event A</q> OR <q>event B</q> of a random experiment happening. This is called the <term>union</term> of two events. 
+      </li>
+    </ol>

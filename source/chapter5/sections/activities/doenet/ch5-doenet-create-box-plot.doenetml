@@ -1,0 +1,195 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_npKprycpc4Bh4aQyQYxmV/_nxHdJPQLM6INCF5YcdSct -->
+
+<ul>
+      <li> Create a box plot for the <q>Height</q> variable in our class data set.
+        <line name="l" hide>y=0</line>
+<point name="p" hide>(0,0)
+  <constraints>
+    <constrainTo>$l</constrainTo>
+  </constraints>
+</point>
+<point name="s1" hide>(-5,0)
+  <constraints>
+    <constrainTo>$l</constrainTo>
+  </constraints>
+</point>
+<point name="s2" hide>(5,0)
+  <constraints>
+    <constrainTo>$l</constrainTo>
+  </constraints>
+</point>
+<point name="r01" hide>($r.vertices[1].x,0)
+  <constraints>
+    <constrainTo>$l</constrainTo>
+  </constraints>
+</point>
+<point name="r02" hide>($r.vertices[2].x,0)
+  <constraints>
+    <constrainTo>$l</constrainTo>
+  </constraints>
+</point>
+<point name="m1" hide>(0,$r.height/2)
+  <constraints>
+    <constrainTo>$r</constrainTo>
+  </constraints>
+</point>
+<point name="m2" hide>(0,-$r.height/2)
+  <constraints>
+    <constrainTo>$r</constrainTo>
+  </constraints>
+</point>
+<graph name="g" showNavigation="true" showBorder="false"  displayYAxis="false" aspectRatio="5/2">
+  <rectangle height="5" width="5" name="r" center="$p"/>
+  <lineSegment endpoints="$r01 $s1"/>
+  <lineSegment endpoints="$r02 $s2"/>
+  <lineSegment endpoints="$m1 $m2"/>
+</graph>
+<callAction actionName="addChildren" target="g">
+  <point styleNumber="2">(0,0)
+    <constraints>
+      <constrainTo>$l</constrainTo>
+    </constraints>
+  </point>
+  <label>Add Mean</label>
+</callAction>
+<callAction actionName="addChildren" target="g">
+  <point styleNumber="3">(0,0)
+    <constraints>
+      <constrainTo>$l</constrainTo>
+    </constraints>
+  </point>
+  <label>Add Outlier</label>
+</callAction>
+<callAction actionName="deleteChildren" target="g" number="1">
+  <label>Delete Last Point</label>
+</callAction>
+      </li>
+      <li> Create a box plot for the <q>Number of moves</q> variable in our class data set.
+
+<point name="p1" hide>(0,0)
+  <constraints>
+    <constrainTo>$l</constrainTo>
+  </constraints>
+</point>
+<point name="s11" hide>(-5,0)
+  <constraints>
+    <constrainTo>$l</constrainTo>
+  </constraints>
+</point>
+<point name="s21" hide>(5,0)
+  <constraints>
+    <constrainTo>$l</constrainTo>
+  </constraints>
+</point>
+<point name="r11" hide>($r1.vertices[1].x,0)
+  <constraints>
+    <constrainTo>$l</constrainTo>
+  </constraints>
+</point>
+<point name="r21" hide>($r1.vertices[2].x,0)
+  <constraints>
+    <constrainTo>$l</constrainTo>
+  </constraints>
+</point>
+<point name="m11" hide>(0,$r1.height/2)
+  <constraints>
+    <constrainTo>$r1</constrainTo>
+  </constraints>
+</point>
+<point name="m21" hide>(0,-$r1.height/2)
+  <constraints>
+    <constrainTo>$r1</constrainTo>
+  </constraints>
+</point>
+<graph name="g1" showNavigation="true" showBorder="false"  displayYAxis="false" aspectRatio="5/2">
+  <rectangle height="5" width="5" name="r1" center="$p1"/>
+  <lineSegment endpoints="$r11 $s11"/>
+  <lineSegment endpoints="$r21 $s21"/>
+  <lineSegment endpoints="$m11 $m21"/>
+</graph>
+<callAction actionName="addChildren" target="g1">
+  <point styleNumber="2">(0,0)
+    <constraints>
+      <constrainTo>$l</constrainTo>
+    </constraints>
+  </point>
+  <label>Add Mean</label>
+</callAction>
+<callAction actionName="addChildren" target="g1">
+  <point styleNumber="3">(0,0)
+    <constraints>
+      <constrainTo>$l</constrainTo>
+    </constraints>
+  </point>
+  <label>Add Outlier</label>
+</callAction>
+<callAction actionName="deleteChildren" target="g1" number="1">
+  <label>Delete Last Point</label>
+</callAction>
+
+      </li>
+      <li> Create a box plot for the <q>Power test score</q> variable in our class data set.
+
+<point name="p2" hide>(0,0)
+  <constraints>
+    <constrainTo>$l</constrainTo>
+  </constraints>
+</point>
+<point name="s12" hide>(-5,0)
+  <constraints>
+    <constrainTo>$l</constrainTo>
+  </constraints>
+</point>
+<point name="s22" hide>(5,0)
+  <constraints>
+    <constrainTo>$l</constrainTo>
+  </constraints>
+</point>
+<point name="r12" hide>($r2.vertices[1].x,0)
+  <constraints>
+    <constrainTo>$l</constrainTo>
+  </constraints>
+</point>
+<point name="r22" hide>($r2.vertices[2].x,0)
+  <constraints>
+    <constrainTo>$l</constrainTo>
+  </constraints>
+</point>
+<point name="m12" hide>(0,$r2.height/2)
+  <constraints>
+    <constrainTo>$r2</constrainTo>
+  </constraints>
+</point>
+<point name="m22" hide>(0,-$r2.height/2)
+  <constraints>
+    <constrainTo>$r2</constrainTo>
+  </constraints>
+</point>
+<graph name="g2" showNavigation="true" showBorder="false"  displayYAxis="false" aspectRatio="5/2">
+  <rectangle height="5" width="5" name="r2" center="$p2"/>
+  <lineSegment endpoints="$r12 $s12"/>
+  <lineSegment endpoints="$r22 $s22"/>
+  <lineSegment endpoints="$m12 $m22"/>
+</graph>
+<callAction actionName="addChildren" target="g2">
+  <point styleNumber="2">(0,0)
+    <constraints>
+      <constrainTo>$l</constrainTo>
+    </constraints>
+  </point>
+  <label>Add Mean</label>
+</callAction>
+<callAction actionName="addChildren" target="g2">
+  <point styleNumber="3">(0,0)
+    <constraints>
+      <constrainTo>$l</constrainTo>
+    </constraints>
+  </point>
+  <label>Add Outlier</label>
+</callAction>
+<callAction actionName="deleteChildren" target="g2" number="1">
+  <label>Delete Last Point</label>
+</callAction>
+
+      </li>
+    </ul>

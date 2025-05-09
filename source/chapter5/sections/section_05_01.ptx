@@ -33,11 +33,14 @@
             height in inches), that variable is called <term>numerical</term>. We will focus on understanding data sets 
             with numerical variables.
         </p>
+    </paragraphs>
       
 
-        <!-- <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/1"/> -->
+    <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/1"/>
 
-        <!-- <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/2"/> -->
+    <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/2"/>
+
+    <paragraphs>
 
         <p>
             Each of these questions face a similar challenge: needing to summarize a large group of individual responses 
@@ -76,7 +79,7 @@
         </p>
     </paragraphs>
 
-    <!-- <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/3"/> -->
+   <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/3"/>
 
     <paragraphs><title>Back to work...</title>
         <p>
@@ -88,8 +91,11 @@
               <li><m>1,1,1,1,1,1,1,1,1,46</m></li>
           </ol>
         </p>
+    </paragraphs>
 
-        <!-- <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/4"/> -->
+    <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/4"/>
+    
+    <paragraphs>
 
         <p>
             Besides attempting to describe the center value of a numerical data set, it can also be useful to describe how 
@@ -125,9 +131,10 @@
             </p>
         </definition>
 
-        <!-- <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/5"/> -->
 
     </paragraphs>
+
+    <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/5"/>
 
     <paragraphs><title>Back to work...</title>
         <p>
@@ -137,10 +144,31 @@
             <term>box plot</term>. 
         </p>
 
-        <!-- <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/6"/> -->
     </paragraphs>
 
-    <!-- <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/7"/> -->
+    <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/6"/>
+
+    <remark>
+        <p>
+            The width of the box in a box plot is determined by the interquartile range, and it is positioned to 
+            begin at the lower quartile and end at the upper quartile. 
+        </p>
+        <p>
+            The median is indicated with a vertical line segment inside the box.
+        </p>
+        <p>
+            The mean is indicated with a red sqaure.
+        </p>
+        <p>
+            Horizontal lines are drawn to indicate if there are values in the data set that are not outliers, 
+            but are above or below the upper and lower quartiles.
+        </p>
+        <p>
+            Outliers in the data set are indicated with orange triangles.
+        </p>
+    </remark>
+
+    <xi:include href="./activities/act_05_01.ptx" xpointer="worksheet/7"/>
 
     <conclusion><title>Reflection</title>
         <p>

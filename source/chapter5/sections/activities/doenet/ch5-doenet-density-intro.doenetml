@@ -1,0 +1,18 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_mbpeuRDcV02DssOXvtyy2/_EzPTdMU3uHPh1QWG9U9Qd -->
+
+<figure suppressFigureNameInCaption>
+    <graph  displayYAxis="true" displayXAxis="false" showNavigation="false" showBorder="false" xmin="-1" xmax="10"  ymin="-.01" ymax="0.12">
+  <lineSegment draggable="false" endpoints="(-1,0) (10,0)"/>
+  <rectangle draggable="false" height="0.1" width="2" center="(1,0.05)"/>
+  <rectangle draggable="false" height="0.05" width="2" center="(3,.025)"/>
+  <rectangle draggable="false" height="0.03" width="2" center="(5,.015)"/>
+  <rectangle draggable="false" height="0.02" width="2" center="(7,.01)"/>
+  <m anchor="(1,-.0075)">0-5</m>
+  <m anchor="(3,-.0075)">5-10</m>
+  <m anchor="(5,-.0075)">10-15</m>
+  <m anchor="(7,-.0075)">15-20</m>
+ </graph>
+      <description>
+        A density histogram communicating the relative frequencies from the previous table. The height of the 0 to 5 bin is 0.1, the height of the 5 to 10 bin is 0.05, the height of the 10 to 15 bin is 0.03, and the height of the 15 to 20 bin is 0.02.
+      </description>
+      </figure>

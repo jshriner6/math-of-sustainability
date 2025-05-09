@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+    <article xml:id="worksheet">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-5-3-1">
+            <title>Probability Models</title>
+    
+            <introduction>
+                <p>
+                     In your group, determine a probability model (i.e., the sample space and probabilities of outcomes) for 
+                     each random experiment below.
+                </p>
+            </introduction>
+            <page>
+                <exercise workspace="2in">
+                    <statement>
+                        <p>
+                            Flipping a (fair) quarter
+                        </p>
+                    </statement>
+                    
+                </exercise>
+                <exercise workspace="2in">
+                    <statement>
+                        <p>
+                            Flipping two (fair) quarters
+                        </p>
+                    </statement>
+                    
+                </exercise>
+
+                <exercise workspace="2in">
+                    <statement>
+                        <p>
+                            Flipping a (weighted) quarter in which heads is twice as likely as tails
+                        </p>
+                    </statement>
+                    
+                </exercise>
+                <exercise workspace="2in">
+                    <statement>
+                        <p>
+                            Rolling two (fair) dice
+                        </p>
+                    </statement>
+                    
+                </exercise>
+
+            </page>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-5-3-2">
+            <title>Basic Probability Rules</title>
+    
+            <introduction>
+                <p>
+                    In your group, discuss the following questions related to the random experiment of rolling 
+                    two (fair) six-sided dice.
+                </p>
+            </introduction>
+
+            <interactive label="ch5-interactive-basic-rules" platform="doenetml" width="100%" aspect="1:1.25">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch5-doenet-basic-rules.doenetml"/>
+                </slate>
+            </interactive>
+
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-5-3-3">
+            <title>Using Probability Rules</title>
+    
+            <introduction>
+                <p>
+                    We will now practice computing probabilites using the rules we've just established. Use the probability 
+                    models provided to answer each question. 
+                </p>
+            </introduction>
+
+            <interactive label="ch5-interactive-using-rules" platform="doenetml" width="100%" aspect="1:2.5">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch5-doenet-using-rules.doenetml"/>
+                </slate>
+            </interactive>
+
+        </worksheet>
+
+        
+
+        
+
+    </article>
+</pretext>

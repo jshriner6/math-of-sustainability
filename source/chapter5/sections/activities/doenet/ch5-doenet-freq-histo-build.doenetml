@@ -1,0 +1,215 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_y5rBHkW9dpwsR6lt0HALL/_we9Do9Ism8qDeaq2mNmuC -->
+
+<ol>
+      <li><p>Number of Moves</p>
+        <!--Change minNumRows="20" to minNumRows="N" where N is the maximum number of students you expect in class -->
+        <spreadsheet name="sheet1" minNumRows="20" minNumColumns="1"/>
+<p>
+  Enter the number of entries that are not blank: <textInput name="N1"/>
+</p>
+<p>
+  Fill out the frequency table for your data below. Use the convention that if a value is on the boundary of two different bins, put it in the larger bin (the one with the larger end points). Note that if you've accounted for all of the values, the sum of all frequencies should be the total number of data values.
+</p>
+<setup>
+<map name="map1">
+  <template>$sheet1.columnA[$i]</template>
+  <sources indexAlias="i">
+    <sequence from="1" to="$N1"/>
+  </sources>
+</map>
+
+<round name="ints1"><number>sqrt($N1)</number></round>
+<number name="len1">(<max>$map1</max>-<min>$map1</min>)/$ints1</number>
+
+<map name="bins1">
+  <template><number>($j-1)*$len1 + <min>$map1</min></number> -- <number><min>$map1</min>+$j*$len1</number></template>
+  <sources indexAlias="j">
+    <sequence from="1" to="$ints1"/>
+  </sources>
+</map>
+<!--If you have over 100 students, you'll need to add bins -->
+  <numberList name="freq1">$b11 $b21 $b31 $b41 $b51 $b61 $b71 $b81 $b91 $b101</numberList>
+
+</setup>
+
+<tabular top="major" bottom="minor" left="medium" right="medium">
+  <row>
+    <cell>Bin</cell>
+    <cell>Frequency</cell>
+  </row>
+  <row>
+    <cell>$bins1[1]</cell>
+    <cell><mathInput name="b11"/></cell>
+  </row>
+  <row>
+    <cell>$bins1[2]</cell>
+    <cell><mathInput name="b21"/></cell>
+  </row>
+  <row hide="3>$ints1">
+    <cell>$bins1[3]</cell>
+    <cell><mathInput name="b31"/></cell>
+  </row>
+  <row hide="4>$ints1">
+    <cell>$bins1[4]</cell>
+    <cell><mathInput name="b41"/></cell>
+  </row>
+  <row hide="5>$ints1">
+    <cell>$bins1[5]</cell>
+    <cell><mathInput name="b51"/></cell>
+  </row>
+  <row hide="6>$ints1">
+    <cell>$bins1[6]</cell>
+    <cell><mathInput name="b61"/></cell>
+  </row>
+  <row hide="7>$ints1">
+    <cell>$bins1[7]</cell>
+    <cell><mathInput name="b71"/></cell>
+  </row>
+  <row hide="8>$ints1">
+    <cell>$bins1[8]</cell>
+    <cell><mathInput name="b81"/></cell>
+  </row>
+  <row hide="9>$ints1">
+    <cell>$bins1[9]</cell>
+    <cell><mathInput name="b91"/></cell>
+  </row>
+  <row hide="10>$ints1">
+    <cell>$bins1[10]</cell>
+    <cell><mathInput name="b101"/></cell>
+  </row>
+  <!--If you have over 100 students, you'll need to add bins -->
+  <row>
+    <cell>Sum of Frequencies</cell>
+    <!--If you have over 100 students, you'll need to add bins -->
+    <cell><sum><number valueOnNaN="0">$b11</number> <number valueOnNaN="0">$b21</number> <number valueOnNaN="0">$b31</number> <number valueOnNaN="0">$b41</number> <number valueOnNaN="0">$b51</number> <number valueOnNaN="0">$b61</number> <number valueOnNaN="0">$b71</number> <number valueOnNaN="0">$b81</number> <number valueOnNaN="0">$b91</number> <number valueOnNaN="0">$b101</number></sum> (This should equal $N1)</cell>
+  </row>
+</tabular>
+
+<p>
+  A frequency histogram has been created below using your frequency table. Note that there is a bar associated to each bin, and the height of each bar corresponds to the frequency of that bin. 
+</p>
+<figure suppressFigureNameInCaption>
+<graph displayYAxis="true" displayXAxis="false" showNavigation="true" showBorder="false" xmin="-$ints1-1" xmax="$ints1+1" ymin="-2">
+  <line draggable="false">y=0</line>
+  <map>
+    <template>
+      <rectangle draggable="false" height="$freq1.numbers[$i]" width="2" center="(-$ints1+2*$i-1,$freq1.numbers[$i]/2)"/>
+      <text draggable="false" anchor="(-$ints1+2*$i-1, -1)">$bins1[$i]</text>
+    </template>
+    <sources indexAlias="i">
+      <sequence from="1" to="$ints1"/>
+    </sources>
+  </map>
+</graph>
+  <description>
+        A frequency histogram for the data set you entered previously. There is a vertical bar for each bin, and the height of each bar shows the frequency of that bin.
+      </description>
+</figure>
+      </li>
+      <li><p>Power Test Score</p>
+        <!--Change minNumRows="20" to minNumRows="N" where N is the maximum number of students you expect in class -->
+        <spreadsheet name="sheet2" minNumRows="20" minNumColumns="1"/>
+<p>
+  Enter the number of entries that are not blank: <textInput name="N2"/>
+</p>
+<p>
+  Fill out the frequency table for your data below. Use the convention that if a value is on the boundary of two different bins, put it in the larger bin (the one with the larger end points). Note that if you've accounted for all of the values, the sum of all frequencies should be the total number of data values.
+</p>
+<setup>
+<map name="map2">
+  <template>$sheet2.columnA[$i]</template>
+  <sources indexAlias="i">
+    <sequence from="1" to="$N2"/>
+  </sources>
+</map>
+
+<round name="ints2"><number>sqrt($N2)</number></round>
+<number name="len2">(<max>$map2</max>-<min>$map2</min>)/$ints2</number>
+
+<map name="bins2">
+  <template><number>($j-1)*$len2 + <min>$map2</min></number> -- <number><min>$map2</min>+$j*$len2</number></template>
+  <sources indexAlias="j">
+    <sequence from="1" to="$ints2"/>
+  </sources>
+</map>
+<!--If you have over 100 students, you'll need to add bins -->
+  <numberList name="freq2">$b12 $b22 $b32 $b42 $b52 $b62 $b72 $b82 $b92 $b102</numberList>
+
+</setup>
+
+<tabular top="major" bottom="minor" left="medium" right="medium">
+  <row>
+    <cell>Bin</cell>
+    <cell>Frequency</cell>
+  </row>
+  <row>
+    <cell>$bins2[1]</cell>
+    <cell><mathInput name="b12"/></cell>
+  </row>
+  <row>
+    <cell>$bins2[2]</cell>
+    <cell><mathInput name="b22"/></cell>
+  </row>
+  <row hide="3>$ints2">
+    <cell>$bins2[3]</cell>
+    <cell><mathInput name="b32"/></cell>
+  </row>
+  <row hide="4>$ints2">
+    <cell>$bins2[4]</cell>
+    <cell><mathInput name="b42"/></cell>
+  </row>
+  <row hide="5>$ints2">
+    <cell>$bins2[5]</cell>
+    <cell><mathInput name="b52"/></cell>
+  </row>
+  <row hide="6>$ints2">
+    <cell>$bins2[6]</cell>
+    <cell><mathInput name="b62"/></cell>
+  </row>
+  <row hide="7>$ints2">
+    <cell>$bins2[7]</cell>
+    <cell><mathInput name="b72"/></cell>
+  </row>
+  <row hide="8>$ints2">
+    <cell>$bins2[8]</cell>
+    <cell><mathInput name="b82"/></cell>
+  </row>
+  <row hide="9>$ints2">
+    <cell>$bins2[9]</cell>
+    <cell><mathInput name="b92"/></cell>
+  </row>
+  <row hide="10>$ints2">
+    <cell>$bins2[10]</cell>
+    <cell><mathInput name="b102"/></cell>
+  </row>
+  <!--If you have over 100 students, you'll need to add bins -->
+  <row>
+    <cell>Sum of Frequencies</cell>
+    <!--If you have over 100 students, you'll need to add bins -->
+    <cell><sum><number valueOnNaN="0">$b12</number> <number valueOnNaN="0">$b22</number> <number valueOnNaN="0">$b32</number> <number valueOnNaN="0">$b42</number> <number valueOnNaN="0">$b52</number> <number valueOnNaN="0">$b62</number> <number valueOnNaN="0">$b72</number> <number valueOnNaN="0">$b82</number> <number valueOnNaN="0">$b92</number> <number valueOnNaN="0">$b102</number></sum> (This should equal $N2)</cell>
+  </row>
+</tabular>
+
+<p>
+  A frequency histogram has been created below using your frequency table. Note that there is a bar associated to each bin, and the height of each bar corresponds to the frequency of that bin. 
+</p>
+
+        <figure suppressFigureNameInCaption>
+<graph displayYAxis="true" displayXAxis="false" showNavigation="true" showBorder="false" xmin="-$ints2-1" xmax="$ints2+1" ymin="-2">
+  <line draggable="false">y=0</line>
+  <map>
+    <template>
+      <rectangle draggable="false" height="$freq2.numbers[$i]" width="2" center="(-$ints2+2*$i-1,$freq2.numbers[$i]/2)"/>
+      <text draggable="false" anchor="(-$ints2+2*$i-1, -1)">$bins2[$i]</text>
+    </template>
+    <sources indexAlias="i">
+      <sequence from="1" to="$ints2"/>
+    </sources>
+  </map>
+</graph>
+          <description>
+        A frequency histogram for the data set you entered previously. There is a vertical bar for each bin, and the height of each bar shows the frequency of that bin.
+      </description>
+        </figure>
+      </li>
+    </ol>

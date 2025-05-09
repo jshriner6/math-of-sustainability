@@ -71,7 +71,7 @@
         </p>
       </paragraphs>
 
-      <!-- <xi:include href="./activities/act_05_03.ptx" xpointer="worksheet/1"/> -->
+      <xi:include href="./activities/act_05_03.ptx" xpointer="worksheet/1"/>
 
       <paragraphs><title>Back to work...</title>
         <p>
@@ -80,8 +80,11 @@
             fair six-sided dice?). We will discover some basic rules we can use to answer these questions using the 
             probablities of outcomes from a probability model.
         </p>
+    </paragraphs>
 
-        <!-- <xi:include href="./activities/act_05_03.ptx" xpointer="worksheet/2"/> -->
+    <xi:include href="./activities/act_05_03.ptx" xpointer="worksheet/2"/>
+
+    <paragraphs>
 
         <p>
             There is also a general rule for the probability of <q>event A</q> AND <q>event B</q> of a random experiment 
@@ -116,7 +119,7 @@
         </p>
       </paragraphs>
 
-      <!-- <xi:include href="./activities/act_05_03.ptx" xpointer="worksheet/2"/> -->
+      <xi:include href="./activities/act_05_03.ptx" xpointer="worksheet/3"/>
 
       <conclusion><title>Reflection</title>
         <p>

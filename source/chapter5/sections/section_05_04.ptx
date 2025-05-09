@@ -95,8 +95,12 @@
             Notice that the sum of the frequencies is the total number of samples, and the sum of the relative frequencies is 
             <m>1</m> (<m>100 \%</m>).
           </p>
+        </paragraphs>
+        
 
-          <!-- <xi:include href="./activities/act_05_04.ptx" xpointer="worksheet/1"/> -->
+        <xi:include href="./activities/act_05_04.ptx" xpointer="worksheet/1"/>
+
+        <paragraphs>
 
           <p>
             A common misinterpretation of density histograms is to read the height of each rectangle as the relative 
@@ -105,8 +109,10 @@
             rectangles. 
           </p>
 
-          <!-- <xi:include href="./activities/act_05_04.ptx" xpointer="worksheet/2"/> -->
+          <!--  -->
       </paragraphs>
+
+      <xi:include href="./activities/act_05_04.ptx" xpointer="worksheet/2"/>
 
       <paragraphs><title>Back to work...</title>
         <p>
@@ -116,17 +122,18 @@
             we have about the outcomes in our sample space. This intuition can be confirmed and made more precise with the 
             <term>Law of Large Numbers</term>, which we will illustrate below with several examples.
         </p>
+      </paragraphs>
 
-        <!-- <xi:include href="./activities/act_05_04.ptx" xpointer="worksheet/3"/> -->
+      <xi:include href="./activities/act_05_04.ptx" xpointer="worksheet/3"/>
 
-        <remark>
-            <p>
+      <remark>
+          <p>
                 The shared spreadsheet illustrates another important fact in probability called the Central Limit Theorem. 
                 Intuitively, it says that for large sample sizes, the distribution of the averages of those samples is normally 
                 distributed with a mean approximately equal to the true mean.
-            </p>
-        </remark>
-    </paragraphs>
+          </p>
+      </remark>
+
 
     <paragraphs><title>Back to work...</title>
         <p>
@@ -142,9 +149,9 @@
             a reservoir. 
         </p>
 
-        <!-- <xi:include href="./activities/act_05_04.ptx" xpointer="worksheet/4"/> -->
-
     </paragraphs>
+
+    <xi:include href="./activities/act_05_04.ptx" xpointer="worksheet/4"/>
 
     <conclusion><title>Reflection</title>
         <p>

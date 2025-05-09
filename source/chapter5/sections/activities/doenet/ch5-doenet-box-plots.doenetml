@@ -1,0 +1,32 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_npKprycpc4Bh4aQyQYxmV/_nxHdJPQLM6INCF5YcdSct -->
+
+<figure suppressFigureNameInCaption>
+      <graph showNavigation="false" showBorder="false"  displayYAxis="false" xmin="-2" xmax="12" ymax="3" ymin="-3" aspectRatio="5/2">
+        <rectangle height="3" width="5" center="(5.5,0)" draggable="false"/>
+        <lineSegment endpoints="(3,0) (1,0)" draggable="false"/>
+        <lineSegment endpoints="(8,0) (10,0)" draggable="false"/>
+        <lineSegment endpoints="(5.5,1.5) (5.5,-1.5)" draggable="false"/>
+        <point draggable="false" styleNumber="2">(5.5,0)</point>
+      </graph>
+      <caption>The box plot for Data Set A.</caption>
+      <description>
+        The box plot for Data Set A. The mean value is indicated with a red square at 5.5, the median value is indicated with a vertical line at 5.5, the width of the box shows the interquartile range of 5 (from 3 to 8), and the lines extending from the box show the minimum and maximum values in the set of 1 and 10, respectively.
+      </description>
+    </figure>
+    <figure suppressFigureNameInCaption>
+      <graph showNavigation="false" showBorder="false"  displayYAxis="false" xmin="-2" xmax="12" ymax="3" ymin="-3" aspectRatio="5/2">
+        <rectangle height="3" width="1" center="(5.5,0)" draggable="false"/>
+        <!--
+        <lineSegment endpoints="(5,0) (3,0)" draggable="false"/>
+        <lineSegment endpoints="(6,0) (8,0)" draggable="false"/>
+        -->
+        <lineSegment endpoints="(5.5,1.5) (5.5,-1.5)" draggable="false"/>
+        <point draggable="false" styleNumber="2">(5.5,0)</point>
+        <point draggable="false" styleNumber="3">(3,0)</point>
+        <point draggable="false" styleNumber="3">(8,0)</point>
+      </graph>
+      <caption>The box plot for Data Set B.</caption>
+      <description>
+        The box plot for Data Set B. The mean value is indicated with a red square at 5.5, the median value is indicated with a vertical line at 5.5, the width of the box shows the interquartile range of 1 (from 5 to 6), and the outliers of 3 and 8 are shown with orange triangles.
+      </description>
+    </figure>

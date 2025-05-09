@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+    <article xml:id="worksheet">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-5-1-1">
+            <title>Data Collection</title>
+    
+            <introduction>
+                <p>
+                    First we will work together to generate a data set for our class. We will collect values for three numerical variables.
+                    <ol>
+                        <li><alert>Height</alert>: your height measured in inches</li>
+                        <li><alert>Number of moves</alert>: the number of times you have moved residences</li>
+                        <li><alert>Power test score</alert>: your score on the <url href="https://chs.uky.edu/about/news/alum-ny-times-take-30-second-power-test">the 30 second power test</url>.
+                            <fn>There are modifications available for this test.</fn></li>
+                    </ol>
+                </p>
+                <p>
+                    Enter your data on <url href="https://colostate-my.sharepoint.com/:x:/g/personal/jshrine_colostate_edu/EZAyJvIdrrVDkWq6b7qyztABC72OXclx7KEF4yUi9A9lnQ?e=tHenoi">this shared spreadsheet</url>. 
+                    You do not need to include your name.
+                </p>
+                <p>
+                    Copy and paste the data set from the shared spreadsheet to the spreadsheet below. 
+                    This copy will be for your individual use for the remainder of the activity.
+                </p>
+            </introduction>
+
+            <interactive label="ch5-interactive-data-collect" platform="doenetml" width="100%" aspect="1:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch5-doenet-data-collect.doenetml"/>
+                </slate>
+            </interactive>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-5-1-2">
+            <title>Describing Data Part 1</title>
+    
+            <introduction>
+                <p>
+                    Use the data set to first answer these questions individually, and then discuss your responses as a group.
+                    <ul>
+                        <li>Is our class tall?</li>
+                        <li>Has our class moved a lot?</li>
+                        <li>How does our class perform on the 30 second power test?</li>
+                    </ul>
+                </p>
+            </introduction>
+
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-5-1-3">
+            <title>Describing Data Part 2</title>
+    
+            <introduction>
+                <p>
+                    Practice using these commands in your spreadsheet to compute the mean and median for each of the 
+                    three variables in the data set. In your group, discuss how you might use these values to 
+                    answer the questions from <xref ref="ws-5-1-2"/>.
+                </p>
+            </introduction>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-5-1-4">
+            <title>Analyzing the Mean</title>
+    
+            <introduction>
+                <p>
+                    Discuss the following questions in your groups regarding the data sets A, B, and C.
+                    <ol>
+                        <li>Which data set is best described by a mean value of <m>5.5</m>. Why?</li>
+                        <li>For the remaining two data sets, why is the mean value not as good at describing the set of values? 
+                            Does the median value do better?</li>
+                    </ol>
+                </p>
+            </introduction>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-5-1-5">
+            <title>Quartiles and Outliers</title>
+    
+            <introduction>
+                <p>
+                    Answer the following questions in your group regarding data sets A, B, and C.
+                </p>
+            </introduction>
+
+            <interactive label="ch5-interactive-quartiles-outliers" platform="doenetml" width="100%" aspect="1:1.5">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch5-doenet-quartiles-outliers.doenetml"/>
+                </slate>
+            </interactive>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-5-1-6">
+            <title>Box Plots</title>
+    
+            <introduction>
+                <p>
+                   Examples of box plots for data sets A and B are given below. In your group, discuss how the box 
+                   plots communicate each of the descriptive statistics that we've computed above, 
+                   and how the visual representation is helpful in interpreting these statistics. 
+                </p>
+            </introduction>
+
+            <interactive label="ch5-interactive-box-plots" platform="doenetml" width="100%" aspect="1:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch5-doenet-box-plots.doenetml"/>
+                </slate>
+            </interactive>
+
+
+        </worksheet>
+
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-5-1-7">
+            <title>Creating Box Plots</title>
+    
+            <introduction>
+                <p>
+                    Work in your group using the interactives below to create box plots for each variable we collected data 
+                    for in our class data set.
+                </p>
+            </introduction>
+
+            <interactive label="ch5-interactive-create-box-plot" platform="doenetml" width="100%" aspect="1:1.5">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch5-doenet-create-box-plot.doenetml"/>
+                </slate>
+            </interactive>
+
+        </worksheet>
+
+        
+
+    </article>
+</pretext>

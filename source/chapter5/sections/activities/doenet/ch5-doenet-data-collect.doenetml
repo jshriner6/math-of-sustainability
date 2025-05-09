@@ -1,0 +1,5 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_npKprycpc4Bh4aQyQYxmV/_nxHdJPQLM6INCF5YcdSct -->
+
+
+<spreadsheet name="data" minNumColumns="4" minNumRows="20"/> 
+<!--Change minNumRows="20" to minNumRows="N" where N is the maximum number of students you expect in class -->
