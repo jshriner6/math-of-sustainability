@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<preface xml:id="pref-acknowledgements" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Acknowledgements</title>
+    <p>
+     The general content organization is modeled after the text 
+     <url href="https://link.springer.com/book/10.1007/978-3-319-76660-7">Mathematics for Sustainability</url>, by John Roe, 
+     Russ deForest, and Sara Jamshidi.
+    </p>
+    <p>
+    The current .html version of the text is possible only because of the amazing work of Rob Beezer and his development of 
+    the original Mathbook XML, now known as <url href="https://pretextbook.org/" visual="pretextbook.org">PreTeXt</url>.
+    </p>
+    <p>
+    The interactive components were made possible by utilizing <url href="https://www.doenet.org/">Doenet</url>. I'm thankful
+    to Duane Nykamp and the many contributors from the mathematics community for their work on this resource.
+    </p>
+    <p>
+    Finally, I am grateful to Steve Benoit for providing input and feedback throughout the process of developing the course
+    and its resources.
+    </p>
+</preface>
