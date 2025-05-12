@@ -328,9 +328,30 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-06.html" class="internal"><span class="codenumber">6</span> <span class="title">Deciding</span></a></div>
 <ul class="structural toc-item-list contains-active">
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-6-1.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Game Theory</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-6-2.html" class="internal"><span class="codenumber">6.2</span> <span class="title">The Commons</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-6-3.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Values and Ethics</span></a></div></li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-6-1.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Game Theory</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-6-1.html#ws-6-1-1" class="internal"><span class="codenumber">6.1</span> <span class="title">Analyzing a Payoff Matrix</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-6-1.html#ws-6-1-2" class="internal"><span class="codenumber">6.1</span> <span class="title">The Prisoner’s Dilemma</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-6-1.html#ws-6-1-3" class="internal"><span class="codenumber">6.1</span> <span class="title">Dominant Choices</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-6-1.html#ws-6-1-4" class="internal"><span class="codenumber">6.1</span> <span class="title">Nash Equilibria</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-6-2.html" class="internal"><span class="codenumber">6.2</span> <span class="title">The Commons</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-6-2.html#ws-6-2-1" class="internal"><span class="codenumber">6.2</span> <span class="title">Identifying Commons</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-6-2.html#ws-6-2-2" class="internal"><span class="codenumber">6.2</span> <span class="title">Tragedy of the Commons</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-6-2.html#ws-6-2-3" class="internal"><span class="codenumber">6.2</span> <span class="title">Managing the Commons</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-6-3.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Values and Ethics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-6-3.html#ws-6-3-1" class="internal"><span class="codenumber">6.3</span> <span class="title">Individual Statement</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-6-3.html#ws-6-3-2" class="internal"><span class="codenumber">6.3</span> <span class="title">Group Discussion</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -371,28 +392,28 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="sec-6-1-4-8">If the players play the same object, the game would be considered a draw. If we were keep score, we could award a “<span class="process-math">\(+1\)</span>” for a win, a “<span class="process-math">\(-1\)</span>” for a loss, and a “<span class="process-math">\(0\)</span>” for a draw. We can organize all possible outcomes for the game in the following table, where the entries are organized as (Player A’s payoff, Player B’s payoff).</div>
 <figure class="table table-like" id="tab-ch6-payoff"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.1<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
-<th scope="col" class="l m b3 r3 l0 t0 lines">Rock, Paper, Scissors</th>
-<th scope="col" class="l m b3 r0 l0 t0 lines">B plays rock</th>
-<th scope="col" class="l m b3 r0 l0 t0 lines">B plays scissors</th>
-<th scope="col" class="l m b3 r0 l0 t0 lines">B plays paper</th>
+<th scope="col" class="c m b3 r3 l0 t0 lines">Rock, Paper, Scissors</th>
+<th scope="col" class="c m b3 r0 l0 t0 lines">B plays rock</th>
+<th scope="col" class="c m b3 r0 l0 t0 lines">B plays scissors</th>
+<th scope="col" class="c m b3 r0 l0 t0 lines">B plays paper</th>
 </tr>
 <tr>
-<th scope="row" class="l m b0 r3 l0 t0 lines">A plays rock</th>
-<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((0,0)\)</span></td>
-<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((+1,-1)\)</span></td>
-<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((-1,+1)\)</span></td>
+<th scope="row" class="c m b0 r3 l0 t0 lines">A plays rock</th>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((0,0)\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((+1,-1)\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((-1,+1)\)</span></td>
 </tr>
 <tr>
-<th scope="row" class="l m b0 r3 l0 t0 lines">A plays scissors</th>
-<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((-1,+1)\)</span></td>
-<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((0,0)\)</span></td>
-<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((+1,-1)\)</span></td>
+<th scope="row" class="c m b0 r3 l0 t0 lines">A plays scissors</th>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((-1,+1)\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((0,0)\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((+1,-1)\)</span></td>
 </tr>
 <tr>
-<th scope="row" class="l m b0 r3 l0 t0 lines">A plays paper</th>
-<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((+1,-1)\)</span></td>
-<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((-1,+1)\)</span></td>
-<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((0,0)\)</span></td>
+<th scope="row" class="c m b0 r3 l0 t0 lines">A plays paper</th>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((+1,-1)\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((-1,+1)\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((0,0)\)</span></td>
 </tr>
 </table></div></figure><div class="para logical" id="sec-6-1-4-10">
 <div class="para">Let’s make some important observations about this game.</div>
@@ -403,99 +424,173 @@ eBookConfig.enable_chatcodes =  false;
 <li id="sec-6-1-4-10-1-4"><div class="para" id="p-derived-sec-6-1-4-10-1-4">If player A makes a choice, then a choice for player B which gives them the highest payoff given player A’s choice is called a <dfn class="terminology">best response</dfn>. For example, if player A chooses “rock” (so we are in the top row of the payoff matrix), a best response for player B is to choose “paper” (<span class="process-math">\(+1\)</span> is the best payoff in the second coordinate of the entries in row 1). An important part of predicting the outcome of games will be to consider each player’s best responses, and also their knowledge of the the other player’s best responses. We will assume that each player will act according to Smith’s quote. That is, each player will attempt to make a decision that is best for their own self-interst, and they know the other player will do the same.</div></li>
 </ol>
 </div>
-<div class="para" id="sec-6-1-4-11">The rock, paper, scissors game also has the property that whatever one player gains, the other loses. This is called a <dfn class="terminology">zero sum</dfn> game. Let’s look at another example of a game which is not a zero sum game.</div>
-<div class="para" id="sec-6-1-4-12">The outcome of the previous game is referred to as the <dfn class="terminology">prisoner’s dilemma</dfn>, because it is similar to the game in which a team of prisoners is separated and they each have a choice of confessing the other’s crimes, or remaining silent. The payoff matrix for this game is as follows, with payoffs listed as years in prison.</div>
-<figure class="table table-like" id="tab-ch6-prisoner"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.2<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="sec-6-1-4-11">The rock, paper, scissors game also has the property that whatever one player gains, the other loses. This is called a <dfn class="terminology">zero sum</dfn> game. Let’s look at another example of a game which is not a zero sum game.</div></section><section class="worksheet" id="ws-6-1-1"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Analyzing a Payoff Matrix</span><div class="print-links">
+<a href="ws-6-1-1-a4.html" class="a4">A4</a><a href="ws-6-1-1-letter.html" class="us">US</a>
+</div>
+</h3>
+<section class="introduction" id="ws-6-1-1-2"><div class="para logical" id="ws-6-1-1-2-1">
+<div class="para">Suppose you and a classmate have a final project to complete. Half of this project is to be completed individually, while the other half of the project is to be completed jointly. You have to decide which part of the project you will prioritize over the next week, and you are not able to discuss your decision with your partner. Your decision has the following payoffs:</div>
+<ul class="disc" id="ws-6-1-1-2-1-1">
+<li id="ws-6-1-1-2-1-1-1"><div class="para" id="p-derived-ws-6-1-1-2-1-1-1">If you both work on the joint project, you will earn <span class="process-math">\(\frac{50}{50}\)</span> for that portion, but only <span class="process-math">\(\frac{30}{50}\)</span> for the individual portion. That is, your total grade will be <span class="process-math">\(80\%\text{.}\)</span>
+</div></li>
+<li id="ws-6-1-1-2-1-1-2"><div class="para" id="p-derived-ws-6-1-1-2-1-1-2">If one of you works on the joint project, but and the other works on the individual project, then the partner working on the individual project will earn <span class="process-math">\(\frac{50}{50}\)</span> for the individual portion, and the partner working on the joint project will earn <span class="process-math">\(\frac{20}{50}\)</span> for the individual portion. You both would earn <span class="process-math">\(\frac{35}{50}\)</span> on the joint portion. So the partner working on the individual portion would earn an <span class="process-math">\(85 \%\text{,}\)</span> while the partner working on the joint portion would earn a <span class="process-math">\(55 \%\text{.}\)</span>
+</div></li>
+<li id="ws-6-1-1-2-1-1-3"><div class="para" id="p-derived-ws-6-1-1-2-1-1-3">If you both work on your individual projects, then you both will earn <span class="process-math">\(\frac{50}{50}\)</span> for that portion, but only <span class="process-math">\(\frac{25}{50}\)</span> for the joint portion. That is, your total grade will be <span class="process-math">\(75\%\text{.}\)</span>
+</div></li>
+</ul>
+</div>
+<div class="para" id="ws-6-1-1-2-2">Take a moment in your group to verify that this information is organized accurately in the following payoff matrix for this game.</div></section><figure class="table table-like" id="tab-ch6-analyzing-payoff"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.2<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
-<th scope="col" class="l m b3 r3 l0 t0 lines">Prisoner’s Dilemma</th>
-<th scope="col" class="l m b3 r0 l0 t0 lines">B Confesses</th>
-<th scope="col" class="l m b3 r0 l0 t0 lines">B Silent</th>
+<th scope="col" class="c m b3 r3 l0 t0 lines">Partner Project</th>
+<th scope="col" class="c m b3 r0 l0 t0 lines">B works on joint project</th>
+<th scope="col" class="c m b3 r0 l0 t0 lines">B works on individual project</th>
 </tr>
 <tr>
-<th scope="row" class="l m b0 r3 l0 t0 lines">A Confesses</th>
-<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((1,1)\)</span></td>
-<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((0,5)\)</span></td>
+<th scope="row" class="c m b0 r3 l0 t0 lines">A works on joint project</th>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((80,80)\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((55,85)\)</span></td>
 </tr>
 <tr>
-<th scope="row" class="l m b0 r3 l0 t0 lines">A Silent</th>
-<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((5,0)\)</span></td>
-<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((0.5,0.5)\)</span></td>
+<th scope="row" class="c m b0 r3 l0 t0 lines">A works on individual project</th>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((85,55)\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((75,75)\)</span></td>
 </tr>
-</table></div></figure><div class="para" id="sec-6-1-4-14">When at least one player has a single dominant choice, we can predict the outcome of the game. This is because both players have knowledge of the payoff matrix. If player A has a dominant choice, then player B knows what that is and knows that player A will choose it. Therefore, player B will make whatever choice is a best response to player A’s dominant choice.</div></section><section class="paragraphs" id="sec-6-1-5"><h3 class="heading"><span class="title">Back to work....</span></h3>
-<div class="para" id="sec-6-1-5-2">We will look at one more case when we are able to predict the outcome of a game. To help us do so, let’s make an observation about the cases we’ve been able to predict so far, when at least one player has a dominant choice.</div>
-<div class="para" id="sec-6-1-5-3">Let’s return to the game in <code class="code-inline tex2jax_ignore">[provisional cross-reference: act-6-1-partner]</code>. We could make a table of best responses for both players:</div>
+</table></div></figure><article class="exercise exercise-like" id="ws-6-1-1-4"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="para" id="ws-6-1-1-4-1-1">Use <a href="sec-6-1.html#tab-ch6-analyzing-payoff" class="xref" data-knowl="./knowl/xref/tab-ch6-analyzing-payoff.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.2">Table 6.1.2</a> to answer the following questions in your group.</div></article><iframe id="ch6-interactive-analyzing-payoff" width="600" height="1350" src="ch6-interactive-analyzing-payoff-if.html"></iframe></section><section class="paragraphs" id="sec-6-1-6"><div class="para" id="sec-6-1-6-1">The outcome of the previous game is referred to as the <dfn class="terminology">prisoner’s dilemma</dfn>, because it is similar to the game in which a team of prisoners is separated and they each have a choice of confessing the other’s crimes, or remaining silent. The payoff matrix for this game is as follows, with payoffs listed as years in prison.</div>
+<figure class="table table-like" id="tab-ch6-prisoner"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.3<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b3 r3 l0 t0 lines">Prisoner’s Dilemma</th>
+<th scope="col" class="c m b3 r0 l0 t0 lines">B Confesses</th>
+<th scope="col" class="c m b3 r0 l0 t0 lines">B Silent</th>
+</tr>
+<tr>
+<th scope="row" class="c m b0 r3 l0 t0 lines">A Confesses</th>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((1,1)\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((0,5)\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="c m b0 r3 l0 t0 lines">A Silent</th>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((5,0)\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((0.5,0.5)\)</span></td>
+</tr>
+</table></div></figure></section><section class="worksheet" id="ws-6-1-2"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">The Prisoner’s Dilemma</span><div class="print-links">
+<a href="ws-6-1-2-a4.html" class="a4">A4</a><a href="ws-6-1-2-letter.html" class="us">US</a>
+</div>
+</h3>
+<section class="introduction" id="ws-6-1-2-2"><div class="para" id="ws-6-1-2-2-1">Answer the following questions in your group.</div></section><iframe id="ch6-interactive-prisoner-dilemma" width="600" height="600" src="ch6-interactive-prisoner-dilemma-if.html"></iframe></section><section class="paragraphs" id="sec-6-1-8"><div class="para" id="sec-6-1-8-1">When at least one player has a single dominant choice, we can predict the outcome of the game. This is because both players have knowledge of the payoff matrix. If player A has a dominant choice, then player B knows what that is and knows that player A will choose it. Therefore, player B will make whatever choice is a best response to player A’s dominant choice.</div></section><section class="worksheet" id="ws-6-1-3"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Dominant Choices</span><div class="print-links">
+<a href="ws-6-1-3-a4.html" class="a4">A4</a><a href="ws-6-1-3-letter.html" class="us">US</a>
+</div>
+</h3>
+<section class="introduction" id="ws-6-1-3-2"><div class="para" id="ws-6-1-3-2-1">Now we will practice more determining when a player in a game has a dominant choice, and using this to predict the outcome of the game. Two players can play a red card or blue card. The payoff matrix below shows the monetary payoff for every choice.</div></section><iframe id="ch6-interactive-dominant-choice" width="600" height="300" src="ch6-interactive-dominant-choice-if.html"></iframe><article class="exercise exercise-like" id="ws-6-1-3-4"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="para" id="ws-6-1-3-4-1-1">Choose new variations of the payoff matrix with the “New Variation” button. Before moving on, get at least 3 correct in a row, and write down an explanation for how to determine when a player has a dominant choice as if you were explaining it to someone new.</div></article></section><section class="paragraphs" id="sec-6-1-10"><h3 class="heading"><span class="title">Back to work....</span></h3>
+<div class="para" id="sec-6-1-10-2">We will look at one more case when we are able to predict the outcome of a game. To help us do so, let’s make an observation about the cases we’ve been able to predict so far, when at least one player has a dominant choice.</div>
+<div class="para" id="sec-6-1-10-3">Let’s return to the game in <a href="sec-6-1.html#ws-6-1-1" class="internal" title="Worksheet 6.1: Analyzing a Payoff Matrix">Worksheet 6.1</a>. We could make a table of best responses for both players:</div>
 <div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
-<th scope="col" class="l m b3 r0 l0 t0 lines">If A chooses...</th>
-<th scope="col" class="l m b3 r0 l0 t0 lines">B’s best response is...</th>
+<th scope="col" class="c m b3 r0 l0 t0 lines">If A chooses...</th>
+<th scope="col" class="c m b3 r0 l0 t0 lines">B’s best response is...</th>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines">Joint Project</td>
-<td class="l m b0 r0 l0 t0 lines">Individual Project</td>
+<td class="c m b0 r0 l0 t0 lines">Joint Project</td>
+<td class="c m b0 r0 l0 t0 lines">Individual Project</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines">Individual Project</td>
-<td class="l m b0 r0 l0 t0 lines">Individual Project</td>
+<td class="c m b0 r0 l0 t0 lines">Individual Project</td>
+<td class="c m b0 r0 l0 t0 lines">Individual Project</td>
 </tr>
 </table></div>
 <div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
-<th scope="col" class="l m b3 r0 l0 t0 lines">If B chooses...</th>
-<th scope="col" class="l m b3 r0 l0 t0 lines">A’s best response is...</th>
+<th scope="col" class="c m b3 r0 l0 t0 lines">If B chooses...</th>
+<th scope="col" class="c m b3 r0 l0 t0 lines">A’s best response is...</th>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines">Joint Project</td>
-<td class="l m b0 r0 l0 t0 lines">Individual Project</td>
+<td class="c m b0 r0 l0 t0 lines">Joint Project</td>
+<td class="c m b0 r0 l0 t0 lines">Individual Project</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines">Individual Project</td>
-<td class="l m b0 r0 l0 t0 lines">Individual Project</td>
+<td class="c m b0 r0 l0 t0 lines">Individual Project</td>
+<td class="c m b0 r0 l0 t0 lines">Individual Project</td>
 </tr>
 </table></div>
-<div class="para logical" id="sec-6-1-5-6">
+<div class="para logical" id="sec-6-1-10-6">
 <div class="para">Let’s make some important observations about these tables.</div>
-<ol class="decimal" id="sec-6-1-5-6-1">
-<li id="sec-6-1-5-6-1-1"><div class="para" id="p-derived-sec-6-1-5-6-1-1">Organized this way, we can see that player B has a dominant choice of “Individual Project” because that is the only response listed in player B’s best response column. The same is true for player A.</div></li>
-<li id="sec-6-1-5-6-1-2"><div class="para" id="p-derived-sec-6-1-5-6-1-2">We can also see that the of choice “Individual Project” for each partner is unique in another way: it is the only pair of choices which is a best response to the other. That is, if partner A chooses “Individual Project”, partner B’s best response is “Individual Project”, and vice versa. A pair of choices with this property (that they are both best responses to the other) is called a <dfn class="terminology">Nash equilibrium</dfn>.</div></li>
+<ol class="decimal" id="sec-6-1-10-6-1">
+<li id="sec-6-1-10-6-1-1"><div class="para" id="p-derived-sec-6-1-10-6-1-1">Organized this way, we can see that player B has a dominant choice of “Individual Project” because that is the only response listed in player B’s best response column. The same is true for player A.</div></li>
+<li id="sec-6-1-10-6-1-2"><div class="para" id="p-derived-sec-6-1-10-6-1-2">We can also see that the of choice “Individual Project” for each partner is unique in another way: it is the only pair of choices which is a best response to the other. That is, if partner A chooses “Individual Project”, partner B’s best response is “Individual Project”, and vice versa. A pair of choices with this property (that they are both best responses to the other) is called a <dfn class="terminology">Nash equilibrium</dfn>.</div></li>
 </ol>
 </div>
-<div class="para" id="sec-6-1-5-7">Nash equilibria can occur even when neither player has a dominant choice. They are important to identify because they are a combination of choices in which no player can benefit from making a different choice, assuming all other players’ choices stay the same. So if a game reaches a Nash equilibrium, no player has an incentive to make a different choice (this is why we refer to choices that meet this property as an “equilibrium”). When there is a single Nash equilibrium in a game, we expect that players making decisions based only on their own individual gain will make the choice corresponding to that equilibrium. Let’s look at a final example.</div></section><details id="sec-6-1-6" class="remark remark-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
-<span class="type">Remark</span><span class="space"> </span><span class="codenumber">6.1.3</span><span class="period">.</span><span class="space"> </span><span class="title">Multiple Nash Equilibria.</span>
-</h3></summary><article class="remark remark-like knowl__content"><div class="para" id="sec-6-1-6-2">Outcomes of games with multiple Nash equilibria can depend on other factors relevant to the game. Consider a game with two countries that share a single reservoir. They can choose to pollute the reservoir for economic gain, or not. The payoff matrix showing the quality of life for each country is given below.</div>
-<figure class="table table-like" id="tab-ch6-multiple-nash"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.4<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="sec-6-1-10-7">Nash equilibria can occur even when neither player has a dominant choice. They are important to identify because they are a combination of choices in which no player can benefit from making a different choice, assuming all other players’ choices stay the same. So if a game reaches a Nash equilibrium, no player has an incentive to make a different choice (this is why we refer to choices that meet this property as an “equilibrium”). When there is a single Nash equilibrium in a game, we expect that players making decisions based only on their own individual gain will make the choice corresponding to that equilibrium. Let’s look at a final example.</div></section><section class="worksheet" id="ws-6-1-4"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Nash Equilibria</span><div class="print-links">
+<a href="ws-6-1-4-a4.html" class="a4">A4</a><a href="ws-6-1-4-letter.html" class="us">US</a>
+</div>
+</h3>
+<section class="introduction" id="ws-6-1-4-2"><div class="para" id="ws-6-1-4-2-1">Suppose country A and country B share three polluted reservoirs. They each can make a decision as to which reservoir to clean up and maintain. The payoff in terms of quality of life for each choice is given in <a href="sec-6-1.html#tab-ch6-nash-eq" class="xref" data-knowl="./knowl/xref/tab-ch6-nash-eq.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 6.1.4">Table 6.1.4</a>. A higher number means a higher quality of life.</div></section><figure class="table table-like" id="tab-ch6-nash-eq"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.4<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
-<th scope="col" class="l m b3 r3 l0 t0 lines">Shared Pollution 2</th>
-<th scope="col" class="l m b3 r0 l0 t0 lines">B Doesn’t Pollute</th>
-<th scope="col" class="l m b3 r0 l0 t0 lines">B Pollutes</th>
+<th scope="col" class="c m b3 r3 l0 t0 lines">Shared Pollution 1</th>
+<th scope="col" class="c m b3 r0 l0 t0 lines">B cleans reservoir 1</th>
+<th scope="col" class="c m b3 r0 l0 t0 lines">B cleans reservoir 2</th>
+<th scope="col" class="c m b3 r0 l0 t0 lines">B cleans reservoir 3</th>
 </tr>
 <tr>
-<th scope="row" class="l m b0 r3 l0 t0 lines">A Doesn’t Pollute</th>
-<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((50,50)\)</span></td>
-<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((40,60)\)</span></td>
+<th scope="row" class="c m b0 r3 l0 t0 lines">A cleans reservoir 1</th>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((45,35)\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((30,25)\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((25,50)\)</span></td>
 </tr>
 <tr>
-<th scope="row" class="l m b0 r3 l0 t0 lines">A Pollutes</th>
-<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((60,40)\)</span></td>
-<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\((0,0)\)</span></td>
+<th scope="row" class="c m b0 r3 l0 t0 lines">A cleans reservoir 2</th>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((50,40)\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((25,30)\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((40,35)\)</span></td>
 </tr>
-</table></div></figure><div class="para logical" id="sec-6-1-6-4">
-<ol class="decimal" id="sec-6-1-6-4-1">
-<li id="sec-6-1-6-4-1-1"><div class="para" id="p-derived-sec-6-1-6-4-1-1">What are the Nash equilibria of this game?</div></li>
-<li id="sec-6-1-6-4-1-2"><div class="para" id="p-derived-sec-6-1-6-4-1-2">What is required for the outcome to be one of the Nash equilibria?</div></li>
-<li id="sec-6-1-6-4-1-3"><div class="para" id="p-derived-sec-6-1-6-4-1-3">What do you think will happen if the outcome is not a Nash equilibrium?</div></li>
+<tr>
+<th scope="row" class="c m b0 r3 l0 t0 lines">A cleans reservoir 3</th>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((40,30)\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((20,50)\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((60,40)\)</span></td>
+</tr>
+</table></div></figure><article class="exercise exercise-like" id="ws-6-1-4-4"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="para" id="ws-6-1-4-4-1-1">Complete the table of best responses for this game, and use it to answer the questions that follow.</div></article><iframe id="ch6-interactive-nash-eq" width="600" height="1200" src="ch6-interactive-nash-eq-if.html"></iframe></section><details id="sec-6-1-12" class="remark remark-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">6.1.5</span><span class="period">.</span><span class="space"> </span><span class="title">Multiple Nash Equilibria.</span>
+</h3></summary><article class="remark remark-like knowl__content"><div class="para" id="sec-6-1-12-2">Outcomes of games with multiple Nash equilibria can depend on other factors relevant to the game. Consider a game with two countries that share a single reservoir. They can choose to pollute the reservoir for economic gain, or not. The payoff matrix showing the quality of life for each country is given below.</div>
+<figure class="table table-like" id="tab-ch6-multiple-nash"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">6.1.6<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b3 r3 l0 t0 lines">Shared Pollution 2</th>
+<th scope="col" class="c m b3 r0 l0 t0 lines">B Doesn’t Pollute</th>
+<th scope="col" class="c m b3 r0 l0 t0 lines">B Pollutes</th>
+</tr>
+<tr>
+<th scope="row" class="c m b0 r3 l0 t0 lines">A Doesn’t Pollute</th>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((50,50)\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((40,60)\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="c m b0 r3 l0 t0 lines">A Pollutes</th>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((60,40)\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\((0,0)\)</span></td>
+</tr>
+</table></div></figure><div class="para logical" id="sec-6-1-12-4">
+<ol class="decimal" id="sec-6-1-12-4-1">
+<li id="sec-6-1-12-4-1-1"><div class="para" id="p-derived-sec-6-1-12-4-1-1">What are the Nash equilibria of this game?</div></li>
+<li id="sec-6-1-12-4-1-2"><div class="para" id="p-derived-sec-6-1-12-4-1-2">What is required for the outcome to be one of the Nash equilibria?</div></li>
+<li id="sec-6-1-12-4-1-3"><div class="para" id="p-derived-sec-6-1-12-4-1-3">What do you think will happen if the outcome is not a Nash equilibrium?</div></li>
 </ol>
 <div class="para">A game with this structure is referred to as a <dfn class="terminology">chicken game</dfn>.</div>
-</div></article></details><section class="conclusion" id="sec-6-1-7"><h3 class="heading">Reflection.<span></span>
+</div></article></details><section class="conclusion" id="sec-6-1-13"><h3 class="heading">Reflection.<span></span>
 </h3>
-<div class="para logical" id="sec-6-1-7-2">
+<div class="para logical" id="sec-6-1-13-2">
 <div class="para">Let’s reflect on what we’ve learned, and what we still have questions about.</div>
-<ol class="decimal" id="sec-6-1-7-2-1">
-<li id="sec-6-1-7-2-1-1"><div class="para" id="p-derived-sec-6-1-7-2-1-1">What are the important assumptions in game theory that allow us to predict outcomes in many games?</div></li>
-<li id="sec-6-1-7-2-1-2"><div class="para" id="p-derived-sec-6-1-7-2-1-2">What can game theory help us understand about outcomes in situations when there are multiple decision-makers?</div></li>
+<ol class="decimal" id="sec-6-1-13-2-1">
+<li id="sec-6-1-13-2-1-1"><div class="para" id="p-derived-sec-6-1-13-2-1-1">What are the important assumptions in game theory that allow us to predict outcomes in many games?</div></li>
+<li id="sec-6-1-13-2-1-2"><div class="para" id="p-derived-sec-6-1-13-2-1-2">What can game theory help us understand about outcomes in situations when there are multiple decision-makers?</div></li>
 </ol>
-</div></section><section class="conclusion" id="sec-6-1-8"><h3 class="heading">Section Checkpoint.<span></span>
+</div></section><section class="conclusion" id="sec-6-1-14"><h3 class="heading">Section Checkpoint.<span></span>
 </h3>
-<div class="para" id="sec-6-1-8-2">Link here to Doenet course.</div></section></section></div>
+<div class="para" id="sec-6-1-14-2">Link here to Doenet course.</div></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="ch-06.html" title="Previous"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-6-2.html" title="Next"><span class="name">Next</span><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

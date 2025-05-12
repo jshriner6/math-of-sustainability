@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.googleapis.com">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><link xmlns:xlink="http://www.w3.org/1999/xlink" rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/doenet-standalone-test@0.6.0/dist/style.css">
+<script xmlns:xlink="http://www.w3.org/1999/xlink" onload="onLoad()" type="module" src="https://cdn.jsdelivr.net/npm/doenet-standalone-test@0.6.0/dist/doenet-standalone.min.js"></script><script xmlns:xlink="http://www.w3.org/1999/xlink">function onLoad() {window.renderDoenetToContainer(document.querySelector(".doenetml-applet"))}</script>
+</head>
+<body class="ptx-content ignore-math" id="Math 112">
+<div xmlns:xlink="http://www.w3.org/1999/xlink" id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div style="width:600px; height:1500px; display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;"><div xmlns:xlink="http://www.w3.org/1999/xlink" class="doenetml-applet">
+<div class="doenetml-loading" style="text-align:center">
+<p><img src="https://www.doenet.org/Doenet_Logo_Frontpage.png"></p>
+<p>Waiting on the page to load...</p>
+</div>
+<script type="text/doenetml">
+                    <!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_MISJWgP6btVVHq5QrPMtI/_TezeXudqvAUVDWg3Z2qEE -->
+
+<setup>
+      <sampleRandomNumbers name="N" type="discreteuniform" from="6" to="20"/>
+      <function name="f">x*($N-x/2)</function>
+      <count name="cnt"><collect source="g" componentTypes="point"/></count>
+      <number name="treeNum">$cnt-1</number>
+    </setup>
+
+    <p> For our example, suppose the yield of a single tree is <m>$N- \frac{T}{2}</m> when there are <m>T</m> trees planted. Then the total yield of all trees combined would be <m>T \cdot ($N-\frac{T}{2})</m>. The graph of the total fruit yield for different numbers of trees is given below.
+</p>
+<graph  name="g" showNavigation="false" xmin="-$N/2 -2" xmax="2*$N+2" ymin="-$N" ymax="$N^2/2 +$N">
+  <xlabel>Fruit Trees</xlabel>
+  <ylabel>Fruit Yield</ylabel>
+  $f
+  <point name="max" hide>$f.maxima</point>
+  <point styleNumber="2">
+    <constraints>
+      <constrainTo>$f</constrainTo>
+      <attractTo>$max</attractTo>
+    </constraints>
+  </point>
+</graph>
+    <p>
+    <ol>
+      <li>
+      Using the graph and the sliding point<footnote>We can also use tools from algebra and calculus to determine this value.</footnote>, what is the total number of trees that should be planted that would result in the maximum yield of fruit? This is called the <term>social optimum</term>. 
+      <answer>
+        $N
+      </answer>
+      </li>
+      <li>
+        What is the maximum fruit yield at this social optimum?
+        <answer>
+         $N^2/2
+        </answer>
+      </li>
+    </ol>
+    </p>
+    <p>
+      Now let's determine the outcome when the orchard is managed by two farmers making decisions individually. The table below gives the payoff matrix for the game when both farmers have one tree on the orchard, where the entries are the fruit yield for each farmer. Use it to determine if the farmers will both add a tree. If they will both add a tree, select the <q>Add a Tree For Both</q> button, which will update the payoff matrix to the new scenario where both farmers now have one more tree. Continue this until you think both farmers will not add a tree, and then answer the questions. You can use the <q>Remove a Tree For Both</q> button to return to the scenario where both farmers have one less tree at any time.
+    </p>
+    <hint><title>Curious how the payoff matrix is updated? Here are the models explained.</title>
+  <p>Suppose each farmer currently has <m>t</m> trees. Then the total number of trees is <m>T=2t</m>. The following shows the models that were used to compute the entries in the table.
+  </p>
+  <ul>
+    <li>
+      A and B both do not add a tree:
+      <me>(t \cdot ($N-t),t \cdot ($N-t))</me>
+      <p>For each farmer, this is the number of trees they have multiplied by the fruit yield for a single tree.</p>
+    </li>
+    <li>
+      A and B both add a tree:
+      <me>((t+1) \cdot (<number>$N-1</number>-t),(t+1) \cdot (<number>$N-1</number>-t))</me>
+      <p>
+        For each farmer, this is the new number of trees they have multiplied by the new (lower) fruit yield for a single tree.
+      </p>
+    </li>
+    <li>
+      A adds a tree and B does not:
+      <me>((t+1) \cdot (<number>$N-0.5</number>-t),t \cdot (<number>$N-0.5</number>-t))</me>
+      <p>
+        For farmer A, this is the new number of trees they have multiplied by the new (lower) fruit yield for a single tree. For farmer B, this is the same number of trees they had multiplied by the new (lower) fruit yield for a single tree.
+      </p>
+    </li>
+    <li>
+      B adds a tree and A does not:
+      <me>(t \cdot (<number>$N-0.5</number>-t),(t+1) \cdot (<number>$N-0.5</number>-t))</me>
+      <p>
+        For farmer B, this is the new number of trees they have multiplied by the new (lower) fruit yield for a single tree. For farmer A, this is the same number of trees they had multiplied by the new (lower) fruit yield for a single tree.
+      </p>
+    </li>
+  </ul>
+</hint>
+
+ <table name="t1" suppressTableNameInTitle><title>Both Farmers Have <m>$treeNum</m> Tree(s)</title>
+    <tabular  top="minor" bottom="minor" left="medium" right="medium">
+      <row>
+        <cell>
+          <alert>Commons</alert>
+        </cell>
+        <cell>
+          B does not add a tree
+        </cell>
+        <cell>
+          B adds a tree
+        </cell>
+      </row>
+      <row>
+        <cell>
+          A does not add a tree
+        </cell>
+        <cell>
+          <m>(<number>$treeNum*($N-$treeNum)</number>,<number>$treeNum*($N-$treeNum)</number>)</m>
+        </cell>
+        <cell>
+          <m> (<number>$treeNum*($N-0.5-$treeNum)</number>,<number>($treeNum+1)*($N-0.5-$treeNum)</number>)</m>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          A adds a tree
+        </cell>
+        <cell>
+          <m>(<number>($treeNum+1)*($N-0.5-$treeNum)</number>,<number>$treeNum*($N-0.5-$treeNum)</number>)</m>
+        </cell>
+        <cell>
+           <m>(<number>($treeNum+1)*($N-1-$treeNum)</number>,<number>($treeNum+1)*($N-1-$treeNum)</number>)</m>
+        </cell>
+      </row>
+    </tabular>
+    </table>
+<callAction actionName="addChildren" target="g">
+  <point hide/>
+  <label>Add a Tree For Both</label>
+</callAction>
+<callAction actionName="deleteChildren" target="g" number="1">
+  <label>Remove a Tree For Both</label>
+</callAction>
+    <p>
+    <ol>
+      <li>
+      What number of trees will be planted total, as predicted by game theory?
+        <answer>
+          2*<ceil>($N-0.5)/1.5</ceil>
+        </answer>
+      </li>
+      <li>
+      What is the fruit yield for this number of trees? 
+        <answer>
+          2*<ceil>($N-0.5)/1.5</ceil>*($N-<ceil>($N-0.5)/1.5</ceil>)
+        </answer>
+      </li>
+      <li>
+        Discuss the relationship between the social optimum outcome and the actual outcome under this model.
+      </li>
+    </ol>
+    </p>
+    <callAction actionName="resample" target="N">
+      <label>New Variation</label>
+    </callAction>
+                </script>
+</div></div>
+</body>
+</html>
