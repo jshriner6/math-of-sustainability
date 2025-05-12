@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+    <article xml:id="worksheet">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-6-2-1">
+            <title>Identifying Commons</title>
+    
+            <introduction>
+                <p>
+                    In your group, brainstorm a list of as many resources as you can that would be considered a commons. 
+                    Then discuss to what extent each resource on your list is relevant to sustainability.
+                </p>
+            </introduction>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-6-2-2">
+            <title>Tragedy of the Commons</title>
+    
+            <introduction>
+                <p>
+                    Suppose there are two farmers (the <q>players</q>) sharing an orchard (the commons). Each farmer can 
+                    choose to plant a new fruit tree, which will deplete resources of the commons, but will also produce a 
+                    fruit yield for the farmer. 
+                </p>
+                <p>
+                    The yield of a single fruit tree depends on how many total trees are planted. If more trees are planted, 
+                    there are fewer resources available to a single tree, so the yield of a single tree will decrease as more 
+                    trees are planted. 
+                </p>
+            </introduction>
+
+            <interactive label="ch6-interactive-tragedy-commons" platform="doenetml" width="100%" aspect="1:2.5">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch6-doenet-tragedy-commons.doenetml"/>
+                </slate>
+            </interactive>
+
+            <exercise>
+                <statement>
+                    <p>
+                        Choose new variations of the problem with the <q>New Variation</q> button. Complete at least 3 
+                        different versions, and write down a summary of the relationship between the social optimum outcome 
+                        and the actual outcome predicted by game theory when managing a commons.
+                    </p>
+                </statement>
+            </exercise>
+
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-6-2-3">
+            <title>Managing the Commons</title>
+    
+            <introduction>
+                <p>
+                    In your group, brainstorm some ideas for how you think the tragedy of the commons might be avoided.
+                    <ul>
+                        <li>How might the commons itself impact your solution?</li>
+                        <li>How might the scale of the individuals involved impact your solution?</li>
+                    </ul> 
+                </p>
+                <p>
+                    Then read through and discuss the brief summaries of some solutions that have been proposed and used 
+                    in different contexts. 
+                </p>
+            </introduction>
+
+            <remark><title>Managing the Commons</title>
+                <p>
+                    The following are examples of approaches to avoiding the tragedy of the commons.
+                
+                    <ul>
+                        <li>
+                            <term>Privatization</term>. Make the commons no longer a shared resource. Divide the commons into parts, and give individuals ownership over those parts.
+                        </li>
+                        <li>
+                             <term>Regulation</term>. Establish individual limits (legally or socially) on the use of the commons based on the social optimum use.
+                        </li>
+                        <li>
+                            <term>Cap and Trade</term>. Establish an upper limit on the overall use of the commons based on the social optimum use. Individuals can buy and trade permits for the use of the commons up to a specified level. The number of permits issued is limited to ensure the upper limit is not exceeded.
+                        </li>
+                        <li>
+                            <term>Revenue-Neutral Use Tax</term>. Individual users of the commons pay a tax proportional to how much they use the commons. The tax is collected and then re-distributed evenly to all individuals using the commons.
+                        </li>
+                    </ul>
+                </p>
+            </remark>
+        </worksheet>
+
+
+    </article>
+</pretext>

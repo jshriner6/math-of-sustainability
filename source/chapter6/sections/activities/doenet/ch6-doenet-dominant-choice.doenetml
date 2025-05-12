@@ -1,0 +1,129 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_czkLqLFBrjYQs2jcofbBz/_ZcyLaBVOhtGIA0WyLY8Sn -->
+
+<setup>
+      <sampleRandomNumbers name="ab" assignNames="a1 a2 b1 b2" type="discreteuniform" from="50" to="100" numSamples="4"/>
+      <sampleRandomNumbers name="c" type="discreteuniform" from="-2" to="2"/>
+      <conditionalContent name="d1">
+        <case condition="($c=1) or ($c=-1) or ($c=2) or ($c=-2)">
+          <number>$b2 + $c</number>
+        </case>
+        <case condition="$c=0">
+          <number>$b2 + 3</number>
+        </case>
+      </conditionalContent>
+      <conditionalContent name="d2">
+        <case condition="($c=1) or ($c=-1) or ($c=2) or ($c=-2)">
+          <number>$a1 + $c</number>
+        </case>
+        <case condition="$c=0">
+          <number>$a1 + 3</number>
+        </case>
+      </conditionalContent>
+      <conditionalContent name="d3">
+        <case condition="($c=1) or ($c=-1)">
+          <number>$b1 - $c</number>
+        </case>
+        <case condition="($c=2) or ($c=-2)">
+          <number>$b1 + $c</number>
+        </case>
+        <case condition="$c=0">
+          <number>$b1 + 3</number>
+        </case>
+      </conditionalContent>
+      <conditionalContent name="d4">
+        <case condition="($c=1) or ($c=-1)">
+          <number>$a2 + $c</number>
+        </case>
+        <case condition="($c=2) or ($c=-2)">
+          <number>$a2 - $c</number>
+        </case>
+        <case condition="$c=0">
+          <number>$a2 + 3</number>
+        </case>
+      </conditionalContent>
+    </setup>
+    <table name="t4" suppressTableNameInTitle>
+    <tabular  top="minor" bottom="minor" left="medium" right="medium">
+      <row>
+        <cell>
+          <alert>Color Game</alert>
+        </cell>
+        <cell>
+          B Plays Red
+        </cell>
+        <cell>
+          B Plays Blue
+        </cell>
+      </row>
+      <row>
+        <cell>
+          A Plays Red
+        </cell>
+        <cell>
+          <m>($a1,$d1)</m>
+        </cell>
+        <cell>
+          <m> ($a2, $b2)</m>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          A Plays Blue
+        </cell>
+        <cell>
+          <m>($d2,$d3)</m>
+        </cell>
+        <cell>
+           <m>($d4,$b1)</m>
+        </cell>
+      </row>
+    </tabular>
+    </table>
+    <setup>
+      <conditionalContent name="domAns">
+        <case condition="($c=1) or ($c=-1)">
+          <text>A</text>
+        </case>
+        <case condition="($c=2) or ($c=-2)">
+          <text>B</text>
+        </case>
+        <case condition="$c=0">
+          <text>Both</text>
+        </case>
+      </conditionalContent>
+      <conditionalContent name="outcome">
+        <case condition="($c=1) or ($c=-2)">
+          <point>($d4,$b1)</point>
+        </case>
+        <case condition="$c=-1">
+          <point>($a2,$b2)</point>
+        </case>
+        <case condition="($c=2) or ($c=0)">
+          <point>($d2,$d3)</point>
+        </case>
+      </conditionalContent>
+      <booleanList name="check">
+        <boolean>$dom.selectedValues=$domAns</boolean>
+        <boolean>$A=$outcomept.x</boolean>
+        <boolean>$B=$outcomept.y</boolean>
+      </booleanList>
+      <point name="outcomept">$outcome</point>
+    </setup>
+    <p>
+      Which player has a dominant choice? <choiceInput name="dom" inline><choice>A</choice><choice>B</choice><choice>Both</choice></choiceInput>
+    </p>
+    <p>
+      The outcome of the game will be that player A earns $<mathInput name="A"/> and player B earns $<mathInput name="B"/>.
+    </p>
+    <answer>
+      <award>
+        <when>
+          <and>$check.booleans[1] $check.booleans[2] $check.booleans[3]  </and>
+        </when>
+      </award>
+    </answer>
+    <triggerSet>      
+      <callAction actionName="resample" target="ab"/>
+      <callAction actionName="resample" target="c"/>
+      <label>New Variation</label>
+    </triggerSet>

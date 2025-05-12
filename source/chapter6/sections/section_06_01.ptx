@@ -78,7 +78,7 @@
             (Player A's payoff, Player B's payoff).
         </p>
         <table xml:id="tab-ch6-payoff">
-          <tabular row-headers="yes">
+          <tabular row-headers="yes" halign="center">
             <col right="major"/>
             <col/>
             <col/>
@@ -175,8 +175,11 @@
             The rock, paper, scissors game also has the property that whatever one player gains, the other loses. 
             This is called a <term>zero sum</term> game. Let's look at another example of a game which is not a zero sum game.
         </p>
+      </paragraphs>
 
-        <!-- <xi:include href="./activities/act_06_01.ptx" xpointer="worksheet/1"/> -->
+      <xi:include href="./activities/act_06_01.ptx" xpointer="worksheet/1"/>
+
+      <paragraphs>
 
         <p>
             The outcome of the previous game is referred to as the <term>prisoner's dilemma</term>, because it is similar 
@@ -184,7 +187,7 @@
             crimes, or remaining silent. The payoff matrix for this game is as follows, with payoffs listed as years in prison.
         </p>
         <table xml:id="tab-ch6-prisoner">
-          <tabular row-headers="yes">
+          <tabular row-headers="yes" halign="center">
             <col right="major"/>
             <col/>
             <col/>
@@ -224,7 +227,11 @@
           </tabular>
         </table>
 
-        <!-- <xi:include href="./activities/act_06_01.ptx" xpointer="worksheet/2"/> -->
+      </paragraphs>
+
+      <xi:include href="./activities/act_06_01.ptx" xpointer="worksheet/2"/>
+
+      <paragraphs>
 
         <p>
             When at least one player has a single dominant choice, we can predict the outcome of the game. This is because 
@@ -233,8 +240,10 @@
             to player A's dominant choice.
         </p>
 
-        <!-- <xi:include href="./activities/act_06_01.ptx" xpointer="worksheet/3"/> -->
+        <!--  -->
       </paragraphs>
+
+      <xi:include href="./activities/act_06_01.ptx" xpointer="worksheet/3"/>
 
       <paragraphs><title>Back to work...</title>
         <p>
@@ -242,10 +251,10 @@
             observation about the cases we've been able to predict so far, when at least one player has a dominant choice. 
         </p>
         <p>
-            Let's return to the game in <xref provisional="act-6-1-partner"/>. We could make a table of best responses for 
+            Let's return to the game in <xref ref="ws-6-1-1"/>. We could make a table of best responses for 
             both players: 
         </p>
-          <tabular>
+          <tabular halign="center">
             <row header="yes" bottom="major">
               <cell>
                 If A chooses...
@@ -271,7 +280,7 @@
               </cell>
             </row>
           </tabular>
-          <tabular>
+          <tabular halign="center">
             <row header="yes" bottom="major">
               <cell>
                 If B chooses...
@@ -324,7 +333,7 @@
           </p>
       </paragraphs>
 
-      <!-- <xi:include href="./activities/act_06_01.ptx" xpointer="worksheet/4"/> -->
+      <xi:include href="./activities/act_06_01.ptx" xpointer="worksheet/4"/>
 
       <remark><title>Multiple Nash Equilibria</title>
         <p>
@@ -333,7 +342,7 @@
           economic gain, or not. The payoff matrix showing the quality of life for each country is given below. 
         </p>
         <table xml:id="tab-ch6-multiple-nash">
-        <tabular row-headers="yes">
+        <tabular row-headers="yes" halign="center">
             <col right="major"/>
             <col/>
             <col/>

@@ -31,9 +31,11 @@
             heart of sustainability questions. 
         </p>
 
-        <!-- <xi:include href="./activities/act_06_02.ptx" xpointer="worksheet/1"/> -->
+        <!--  -->
 
       </paragraphs>
+
+      <xi:include href="./activities/act_06_02.ptx" xpointer="worksheet/1"/>
 
       <paragraphs><title>Back to work...</title>
         <p>
@@ -48,7 +50,7 @@
 
       </paragraphs>
 
-      <!-- <xi:include href="./activities/act_06_02.ptx" xpointer="worksheet/2"/> -->
+      <xi:include href="./activities/act_06_02.ptx" xpointer="worksheet/2"/>
 
       <paragraphs><title>Back to work...</title>
         <p>
@@ -61,7 +63,7 @@
 
       </paragraphs>
 
-      <!-- <xi:include href="./activities/act_06_02.ptx" xpointer="worksheet/3"/> -->
+      <xi:include href="./activities/act_06_02.ptx" xpointer="worksheet/3"/>
 
       <conclusion><title>Reflection</title>
         <p>

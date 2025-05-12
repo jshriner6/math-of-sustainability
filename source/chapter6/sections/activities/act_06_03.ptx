@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+    <article xml:id="worksheet">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-6-3-1">
+            <title>Individual Statement</title>
+    
+            <introduction>
+                <p>
+                    Use the space below to draft an individual response to the following question.
+                </p>
+                <p>
+                    <em>When thinking about different decisions you could make to a specific question in sustainability, how would you measure whether or not a decision is a <q>good</q> decision? </em>
+                </p>
+                <p>
+                    Use the motivating questions below as examples of questions you might answer within your response. 
+                    Try not to be overwhelmed with the scope of the question, and don't focus too much on punctuation and 
+                    organization. This is a first draft to begin verbalizing your thoughts.
+                </p>
+            </introduction>
+
+            <p>
+            <ul>
+                <li>
+                    What role should mathematics have in making sustainability decisions?
+                </li>
+                <li>
+                    What are you core values, and what role should they have in making sustainability decisions?
+                </li>
+                <li>
+                    What are examples of community ethics, and what role should they have in making sustainability decisions?
+                </li>
+                <li>
+                    Is there such thing as the <q>best</q> response to a sustainability issue?
+                </li>
+                <li>
+                    Is there such thing as a <q>good enough</q> response to a sustainability issue?
+                </li>
+                <li>
+                    Why might it be important to understand the core values of all decision-makers involved?
+                </li>
+                <li>
+                    How do you respond to a question in which the core values of other decision-makers is in conflict with your core values?
+                </li>
+                <li>
+                    What role does ignorance play in decision-making?
+                </li>
+                <li>
+                    What expectations do you have of yourself related to questions of sustainability?
+                </li>
+                <li>
+                    What expectations do you have of others related to questions of sustainability?
+                </li>
+                <li>
+                    What are your limitations related to questions of sustainability?
+                </li>
+            </ul>
+            </p>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-6-3-2">
+            <title>Group Discussion</title>
+    
+            <introduction>
+                <p>
+                    Take time in your group to let every member summarize their thoughts on the question above. Please be 
+                    mindful to follow the 
+                    <url href="https://inclusiveexcellence.colostate.edu/about/principles-of-community">Principles of Community</url> 
+                    when engaging with others around these topics. Listen, ask questions, and feel free to update your response if a 
+                    classmate helps clarify something you were trying to communicate.
+                </p>
+            </introduction>
+
+        </worksheet>
+
+
+    </article>
+</pretext>

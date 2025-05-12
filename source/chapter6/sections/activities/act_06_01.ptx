@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+    <article xml:id="worksheet">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-6-1-1">
+            <title>Analyzing a Payoff Matrix</title>
+    
+            <introduction>
+                <p>
+                    Suppose you and a classmate have a final project to complete. Half of this project is to be completed 
+                    individually, while the other half of the project is to be completed jointly. You have to decide which 
+                    part of the project you will prioritize over the next week, and you are not able to discuss your 
+                    decision with your partner. Your decision has the following payoffs:
+                    <ul>
+                        <li>If you both work on the joint project, you will earn <m>\frac{50}{50}</m> for that portion, but only <m>\frac{30}{50}</m> for the individual portion. That is, your total grade will be <m>80\%</m>. </li>
+                        <li>If one of you works on the joint project, but and the other works on the individual project, then the partner working on the individual project will earn <m>\frac{50}{50}</m> for the individual portion, and the partner working on the joint project will earn <m>\frac{20}{50}</m> for the individual portion. You both would earn <m>\frac{35}{50}</m> on the joint portion. So the partner working on the individual portion would earn an <m>85 \%</m>, while the partner working on the joint portion would earn a <m>55 \%</m>.  </li>
+                        <li>If you both work on your individual projects, then you both will earn <m>\frac{50}{50}</m> for that portion, but only <m>\frac{25}{50}</m> for the joint portion. That is, your total grade will be <m>75\%</m>. </li>
+                    </ul>
+                </p>
+                <p>
+                    Take a moment in your group to verify that this information is organized accurately in the following 
+                    payoff matrix for this game.
+                </p>
+            </introduction>
+
+            <table xml:id="tab-ch6-analyzing-payoff">
+                <tabular row-headers="yes" halign="center">
+                    <col right="major"/>
+                    <col/>
+                    <col/>
+                    <row header="yes" bottom="major">
+                        <cell>
+                            Partner Project
+                        </cell>
+                        <cell>
+                            B works on joint project
+                        </cell>
+                        <cell>
+                            B works on individual project
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            A works on joint project
+                        </cell>
+                        <cell>
+                            <m>(80,80)</m>
+                        </cell>
+                        <cell>
+                            <m> (55,85)</m>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            A works on individual project
+                        </cell>
+                        <cell>
+                            <m>(85,55)</m>
+                        </cell>
+                        <cell>
+                            <m>(75,75)</m>
+                        </cell>
+                    </row>
+                </tabular>
+            </table>
+
+            <exercise>
+                <statement>
+                    <p>
+                        Use <xref ref="tab-ch6-analyzing-payoff"/> to answer the following questions in your group.
+                    </p>
+                </statement>
+            </exercise>
+            
+            <interactive label="ch6-interactive-analyzing-payoff" platform="doenetml" width="100%" aspect="1:2.25">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch6-doenet-analyzing-payoff.doenetml"/>
+                </slate>
+            </interactive>
+
+            
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-6-1-2">
+            <title>The Prisoner's Dilemma</title>
+    
+            <introduction>
+                <p>
+                    Answer the following questions in your group.  
+                </p>
+            </introduction>
+
+            <interactive label="ch6-interactive-prisoner-dilemma" platform="doenetml" width="100%" aspect="1:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch6-doenet-prisoner-dilemma.doenetml"/>
+                </slate>
+            </interactive>
+
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-6-1-3">
+            <title>Dominant Choices</title>
+    
+            <introduction>
+                <p>
+                     Now we will practice more determining when a player in a game has a dominant choice, and using this to 
+                     predict the outcome of the game. Two players can play a red card or blue card. The payoff matrix 
+                     below shows the monetary payoff for every choice. 
+                </p>
+            </introduction>
+
+            <interactive label="ch6-interactive-dominant-choice" platform="doenetml" width="100%" aspect="2:1">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch6-doenet-dominant-choice.doenetml"/>
+                </slate>
+            </interactive>
+
+            <exercise>
+                <statement>
+                    <p>
+                    Choose new variations of the payoff matrix with the 
+                     <q>New Variation</q> button. Before moving on, get at least 3 correct in a row, and write down an 
+                     explanation for how to determine when a player has a dominant choice as if you were explaining it to 
+                     someone new.
+                    </p>
+                </statement>
+                
+            </exercise>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-6-1-4">
+            <title>Nash Equilibria</title>
+    
+            <introduction>
+                <p>
+                   Suppose country A and country B share three polluted reservoirs. They each can make a decision as to which 
+                   reservoir to clean up and maintain. The payoff in terms of quality of life for each choice is given 
+                   in <xref ref="tab-ch6-nash-eq"/>. A higher number means a higher quality of life.
+                </p>
+            </introduction>
+
+            <table xml:id="tab-ch6-nash-eq">
+                <tabular row-headers="yes" halign="center">
+                    <col right="major"/>
+                    <col/>
+                    <col/>
+                    <col/>
+                    <row header="yes" bottom="major">
+                        <cell>
+                            Shared Pollution 1
+                        </cell>
+                        <cell>
+                            B cleans reservoir 1
+                        </cell>
+                        <cell>
+                            B cleans reservoir 2
+                        </cell>
+                        <cell>
+                            B cleans reservoir 3
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            A cleans reservoir 1
+                        </cell>
+                        <cell>
+                            <m>(45,35)</m>
+                        </cell>
+                        <cell>
+                            <m> (30,25)</m>
+                        </cell>
+                        <cell>
+                            <m>(25,50)</m>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            A cleans reservoir 2
+                        </cell>
+                        <cell>
+                            <m>(50,40)</m>
+                        </cell>
+                        <cell>
+                            <m>(25,30)</m>
+                        </cell>
+                        <cell>
+                            <m>(40,35)</m>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            A cleans reservoir 3
+                        </cell>
+                        <cell>
+                            <m>(40,30)</m>
+                        </cell>
+                        <cell>
+                            <m>(20,50)</m>
+                        </cell>
+                        <cell>
+                            <m>(60,40)</m>
+                        </cell>
+                    </row>
+                </tabular>
+            </table>
+
+            <exercise>
+                <statement>
+                    <p>
+                        Complete the table of best responses for this game, and use it to answer the questions that follow. 
+                    </p>
+                </statement>
+            </exercise>
+
+            <interactive label="ch6-interactive-nash-eq" platform="doenetml" width="100%" aspect="1:2">
+                <slate surface="doenetml">
+                    <xi:include parse="text" href="doenet/ch6-doenet-nash-eq.doenetml"/>
+                </slate>
+            </interactive>
+
+        </worksheet>
+
+
+    </article>
+</pretext>

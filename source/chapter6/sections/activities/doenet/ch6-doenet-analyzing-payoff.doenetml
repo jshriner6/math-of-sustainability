@@ -1,0 +1,30 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_czkLqLFBrjYQs2jcofbBz/_ZcyLaBVOhtGIA0WyLY8Sn -->
+
+<ol>
+      <li>Looking at the game as an outsider, what decisions should be made to achieve an outcome that is the best possible for both partners? 
+        <solution>
+          If both partners choose work on the joint project, they will both earn an <m>80\%</m>. This is best possible for both in the sense that that neither partner could do better without making the other worse off.
+        </solution>
+      </li>
+      <li>Suppose you are partner A. If partner B chooses to work on the joint project, what should you choose to work on, considering only your own individual gain? Why? 
+        <solution>
+          If you choose to work on the joint project, you will earn an <m>80\%</m>. If you choose to work on the individual project, you will earn an <m>85\%</m>. Considering only individual gain, you should choose to work on the individual project. This is the best response to partner B's choice of working on the joint project.
+        </solution>
+      </li>
+      <li>Suppose you are partner A. If partner B chooses to work on the individual project, what should you choose to work on, considering only your own individual gain? Why? 
+        <solution>
+          If you choose to work on the joint project, you will earn an <m>55\%</m>. If you choose to work on the individual project, you will earn an <m>75\%</m>. Considering only individual gain, you should choose to work on the individual project. This is the best response to partner B's choice of working on the individual project.
+        </solution>
+      </li>
+      <li>Suppose you are partner A. Even though you can't know what partner B will choose, what is your best choice, considering only individual gain? Why? 
+        <solution>
+          Considering only individual gain, you should choose to work on the individual project. This is the best response no matter what choice partner B makes. When one choice is better than the others no matter what the other player chooses to do, this is called a <term>dominant choice</term>. If a player is making decisions based only on their individual gain and they have a dominant choice, they will choose it.
+        </solution>
+      </li>
+      <li>
+        What grade do you think both partners will end up with, assuming they both make decisions based only on their own individual gain?
+        <solution>
+          Both partners have a dominant choice of working on their individual projects, so they will both choose that. This means they will both earn a <m>75\%</m> on the project, which is not the best possible outcome for both partners!
+        </solution>
+      </li>
+    </ol>

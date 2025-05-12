@@ -1,0 +1,107 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_czkLqLFBrjYQs2jcofbBz/_ZcyLaBVOhtGIA0WyLY8Sn -->
+
+<tabular top="major" bottom="minor" left="medium" right="medium">
+      <row>
+        <cell>
+          If A chooses...
+        </cell>
+        <cell>
+          B's best response is...
+        </cell>
+      </row>
+      <row>
+        <cell>
+          to clean reservoir 1...
+        </cell>
+        <cell>
+          <choiceInput name="respA1" inline><choice>clean reservoir 1</choice><choice>clean reservoir 2</choice><choice>clean reservoir 3</choice></choiceInput>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          to clean reservoir 2...
+        </cell>
+        <cell>
+          <choiceInput name="respA2" inline><choice>clean reservoir 1</choice><choice>clean reservoir 2</choice><choice>clean reservoir 3</choice></choiceInput>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          to clean reservoir 3...
+        </cell>
+        <cell>
+          <choiceInput name="respA3" inline><choice>clean reservoir 1</choice><choice>clean reservoir 2</choice><choice>clean reservoir 3</choice></choiceInput>
+        </cell>
+      </row>
+    </tabular>
+    <tabular top="major" bottom="minor" left="medium" right="medium">
+      <row>
+        <cell>
+          If B chooses...
+        </cell>
+        <cell>
+          A's best response is...
+        </cell>
+      </row>
+      <row>
+        <cell>
+          to clean reservoir 1...
+        </cell>
+        <cell>
+          <choiceInput name="respB1" inline><choice>clean reservoir 1</choice><choice>clean reservoir 2</choice><choice>clean reservoir 3</choice></choiceInput>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          to clean reservoir 2...
+        </cell>
+        <cell>
+          <choiceInput name="respB2" inline><choice>clean reservoir 1</choice><choice>clean reservoir 2</choice><choice>clean reservoir 3</choice></choiceInput>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          to clean reservoir 3...
+        </cell>
+        <cell>
+          <choiceInput name="respB3" inline><choice>clean reservoir 1</choice><choice>clean reservoir 2</choice><choice>clean reservoir 3</choice></choiceInput>
+        </cell>
+      </row>
+    </tabular>
+    <setup>
+      <booleanList name="best">
+        <boolean>$respA1.selectedIndices=3</boolean>
+        <boolean>$respA2.selectedIndices=1</boolean>
+        <boolean>$respA3.selectedIndices=2</boolean>
+        <boolean>$respB1.selectedIndices=2</boolean>
+        <boolean>$respB2.selectedIndices=1</boolean>
+        <boolean>$respB3.selectedIndices=3</boolean>
+      </booleanList>
+    </setup>
+    <answer>
+      <award>
+        <when>
+          <and>$best.booleans[1] $best.booleans[2] $best.booleans[3] $best.booleans[4] $best.booleans[5] $best.booleans[6]</and>
+        </when>
+      </award>
+    </answer>
+    <ol>
+      <li>
+        Does either country have a dominant choice? How can you tell from the tables?
+        <solution>
+          No, neither country has a dominant choice since there are multiple best responses in the <q>best response</q> column for both countries.
+        </solution>
+      </li>
+      <li>
+        Is there a Nash equilibrium in this game? How can you tell from the tables?
+        <solution>
+          Yes, there is a single Nash equilibrium with the choices (clean reservior 2, clean reservior 1). This is because <q>clean reservoir 1</q> is B's best response to A choosing <q>clean reservoir 2</q>, and <q>clean reservoir 2</q> is A's best response to B choosing <q>clean reservoir 1</q>. This is the only Nash equilibrium because it is the only pair of choices with this property.
+        </solution>
+      </li>
+      <li>
+        What will the outcome of this game be?
+        <solution>
+          Both countries will make their decision from the single Nash equilibrium, so the outcome will be that country A chooses to clean reservoir 2 while country B will choose to clean reservoir 1. Their respective quality of life values will be <m>50</m> and <m>40</m>.
+        </solution>
+      </li>
+    </ol>

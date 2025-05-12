@@ -1,0 +1,19 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_czkLqLFBrjYQs2jcofbBz/_ZcyLaBVOhtGIA0WyLY8Sn -->
+
+<ol>
+      <li>What would the best outcome be for both prisoners?
+        <solution>
+          The best outcome would be if they both decided to remain silent, and each served <m>0.5</m> years.
+        </solution>
+      </li>
+      <li>What is the dominant choice for both prisoners?
+        <solution>
+          The dominant choice for both prisioners is to confess (remember, a lower number is better in this game). With this choice, the prisoner will serve less time than staying silent, no matter which choice the other prisoner makes.
+        </solution>
+      </li>
+      <li>What will the outcome of this game be?
+        <solution>
+          Both prisoners will choose the dominant choice of confessing, and so they will both serve <m>1</m> year.
+        </solution>
+      </li>
+    </ol>
