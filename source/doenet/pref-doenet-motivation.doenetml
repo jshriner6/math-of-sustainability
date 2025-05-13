@@ -1,0 +1,56 @@
+<!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_1UROrHgV5imzxrsICzWJ7/_TlCq8u5z9LhYJGYramqqM -->
+
+<p>What does <q>Sustainability</q> mean to you?</p>
+  <p>
+  <booleanInput name="bool1" asToggleButton >
+  <label>Next</label>
+  </booleanInput>
+  </p>
+  <paragraphs hide="!($bool1)"><title></title>
+    <p>Meet the <em>needs</em> of the <em>present</em> generation...</p>
+    <p>In a way that does not compromise the <em>needs</em> of <em>future</em> generations.</p>
+    <p>
+      <booleanInput name="bool2" asToggleButton >
+      <label>Translation</label>
+      </booleanInput>
+    </p>
+  </paragraphs>
+  <tabular hide="!($bool2)" bottom="minor" top="minor" right="medium" left="minor">
+    <row halign="center">
+      <cell><alert>Needs</alert></cell>
+      <cell><alert>Present/Future</alert></cell>
+    </row>
+    <row>
+      <cell>What do we care about, and what factors impact this?</cell>
+      <cell>How does all of this move over time?</cell>
+    </row>
+    <row halign="center">
+      <cell><alert>SYSTEM</alert></cell>
+      <cell><alert>DYNAMICS</alert></cell>
+    </row>
+  </tabular>
+  <p hide="!($bool2)">
+      <booleanInput name="bool3" asToggleButton >
+      <label>How does math help?</label>
+      </booleanInput>
+  </p>
+  <ol hide="!($bool3)">
+    <li>
+      <alert>Measuring...</alert> we must be able to compare, describe, and communicate quantitative information.
+    </li>
+    <li>
+      <alert>Flowing...</alert> we must be able to describe a <q>balanced</q> system that is constantly moving.
+    </li>
+    <li>
+      <alert>Connecting...</alert> we must be able to describe relationships within a system.
+    </li>
+    <li>
+      <alert>Changing...</alert> we must be able to describe the fate of <q>unbalanced</q> systems.
+    </li>
+    <li>
+      <alert>Risking...</alert> we must be able to weight benefits and risks in scenarios with uncertain outcomes.
+    </li>
+    <li>
+      <alert>Deciding...</alert> we must be able to make decisions and understand the underlying motives.
+    </li>
+  </ol>

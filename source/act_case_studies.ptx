@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+    <article xml:id="worksheet">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-topic">
+            <title>Topic Selection</title>
+    
+            <introduction>
+                <p>
+                   You will first need to make an individual decision for where you would like to source your topic for your 
+                   case study. You will then be placed into a group based off of this decision. Your options are as follows.
+                   <ol>
+                        <li>
+                            If this is your first case study for the course, you will pick one of the studies from chapter 7 in 
+                            the <url href="https://link.springer.com/book/10.1007/978-3-319-76660-7">Mathematics for Sustainability</url> 
+                            textbook. You can access this text for free by logging in with your CSU credentials.
+                        </li>
+                        <li>
+                            If this is your second case study for the course, you can choose a study from chapter 7 in the 
+                            <url href="https://link.springer.com/book/10.1007/978-3-319-76660-7">Mathematics for Sustainability</url> 
+                            textbook, or you can choose a topic from CSU Spur's 
+                            <url href="https://csuspur.org/csu-impacto/">CSU Impacto</url>.
+                        </li>
+                        <li>
+                            If this is your third case study for the course, you can choose a topic from CSU Spur's 
+                            <url href="https://csuspur.org/csu-impacto/">CSU Impacto</url>, or you can pick a topic of your 
+                            choosing. Your topic should be motivated by a data set that already exists (such as from 
+                            <url href="https://data.gov/">Data (dot) gov</url> or the <url href="https://data.colorado.gov/">Colorado Information Marketplace</url>).
+                        </li>
+                    </ol>
+                </p>
+                
+            </introduction>
+
+            <p>
+                In your group, answer the following questions regarding your proposed topic. The questions are meant to help 
+                you begin thinking towards the requirements of the final presentation rubric.
+            </p>
+
+            <page>
+                <exercise workspace="0.5in">
+                    <p>
+                        Enter the full names of everyone in your group.
+                    </p>
+                </exercise>
+                <exercise>
+                    <p>
+                        Select the primary source of your proposed case study.
+                        <ul marker="circle">
+                            <li>
+                                <p>
+                                    Mathematics for Sustainability Textbook
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    CSU Impacto
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Other (please specify):
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+
+                </exercise>
+                <exercise workspace="0.5in">
+                    <p>
+                    What is the title of your proposed case study?
+                    </p>
+                    
+                </exercise>
+                <exercise workspace="2in">
+                    <p>
+                    How will you frame the sustainability question or issue being addressed in your proposed case study? What 
+                    do you anticipate your stance being on the question/issue? Be as specific as possible!
+                    </p>
+                    
+                </exercise>
+            </page>
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-outline">
+            <title>Outline Presentation</title>
+    
+            <introduction>
+                <p>
+                   This is a space to begin answering questions that should be addressed in the presentation in order to meet 
+                   the requirements of the final presentation rubric. The focus of this outline is to develop the content 
+                   of your presentation, not the visual representation or time management of your presentation. 
+                </p>
+                <p>
+                    Some of the questions may be repeated from the previous activity. Please answer all questions, as some 
+                    details may have changed for your group over time.
+                </p>
+                
+            </introduction>
+            <page>
+                <exercise workspace="0.5in">
+                    <p>
+                        Enter the full names of everyone in your group.
+                    </p>
+                </exercise>
+                <exercise>
+                    <p>
+                        Select the primary source of your proposed case study.
+                        <ul marker="circle">
+                            <li>
+                                <p>
+                                    Mathematics for Sustainability Textbook
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    CSU Impacto
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Other (please specify):
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+
+                </exercise>
+                <exercise workspace="0.5in">
+                    <p>
+                        Are there secondary sources that you plan to use? If so, list them here.
+                    </p>
+                    
+                </exercise>
+                <exercise workspace="0.5in">
+                    <p>
+                        What is the title of your case study?
+                    </p>> 
+                </exercise>
+            </page>
+            <page>
+                <exercise workspace="2in">
+                    <p>
+                       How will you frame the sustainability question or issue being addressed in your proposed case study? 
+                       What is your stance on the question/issue? Be as specific as possible!
+                    </p>> 
+                </exercise>
+                <exercise workspace="2in">
+                    <p>
+                       What concepts from the <q>Measuring</q> topics are relevant for your case study? Are there any concepts 
+                       in this area that we did not discuss in class that you will need to learn more about?
+                    </p>> 
+                </exercise>
+                <exercise workspace="2in">
+                    <p>
+                       What concepts from the <q>Flowing</q> topics are relevant for your case study? Are there any concepts 
+                       in this area that we did not discuss in class that you will need to learn more about?
+                    </p>> 
+                </exercise>
+                <exercise workspace="2in">
+                    <p>
+                       What concepts from the <q>Connecting</q> topics are relevant for your case study? Are there any concepts 
+                       in this area that we did not discuss in class that you will need to learn more about?
+                    </p>> 
+                </exercise>
+                <exercise workspace="2in">
+                    <p>
+                       What concepts from the <q>Changing</q> topics are relevant for your case study? Are there any concepts 
+                       in this area that we did not discuss in class that you will need to learn more about?
+                    </p>> 
+                </exercise>
+                <exercise workspace="2in">
+                    <p>
+                       What concepts from the <q>Risking</q> topics are relevant for your case study? Are there any concepts 
+                       in this area that we did not discuss in class that you will need to learn more about?
+                    </p>> 
+                </exercise>
+                <exercise workspace="2in">
+                    <p>
+                       What concepts from the <q>Deciding</q> topics are relevant for your case study? Are there any concepts 
+                       in this area that we did not discuss in class that you will need to learn more about?
+                    </p>> 
+                </exercise>
+            </page>
+
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-draft">
+            <title>Draft Presentation</title>
+    
+            <introduction>
+                <p>
+                   This is a space to begin integrating the content from your outline into presentation form. 
+                   The focus of this draft will be to effectively communicate the content from your outline in your 
+                   presentation, including the visual representation and how you will manage your alloted time between your 
+                   group members. 
+                </p>
+                
+            </introduction>
+
+            <page>
+                <exercise workspace="0.5in">
+                    <p>
+                        Enter the full names of everyone in your group.
+                    </p>
+                </exercise>
+
+                <exercise>
+                    <p>
+                        What medium will you use for the main delivery of your presentation? Think about what will be most 
+                        effective for communicating the information you want to share in the time alloted for your group.
+                        <ul marker="circle">
+                            <li>
+                                <p>
+                                    Blackboard/whiteboard
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Slideshow (PowerPoint) (<url href="https://brand.colostate.edu/templates/">Template</url>)
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Poster (Overleaf) (<url href="https://www.overleaf.com/read/szgcdvtcsvpj#4d4ac4">Template</url>)
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Other (please specify):
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                </exercise>
+
+                <exercise workspace="2in">
+                    <p>
+                        Start organizing your content for your chosen medium. In the space below, identify tasks that need 
+                        to be completed outside of class, or questions needing to be addressed during next class. 
+                    </p>
+                    
+                </exercise>
+
+                <exercise workspace="2in">
+                    <p>
+                        How will you split the presentation between your group members? Provide a tentative schedule for 
+                        your presentation, including the names of your group member, the portions of the presentation they 
+                        are responsible for, and the amount of time they have for those portions.  
+                    </p>
+                    
+                </exercise>
+            </page>
+
+
+        </worksheet>
+
+        <worksheet margin="1in" bottom="1.25cm" xml:id="ws-finalize">
+            <title>Finalize Presentation</title>
+    
+            <introduction>
+                <p>
+                    This is a space to finalize your presentation by working through the checklist provided. Reference your 
+                    draft as necessary.
+                </p>
+                
+            </introduction>
+
+            <page>
+                <exercise workspace="0.5in">
+                    <p>
+                        Enter the full names of everyone in your group.
+                    </p>
+                </exercise>
+                <exercise workspace="2in">
+
+                <p>
+                    <ul marker="circle">
+                        <li>
+                            <p>
+                                We have finalized our presentation on our chosen medium, or have discussed a plan with our 
+                                instructor for how to do so before presentation day.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                We have finalized our presentation schedule, and every group member knows what they are 
+                                responsible for presenting, and how long they have to do so.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                We have scheduled a time to practice our presentation as a group before our presentation day.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                We have checked our final presentation against the final presentation rubric and feel 
+                                confident that our work will meet our goals for our final score.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                We do not have any questions about the logistics (e.g., projecting a PowerPoint or other 
+                                use of technology) of how we will present.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+                </exercise>
+            </page>
+             
+
+
+        </worksheet>
+
+
+    </article>
+</pretext>

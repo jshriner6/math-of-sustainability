@@ -1,4 +1,6 @@
 <section xml:id="sec-finalize" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Finalize Presentation</title>
 
+    <xi:include href="./act_case_studies.ptx" xpointer="worksheet/4"/>
+
 </section>

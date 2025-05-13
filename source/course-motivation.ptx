@@ -2,8 +2,11 @@
 
 <preface xml:id="pref-motivation" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Course Motivation</title>
-    <paragraphs xml:id="p-sustainability">
-        <title>Sustainability</title>
-        <p>What does <q>sustainability</q> mean to you?</p>
-    </paragraphs>  
+
+    <interactive label="pref-interactive-motivation" platform="doenetml" width="100%" aspect="1:1.5">
+        <slate surface="doenetml">
+            <xi:include parse="text" href="doenet/pref-doenet-motivation.doenetml"/>
+        </slate>
+    </interactive> 
+
 </preface>

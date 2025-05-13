@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-course-notes" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="ch-case-studies" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Case Studies</title>
 
   <introduction>
@@ -17,7 +17,7 @@
   <xi:include href="./draft_presentation.ptx"/>
   <xi:include href="./finalize_presentation.ptx"/>
 
-  <conclusion>
+  <conclusion xml:id="case-study-rubric">
   <tabular row-headers="yes" bottom="minor" top="minor" left="minor" right="minor">
     <col right="major" width="20%"/>
     <col width="20%"/>

@@ -1,4 +1,6 @@
 <section xml:id="sec-topic" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Topic Selection</title>
 
+    <xi:include href="./act_case_studies.ptx" xpointer="worksheet/1"/>
+
 </section>

@@ -4,6 +4,67 @@
     <title>Activity Expectations</title>
     <paragraphs xml:id="p-groups">
         <title>Groups and Group Roles</title>
-        <p> This course is about magic beans.  And about how bad copilot is at writing syllabi.</p>
-    </paragraphs>  
+        <p>
+            You are expected to work on class activities in groups of <m>3</m> or <m>4</m>. The details of how groups should 
+            be formed will be provided by your instructor. Within each group, individuals will fill one of the following roles:
+        
+            <ul>
+                <li>
+                    <alert>Reader.</alert> This role is responsible for leading the reading of the activity text, and leading 
+                    group discussions when prompted by exercises within the activity.
+                </li>
+                <li>
+                    <alert>Reporter.</alert> This role is responsible for recording summaries of group responses to questions, 
+                    and should be prepared to communicate the group's ideas during class discussions. 
+                </li>
+                <li>
+                    <alert>Time Keeper.</alert> This role is responsible for keeping the group on task to finish activity 
+                    sections in the allotted time. If the group is stuck and spending too much time one thing, they may need to 
+                    encourage the group to either write down questions for later, or to ask an instructor for help.
+                </li>
+                <li>
+                    <alert>Mediator. (optional)</alert> This role is responsible for ensuring everyone in the group is 
+                    understanding the objectives of the activity. This will include posing and writing down questions related 
+                    to the objectives that can either be answered by group members or an instructor. If there are only three 
+                    group members, this role can be filled by the Time Keeper.
+                </li>
+            </ul>
+        </p>
+    </paragraphs> 
+    
+    <paragraphs>
+        <title>Completion Requirements</title>
+        <paragraphs>
+            <title>Portfolio Entries</title>
+            <p>
+                Each activity will have exercises, parts of which will ask you to write things on paper. 
+                The collection of paper that you keep your work in will be considered your <q>portfolio</q>, and you will be 
+                asked to submit your portfolio at regular intervals throughout the class, determined by your instructor. 
+                In order to receive credit for an activity, you must have a portfolio entry addressing all of the prompts 
+                from that activitiy.
+            </p>
+            
+        </paragraphs>
+        <paragraphs>
+            <title>Section Checkpoints</title>
+            <p>
+                Most activities will have section checkpoint questions at the very end. You will not be graded on these for 
+                accuracy, but they are very important in helping us assess mastery of the different objectives from each 
+                section. In order to receive credit for an actiivty, you must complete all section checkpoint questions for 
+                that activity.
+            </p>
+        </paragraphs>
+
+        <paragraphs>
+            <title>Absences</title>
+            <p>
+            If you miss an activity, you should complete the activity outside of class, including a portfolio entry, 
+            and visit office hours within one week to review the activity with your instructor. After meeting with your 
+            instructor, complete the section checkpoint questions.
+            </p>
+        
+        </paragraphs>
+        
+    </paragraphs>
+
 </preface>
