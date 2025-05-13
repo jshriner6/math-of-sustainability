@@ -28,19 +28,19 @@
                    equilibrium values. 
                 </p>
                 <p> 
-                    Use the first graph to set your initial pollution value, and find the associated 
-                   initial phosphorus equilibrium value by moving the point on the horizontal axis to where the net flow 
-                   rate is <m>0</m>. 
+                    Use the first graph to set your initial pollution value, and find the associated initial phosphorus 
+                    equilibrium value by either moving the point on the horizontal axis, or setting the value manually
+                    so that the net flow rate is <m>0</m>. 
+                    Similarly, use the second graph to set your next pollution value, and find the associated next 
+                    phosphorus equilibrium value. 
                 </p>
-                <p>
-                    Use the second graph to set your next pollution value, and find the associated next phosphorus e
-                    quilibrium value by moving the point on the horizontal axis to where the net flow rate is <m>0</m>. 
+                <p> 
                     The first row is completed for you to use as a guide.   
                 </p>
             </introduction>
             
 
-            <interactive label="ch4-interactive-sensitivity-graphs" platform="doenetml" width="100%" aspect="1:2.75">
+            <interactive label="ch4-interactive-sensitivity-graphs" platform="doenetml" width="100%" aspect="1:3">
                 <slate surface="doenetml">
                     <xi:include parse="text" href="doenet/ch4-doenet-sensitivity-graphs.doenetml"/>
                 </slate>
@@ -68,7 +68,7 @@
             
             <introduction>
                 <p>
-                    Place the pollution parameter slider to <m>15.25</m>, and answer the following questions in your group.
+                    Place the pollution parameter slider in <xref ref="fig-net-flow-parameter"/> to <m>15.25</m>, and answer the following questions in your group.
                 </p>
             </introduction>
 
