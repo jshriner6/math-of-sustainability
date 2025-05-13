@@ -400,7 +400,7 @@
             <col/>
             <col/>
             <row header="yes" bottom="major">
-                <cell></cell>
+                <cell>Letter Grades </cell>
                 <cell>A</cell>
                 <cell>B</cell>
                 <cell>C</cell>

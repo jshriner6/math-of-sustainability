@@ -40,6 +40,10 @@
                     diagram. For each stock-flow model below, identify any parameters you think might be present. 
                     Then create a system diagram including those parameters.
                 </p>
+                <p>
+                    Use the interactive as needed if it is helpful to recall the various components that comprise 
+                    a system diagram.
+                </p>
             </introduction>
 
             <interactive label="ch2-interactive-sys-diagram-params" platform="doenetml" width="100%" aspect="1:3.5">

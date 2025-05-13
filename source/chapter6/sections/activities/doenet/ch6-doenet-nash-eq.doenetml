@@ -1,7 +1,7 @@
 <!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_czkLqLFBrjYQs2jcofbBz/_ZcyLaBVOhtGIA0WyLY8Sn -->
 
 <tabular top="major" bottom="minor" left="medium" right="medium">
-      <row>
+      <row header="true">
         <cell>
           If A chooses...
         </cell>
@@ -35,7 +35,7 @@
       </row>
     </tabular>
     <tabular top="major" bottom="minor" left="medium" right="medium">
-      <row>
+      <row header="true">
         <cell>
           If B chooses...
         </cell>

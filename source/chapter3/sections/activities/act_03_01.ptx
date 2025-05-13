@@ -18,7 +18,8 @@
             
             <introduction>
                 <p>
-                    Let's practice creating graphs to represent networks. After you have created a graph, answer the 
+                    Let's practice creating graphs to represent networks. Use the interactive as needed if it is helpful to 
+                    recall the various components that comprise a graph. After you have created a graph, answer the 
                     following questions.
                     <ol>
                         <li>Which vertex in your graph has the highest degree?</li>
@@ -54,6 +55,10 @@
                     In your group, brainstorm three networks that you think would be best represented as a <em>directed</em> 
                     graph. Then pick one of these networks to create a directed graph for below. You may simplify the 
                     network or represent just part of the network to make this achievable in the timeframe available.
+                </p>
+                <p>
+                    Use the interactive as needed if it is helpful to 
+                    recall the various components that comprise a directed graph.
                 </p>
             </introduction>
 

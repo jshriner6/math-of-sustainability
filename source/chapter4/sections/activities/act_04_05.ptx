@@ -40,17 +40,12 @@
             </introduction>
             
 
-            <interactive label="ch4-interactive-sensitivity-graphs" platform="doenetml" width="100%" aspect="1:2.25">
+            <interactive label="ch4-interactive-sensitivity-graphs" platform="doenetml" width="100%" aspect="1:2.75">
                 <slate surface="doenetml">
                     <xi:include parse="text" href="doenet/ch4-doenet-sensitivity-graphs.doenetml"/>
                 </slate>
             </interactive>
 
-            <interactive label="ch4-interactive-sensitivity-table" platform="doenetml" width="100%" aspect="1.75:1">
-                <slate surface="doenetml">
-                    <xi:include parse="text" href="doenet/ch4-doenet-sensitivity-table.doenetml"/>
-                </slate>
-            </interactive>
 
             <exercise>
                 <statement>

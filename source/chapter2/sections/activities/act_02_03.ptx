@@ -8,8 +8,11 @@
             <introduction>
                 <p>
                     Let's practice identifying and representing dependencies between flow rates and stocks. 
-                    For each stock-flow model below, create a system diagram with dependency links. Write a short 
-                    description of what you think the dependency is and how it will affect the flow rate.  
+                    For each stock-flow model below, create a system diagram with dependency links. Use the
+                    interactive as needed if it is helpful to recall the various components that comprise a system diagram.
+                </p>
+                <p>
+                    Write a short description of what you think the dependency is and how it will affect the flow rate.  
                 </p>
             </introduction>
 

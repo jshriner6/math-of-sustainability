@@ -66,7 +66,7 @@
                     while a negative net flow for a stock means that stock is decreasing over time. 
                     Calculate the net flows for each example above, then check your answers below. Include units in your answer.
                     <answer><title>Check Answers Here</title>
-                        <ol marker="1">
+                        <ol marker="1.">
                             <li><m>-1 \frac{\text{gallon}}{\text{min}}</m></li>
                             <li><m>1 \frac{\text{gallon}}{\text{min}}</m></li>
                             <li><m>0 \frac{\text{gallon}}{\text{min}}</m></li>
