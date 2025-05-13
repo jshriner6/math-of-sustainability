@@ -25,7 +25,7 @@ var ptx_lunr_docs = [
   "type": "Preface",
   "number": "",
   "title": "Course Syllabus",
-  "body": " Course Syllabus   Course Information  This course is about magic beans. And about how bad copilot is at writing syllabi.   "
+  "body": " Course Syllabus   Course Details   Course Meetings  Days and Time: M\/T\/W\/R\/F at xx:xx XM  Location: XXXX    Course Instructor  Instructor: XXXX (EMAIL)  Office: XXXX  Office Hours: M\/T\/W\/R\/F at xx:xx XM    Course Communication  E-mail is the best way to contact me for personal requests. You can expect a response within 24 hours on weekdays which either answers your question, or to set up a further meeting to discuss your request. You, in turn, are also expected to check your university email and our Canvas course regularly and respond in a timely manner.    Course Prerequisites  This course has no required prerequisites.    Course Textbook and Materials  This course has no required textbook, though the content organization is modeled after the text Mathematics for Sustainability , which can be downloaded for free using your Colorado State University login credentials. You will be asked to reference this text for case studies , and you may find it useful as a supplemental resource.  We will use Canvas to organize grades. The link to the text you are currently reading can be found in our Canvas course. We will utilize Doenet for section checkpoint questions after each course activity . Both Canvas and Doenet can be accessed using your Colorado State University email.  We are invested in making all course materials as accessible as possible. If you experience any barriers to access, please communicate with me so that we can make improvements.    Course Content and Structure  The first segment of our course will establish a broad range of mathematical tools which can be useful for analyzing questions in sustainability. We do so in six sub-contexts which describe the actions that math can help us perform or model: measuring, flowing, connecting, changing, risking, and deciding.  The second segment of the course is spent applying and extending these tools through 3 student-directed case studies.  The course structure emphasizes active learning and a collaborative work environment, which is outlined in more detail in our expectations document .     Assignments and Assessments   Activities  The first segment of class will be spent exploring content through in-class group activities, which are provided in this text. Activities contain examples, important definitions, practice problems, and concept questions to help you actively engage with the material. You will receive credit for completing the activities, responding to prompts in an individual portfolio, and participating in group and class discussions. Detailed expectations are outlined in our expectations document .    Case Studies  The second segment of class will be spent reviewing, preparing, and presenting case studies on topics in sustainbility. Case studies will be completed in groups, and you will be given guidelines that encourage you to use and expand on tools that were learned in the first segment of the course. There will be a total of three case studies, graded out of points each. A detailed rubric is provided in .    (Optional) Pre-Calculus Placements  The course does not serve as a prerequisite into any other math course. However, if you would like to earn placement out of specific pre-calculus courses, you will be given the opportunity to do so. At the beginning of the course, you will be asked to set any placement goals that you have for the semester. It will be your responsibility to study the relevant material for your goals outside of class, and visit office hours to practice and ask questions. We will then have two opportunities for you to take placement assessments: once between the first and second segments of our course, and once after the second segment of our course (finals week).    Tentative Schedule  Below is a tentative schedule for our course.         16 Weeks  Monday  Wednesday  Friday    Week 1  Holiday: no class  Introduction  Section 1.1    Week 2  Section 1.2  Section 1.3  Section 2.1    Week 3  Section 2.2  Section 2.3  Section 2.4    Week 4  Section 3.1  Section 3.2  Section 4.1    Week 5  Section 4.2  Section 4.3  Section 4.4    Week 6  Section 4.5  Section 5.1  Section 5.2    Week 7  Section 5.3  Section 5.4  Section 6.1    Week 8  Section 6.2  Section 6.3  Flex Day\/Introduction to Case Studies    Week 9  Placement Assessments  Placement Assessments  Placement Assessments    Week 10  Case Study 1: Group\/Topic Selection  Case Study 1: Outlines  Case Study 1: Drafts    Week 11  Case Study 1: Finalize  Case Study 1: Presentations  Case Study 1: Presentations    Week 12  Case Study 2: Group\/Topic Selection  Case Study 2: Outlines  Case Study 2: Drafts    Week 13  Case Study 2: Finalize  Case Study 2: Presentations  Case Study 2: Presentations    Week 14  Case Study 3: Group\/Topic Selection  Case Study 3: Outlines  Case Study 3: Drafts    Week 15  Case Study 3: Finalize  Case Study 3: Presentations  Case Study 3: Presentations    Week 16  Placement Assessments  Placement Assessments  Placement Assessments           8 Weeks  Monday  Tuesday  Wednesday  Thursday    Week 1  Introduction\/Begin Section 1.1  Finish Section 1.1\/Section 1.2  Section 1.3\/Begin Section 2.1  Holiday: no class    Week 2  Finish Section 2.1\/Section 2.2  Section 2.3\/Begin Section 2.4  Finish Section 2.4\/Section 3.1  Section 3.2\/Begin Section 4.1    Week 3  Finish Section 4.1\/Section 4.2  Section 4.3\/Begin Section 4.4  Finish Section 4.4\/Section 4.5  Section 5.1\/Begin Section 5.2    Week 4  Finish Section 5.2\/Section 5.3  Section 5.4\/Begin Section 6.1  Finish Section 6.1\/Section 6.2  Section 6.3\/Introduction to Case Studies    Week 5  Placement Assessments  Placement Assessments  Case Study 1: Group\/Topic Selection\/Begin Outlines  Case Study 1: Finish Outlines\/Drafts    Week 6  Case Study 1: Finalize  Case Study 1: Begin Presentations  Case Study 1: Finish Presentations\/Case Study 2: Group\/Topic Selection  Case Study 2: Outlines\/Begin Drafts    Week 7  Case Study 2: Finish Drafts\/Finalize  Case Study 2: Begin Presentations  Case Study 2: Finish Presentations\/Case Study 3: Group\/Topic Selection  Case Study 3: Outlines\/Begin Drafts    Week 8  Case Study 3: Finish Drafts\/Finalize  Case Study 3: Begin Presentations  Case Study 3: Finish Presentations\/Placement Assessments  Placement Assessments            5 Weeks  Monday  Tuesday  Wednesday  Thursday  Friday    Week 1  Introduction\/Section 1.1  Section 1.2\/Section 1.3  Section 2.1\/Section 2.2  Section 2.3\/Section 2.4  Section 3.1    Week 2  Section 3.2\/Section 4.1  Section 4.2\/Section 4.3  Section 4.4\/Section 4.5  Section 5.1\/Section 5.2  Section 5.3    Week 3  Section 5.4\/Section 6.1  Section 6.2\/Section 6.3  Introduction to Case Studies\/Placement Assessments  Placement Assessments\/Case Study 1: Group\/Topic Selection  Case Study 1: Outlines    Week 4  Case Study 1: Drafts\/Finalize  Case Study 1: Presentations  Case Study 2: Group\/Topic Selection\/Outlines  Case Study 2: Drafts\/Finalize  Case Study 2: Presentations    Week 5  Case Study 2: Presentations\/Case Study 3: Group\/Topic Selection  Case Study 3: Outlines\/Drafts  Case Study 3:Finalize\/Placement Assessments  Case Study 3: Presentations  Placement Assessments      Letter Grades  Letter grades will be assigned according to the table below. You will earn the letter grade corresponding to the column of your highest achievement in both categories. For example, a student who completes activities and has a total case study score of points would earn a C .          A  B  C  F    Activities Completed        Case Study Total           Course and University Policies   Basic Needs Security  Any student who faces challenges securing their food or housing can receive support from the Rams Against Hunger program . Services include a food pantry, a meal-swipe program, pocket pantries, and in-person assistance with navigating federal aid eligibility. The RAH page includes numerous resources as well as county, state and federal programs which are described and linked. Furthermore, please notify the instructor if you are comfortable in doing so.    Classroom Behavior, Respect for Diversity and Inclusion  Students and faculty each have responsibility for maintaining an appropriate learning environment. Those who fail to adhere to such behavioral standards may be subject to discipline. Professional courtesy and sensitivity are especially important with respect to individuals and topics dealing with differences of race, color, culture, religion, creed, politics, veteran's status, sexual orientation, gender, gender identity and gender expression, age, disability, and nationalities. Class rosters are provided to the instructor with the student's legal name. I will gladly honor your request to address you by an alternate name or gender pronoun. Please advise me of this preference early in the semester so that I may make appropriate changes to my records. For more information, see the policies on classroom behavior and the student code at the catalog and at the SRC .  We acknowledge that many students have had experiences that have left them feeling excluded from the field of mathematics. We also acknowledge that students from minority groups have been disproportionately impacted. We are making this explicit statement because this unfortunate reality is inconsistent with the truth that you can be successful in mathematics, regardless of your race, ethnicity, gender, or sexual orientation. We are committed to decolonizing mathematics into a field where every student feels supported in accomplishing the hard work necessary to become better problem solvers. We learn more by listening to diverse perspectives, and we hope you will be ready and willing to share yours in this course.  Here are several resources that highlight the past and current contributions to the mathematics community from underrepresented groups:   Meet A Mathematician    Mathematically Gifted and Black    Lathisms    Indigenous Mathematicians    Spectra    Association for Women in Mathematics    Mathematicians of the African Diaspora       Accommodation for Disabilities  If you are a student who will need accommodations in this class due to a disability or chronic health condition, I will need an accommodation letter from the Student Disability Center (SDC) before they are implemented. Please meet with me during my office hours to give me the letter and\/or to further discuss your needs.  If you do not already have these letters, please contact the SDC as soon as possible to initiate the accommodation process. The SDC is located in room 121 of the TILT building. Contact them at 970-491-6385 or visit the SDC website .    Student Parents\/Guardians\/Caregivers  I realize that student parents\/guardians and caregivers face distinctive challenges in succeeding academically, and I'm committed to supporting those of you who are parents to achieve our course's learning outcomes. If you encounter challenges in meeting course expectations, please contact me as soon as possible. We'll develop a plan together so you can be successful in the course.    Student Case Management   Student case management is available to help students with extenuating life circumstances and connect them with resources. In some cases, after you and I discuss your situation, I may request verifiable documentation for class absences from the SCM office if you request considerations for absences or missed coursework.    Mental Health and Wellness  CSU is a community that cares. You are not alone. CSU Health Network Counseling Services has trained professionals who can help. Your student fees provide access to a wide range of support services. Call Counseling Services at (970) 491-6053, and they will work together with you to find out which services are right for you. Visit counseling services to learn more and mental health resources for additional student mental health and well-being resources. If you are concerned about a friend or peer, use Tell Someone by c alling (970) 491-1350 or visiting Tell Someone to share your concerns with a professional who can discreetly connect the distressed individual with the proper resources. Rams Take Care of Rams. Reach out and ask for help if you or someone you know is having a difficult time.    Religious Observances and Class Attendance  CSU has a legal obligation to accommodate students' absences due to religious observances. For such an accommodation, it is the student's responsibility to complete the Religious Accommodation Request Form at the beginning of each semester and submit the request via the Office of the Vice President for Student Affairs website. The Dean of Students will communicate with the instructor regarding the student's absence and the student is instructed to discuss how best to ensure an accommodation related to class conflicts. For religious observances that cannot reasonably be anticipated at the beginning of the semester, students must follow the procedure above as soon as possible after the course conflict is identified. If a student knows that a particular course or section of the course will have multiple conflicts with his or her religious obligations, the student is advised to locate another course section or defer taking the course to a different semester. In the event of a conflict in regards to this policy, individuals may appeal using established CSU procedures. Instructors are advised to provide reasonable accommodations to ensure compliance with CSU's obligations. See more details regarding attendance policies at the catalog .    Discrimination and Harassment  CSU is committed to providing an environment that respects the dignity and worth of every member of its community. CSU strives to create and maintain a work and study environment that is fair, inclusive, and responsible so that each member of the CSU community is treated with dignity and respect and is rewarded for relevant considerations such as ability and performance. CSU has adopted a comprehensive policy to define the types of conduct that are prohibited and to prevent harm arising from discrimination, harassment, sexual harassment, sexual misconduct, domestic violence, dating violence, stalking, and retaliation. Conduct that is discriminatory or harmful under the policy inhibits the achievement of the stated goals. All students, faculty, staff, and other persons having business with CSU are expected to know and follow this policy.  Details regarding what is involved in bringing a complaint and the procedures for informal and formal resolution are available from the Office of Support and Safety Assessment for student-to-student behavior and the Office of Equal Opportunity for matters involving non-students such as faculty, staff, affiliates, or visitors and matters involving a student and non-student person. See more details at the catalog .    Academic Integrity and the Honor Code  We learn best together, which is why there is a large amount of collaboration built into our course structure. However, there is a difference between learning together and using someone else's work. If you are wondering if you crossed the line, ask yourself \"Could I start over and redo this on my own, and would it basically look like this?\" If not, then you are submitting someone else's work (plagiarism). Copying solutions or statements from the internet wihthout citing your source also constitutes plagiarism. We take academic integrity seriously, so all cases of plagiarized work or cheating will receive a 0 and will be submitted to the SRC.  This course will adhere to the CSU Academic Integrity Policy as found in the Colorado State University General Catalog and the Student Conduct Code. At a minimum, violations will result in a grading penalty in this course and a report to the Office of Conflict Resolution and Student Conduct Services. See more details at the catalog and TILT .     All-University Core Curriculum (AUCC)  The Colorado Commission on Higher Education has approved Math 112 for inclusion in the Guaranteed Transfer (GT) Pathways program in the GT-MA1 category. For transferring students, successful completion with a minimum C- grade guarantees transfer and application of credit in this GT Pathways category. For more information on the GT Pathways program, go to the CDHE .  Content Criteria: Content Competencies pertain to the knowledge base, methods, concepts, and content-related learning that students should garner from participation in a course. Students should be able to demonstrate acquisition of such content focused learning as a result of participation in courses in each category of the AUCC.   Demonstrate good problem-solving habits, including:   Estimating solutions and recognizing unreasonable results.  Considering a variety of approaches to a given problem, and selecting one that is appropriate.  Interpreting solutions correctly.    Generate and interpret symbolic, graphical, numerical, and verbal (written or oral) representations of mathematical ideas.  Communicate mathematical ideas in written and\/or oral form using appropriate mathematical language, notation, and style.  Apply mathematical concepts, procedures, and techniques appropriate to the course.  Recognize and apply patterns or mathematical structure.  Utilize and integrate appropriate technology.    Core Student Learning Outcomes: Core Student Learning Outcomes are transferable skills that students garner in a variety of educational settings and that have wide applicability across fields and in life.    Quantitative Literacy    Interpret Information   Explain information presented in mathematical forms (e.g., equations, graphs, diagrams, tables, words).     Represent Information   Convert information into and between various mathematical forms (e.g., equations, graphs, diagrams, tables, words).     Perform Calculations   Solve problems or equations at the appropriate course level.  Use appropriate mathematical notation.  Solve a variety of different problem types that involve a multi-step solution and address the validity of the results.     Apply and Analyze Information   Make use of graphical objects (such as graphs of equations in two or three variables, histograms, scatterplots of bivariate data, geometrical figures, etc.) to supplement a solution to a typical problem at the appropriate level.  Formulate, organize, and articulate solutions to theoretical and application problems at the appropriate course level.  Make judgments based on mathematical analysis appropriate to the course level.     Communicate Using Mathematical Forms   Express mathematical analysis symbolically, graphically, and in written language that clarifies\/justifies\/summarizes reasoning (may also include oral communication).     Address Assumptions   Describe and support assumptions in estimation, modeling, and data analysis, used as appropriate for the course.       Problem Solving    Define a problem   Construct a detailed and comprehensive problem statement or goal.  Identify relevant contextual factors.     Propose Exact and Approximate Strategies for Solution of a Problem   Identify reasonable approaches to solving the problem within the given context.     Evaluate Potential Strategies   Provide an evaluation of the potential strategy(ies) which may include:   the history of the problem,  the logic behind the potential strategy(ies),  the limitations of potential strategy(ies),  the feasibility of the proposed strategy(ies),  the potential impacts of the proposed strategy(ies).     Choose a feasible strategy     Apply a Strategy   Implement chosen approach(es).  Quantify uncertainty and error in results.  Gauge success of the chosen strategy(ies) and revise as needed.     Evaluate Results   Discuss and review results relative to the context of the problem.  Make recommendations for further work (where applicable).          Syllabus Disclaimer  Please be aware that this syllabus is a guideline and is subject to change. The instructor reserves the right to make adjustments to the course schedule, assignments, and grading policies as deemed necessary. Students will be notified of any changes in a timely manner.   "
 },
 {
   "id": "pref-expectations",
@@ -34,7 +34,7 @@ var ptx_lunr_docs = [
   "type": "Preface",
   "number": "",
   "title": "Activity Expectations",
-  "body": " Activity Expectations   Groups and Group Roles  This course is about magic beans. And about how bad copilot is at writing syllabi.   "
+  "body": " Activity Expectations   Groups and Group Roles  You are expected to work on class activities in groups of or . The details of how groups should be formed will be provided by your instructor. Within each group, individuals will fill one of the following roles:   Reader. This role is responsible for leading the reading of the activity text, and leading group discussions when prompted by exercises within the activity.   Reporter. This role is responsible for recording summaries of group responses to questions, and should be prepared to communicate the group's ideas during class discussions.   Time Keeper. This role is responsible for keeping the group on task to finish activity sections in the allotted time. If the group is stuck and spending too much time one thing, they may need to encourage the group to either write down questions for later, or to ask an instructor for help.   Mediator. (optional) This role is responsible for ensuring everyone in the group is understanding the objectives of the activity. This will include posing and writing down questions related to the objectives that can either be answered by group members or an instructor. If there are only three group members, this role can be filled by the Time Keeper.      Completion Requirements   Portfolio Entries  Each activity will have exercises, parts of which will ask you to write things on paper. The collection of paper that you keep your work in will be considered your portfolio , and you will be asked to submit your portfolio at regular intervals throughout the class, determined by your instructor. In order to receive credit for an activity, you must have a portfolio entry addressing all of the prompts from that activitiy.    Section Checkpoints  Most activities will have section checkpoint questions at the very end. You will not be graded on these for accuracy, but they are very important in helping us assess mastery of the different objectives from each section. In order to receive credit for an actiivty, you must complete all section checkpoint questions for that activity.    Absences  If you miss an activity, you should complete the activity outside of class, including a portfolio entry, and visit office hours within one week to review the activity with your instructor. After meeting with your instructor, complete the section checkpoint questions.    "
 },
 {
   "id": "pref-motivation",
@@ -43,7 +43,7 @@ var ptx_lunr_docs = [
   "type": "Preface",
   "number": "",
   "title": "Course Motivation",
-  "body": " Course Motivation   Sustainability  What does sustainability mean to you?   "
+  "body": " Course Motivation   "
 },
 {
   "id": "sec-1-1",
@@ -1888,7 +1888,43 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.1",
   "title": "Topic Selection",
-  "body": " Topic Selection  "
+  "body": " Topic Selection   Topic Selection   You will first need to make an individual decision for where you would like to source your topic for your case study. You will then be placed into a group based off of this decision. Your options are as follows.  If this is your first case study for the course, you will pick one of the studies from chapter 7 in the Mathematics for Sustainability textbook. You can access this text for free by logging in with your CSU credentials.  If this is your second case study for the course, you can choose a study from chapter 7 in the Mathematics for Sustainability textbook, or you can choose a topic from CSU Spur's CSU Impacto .  If this is your third case study for the course, you can choose a topic from CSU Spur's CSU Impacto , or you can pick a topic of your choosing. Your topic should be motivated by a data set that already exists (such as from Data (dot) gov or the Colorado Information Marketplace ).     In your group, answer the following questions regarding your proposed topic. The questions are meant to help you begin thinking towards the requirements of the final presentation rubric.    Enter the full names of everyone in your group.    Select the primary source of your proposed case study.   Mathematics for Sustainability Textbook    CSU Impacto    Other (please specify):       What is the title of your proposed case study?    How will you frame the sustainability question or issue being addressed in your proposed case study? What do you anticipate your stance being on the question\/issue? Be as specific as possible!     "
+},
+{
+  "id": "ws-topic-4-1",
+  "level": "2",
+  "url": "sec-topic.html#ws-topic-4-1",
+  "type": "Worksheet Exercise",
+  "number": "7.1.1.1",
+  "title": "",
+  "body": " Enter the full names of everyone in your group.  "
+},
+{
+  "id": "ws-topic-4-2",
+  "level": "2",
+  "url": "sec-topic.html#ws-topic-4-2",
+  "type": "Worksheet Exercise",
+  "number": "7.1.1.2",
+  "title": "",
+  "body": " Select the primary source of your proposed case study.   Mathematics for Sustainability Textbook    CSU Impacto    Other (please specify):     "
+},
+{
+  "id": "ws-topic-4-3",
+  "level": "2",
+  "url": "sec-topic.html#ws-topic-4-3",
+  "type": "Worksheet Exercise",
+  "number": "7.1.1.3",
+  "title": "",
+  "body": " What is the title of your proposed case study?  "
+},
+{
+  "id": "ws-topic-4-4",
+  "level": "2",
+  "url": "sec-topic.html#ws-topic-4-4",
+  "type": "Worksheet Exercise",
+  "number": "7.1.1.4",
+  "title": "",
+  "body": " How will you frame the sustainability question or issue being addressed in your proposed case study? What do you anticipate your stance being on the question\/issue? Be as specific as possible!  "
 },
 {
   "id": "sec-outline",
@@ -1897,7 +1933,106 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.2",
   "title": "Outline Presentation",
-  "body": " Outline Presentation  "
+  "body": " Outline Presentation   Outline Presentation   This is a space to begin answering questions that should be addressed in the presentation in order to meet the requirements of the final presentation rubric. The focus of this outline is to develop the content of your presentation, not the visual representation or time management of your presentation.  Some of the questions may be repeated from the previous activity. Please answer all questions, as some details may have changed for your group over time.     Enter the full names of everyone in your group.    Select the primary source of your proposed case study.   Mathematics for Sustainability Textbook    CSU Impacto    Other (please specify):       Are there secondary sources that you plan to use? If so, list them here.    What is the title of your case study? >     How will you frame the sustainability question or issue being addressed in your proposed case study? What is your stance on the question\/issue? Be as specific as possible! >   What concepts from the Measuring topics are relevant for your case study? Are there any concepts in this area that we did not discuss in class that you will need to learn more about? >   What concepts from the Flowing topics are relevant for your case study? Are there any concepts in this area that we did not discuss in class that you will need to learn more about? >   What concepts from the Connecting topics are relevant for your case study? Are there any concepts in this area that we did not discuss in class that you will need to learn more about? >   What concepts from the Changing topics are relevant for your case study? Are there any concepts in this area that we did not discuss in class that you will need to learn more about? >   What concepts from the Risking topics are relevant for your case study? Are there any concepts in this area that we did not discuss in class that you will need to learn more about? >   What concepts from the Deciding topics are relevant for your case study? Are there any concepts in this area that we did not discuss in class that you will need to learn more about? >    "
+},
+{
+  "id": "ws-outline-3-1",
+  "level": "2",
+  "url": "sec-outline.html#ws-outline-3-1",
+  "type": "Worksheet Exercise",
+  "number": "7.2.1.1",
+  "title": "",
+  "body": " Enter the full names of everyone in your group.  "
+},
+{
+  "id": "ws-outline-3-2",
+  "level": "2",
+  "url": "sec-outline.html#ws-outline-3-2",
+  "type": "Worksheet Exercise",
+  "number": "7.2.1.2",
+  "title": "",
+  "body": " Select the primary source of your proposed case study.   Mathematics for Sustainability Textbook    CSU Impacto    Other (please specify):     "
+},
+{
+  "id": "ws-outline-3-3",
+  "level": "2",
+  "url": "sec-outline.html#ws-outline-3-3",
+  "type": "Worksheet Exercise",
+  "number": "7.2.1.3",
+  "title": "",
+  "body": " Are there secondary sources that you plan to use? If so, list them here.  "
+},
+{
+  "id": "ws-outline-3-4",
+  "level": "2",
+  "url": "sec-outline.html#ws-outline-3-4",
+  "type": "Worksheet Exercise",
+  "number": "7.2.1.4",
+  "title": "",
+  "body": " What is the title of your case study? > "
+},
+{
+  "id": "ws-outline-4-1",
+  "level": "2",
+  "url": "sec-outline.html#ws-outline-4-1",
+  "type": "Worksheet Exercise",
+  "number": "7.2.1.5",
+  "title": "",
+  "body": " How will you frame the sustainability question or issue being addressed in your proposed case study? What is your stance on the question\/issue? Be as specific as possible! > "
+},
+{
+  "id": "ws-outline-4-2",
+  "level": "2",
+  "url": "sec-outline.html#ws-outline-4-2",
+  "type": "Worksheet Exercise",
+  "number": "7.2.1.6",
+  "title": "",
+  "body": " What concepts from the Measuring topics are relevant for your case study? Are there any concepts in this area that we did not discuss in class that you will need to learn more about? > "
+},
+{
+  "id": "ws-outline-4-3",
+  "level": "2",
+  "url": "sec-outline.html#ws-outline-4-3",
+  "type": "Worksheet Exercise",
+  "number": "7.2.1.7",
+  "title": "",
+  "body": " What concepts from the Flowing topics are relevant for your case study? Are there any concepts in this area that we did not discuss in class that you will need to learn more about? > "
+},
+{
+  "id": "ws-outline-4-4",
+  "level": "2",
+  "url": "sec-outline.html#ws-outline-4-4",
+  "type": "Worksheet Exercise",
+  "number": "7.2.1.8",
+  "title": "",
+  "body": " What concepts from the Connecting topics are relevant for your case study? Are there any concepts in this area that we did not discuss in class that you will need to learn more about? > "
+},
+{
+  "id": "ws-outline-4-5",
+  "level": "2",
+  "url": "sec-outline.html#ws-outline-4-5",
+  "type": "Worksheet Exercise",
+  "number": "7.2.1.9",
+  "title": "",
+  "body": " What concepts from the Changing topics are relevant for your case study? Are there any concepts in this area that we did not discuss in class that you will need to learn more about? > "
+},
+{
+  "id": "ws-outline-4-6",
+  "level": "2",
+  "url": "sec-outline.html#ws-outline-4-6",
+  "type": "Worksheet Exercise",
+  "number": "7.2.1.10",
+  "title": "",
+  "body": " What concepts from the Risking topics are relevant for your case study? Are there any concepts in this area that we did not discuss in class that you will need to learn more about? > "
+},
+{
+  "id": "ws-outline-4-7",
+  "level": "2",
+  "url": "sec-outline.html#ws-outline-4-7",
+  "type": "Worksheet Exercise",
+  "number": "7.2.1.11",
+  "title": "",
+  "body": " What concepts from the Deciding topics are relevant for your case study? Are there any concepts in this area that we did not discuss in class that you will need to learn more about? > "
 },
 {
   "id": "sec-draft",
@@ -1906,7 +2041,43 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.3",
   "title": "Draft Presentation",
-  "body": " Draft Presentation  "
+  "body": " Draft Presentation   Draft Presentation   This is a space to begin integrating the content from your outline into presentation form. The focus of this draft will be to effectively communicate the content from your outline in your presentation, including the visual representation and how you will manage your alloted time between your group members.     Enter the full names of everyone in your group.    What medium will you use for the main delivery of your presentation? Think about what will be most effective for communicating the information you want to share in the time alloted for your group.   Blackboard\/whiteboard    Slideshow (PowerPoint) ( Template )    Poster (Overleaf) ( Template )    Other (please specify):       Start organizing your content for your chosen medium. In the space below, identify tasks that need to be completed outside of class, or questions needing to be addressed during next class.    How will you split the presentation between your group members? Provide a tentative schedule for your presentation, including the names of your group member, the portions of the presentation they are responsible for, and the amount of time they have for those portions.     "
+},
+{
+  "id": "ws-draft-3-1",
+  "level": "2",
+  "url": "sec-draft.html#ws-draft-3-1",
+  "type": "Worksheet Exercise",
+  "number": "7.3.1.1",
+  "title": "",
+  "body": " Enter the full names of everyone in your group.  "
+},
+{
+  "id": "ws-draft-3-2",
+  "level": "2",
+  "url": "sec-draft.html#ws-draft-3-2",
+  "type": "Worksheet Exercise",
+  "number": "7.3.1.2",
+  "title": "",
+  "body": " What medium will you use for the main delivery of your presentation? Think about what will be most effective for communicating the information you want to share in the time alloted for your group.   Blackboard\/whiteboard    Slideshow (PowerPoint) ( Template )    Poster (Overleaf) ( Template )    Other (please specify):     "
+},
+{
+  "id": "ws-draft-3-3",
+  "level": "2",
+  "url": "sec-draft.html#ws-draft-3-3",
+  "type": "Worksheet Exercise",
+  "number": "7.3.1.3",
+  "title": "",
+  "body": " Start organizing your content for your chosen medium. In the space below, identify tasks that need to be completed outside of class, or questions needing to be addressed during next class.  "
+},
+{
+  "id": "ws-draft-3-4",
+  "level": "2",
+  "url": "sec-draft.html#ws-draft-3-4",
+  "type": "Worksheet Exercise",
+  "number": "7.3.1.4",
+  "title": "",
+  "body": " How will you split the presentation between your group members? Provide a tentative schedule for your presentation, including the names of your group member, the portions of the presentation they are responsible for, and the amount of time they have for those portions.  "
 },
 {
   "id": "sec-finalize",
@@ -1915,7 +2086,25 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.4",
   "title": "Finalize Presentation",
-  "body": " Finalize Presentation  "
+  "body": " Finalize Presentation   Finalize Presentation   This is a space to finalize your presentation by working through the checklist provided. Reference your draft as necessary.     Enter the full names of everyone in your group.       We have finalized our presentation on our chosen medium, or have discussed a plan with our instructor for how to do so before presentation day.    We have finalized our presentation schedule, and every group member knows what they are responsible for presenting, and how long they have to do so.    We have scheduled a time to practice our presentation as a group before our presentation day.    We have checked our final presentation against the final presentation rubric and feel confident that our work will meet our goals for our final score.    We do not have any questions about the logistics (e.g., projecting a PowerPoint or other use of technology) of how we will present.        "
+},
+{
+  "id": "ws-finalize-3-1",
+  "level": "2",
+  "url": "sec-finalize.html#ws-finalize-3-1",
+  "type": "Worksheet Exercise",
+  "number": "7.4.1.1",
+  "title": "",
+  "body": " Enter the full names of everyone in your group.  "
+},
+{
+  "id": "ws-finalize-3-2",
+  "level": "2",
+  "url": "sec-finalize.html#ws-finalize-3-2",
+  "type": "Worksheet Exercise",
+  "number": "7.4.1.2",
+  "title": "",
+  "body": "    We have finalized our presentation on our chosen medium, or have discussed a plan with our instructor for how to do so before presentation day.    We have finalized our presentation schedule, and every group member knows what they are responsible for presenting, and how long they have to do so.    We have scheduled a time to practice our presentation as a group before our presentation day.    We have checked our final presentation against the final presentation rubric and feel confident that our work will meet our goals for our final score.    We do not have any questions about the logistics (e.g., projecting a PowerPoint or other use of technology) of how we will present.     "
 },
 {
   "id": "backmatter-2",
