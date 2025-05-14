@@ -1,6 +1,7 @@
 <!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_MksKzOV9213MrOaXLGuDx/_gZMbm56GvRz5mkQvq4o4V -->
 
-<graph size="large" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false" xmax="18" xmin="-18" ymax="4" ymin="-4" aspectRatio="18/4">
+<figure suppressFigureNameInCaption>
+    <graph size="large" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false" xmax="18" xmin="-18" ymax="4" ymin="-4" aspectRatio="18/4">
       <rectangle width="3" height="3" draggable="false" verticesDraggable="false"/>
       <vector tail="(3,1.5)" displacement="(4,0)" draggable="false"/>
       <vector tail="(10,1.5)" displacement="(4,0)" draggable="false"/>
@@ -22,6 +23,13 @@
       <text anchor="(-2,0)" styleNumber="2" draggable="false">Stabilizing</text>
       <text anchor="(5,0)" styleNumber="2" draggable="false">Stabilizing</text>
     </graph>
+      <caption>
+        A system diagram which contains one inflow and one outflow, both of which are part of stabilizing feedback loops.
+      </caption>
+      <description>
+       A system diagram which contains one inflow and one outflow, both of which are part of stabilizing feedback loops.
+      </description>
+    </figure>
     <p>
       Work in your group to answer the following questions.
     </p>
@@ -58,7 +66,7 @@
       <li>
         After your group has completed the above tasks, view the graphical solution provided below. In what ways is this solution similar to yours? In what ways is it different?
         <hint><title>Stabilizing Feedback Loops</title>
-          <figure>
+          <figure suppressFigureNameInCaption>
           <sideBySide>
         <graph  displayYAxisTickLabels="false" showNavigation="false" size="small" xmin="-6" ymin="-4" ymax="7.5">
           <setup>

@@ -1,7 +1,7 @@
 <!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_cxBBhM7H0sPEBhXusYiY8/_okYpS55OmYju6ArnVsvxO -->
 
 <solution>
-      <figure>
+      <figure suppressFigureNameInCaption>
       <sideBySide>
         <graph showNavigation="false" size="small" xmin="-20" xmax="110" ymin="-2" ymax="15">
           <setup>

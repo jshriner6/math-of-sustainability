@@ -55,7 +55,7 @@
                 </p>
             </introduction>
 
-            <interactive label="ch5-interactive-freq-histo-build" platform="doenetml" width="100%" aspect="1:3">
+            <interactive label="ch5-interactive-freq-histo-build" platform="doenetml" width="100%" aspect="1:6">
                 <slate surface="doenetml">
                     <xi:include parse="text" href="doenet/ch5-doenet-freq-histo-build.doenetml"/>
                 </slate>

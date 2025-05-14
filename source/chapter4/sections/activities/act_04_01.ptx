@@ -62,7 +62,7 @@
                 </p>
             </introduction>
 
-            <interactive label="ch4-interactive-clustering-coeff" platform="doenetml" width="100%" aspect="1:1.9">
+            <interactive label="ch4-interactive-stabilizing-behav" platform="doenetml" width="100%" aspect="1:1.9">
                 <slate surface="doenetml">
                     <xi:include parse="text" href="doenet/ch4-doenet-stabilizing-behav.doenetml"/>
                 </slate>
