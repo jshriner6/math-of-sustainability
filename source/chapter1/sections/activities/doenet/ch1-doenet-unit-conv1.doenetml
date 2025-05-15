@@ -1,5 +1,9 @@
 <!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_12V4JZEsLYc9sIjFECH0J/_EVzX3XOuzib6cqG6NF1Eo -->
 
+<p>
+  Move the pieces to form the correct unit conversion factor that would be used to convert 
+</p>
+
 <me>
   <sampleRandomNumbers name="x" type="discreteUniform" from="20" to="50" numSamples="1"/> \text{ $den into $num}:
 </me>

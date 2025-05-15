@@ -59,6 +59,10 @@
     <boolean> <number>$x*1000 - 0.00001</number> < <number>$numFinal </number> < <number>$x*1000 + 0.00001</number></boolean>
   </booleanList>
 </setup>
+
+<p>
+  Convert
+</p>
     
     <me>
         <!--<sampleRandomNumbers name="y" type="discreteUniform" from="20" to="50" numSamples="1"/>--> $x \text{ $den into $num}:

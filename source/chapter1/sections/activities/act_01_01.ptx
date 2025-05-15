@@ -9,12 +9,9 @@
                     Now let's practice choosing correct unit conversion factors. 
                     Choose new variations of the problem with the <q>New Variation</q> button. 
                 </p>
-                <p>
-                    Move the pieces to form the correct unit conversion factor that would be used to convert 
-                </p>
             </introduction>
 
-            <interactive label="ch1-interactive-unit-conv1" platform="doenetml" width="100%" aspect="3:2">
+            <interactive label="ch1-interactive-unit-conv1" platform="doenetml" width="100%" aspect="1.25:1">
                 <slate surface="doenetml">
                     <xi:include parse="text" href="doenet/ch1-doenet-unit-conv1.doenetml"/>
                 </slate>
@@ -37,9 +34,7 @@
                     Replace <q>number</q> with a correct number and <q>unit</q> with a correct unit abbreviation.
                     Enter your numbers without using commas. Choose new variations of the problem with the <q>New Variation</q> button.
                 </p>
-                <p>
-                    Convert
-                </p>
+                
             </introduction>
 
             <interactive label="ch1-interactive-unit-conv2" platform="doenetml" width="100%" aspect="3:2">

@@ -41,7 +41,10 @@
                         <description>
                             <p>
                             A scatter plot displaying the U.S. natural gas production in millions of cubic feet during each year from 
-                            1930 to 2023. Production trends upward until about 1970, remains somewhat steady until about 2005, 
+                            1930 to 2023. Information is displayed as discrete points, where the point's position in the horizontal
+                            direction determines the year and the point's position in the vertical direction determines the natural gas
+                            production in that year.
+                            Production trends upward until about 1970, remains somewhat steady until about 2005, 
                             and then trends upward again.
                             </p>
                         </description>
@@ -54,7 +57,10 @@
                         <description>
                             <p>
                             A pie chart showing the percentage of total carbon dioxide emissions in 2023 from power plants 
-                            categorized by region of the United States.
+                            categorized by region of the United States. Each region is represented by a section of the pie, 
+                            and the size of that section is representative of the percentage total carbon dioxide emissions
+                            that region was responsible for in 2023.
+
                             </p>
                         </description>
                     </image>
@@ -64,7 +70,8 @@
                         <description>
                             <p>
                             A table displaying the U.S. natural gas production in millions of cubic feet during each year from 
-                            1930 to 2023. This is the same data used to produce the scatter plot, just in numerical form.
+                            1930 to 2023. This is the same data used to produce the scatter plot, just in numerical form. Access
+                            the original source provided at the beginning of the section to read individual cell entries.
                             </p>
                         </description>
                     </image>
@@ -77,6 +84,9 @@
                         <p>
                             A bar chart showing the amount of total carbon dioxide emissions in 2023 from power plants 
                             categorized by region of the United States. This is the same data used to produce the pie chart.
+                            Each region is represented by a bar, 
+                            and the height of that bar is representative of the amount of carbon dioxide emissions
+                            that region was responsible for in 2023.
                         </p>
                         </description>
                     </image>
@@ -87,7 +97,7 @@
                             <p>
                             A line graph displaying the U.S. natural gas production in millions of cubic feet during each year 
                             from 1930 to 2023. This is the same data used to produce the scatter plot, but graphed as a continuous
-                            line.
+                            line instead of discrete points.
                             </p>
                         </description>
                     </image>
@@ -217,8 +227,8 @@
                     <description>
                         <p>
                             A three-dimensional pie chart showing the percentage of total carbon dioxide emissions in 2023 
-                            from power plants categorized by region of the United States. Sizes of certain pieces of the 
-                            chart are more ambiguous than in the two-dimensional version.
+                            from power plants categorized by region of the United States. Comparative sizes of pieces of the 
+                            pie are more ambiguous than in the two-dimensional version.
                         </p>
                     </description>
                 </image>
