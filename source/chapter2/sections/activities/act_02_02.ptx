@@ -29,7 +29,7 @@
 
             </exercise>
 
-            <interactive label="ch2-interactive-net-flow" platform="doenetml" width="100%" aspect="1:1">
+            <interactive label="ch2-interactive-net-flow" platform="doenetml" width="100%" aspect="1:1.25">
                 <slate surface="doenetml">
                     <xi:include parse="text" href="doenet/ch2-doenet-net-flow.doenetml"/>
                 </slate>

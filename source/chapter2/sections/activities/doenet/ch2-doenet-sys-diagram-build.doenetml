@@ -29,7 +29,12 @@
   <label>Delete Last Component</label>
 </callAction>
     
+<figure number="false">
 <graph name="g" size="full" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false"/>
+    <caption>
+      A blank space to construct a system diagram.
+    </caption>
+  </figure>
       </li>
       <li>
         The mining of coal.
@@ -59,7 +64,12 @@
   <label>Delete Last Component</label>
 </callAction>
     
-<graph size="full" name="k" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false"/>
+<figure number="false">
+<graph name="k" size="full" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false"/>
+    <caption>
+      A blank space to construct a system diagram.
+    </caption>
+  </figure>
       </li>
       <li>
         At least one of the systems your group identified a stock-flow model for previously. Include a sketch of this diagram on a separate piece of paper in your portfolio.
@@ -89,6 +99,11 @@
   <label>Delete Last Component</label>
 </callAction>
     
-<graph size="full" name="h" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false"/>
+<figure number="false">
+<graph name="h" size="full" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false"/>
+    <caption>
+      A blank space to construct a system diagram.
+    </caption>
+  </figure>
       </li>
     </ul>

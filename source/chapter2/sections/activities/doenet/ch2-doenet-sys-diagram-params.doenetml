@@ -37,7 +37,12 @@
       <label>Delete Last Component</label>
     </callAction>
     
+    <figure number="false">
     <graph name="g" size="full" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false"/>
+          <caption>
+      A blank space to construct a system diagram.
+    </caption>
+        </figure>
       </li>
       <li> <p><alert>Stock:</alert> Indoor temperature</p>
         <p><alert>Flows:</alert> Furnace, heat loss</p>
@@ -74,7 +79,12 @@
     <callAction actionName="deleteChildren" target="h" number="1">
       <label>Delete Last Component</label>
     </callAction>
+    <figure number="false">
     <graph name="h" size="full" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false"/>
+          <caption>
+      A blank space to construct a system diagram.
+    </caption>
+        </figure>
       </li>
       
       <li> <p><alert>Stock:</alert> Energy in solar panels</p>
@@ -113,6 +123,11 @@
       <label>Delete Last Component</label>
     </callAction>
     
+    <figure number="false">
     <graph name="k" size="full" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false"/>
+          <caption>
+      A blank space to construct a system diagram.
+    </caption>
+        </figure>
       </li>
 	</ul>

@@ -24,7 +24,7 @@
                 </p>
             </introduction>
 
-            <interactive label="ch2-interactive-sys-diagram-build" platform="doenetml" width="100%" aspect="1:3.5">
+            <interactive label="ch2-interactive-sys-diagram-build" platform="doenetml" width="100%" aspect="1:3.75">
                 <slate surface="doenetml">
                     <xi:include parse="text" href="doenet/ch2-doenet-sys-diagram-build.doenetml"/>
                 </slate>
