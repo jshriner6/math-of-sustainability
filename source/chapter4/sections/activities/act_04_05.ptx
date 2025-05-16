@@ -11,7 +11,7 @@
                 </p>
             </introduction>
 
-            <interactive label="ch4-interactive-stability-revisit" platform="doenetml" width="100%" aspect="1:1.5">
+            <interactive label="ch4-interactive-stability-revisit" platform="doenetml" width="100%" aspect="1:1.75">
                 <slate surface="doenetml">
                     <xi:include parse="text" href="doenet/ch4-doenet-stability-revisit.doenetml"/>
                 </slate>
@@ -87,7 +87,7 @@
             
             <page>
 
-            <interactive label="ch4-interactive-tipping-pt-behaviors1" platform="doenetml" width="100%" aspect="1:1">
+            <interactive label="ch4-interactive-tipping-pt-behaviors1" platform="doenetml" width="100%" aspect="1:1.35">
                 <slate surface="doenetml">
                     <xi:include parse="text" href="doenet/ch4-doenet-tipping-pt-behaviors1.doenetml"/>
                 </slate>
@@ -126,7 +126,7 @@
             
             <page>
 
-            <interactive label="ch4-interactive-tipping-pt-behaviors2" platform="doenetml" width="100%" aspect="1:1">
+            <interactive label="ch4-interactive-tipping-pt-behaviors2" platform="doenetml" width="100%" aspect="1:1.35">
                 <slate surface="doenetml">
                     <xi:include parse="text" href="doenet/ch4-doenet-tipping-pt-behaviors2.doenetml"/>
                 </slate>

@@ -1,14 +1,16 @@
 <!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_82L7Bgv0AZgPPF2iE9lrm/_8J8cypAP1hhhqMe37kWLW -->
 
-<figure>
+<figure number="false">
           <graph displayYAxisTickLabels="false" showNavigation="false" xmin="-2" xmax="8">
           <xlabel>Phosphorus</xlabel>
           <ylabel>Net Flow</ylabel>
           <function >-.5(x-1)*(x-3)*(x-5)+$Q/5</function>
           </graph>
-          <description>
-            A line graph for the net flow rate of phosphorus, with a slider to change the pollution parameter value. This can be used to approximate tipping point values, and analyze how the system will behave if this value is exceeded.
-          </description>
+          <caption>
+            A line graph for the net flow rate of phosphorus, which has the same general shape as our previous net flow graphs.
+            When the pollution parameter is between 0 and 7.75, there are 3 equlibrium values. When the pollution parameter is about 7.75, there
+            are 2 equilibrium values. When the polution parameter is greater than 7.75, there is one equilibrium value.
+          </caption>
         </figure>
 
             <slider from="0" to="20" name="Q"  step="0.25" initialValue="0">

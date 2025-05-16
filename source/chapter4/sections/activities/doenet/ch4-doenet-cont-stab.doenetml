@@ -1,6 +1,6 @@
 <!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_9mblPPAvFVRjYfki22gMr/_JhFNn1ocF3Ge8cF99Rev6 -->
 
-  <figure suppressFigureNameInCaption>
+  <figure number="false">
     <sideBySide>
         <graph  displayYAxisTickLabels="false" displayXAxisTickLabels="true" showNavigation="false" size="small" xmin="-3" ymin="-4" ymax="10">
           <xlabel>Stock 1</xlabel>
@@ -14,9 +14,9 @@
           <line draggable="false"> y=-2x+10</line>
         </graph>
     </sideBySide>
-        <description>
+        <caption>
           On the left, a line graph that shows the net flow rate increasing as stock 1 values increase. The net flow rate is zero when the stock 1 value is 5. On the right, a line graph that shows the net flow rate decreasing as stock 2 values increase. The net flow rate is zero when the stock 2 value is 5.
-        </description>
+        </caption>
       </figure>
     <ol>
       <li>
