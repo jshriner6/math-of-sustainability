@@ -107,7 +107,7 @@
                 </p>
             </introduction>
 
-            <interactive label="ch5-interactive-box-plots" platform="doenetml" width="100%" aspect="1:1">
+            <interactive label="ch5-interactive-box-plots" platform="doenetml" width="100%" aspect="1:1.25">
                 <slate surface="doenetml">
                     <xi:include parse="text" href="doenet/ch5-doenet-box-plots.doenetml"/>
                 </slate>
