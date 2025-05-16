@@ -45,7 +45,23 @@
             </interactive>
             <caption>
                 A graph whose vertices, labeled A through T, represent neiborhoods, and whose edges represent roads 
-                connecting neighborhoods.
+                connecting neighborhoods. 
+                <remark><title>Edges Listed as Pairs</title>
+                    <p>
+                        A graph can also be represented by giving a set of coordinate pairs. Two vertices are listed as a 
+                        pair if there is an edge between them. The graph above would be represented as coordinate pairs 
+                        as follows:
+                    </p>
+                    <p>
+                        <m>(A,B), (A,D), (A,E), (C,E), (B,D), (C,J), (J,G), (F,G), (F,H), (H,I),</m>
+            
+                        <m>(J,I), (M,N), (M,L), (M,K), (M,O), (N,K), (N,L), (N,O), (K,O), (L,K), </m>
+            
+                        <m>(L,O), (T,S), (T,Q), (T,R), (T,P), (T,J), (A,T) </m>
+                    </p>
+            
+
+                </remark>
             </caption>
         </figure>
 
@@ -115,6 +131,18 @@
             </interactive>
             <caption>
                 A directed graph showing the predator-prey relationships within an ecosystem.
+                <remark><title>Edges Listed as Ordered Pairs</title>
+                    <p>
+                        A directed graph can also be represented by giving a set of ordered coordinate pairs. 
+                        Two vertices are listed as a pair if there is an edge going from the first listed vertex to
+                        the second. The graph above would be represented as ordered coordinate pairs as follows:
+                    </p>
+                    <p>
+                        (Fox, Rabbit), (Fox, Mouse), (Fox, Bird), (Owl, Grasshopper), (Owl, Bird),
+                        (Rabbit, Vegetation), (Mouse, Vegetation), (Grasshopper, Vegetation),
+                        (Bird, Vegetation), (Bird, Grasshopper)
+                    </p>
+                </remark>
             </caption>
         </figure>
         <p>
@@ -132,6 +160,14 @@
             <caption>
                 On the left, the stock-flow model for the energy in solar panels is represented by a system diagram. 
                 On the right, the model is represented as a directed graph.
+                <remark><title>Edges Listed as Ordered Pairs</title>
+                    <p>
+                        The directed edges listes as ordered pairs for this graph would be as follows:
+                    </p>
+                    <p>
+                        (Area, Sun), (Sun, Energy), (Energy, Sun), (Energy, Energy Use), (Energy Use, Sink)
+                    </p>
+                </remark>
             </caption>
         </figure>
         <p>

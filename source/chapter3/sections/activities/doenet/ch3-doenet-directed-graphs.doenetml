@@ -17,4 +17,9 @@
           <label>Delete Last Component</label>
     </callAction>
     
-<graph size="full" name="j" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false"/>
+<figure number="false">
+        <graph size="full" name="j" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false"/>
+          <caption>
+            A blank space to construct a graph. 
+          </caption>
+        </figure>

@@ -33,13 +33,18 @@
                 <image source="map.jpg">
                     <description>
                         <p>
-                            A geographical map of countries in Central America and the Carribean.
+                            A geographical map of countries in Central America and the Carribean. The countries that share
+                            a border are listed as the following pairs:
+                        </p>
+                        <p>
+                            (Mexico, Guatemala), (Mexico, Belize), (Guatemala, Belize), (Guatemala, Honduras), 
+                            (Guatemala, El Salvador), (El Salvador, Honduras), (Haiti Dominican, Republic)
                         </p>
                     </description>
                 </image>
             </remark>
 
-            <interactive label="ch3-interactive-graphs" platform="doenetml" width="100%" aspect="1:3.5">
+            <interactive label="ch3-interactive-graphs" platform="doenetml" width="100%" aspect="1:4">
                 <slate surface="doenetml">
                     <xi:include parse="text" href="doenet/ch3-doenet-graphs.doenetml"/>
                 </slate>

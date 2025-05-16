@@ -22,7 +22,7 @@
         <lineSegment endpoints="$E $G" showCoordsWhenDragging="false"/>
       </graph>
   
-<figure name="f1">
+<figure name="f1" number="false">
           <sideBySide>
             <graph name="gH" copySource="K4">
               <point name="M" styleNumber="5" showCoordsWhenDragging="false" coords="(0,1.5)"/>
@@ -55,7 +55,8 @@
           </solution>
         </li>
         <li>
-          What are the clustering coefficients of each vertex in graphs <m>H</m> and <m>K</m> below?
+          What are the clustering coefficients of each vertex in graphs <m>H</m> and <m>K</m> below? These are the
+          same graphs from our previous activity.
           <figure copySource="f1"/>
           <solution>
             <sideBySide>

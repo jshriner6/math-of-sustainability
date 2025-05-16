@@ -45,7 +45,7 @@
                 </slate>
             </interactive>
             <caption>
-                Complete graphs with <m>3</m>, <m>4</m>, and <m>5</m> vertices.
+                Complete graphs with <m>3</m>, <m>4</m>, and <m>5</m> vertices. There is an edge between every vertex.
             </caption>
         </figure>
     </paragraphs>
