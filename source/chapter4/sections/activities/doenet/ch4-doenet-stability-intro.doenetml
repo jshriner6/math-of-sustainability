@@ -1,6 +1,6 @@
 <!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_9mblPPAvFVRjYfki22gMr/_JhFNn1ocF3Ge8cF99Rev6 -->
 
-<figure name="f1" suppressFigureNameInCaption>
+<figure name="f1" number="false">
       <graph showNavigation="false" displayXAxis="false" displayYAxis="false" showBorder="false" ymin="-3" ymax="3" aspectRatio="10/3">
       <function domain="(-8,-4)">(x+6)^2-2</function>
       <function domain="(-2,2)">-x^2+2</function>
@@ -9,7 +9,9 @@
       <circle draggable="false" radius="0.3" center="(0,2.4)" filled styleNumber="2"/>
       <circle draggable="false" radius="0.3" center="(6,1.4)" filled styleNumber="2"/>
       </graph>
-      <description>
-        Images of a ball resting in space on three different types of surfaces. The first is a ball resting inside a U shape. The second is a ball resting on top of an upside down U shape. The third is a ball resting on the flat part of a chair shape in which the legs of the chair are to the left.
-      </description>
+      <caption>
+        Images of a ball resting in space on three different types of surfaces. The first is a ball resting inside a "U" shape. 
+        The second is a ball resting on top of an upside down "U" shape. The third is a ball resting on the flat part of a 
+        chair shape in which the legs of the chair are to the left.
+      </caption>
     </figure>

@@ -11,21 +11,21 @@
     <p>
       Enter the net flow rate in terms of <q><m>P</m></q> using the logistic model: <answer name="log" disabled="$log=$r*P(1-P/$C)"><math>$r*P(1-P/$C)</math></answer>
     </p>
-    <figure hide="!($log.disabled)">
+    <figure hide="!($log.disabled)" number="false">
     <graph showNavigation="false" xmin="-30" xmax="$C+20" ymin="-8" ymax="$r*$C/4 + 20">
       <xlabel>Population</xlabel>
       <ylabel>Net Flow</ylabel>
       <function>$r*x(1-x/$C)</function>
     </graph>
-      <description>
-        The graph of the net flow rate for the logistic model identified in the previous question. This should be used to sketch a line graph of population over time for different initial population values.
-      </description>
+      <caption>
+        The graph of the net flow rate for the logistic model identified in the previous question. The net flow rate increases until the population is <number>$C/2</number>, and then starts to decrease. This should be used to sketch a line graph of population over time for different initial population values.
+      </caption>
     </figure>
     <p hide="!($log.disabled)">
       Now sketch the line graph of the stock's behavior over time for each of the initial values <m>P_0=<round>$C/8</round></m> and <m>P_0=<number><round>$C/2</round>+1</number></m>. You can check your graphs below once you're finished.
     </p>
     <solution hide="!($log.disabled)">
-      <figure>
+      <figure number="false">
       <sideBySide>
         <graph showNavigation="false" size="small" xmin="-5/$r" xmax="10/$r" ymin="-$C/10" ymax="$C+10">
           <xlabel>Time</xlabel>
@@ -41,9 +41,9 @@
           <m anchor="(-2/$r,$C/2)">P_0=<number><round>$C/2</round>+1</number></m>
          </graph>
       </sideBySide>
-        <description>
-          On the left, a graph of population over time for the first initial value given. On the right, a graph of population over time for the second initial value given.
-        </description>
+        <caption>
+          On the left, a graph of population over time when the initial population is <round>$C/8</round>. The population increases rapidly at first, and then starts to increase at a decreasing rate, leveling out at a population value of $C. On the right, a graph of population over time when the initial population is <number><round>$C/2</round>+1</number>. The population increases at a decreasing rate, leveling out at a population value of $C.
+        </caption>
       </figure>
     </solution>
     <triggerSet hide="!($log.disabled)">      

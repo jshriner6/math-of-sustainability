@@ -18,7 +18,7 @@
                 </p>
             </introduction>
 
-            <interactive label="ch4-interactive-stability-intro" platform="doenetml" width="100%" aspect="3:1">
+            <interactive label="ch4-interactive-stability-intro" platform="doenetml" width="100%" aspect="2.5:1">
                 <slate surface="doenetml">
                     <xi:include parse="text" href="doenet/ch4-doenet-stability-intro.doenetml"/>
                 </slate>
