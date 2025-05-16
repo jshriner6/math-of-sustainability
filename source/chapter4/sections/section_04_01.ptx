@@ -253,7 +253,9 @@
             <caption>
                 On the left, a sample line graph showing the net flow rate increasing as stock value increases, with an 
                 equilibrium stock value of three. On the right, the corresponding line graph of the stock's value over 
-                time using the indicated initial value from the graph on the left.
+                time using the indicated initial value from the graph on the left. If the initial value is less than three,
+                the stock value decreases rapidly with time. If the initial value is greater than three, the stock value
+                increases rapidly with time. If the initial value equals three, the stock value remains constant over time.
             </caption>
         </figure>
     </paragraphs>

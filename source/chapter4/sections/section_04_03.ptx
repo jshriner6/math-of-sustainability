@@ -53,6 +53,7 @@
                 </slate>
             </interactive>
             <caption>
+                Two line graphs showing the relationship between net flow and stock value.
                 The graph on the left is for a stock that has a single equilibrium value of <m>3</m>, and the overall 
                 feedback is always amplifying. The graph on the right is for a stock that has a single equilibrium value of 
                 <m>4</m>, and the overall feedback is always stabilizing.

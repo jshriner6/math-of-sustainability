@@ -1,6 +1,6 @@
 <!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_MksKzOV9213MrOaXLGuDx/_gZMbm56GvRz5mkQvq4o4V -->
 
-<figure suppressFigureNameInCaption>
+<figure number="false">
     <graph size="large" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false" xmax="18" xmin="-18" ymax="4" ymin="-4" aspectRatio="18/4">
       <rectangle width="3" height="3" draggable="false" verticesDraggable="false"/>
       <vector tail="(3,1.5)" displacement="(4,0)" draggable="false"/>
@@ -66,7 +66,15 @@
       <li>
         After your group has completed the above tasks, view the graphical solution provided below. In what ways is this solution similar to yours? In what ways is it different?
         <hint><title>Stabilizing Feedback Loops</title>
-          <figure suppressFigureNameInCaption>
+          <figure number="false">
+          <caption>
+          On the left, a line graph showing the net flow rate decreasing as stock value increases, with an 
+                equilibrium stock value of three. On the right, the corresponding line graph of the stock's value over 
+                time using the indicated initial value from the graph on the left. If the initial value is less than three,
+                the stock value increases slowly with time towards a value of three. If the initial value is greater than three, the stock value
+                decreases slowly with time towards three. If the initial value equals three, the stock value remains constant 
+                over time.
+          </caption>
           <sideBySide>
         <graph  displayYAxisTickLabels="false" showNavigation="false" size="small" xmin="-6" ymin="-4" ymax="7.5">
           <setup>

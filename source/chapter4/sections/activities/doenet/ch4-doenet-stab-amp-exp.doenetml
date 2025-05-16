@@ -7,69 +7,69 @@
     <m>\text{B. Net Flow}=2x-6</m>
     </p>
     <sideBySide>
-      <figure><title><m>\text{C.}</m></title>
+      <figure number="false"><title><m>\text{C.}</m></title>
         <graph  displayYAxisTickLabels="false" displayXAxisTickLabels="false" showNavigation="false" size="small" xmin="-3" ymin="-4" ymax="10">
           <xlabel>Stock</xlabel>
           <ylabel>Net Flow</ylabel>
           <line draggable="false"> y=2x-6</line>
         </graph>
-        <description>
+        <caption>
           A line graph showing that the net flow increases linearly as the stock value increases.
-        </description>
+        </caption>
       </figure>
-      <figure><title><m>\text{D.}</m></title>
+      <figure number="false"><title><m>\text{D.}</m></title>
         <graph  displayYAxisTickLabels="false" displayXAxisTickLabels="false" showNavigation="false" size="small" xmin="-3" ymin="-4" ymax="10">
           <xlabel>Stock</xlabel>
           <ylabel>Net Flow</ylabel>
           <line draggable="false"> y=-2x+6</line>
         </graph>
-        <description>
+        <caption>
           A line graph showing that the net flow decreases linearly as the stock value increases.
-        </description>
+        </caption>
       </figure>
     </sideBySide>
     <sideBySide>
-      <figure><title><m>\text{E.}</m></title>
+      <figure number="false"><title><m>\text{E.}</m></title>
         <graph displayXAxisTickLabels="false" displayYAxisTickLabels="false" showNavigation="false" size="small" xmin="-3" xmax="3" >
           <xlabel>Time</xlabel>
           <ylabel>Stock</ylabel>
           <function>2*e^(2x)+3</function>
          </graph>
-        <description>
+        <caption>
           A line graph showing that the stock value increases rapidly without bound as time increases.
-        </description>
+        </caption>
       </figure>
-      <figure><title><m>\text{F.}</m></title>
+      <figure number="false"><title><m>\text{F.}</m></title>
         <graph displayXAxisTickLabels="false" displayYAxisTickLabels="false" showNavigation="false" size="small" xmin="-3" xmax="3" >
           <xlabel>Time</xlabel>
           <ylabel>Stock</ylabel>
           <function>-2*e^(-2x)+3</function>
          </graph>
-        <description>
+        <caption>
           A line graph showing that the stock value increases slowly approaching a specific value as time increases.
-        </description>
+        </caption>
       </figure>
     </sideBySide>
     <sideBySide>
-      <figure><title><m>\text{G.}</m></title>
+      <figure number="false"><title><m>\text{G.}</m></title>
         <graph displayXAxisTickLabels="false" displayYAxisTickLabels="false" showNavigation="false" size="small" xmin="-3" xmax="3" >
           <xlabel>Time</xlabel>
           <ylabel>Stock</ylabel>
           <function>-2*e^(2x)+3</function>
          </graph>
-        <description>
+        <caption>
           A line graph showing that the stock value decreases rapidly without bound as time increases.
-        </description>
+        </caption>
       </figure>
-     <figure><title><m>\text{H.}</m></title>
+     <figure number="false"><title><m>\text{H.}</m></title>
         <graph displayXAxisTickLabels="false" displayYAxisTickLabels="false" showNavigation="false" size="small" xmin="-3" xmax="3" >
           <xlabel>Time</xlabel>
           <ylabel>Stock</ylabel>
           <function>2*e^(-2x)+3</function>
          </graph>
-       <description>
+       <caption>
           A line graph showing that the stock value decreases slowly approaching a specific value as time increases.
-        </description>
+        </caption>
      </figure>
     </sideBySide>
     <p>

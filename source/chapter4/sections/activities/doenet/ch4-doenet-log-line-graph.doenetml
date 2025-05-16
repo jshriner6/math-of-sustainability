@@ -1,7 +1,7 @@
 <!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_cxBBhM7H0sPEBhXusYiY8/_okYpS55OmYju6ArnVsvxO -->
 
 <solution>
-      <figure suppressFigureNameInCaption>
+      <figure number="false">
       <sideBySide>
         <graph showNavigation="false" size="small" xmin="-20" xmax="110" ymin="-2" ymax="15">
           <setup>
@@ -23,8 +23,10 @@
           <function>($init.x*100*e^(0.5*x))/((100-$init.x)+$init.x*e^(0.5*x))</function>
          </graph>
       </sideBySide>
-        <description>
-          On the left, the graph of net flow rate from figure eight with a slider to choose an initial popoulation value on the horizontal axis. On the right, the correpsonding graph of the population over time for the chosen initial population value.
-        </description>
+        <caption>
+          On the left, the graph of net flow rate with respect to population with a slider to choose an initial 
+          popoulation value on the horizontal axis. On the right, the correpsonding graph of the population over time for the 
+          chosen initial population value. In general, the graph on the right is an increasing "S"-shaped line graph.
+        </caption>
       </figure>
     </solution>

@@ -1,6 +1,10 @@
 <!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_MksKzOV9213MrOaXLGuDx/_gZMbm56GvRz5mkQvq4o4V -->
 
-<graph displayXAxis="false" displayYAxis="false" showBorder="false" showNavigation="false" xmin="-4" xmax="4" ymin="-3.5" ymax="3.5" size="full" aspectRatio="4/3.5">
+<figure number="false">
+      <caption>
+        In the top left, a stock with an outflow and dependency link labeled with a plus. In the top right, a stock with an outflow and dependency link labeled with a minus. In the bottom left, a stock with an inflow and dependency link labeled with a plus. In the bottom right, a stock with an inflow and dependency link labeled with a minus.
+      </caption>
+    <graph displayXAxis="false" displayYAxis="false" showBorder="false" showNavigation="false" xmin="-4" xmax="4" ymin="-3.5" ymax="3.5" size="full" aspectRatio="4/3.5">
     <rectangle width="1" height="1" center="(-3,2)" draggable="false"/>
     <vector tail="(-2.5,2)" head="(-1.5,2)" draggable="false"/>
     <triangle vertices="(-1.5,1.5) (-1,2.5) (-0.5,1.5)" draggable="false"/>
@@ -30,6 +34,7 @@
     <text name="amp2" anchor="(1,0)" styleNumber="2">Amplifying</text>
     <text name="sta2" anchor="(3,0)" styleNumber="2">Stabilizing</text>
   </graph>
+    </figure>
   <setup>
     <booleanList name="coords">
       <boolean>$amp1.anchor.x > 1</boolean>

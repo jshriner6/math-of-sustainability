@@ -78,7 +78,7 @@
                 </p>
             </introduction>
 
-            <interactive label="ch4-interactive-exp-graph" platform="doenetml" width="100%" aspect="1:1.5">
+            <interactive label="ch4-interactive-exp-graph" platform="doenetml" width="100%" aspect="1:1.75">
                 <slate surface="doenetml">
                     <xi:include parse="text" href="doenet/ch4-doenet-exp-graph.doenetml"/>
                 </slate>
@@ -107,7 +107,7 @@
                 </p>
             </introduction>
 
-            <interactive label="ch4-interactive-stock-time" platform="doenetml" width="100%" aspect="1.5:1">
+            <interactive label="ch4-interactive-stock-time" platform="doenetml" width="100%" aspect="1:1">
                 <slate surface="doenetml">
                     <xi:include parse="text" href="doenet/ch4-doenet-stock-time.doenetml"/>
                 </slate>
@@ -125,7 +125,7 @@
                 </p>
             </introduction>
 
-            <interactive label="ch4-interactive-stab-amp-exp" platform="doenetml" width="100%" aspect="1:2.5">
+            <interactive label="ch4-interactive-stab-amp-exp" platform="doenetml" width="100%" aspect="1:2.75">
                 <slate surface="doenetml">
                     <xi:include parse="text" href="doenet/ch4-doenet-stab-amp-exp.doenetml"/>
                 </slate>

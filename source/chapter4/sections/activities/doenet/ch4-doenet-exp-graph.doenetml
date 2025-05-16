@@ -17,7 +17,10 @@
     <label><m>c</m></label>
   </slider>
 
-  <figure>
+  <figure number="false">
+  <caption>
+      Three points in an exponential relationship at <m>(0,$$g(0))</m>, <m>(2,$$g(2))</m>, and <m>(-2,$$g(-2))</m>. The line graph of the exponential behavior is controlled using the sliders provided. The parameter <m>a</m> stretches and reflects the graph vertically, the parameter <m>b</m> determines whether the graph is exponential growth or decay, and the parameter <m>c</m> shifts the graph up or down.
+    </caption>
   <graph xmin="-10" xmax="10" size="medium" showNavigation="true">
     <function>$A*$B^x+$C</function>
     <m anchor="(-5,5)">f(x)=$A\cdot $B^x + $C</m>
