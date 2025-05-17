@@ -30,7 +30,7 @@
                 </p>
             </introduction>
 
-            <interactive label="ch6-interactive-tragedy-commons" platform="doenetml" width="100%" aspect="1:2.5">
+            <interactive label="ch6-interactive-tragedy-commons" platform="doenetml" width="100%" aspect="1:2.75">
                 <slate surface="doenetml">
                     <xi:include parse="text" href="doenet/ch6-doenet-tragedy-commons.doenetml"/>
                 </slate>
