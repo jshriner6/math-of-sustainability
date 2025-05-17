@@ -82,7 +82,7 @@ window.MathJax = {
 \definecolor{fillinmathshade}{gray}{0.9}
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
-<div style="width:600px; height:1500px; display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;"><div xmlns:xlink="http://www.w3.org/1999/xlink" class="doenetml-applet">
+<div style="width:600px; height:1650px; display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;"><div xmlns:xlink="http://www.w3.org/1999/xlink" class="doenetml-applet">
 <div class="doenetml-loading" style="text-align:center">
 <p><img src="https://www.doenet.org/Doenet_Logo_Frontpage.png"></p>
 <p>Waiting on the page to load...</p>
@@ -99,6 +99,7 @@ window.MathJax = {
 
     <p> For our example, suppose the yield of a single tree is <m>$N- \frac{T}{2}</m> when there are <m>T</m> trees planted. Then the total yield of all trees combined would be <m>T \cdot ($N-\frac{T}{2})</m>. The graph of the total fruit yield for different numbers of trees is given below.
 </p>
+<figure number="false">
 <graph  name="g" showNavigation="false" xmin="-$N/2 -2" xmax="2*$N+2" ymin="-$N" ymax="$N^2/2 +$N">
   <xlabel>Fruit Trees</xlabel>
   <ylabel>Fruit Yield</ylabel>
@@ -111,6 +112,11 @@ window.MathJax = {
     </constraints>
   </point>
 </graph>
+<caption>
+A line graph with Fruit Yield on the vertical axis and number of Fruit Trees on the horizontal axis. The line graph
+passes through the points <m>(0,0)</m> and <m>(<number>2*$N</number>,0)</m>, and has a maximum at <m>$max</m>.
+</caption>
+</figure>
     <p>
     <ol>
       <li>
