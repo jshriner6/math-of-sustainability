@@ -81,7 +81,7 @@
                 </p>
             </introduction>
 
-            <interactive label="ch5-interactive-freq-dist" platform="doenetml" width="100%" aspect="1:2">
+            <interactive label="ch5-interactive-freq-dist" platform="doenetml" width="100%" aspect="1:2.5">
                 <slate surface="doenetml">
                     <xi:include parse="text" href="doenet/ch5-doenet-freq-dist.doenetml"/>
                 </slate>
