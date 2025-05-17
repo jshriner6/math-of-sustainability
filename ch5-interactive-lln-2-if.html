@@ -161,6 +161,7 @@ Concentrations of your samples:
 
 <number name="ymax1" hide><max>$freq00 $freq11 $freq2 $freq3</max>+$m/4</number>
 
+<figure number="false">
 <graph displayYAxis="true" displayXAxis="false" showNavigation="false" showBorder="false" xmin="-1" xmax="10" ymin="-0.01" ymax="$ymax1/(5*$m)">
   <lineSegment draggable="false" endpoints="(-1,0) (10,0)"/>
   <rectangle draggable="false" height="$freq00/(5*$m)" width="2" center="(1,$freq00/(10*$m))"/>
@@ -177,6 +178,13 @@ Concentrations of your samples:
   <number draggable="false" anchor="(7, $freq3/(10*$m))">$freq3/(5*$m)</number>
   <m draggable="false" anchor="(4,$ymax1/(5*$m)-0.01)">N=$m</m>
 </graph>
+<caption>
+          A density histogram communicating the relative frequencies. The height of the 0 to 5 bin is 
+        <number>$freq00/(5*$m)</number>, the height of the 5 to 10 bin is <number>$freq11/(5*$m)</number>, the height of the 10 to 15 bin is <number>$freq2/(5*$m)</number>, and the height of the 15 to 20 
+        bin is <number>$freq3/(5*$m)</number>.
+         </caption>
+
+</figure>
 
                 </script>
 </div></div>

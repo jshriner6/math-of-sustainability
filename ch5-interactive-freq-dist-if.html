@@ -82,7 +82,7 @@ window.MathJax = {
 \definecolor{fillinmathshade}{gray}{0.9}
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
-<div style="width:600px; height:1200px; display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;"><div xmlns:xlink="http://www.w3.org/1999/xlink" class="doenetml-applet">
+<div style="width:600px; height:1500px; display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;"><div xmlns:xlink="http://www.w3.org/1999/xlink" class="doenetml-applet">
 <div class="doenetml-loading" style="text-align:center">
 <p><img src="https://www.doenet.org/Doenet_Logo_Frontpage.png"></p>
 <p>Waiting on the page to load...</p>
@@ -91,7 +91,7 @@ window.MathJax = {
                     <!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_y5rBHkW9dpwsR6lt0HALL/_we9Do9Ism8qDeaq2mNmuC -->
 
 <sideBySide>
-  <figure name="bimodal" suppressFigureNameInCaption>
+  <figure name="bimodal" number="false">
 <graph displayYAxis="false" displayXAxis="false" showNavigation="false" showBorder="false" xmin="-6" xmax="6" ymin="-1" ymax="5">
   <lineSegment draggable="false" endpoints="(-5.5,0) (5.5,0)"/>
   <rectangle draggable="false" height="1" width="2" center="(-4,0.5)"/>
@@ -100,11 +100,11 @@ window.MathJax = {
   <rectangle draggable="false" height="3" width="2" center="(2,1.5)"/>
   <rectangle draggable="false" height="1" width="2" center="(4,0.5)"/>
 </graph>
-    <description>
+    <caption>
       A histogram in which there are two distinct bins that have similar frequencies to each other, but are much higher than the frequencies of the other bins.
-    </description>
+    </caption>
   </figure>
-  <figure name="uniform" suppressFigureNameInCaption>
+  <figure name="uniform" number="false">
 <graph  displayYAxis="false" displayXAxis="false" showNavigation="false" showBorder="false" xmin="-6" xmax="6" ymin="-1" ymax="5">
   <lineSegment draggable="false" endpoints="(-5.5,0) (5.5,0)"/>
   <rectangle draggable="false" height="2" width="2" center="(-4,1)"/>
@@ -113,14 +113,14 @@ window.MathJax = {
   <rectangle draggable="false" height="2" width="2" center="(2,1)"/>
   <rectangle draggable="false" height="2" width="2" center="(4,1)"/>
 </graph>
-    <description>
+    <caption>
       A histogram in which all bins have equal frequencies.
-    </description>
+    </caption>
   </figure>
 </sideBySide>
 
 <sideBySide>
-  <figure name="rskew" suppressFigureNameInCaption>
+  <figure name="rskew" number="false">
 <graph  displayYAxis="false" displayXAxis="false" showNavigation="false" showBorder="false" xmin="-6" xmax="6"  ymin="-1" ymax="5.5">
   <lineSegment draggable="false" endpoints="(-5.5,0) (5.5,0)"/>
   <rectangle draggable="false" height="5" width="2" center="(-4,2.5)"/>
@@ -129,11 +129,11 @@ window.MathJax = {
   <rectangle draggable="false" height="2" width="2" center="(2,1)"/>
   <rectangle draggable="false" height="1" width="2" center="(4,0.5)"/>
 </graph>
-    <description>
+    <caption>
       A histogram in which the frequencies of the bins decrease as you move from left to right.
-    </description>
+    </caption>
   </figure>
-  <figure name="lskew" suppressFigureNameInCaption>
+  <figure name="lskew" number="false">
 <graph displayYAxis="false" displayXAxis="false" showNavigation="false" showBorder="false" xmin="-6" xmax="6"  ymin="-1" ymax="5.5">
   <lineSegment draggable="false" endpoints="(-5.5,0) (5.5,0)"/>
   <rectangle draggable="false" height="1" width="2" center="(-4,0.5)"/>
@@ -142,13 +142,13 @@ window.MathJax = {
   <rectangle draggable="false" height="4" width="2" center="(2,2)"/>
   <rectangle draggable="false" height="5" width="2" center="(4,2.5)"/>
 </graph>
-    <description>
+    <caption>
       A histogram in which the frequencies of the bins increase as you move from left to right.
-    </description>
+    </caption>
   </figure>
 </sideBySide>
 
-<figure name="normal" suppressFigureNameInCaption>
+<figure name="normal" number="false">
 <graph  displayYAxis="false" displayXAxis="false" showNavigation="false" showBorder="false" xmin="-6" xmax="6"  ymin="-1" ymax="5">
   <lineSegment draggable="false" endpoints="(-5.5,0) (5.5,0)"/>
   <rectangle draggable="false" height="1" width="2" center="(-4,0.5)"/>
@@ -157,9 +157,9 @@ window.MathJax = {
   <rectangle draggable="false" height="2" width="2" center="(2,1)"/>
   <rectangle draggable="false" height="1" width="2" center="(4,0.5)"/>
 </graph>
-  <description>
+  <caption>
       A histogram in which the middle bin has the highest frequency, and the frequencies of bins decrease symmetrically as you move away from the middle bin.
-    </description>
+    </caption>
 
 </figure>
 
