@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Preface",
   "number": "",
   "title": "Acknowledgements",
-  "body": " Acknowledgements  The general content organization is modeled after the text Mathematics for Sustainability , by John Roe, Russ deForest, and Sara Jamshidi.  The current .html version of the text is possible only because of the amazing work of Rob Beezer and his development of the original Mathbook XML, now known as PreTeXt .  The interactive components were made possible by utilizing Doenet . I'm thankful to Duane Nykamp and the many contributors from the mathematics community for their work on this resource.  Finally, I am grateful to Steve Benoit for providing valuable input and feedback throughout the process of developing the course and its resources.  "
+  "body": " Acknowledgements  The general content organization is modeled after the text Mathematics for Sustainability , by John Roe, Russ deForest, and Sara Jamshidi.  The current .html version of the text is possible only because of the amazing work of Rob Beezer and his development of the original Mathbook XML, now known as PreTeXt .  The interactive components were made possible by utilizing Doenet . I'm thankful to Duane Nykamp and the many contributors from the mathematics community for their work on this resource.  Finally, I am grateful to Steve Benoit for providing valuable input and feedback throughout the process of developing the course and its resources.  Source code for the template course can be found on Github .  "
 },
 {
   "id": "pref-syllabus",
