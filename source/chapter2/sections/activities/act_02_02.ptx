@@ -47,21 +47,21 @@
             </introduction>
 
             <page>
-                <exercise workspace="2in">
+                <exercise workspace="1in">
                     <statement>
                         <p>
                             Does this calculation make sense for stocks not in equilibrium? Why or why not?
                         </p>
                     </statement>
                 </exercise>
-                <exercise workspace="2in">
+                <exercise workspace="1in">
                     <statement>
                         <p>
                             What type of units do you think this number will have? Why? Give at least one example.
                         </p>
                     </statement>
                 </exercise>
-                <exercise workspace="2in">
+                <exercise workspace="2.25in">
                     <introduction>
                         <p>
                             Consider a stock-flow model whose stock is number of undergraduate students at a University, 

@@ -53,7 +53,7 @@
             </interactive>
 
             <page>
-                <exercise workspace="2in">
+                <exercise workspace="1.25in">
                     <statement>
                         <p>
                             Choose new variations of the problem with the <q>New Variation</q> button. Before moving on, do at least 
@@ -63,7 +63,7 @@
                     </statement>
                     
                 </exercise>
-                <exercise workspace="2in">
+                <exercise workspace="1.25in">
                     <statement>
                         <p>
                             Do you think the shapes of the frequency histograms are related to the shapes of density histograms?

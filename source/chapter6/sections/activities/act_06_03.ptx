@@ -5,7 +5,7 @@
         <worksheet margin="1in" bottom="1.25cm" xml:id="ws-6-3-1">
             <title>Individual Statement</title>
     
-            <introduction>
+            <exercise workspace="10in">
                 <p>
                     Use the space below to draft an individual response to the following question.
                 </p>
@@ -17,7 +17,6 @@
                     Try not to be overwhelmed with the scope of the question, and don't focus too much on punctuation and 
                     organization. This is a first draft to begin verbalizing your thoughts.
                 </p>
-            </introduction>
 
             <p>
             <ul>
@@ -56,6 +55,10 @@
                 </li>
             </ul>
             </p>
+        
+                    
+            </exercise>
+                
 
         </worksheet>
 

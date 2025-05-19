@@ -70,28 +70,28 @@
             </introduction>
             
             <page>
-            <exercise workspace="2in">
+            <exercise workspace="1.5in">
                 <statement>
                     <p>
                     The number of students enrolled at CSU Fort Collins. 
                     </p>
                 </statement>
             </exercise>
-            <exercise workspace="2in">
+            <exercise workspace="1.5in">
                 <statement>
                     <p>
                     The mass of an average human in kilograms. (Note <m>1\text{ lb}\approx 0.5 \text{ kg}</m>) 
                     </p>
                 </statement>
             </exercise>
-            <exercise workspace="2in">
+            <exercise workspace="1.5in">
                 <statement>
                     <p>
                     The distance from Fort Collins to Denver in meters. (Note <m>1\text{ mile}\approx 1,600 \text{ m}</m>) 
                     </p>
                 </statement>
             </exercise>
-            <exercise workspace="2in">
+            <exercise workspace="1.5in">
                 <statement>
                     <p>
                     The number of people on a commercial flight in the U.S. right now. (Note the U.S. population <m>\approx 3 \times 10^8</m>) 

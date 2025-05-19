@@ -12,7 +12,7 @@
                 </p>
             </introduction>
             <page>
-                <exercise workspace="2in">
+                <exercise workspace="1.5in">
                     <statement>
                         <p>
                             Flipping a (fair) quarter
@@ -20,7 +20,7 @@
                     </statement>
                     
                 </exercise>
-                <exercise workspace="2in">
+                <exercise workspace="1.5in">
                     <statement>
                         <p>
                             Flipping two (fair) quarters
@@ -29,7 +29,7 @@
                     
                 </exercise>
 
-                <exercise workspace="2in">
+                <exercise workspace="1.5in">
                     <statement>
                         <p>
                             Flipping a (weighted) quarter in which heads is twice as likely as tails
@@ -37,7 +37,7 @@
                     </statement>
                     
                 </exercise>
-                <exercise workspace="2in">
+                <exercise workspace="1.5in">
                     <statement>
                         <p>
                             Rolling two (fair) dice
