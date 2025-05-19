@@ -12,16 +12,28 @@ has run successfully, you can run PreTeXt > View Full Document > web to see your
 
 ### Update the syllabus
 
-Access source/syllabus.ptx. Update Course Details and the Tentative Schedule.
+Access 
+``` bash
+source/syllabus.ptx
+```
+Update Course Details and the Tentative Schedule.
 
 ### Update shared spreadsheets
 
 There are a few places in the text that link to a shared spreadsheet for storing class data. You should house this spreadsheet
 in your OneDrive. 
 
-Access source/chapter5/sections/activities/act_05_01.ptx. In line 19, replace the current href with a link to your 5.1 spreadsheet.
+Access 
+``` bash
+source/chapter5/sections/activities/act_05_01.ptx
+```
+In line 19, replace the current href with a link to your 5.1 spreadsheet.
 
-Access source/chapter5/sections/activities/doenet/ch5-doenet-lln-1.doenetml. In line 80, replace the curren uri with a link
+Access 
+``` bash
+source/chapter5/sections/activities/doenet/ch5-doenet-lln-1.doenetml
+```
+In line 80, replace the curren uri with a link
 to your 5.4 spreadsheet.
 
 ### Updates for large class sizes
@@ -30,23 +42,32 @@ If you have a large class size, you may need to update a few more items.
 
 If you have more than 30 students, you will need to change the number of rows in the spreadsheets in 
 
+``` bash
 source/chapter5/sections/activities/doenet/ch5-doenet-data-collect.doenetml
-
+```
 and 
 
+``` bash
 source/chapter5/sections/activities/doenet/ch5-doenet-freq-histo-intro.doenetml
+```
 
 and 
 
-source/chapter5/sections/activities/doenet/ch5-doenet-freq-histo-build.doenetml (lines 6 and 111).
+``` bash
+source/chapter5/sections/activities/doenet/ch5-doenet-freq-histo-build.doenetml (lines 6 and 111)
+```
 
 If you have more than 100 students, you will need to change the number of bins use to create the histograms in
 
+``` bash
 source/chapter5/sections/activities/doenet/ch5-doenet-freq-histo-intro.doenetml (lines 34 -- 88)
+```
 
 and 
 
-source/chapter5/sections/activities/doenet/ch5-doenet-freq-histo-build.doenetml (lines 30 -- 84 and lines 135 -- 189).
+``` bash
+source/chapter5/sections/activities/doenet/ch5-doenet-freq-histo-build.doenetml (lines 30 -- 84 and lines 135 -- 189)
+```
 
 ## Deploy and use the text
 
@@ -55,7 +76,8 @@ When you're happy with your updates, you need to deploy your work to Github page
 There are different options on how you can have students access this text. You can just give them access to the url within Canvas, and they can link out to the full document. You can also host different pieces of the html document within Canvas using an iframe. For example, I could edit the "Syllabus" page in my Canvas course and select the "Embed" option (it is the one with a cloud icon). I could then enter 
 
 ```bash
-<iframe src='https://https://jshriner6.github.io/math-of-sustainability/pref-syllabus.html?embed' width='100%' height='1000px' frameborder='0'></iframe> 
+<iframe src='https://https://jshriner6.github.io/math-of-sustainability/pref-syllabus.html?embed'
+width='100%' height='1000px' frameborder='0'></iframe> 
 ```
 where the url listed points directly to my syllabus page.
 
