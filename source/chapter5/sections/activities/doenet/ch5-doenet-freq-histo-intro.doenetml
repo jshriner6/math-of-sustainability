@@ -1,8 +1,8 @@
 <!-- Can be found as part of https://www.doenet.org/courseactivityeditor/_y5rBHkW9dpwsR6lt0HALL/_we9Do9Ism8qDeaq2mNmuC -->
 
 
-<!--Change minNumRows="20" to minNumRows="N" where N is the maximum number of students you expect in class -->
-    <spreadsheet name="sheet" minNumRows="20" minNumColumns="1"/> 
+<!--Change minNumRows="30" to minNumRows="N" where N is the maximum number of students you expect in class -->
+    <spreadsheet name="sheet" minNumRows="30" minNumColumns="1"/> 
 <p>
   Enter the number of entries that are not blank: <textInput name="N"/>
 </p>
