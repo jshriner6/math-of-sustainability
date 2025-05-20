@@ -10,6 +10,14 @@ without installing anything locally on your machine. When you make changes using
 To view your updates, select the PreTeXt menu at the bottom of the screen, "Build another target", and select web. Once this
 has run successfully, you can run PreTeXt > View Full Document > web to see your results at a temporary URL. 
 
+### Update the title
+
+Access 
+``` bash
+source/main.ptx
+```
+Update the subtitle to your semester/year.
+
 ### Update the syllabus
 
 Access 
