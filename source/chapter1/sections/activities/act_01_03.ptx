@@ -276,7 +276,7 @@
             </exercise>
         </page>
         <page>
-            <image source="AxisSkew.png">
+            <image source="AxisSkew.png"> <!--Test <shortdescription> here, but alt text stayed generic?-->
                 <description>
                     <p>
                         A scatter plot displaying the U.S. natural gas production in millions of cubic feet during each 
