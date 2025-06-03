@@ -67,6 +67,7 @@
         </p>
         <sidebyside>
             <image source="AxisSkew.png">
+                <shortdescription>A scatter plot.</shortdescription>
                 <description>
                      <p>
                             A scatter plot displaying the U.S. natural gas production in millions of cubic feet during each 
@@ -76,6 +77,7 @@
                 </description>
             </image>
             <image source="AxisCorrected.png">
+                <shortdescription>A scatter plot.</shortdescription>
                 <description>
                     <p>
                             A scatter plot displaying the U.S. natural gas production in millions of cubic feet during each 

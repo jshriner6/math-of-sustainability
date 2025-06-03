@@ -38,6 +38,7 @@
             <page>
                 <exercise workspace="2in">
                     <image source="ScatterPlot.png">
+                        <shortdescription>A scatter plot.</shortdescription>
                         <description>
                             <p>
                             A scatter plot displaying the U.S. natural gas production in millions of cubic feet during each year from 
@@ -54,6 +55,7 @@
             <page>
                 <exercise workspace="1in">
                     <image source="PieChart.png">
+                        <shortdescription>A pie chart.</shortdescription>
                         <description>
                             <p>
                             A pie chart showing the percentage of total carbon dioxide emissions in 2023 from power plants 
@@ -67,6 +69,7 @@
                 </exercise>
                 <exercise workspace="1in">
                     <image source="Table.png">
+                        <shortdescription>A table.</shortdescription>
                         <description>
                             <p>
                             A table displaying the U.S. natural gas production in millions of cubic feet during each year from 
@@ -80,6 +83,7 @@
             <page>
                 <exercise workspace="1in">
                     <image source="BarChart.png">
+                        <shortdescription>A bar chart.</shortdescription>
                         <description>
                         <p>
                             A bar chart showing the amount of total carbon dioxide emissions in 2023 from power plants 
@@ -93,6 +97,7 @@
                 </exercise>
                 <exercise workspace="1in">
                     <image source="LineGraph.png">
+                        <shortdescription>A line graph.</shortdescription>
                         <description>
                             <p>
                             A line graph displaying the U.S. natural gas production in millions of cubic feet during each year 
@@ -224,6 +229,7 @@
             
             <page>
                 <image source="PieChart3D.png">
+                    <shortdescription>A 3 dimensional pie chart.</shortdescription>
                     <description>
                         <p>
                             A three-dimensional pie chart showing the percentage of total carbon dioxide emissions in 2023 
@@ -245,6 +251,7 @@
 
             <sidebyside>
                 <image source="ScatterPlot.png">
+                    <shortdescription>A scatter plot.</shortdescription>
                     <description>
                         <p>
                         A scatter plot displaying the U.S. natural gas production in millions of cubic feet during each year from 
@@ -255,6 +262,7 @@
                 </image>
 
                 <image source="LineGraph.png">
+                    <shortdescription>A line graph.</shortdescription>
                     <description>
                         <p>
                         A line graph displaying the U.S. natural gas production in millions of cubic feet during each year 
@@ -276,7 +284,8 @@
             </exercise>
         </page>
         <page>
-            <image source="AxisSkew.png"> <!--Test <shortdescription> here, but alt text stayed generic?-->
+            <image source="AxisSkew.png"> 
+                <shortdescription>A scatter plot.</shortdescription>
                 <description>
                     <p>
                         A scatter plot displaying the U.S. natural gas production in millions of cubic feet during each 
