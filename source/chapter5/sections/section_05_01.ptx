@@ -100,9 +100,9 @@
         <p>
             Besides attempting to describe the center value of a numerical data set, it can also be useful to describe how 
             spread out the values are. As we saw above, data sets can have the same mean, median, or both, and be very 
-            different from one another. One standard way<footnote>There is another descriptive measurement called the 
+            different from one another. One standard way<fn>There is another descriptive measurement called the 
             <term>standard deviation</term> which we will not discuss in this section. It measures how spread out values are 
-            from the mean value.</footnote> to describe the spread of a numerical variable is to compute the 
+            from the mean value.</fn> to describe the spread of a numerical variable is to compute the 
             <term>interquartile range</term> of that variable.
         </p>
         <definition>
